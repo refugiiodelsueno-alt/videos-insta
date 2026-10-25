@@ -541,8 +541,8 @@ const CAMINO = [
   [25.25, { x: 735, y: 715, z: 1.7 }], [26.5, { x: 820, y: 560, z: 1.0 }], [29.5, { x: 825, y: 565, z: 1.02 }],
   [33.5, { x: 815, y: 570, z: 1.04 }], [34.9, { x: 790, y: 620, z: 1.15 }],                      // la cocina
   [36.3, { x: 790, y: 620, z: 45 }], [39.9, { x: 790, y: 620, z: 50 }],                          // dentro de la leche
-  [40.85, { x: 900, y: 500, z: 0.84 }], [44, { x: 905, y: 505, z: 0.85 }], [48, { x: 900, y: 500, z: 0.86 }],
-  [52.8, { x: 895, y: 505, z: 0.87 }], [54.4, { x: 893, y: 508, z: 0.88 }], [TOTAL, F0],         // la banda y vuelta
+  [40.85, { x: 900, y: 500, z: 0.84 }], [43.1, { x: 895, y: 510, z: 0.86 }], [45.6, { x: 880, y: 545, z: 1.1 }],
+  [47.4, { x: 885, y: 540, z: 1.06 }], [50.4, { x: 905, y: 495, z: 0.83 }], [52.8, { x: 895, y: 505, z: 0.87 }], [54.4, { x: 893, y: 508, z: 0.88 }], [TOTAL, F0],         // la banda y vuelta
 ];
 export function camaraEn(g) {
   const k = camara(g, CAMINO);
@@ -639,16 +639,17 @@ export function moleculas(capa) {
     <radialGradient id="m-h" cx="38%" cy="34%" r="70%"><stop offset="0" stop-color="#eef6ff"/><stop offset="0.55" stop-color="#a9bccd"/><stop offset="1" stop-color="#5d6d7c"/></radialGradient>`;
   const campo = onda(sv, NARANJA, 7, 12);
   const az = K.azar(31), ms = [];
-  for (let i = 0; i < 4; i++) for (let j = 0; j < 4; j++) {
-    const x = 150 + j * 260 + (i % 2) * 120 + (az() - 0.5) * 70, y = 880 + i * 165 + (az() - 0.5) * 50;
-    if (x > 1000) continue;
+  // la leche llena la pantalla: cinco filas de moléculas, de la etiqueta al pie
+  for (let i = 0; i < 5; i++) for (let j = 0; j < 5; j++) {
+    const x = 105 + j * 225 + (i % 2) * 110 + (az() - 0.5) * 60, y = 800 + i * 160 + (az() - 0.5) * 50;
+    if (x > 1010) continue;
     const gr = el(sv, "g", {});
-    const e = 0.85 + az() * 0.35;
+    const e = 1.0 + az() * 0.35;
     [-52, 52].forEach((a) => el(gr, "circle", { cx: 50 * Math.sin(a * Math.PI / 180), cy: 50 * Math.cos(a * Math.PI / 180), r: 25, fill: "url(#m-h)" }));
     el(gr, "circle", { cx: 0, cy: 0, r: 42, fill: "url(#m-o)" });
     ms.push({ gr, x, y, e, a0: (az() - 0.5) * 1.2, f: az() * 6.28 });
   }
-  const etq = etiqueta(r, `<b>2,45 GHz</b><small>«la onda del agua»</small><i class="tacha"></i>`, 120, 600, "n");
+  const etq = etiqueta(r, `<b>2,45 GHz</b><small>«la onda del agua»</small><i class="tacha"></i>`, 120, 520, "n");
   const tacha = etq.querySelector(".tacha");
   const mito = sello(r, "MITO", ROJO);
   const real = K.crear(r, `<div class="m-fuente">el agua resuena por encima de 1.000 GHz</div>`);
@@ -658,7 +659,7 @@ export function moleculas(capa) {
     r.style.transform = `scale(${(0.35 + 0.65 * a) * (1 - 0.65 * b)})`;
     // la onda del microondas pasa y las moléculas giran con ella; en «calienta» se agitan y se calientan
     const w = 2 * Math.PI * 0.8 * (g - 35), L = 760, cal = sube(g, T.calienta - 0.1, T.calienta + 0.4);
-    campo({ x0: -40, x1: 1120, y: 1130, amp: 150, lam: L, fase: w, alpha: 0.85, paso: 8 });
+    campo({ x0: -40, x1: 1120, y: 1120, amp: 220, lam: L, fase: w, alpha: 0.85, paso: 8 });
     calor.style.opacity = cal;
     ms.forEach((m) => {
       const E = Math.sin(2 * Math.PI * m.x / L - w);
@@ -669,10 +670,10 @@ export function moleculas(capa) {
     // «agua»: la etiqueta; «no»: el tachón, el sello y, debajo, el dato de verdad
     asoma(etq, g, T.agua - 0.05);
     tacha.style.transform = `scaleX(${K.sale(K.tramo(g, T.no - 0.05, T.no + 0.25))})`;
-    pisa(mito, g, T.no + 0.18, 690, 690, -9);
+    pisa(mito, g, T.no + 0.18, 690, 600, -9);
     asoma(real, g, T.no + 0.35);
     real.style.left = "120px";
-    real.style.top = "800px";
+    real.style.top = "700px";
   };
 }
 
@@ -705,7 +706,7 @@ export function banda(capa) {
     R.franja.style.filter = `brightness(${1 + 0.45 * vi})`;
     R.franja.style.opacity = 1 - sube(g, T.sobraba + 0.5, T.sobraba + 0.85);
     // «ruido»: la franja se llena de chispas
-    chispas(R.ruido, g, 444, 540, 566, 674, sube(g, T.ruido - 0.1, T.ruido + 0.2) * (1 - sube(g, 46.4, 46.9)));
+    chispas(R.ruido, g, 444, 540, 566, 674, sube(g, T.ruido - 0.1, T.ruido + 0.2) * (1 - sube(g, 47.1, 47.6)));
     // «salió»: el wifi entra en la franja
     const en = sube(g, T.salio - 0.05, T.salio + 0.5);
     ow({ x0: -6, x1: K.mez(-6, 102, en), y: 54, amp: 26, lam: 40, fase: 2 * Math.PI * 1.2 * g, alpha: K.lim(en * 3) });
