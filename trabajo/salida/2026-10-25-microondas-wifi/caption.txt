@@ -1,0 +1,5 @@
+Tu wifi va más lento cada vez que calientas la leche, y tiene explicación.
+
+El microondas y el wifi de 2,4 GHz usan casi la misma onda, de unos 12 cm. La rejilla de la puerta la frena, pero el microondas tiene miles de veces más potencia que tu router, y con que se escape una pizca basta. Truco: conéctate a la red de 5 GHz y se acabó el problema.
+
+Fuentes: Sensors (PMC3522981), ETSI EN 300 328, FCC (1985).
