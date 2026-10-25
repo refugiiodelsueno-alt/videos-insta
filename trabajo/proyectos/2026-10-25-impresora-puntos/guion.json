@@ -1,0 +1,50 @@
+{
+  "titulo": "Tu impresora esconde un código secreto en cada hoja",
+  "slug": "impresora-puntos",
+  "idioma": "es",
+  "voz": {
+    "proveedor": "elevenlabs",
+    "id": "PENDIENTE-TONY",
+    "modelo": "eleven_v4",
+    "velocidad": 1,
+    "estabilidad": 0.35,
+    "similitud": 0.7,
+    "kokoro": "em_alex"
+  },
+  "subtitulos": "arriba",
+  "aperturas": [
+    {
+      "id": "h1",
+      "escena": "hook",
+      "frases": [
+        { "texto": "Las hojas que imprimes en el trabajo llevan un mensaje escondido.", "clave": "escondido" }
+      ]
+    }
+  ],
+  "reserva": [
+    { "id": "h2", "escena": "hook", "frases": [ { "texto": "Esta hoja dice quién la imprimió, y a qué hora.", "clave": "hora" } ], "imagen": "un folio impreso a pantalla llena; la lupa pasa y dentro brillan los puntos amarillos" },
+    { "id": "h3", "escena": "hook", "frases": [ { "texto": "Hay cientos de puntos amarillos en este folio, y tú no ves ninguno.", "clave": "amarillos" } ], "imagen": "el folio blanco; una luz azul barre la hoja y se encienden cientos de puntos" },
+    { "id": "h4", "escena": "hook", "frases": [ { "texto": "Tu impresora del trabajo firma cada hoja, y nadie te lo ha dicho.", "clave": "firma" } ], "imagen": "la hoja sale de la impresora y una firma amarilla de puntos se dibuja en ella" }
+  ],
+  "cuerpo": [
+    { "texto": "Y no lo ves porque está escrito en amarillo, con puntitos que a simple vista no se distinguen.", "escena": "hook", "clave": "amarillo" },
+    { "texto": "Pero si iluminas la hoja con luz azul, aparecen cientos, en una cuadrícula que se repite por toda la página.", "escena": "luz-azul", "clave": "luz azul" },
+    { "texto": "Cada punto es un uno, y cada hueco, un cero.", "escena": "codigo", "clave": "uno" },
+    { "texto": "Y juntos dicen el número de serie de la impresora y, en muchas, el día y la hora exactos.", "escena": "codigo", "clave": "número de serie" },
+    { "texto": "Lo hacen muchas impresoras láser a color, y las marcas no te lo cuentan.", "escena": "impresora", "clave": "láser" },
+    { "texto": "¿Para qué? Para que nadie pueda imprimir billetes falsos sin dejar rastro.", "dicho": "¿Para qué? Para que nadie pueda imprimir billetes falsos sin dejar rastro.", "escena": "billete", "clave": "billetes" },
+    { "texto": "En 2017 se filtró a la prensa un documento secreto de Estados Unidos, y en la copia publicada estaban los puntos.", "dicho": "En dos mil diecisiete se filtró a la prensa un documento secreto de Estados Unidos, y en la copia publicada estaban los puntos.", "escena": "filtracion", "clave": "secreto" },
+    { "texto": "Decían la impresora, el día, 9 de mayo, y la hora: 6:20.", "dicho": "Decían la impresora, el día, nueve de mayo, y la hora: las seis y veinte.", "escena": "filtracion", "clave": "6:20" },
+    { "texto": "Así que esa hoja que dejaste en la impresora no es anónima: lleva tu hora firmada.", "escena": "cierre", "clave": "firmada" },
+    { "texto": "Envíaselo a ese compañero que lo imprime todo.", "escena": "cierre", "clave": "Envíaselo" }
+  ],
+  "escenas": {
+    "hook": { "entrada": "corte" },
+    "luz-azul": { "entrada": "zoom" },
+    "codigo": { "entrada": "zoom" },
+    "impresora": { "entrada": "barrido" },
+    "billete": { "entrada": "lateral" },
+    "filtracion": { "entrada": "barrido" },
+    "cierre": { "entrada": "zoom" }
+  }
+}
