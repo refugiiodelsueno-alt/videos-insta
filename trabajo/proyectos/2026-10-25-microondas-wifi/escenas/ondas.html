@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <!-- Ondas: la cámara va al router (bien) y vuelve; del microondas sale la onda naranja y del router la cian; en
+         «misma» se juntan; en «doce» se paran y una cota mide 12 cm de cresta a cresta. -->
+    <template>
+      <style>
+        #root { position: absolute; inset: 0; overflow: hidden; background: var(--fondo); }
+      </style>
+      <div id="root" data-composition-id="__ID__" data-width="1080" data-height="1920" data-duration="__DURACION__">
+        <div id="__ID__-esc" class="m-capa"></div>
+      </div>
+      <script type="module">
+        import * as M from "./recursos/mundo.js";
+        const C = __CUES__, D = __DURACION__;
+        const tl = gsap.timeline({ paused: true });
+        const esc = document.getElementById("__ID__-esc");
+        // todo se dibuja con el reloj del vídeo entero (g) y los segundos de sus palabras (M.T)
+
+        const T = M.T;
+        const E = M.escenario(esc, M.G0.ondas), pi = M.pildora(E.capa), od = M.ondasDelante(E.sv);
+        const rt = M.etiqueta(E.capa, "<b>router</b><small>funciona bien</small>", 0, 0, "v");
+        const en = M.etiqueta(E.capa, "microondas <b>2,45 GHz</b>", 0, 0, "n");
+        const ec = M.etiqueta(E.capa, "wifi <b>2,4 GHz</b>", 0, 0, "c");
+        const mide = M.cota(E.sv, "#ffffff");
+        const cm = M.etiqueta(E.capa, "<b>12 cm</b>", 0, 0);
+        const puntas = [0, 1].map(() => {
+          const c = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+          c.setAttribute("fill", "#ffffff");
+          c.style.filter = "drop-shadow(0 0 10px #ffffff)";
+          E.sv.appendChild(c);
+          return c;
+        });
+        const pon = (e, k, x, y) => {
+          const [px, py] = M.pantalla(k, x, y);
+          e.style.left = px + "px";
+          e.style.top = py + "px";
+        };
+        K.reloj(tl, D, (s) => {
+          const { g, k } = E.paso(s);
+          pi(g);
+          const n = od(g);
+          // el router, de cerca: sus luces verdes
+          pon(rt, k, 440, 470);
+          M.asoma(rt, g, 3.85, 4.75);
+          // cada onda con su nombre: la cian por encima de la suya y la naranja por debajo
+          const yc = K.mez(160, 216, M.sube(g, T.misma - 0.1, T.misma + 0.6));
+          pon(ec, k, 650, yc - 112);
+          pon(en, k, 650, n.y + 68);
+          M.asoma(ec, g, T.wifi + 0.1, 9.3);
+          M.asoma(en, g, T.microondas + 0.1, 9.3);
+          // «doce»: la cota de cresta a cresta, encima de la naranja (las ondas se han parado)
+          let x = M.LAMBDA * (n.fase / (2 * Math.PI) - 0.25);
+          while (x < 760) x += M.LAMBDA;
+          while (x >= 760 + M.LAMBDA) x -= M.LAMBDA;
+          const yt = n.y - n.amp - 40, u = K.sale(K.tramo(g, T.doce - 0.05, T.doce + 0.4)), fuera = 1 - M.sube(g, 11.3, 11.55);
+          mide(x, yt, x + M.LAMBDA, yt, u * fuera, 20);
+          const c = K.lim(K.tramo(g, T.doce, T.centimetros + 0.4));
+          cm.innerHTML = `<b>${Math.round(12 * K.sale(c))} cm</b>`;
+          const [lx, ly] = M.pantalla(k, x + M.LAMBDA / 2, yt);
+          cm.style.left = lx - cm.offsetWidth / 2 + "px";
+          cm.style.top = ly - 74 + "px";
+          M.asoma(cm, g, T.doce, 11.25);
+          // «de punta a punta»: las dos crestas laten
+          puntas.forEach((p, i) => {
+            const t0 = i ? T.punta2 : T.punta, late = Math.exp(-Math.pow((g - t0 - 0.1) / 0.14, 2));
+            p.setAttribute("cx", x + i * M.LAMBDA);
+            p.setAttribute("cy", n.y - n.amp);
+            p.setAttribute("r", 9 + 10 * late);
+            p.style.opacity = M.sube(g, T.punta - 0.1, T.punta + 0.1) * fuera;
+          });
+        });
+        window.__timelines["__ID__"] = tl;
+      </script>
+    </template>
+  </body>
+</html>

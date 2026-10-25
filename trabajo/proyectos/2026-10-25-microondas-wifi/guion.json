@@ -141,5 +141,6 @@
     "cierre": {
       "entrada": "corte"
     }
-  }
+  },
+  "sonido": true
 }

@@ -1,0 +1,9 @@
+[
+  { "nombre": "zumbido", "que": "A kitchen microwave oven running: a steady low electric hum with a soft fan whir, close, no beeps, no music", "oye": "a microwave oven humming", "dura": 2, "en": 0, "golpe": false, "db": -14, "suave": false },
+  { "nombre": "rebota", "que": "A short soft metallic thud of a pulse hitting a thin perforated steel sheet, with a tiny bright ring after it, close and dry", "oye": "a soft hit on a thin metal sheet", "dura": 0.6, "en": 19.25, "golpe": true, "db": -9, "suave": true },
+  { "nombre": "fuga", "que": "A thin soft hiss of something leaking out of a small gap, like steam escaping a door seal, rising slightly then fading, close", "oye": "a soft hiss leaking from a gap", "dura": 1.2, "palabra": "escape", "golpe": false, "db": -14, "suave": true },
+  { "nombre": "interferencia", "que": "A short burst of soft electrical radio static crackling and breaking up, like a weak signal being drowned out, then fading, close", "oye": "radio static crackling", "dura": 1.2, "palabra": "tapar", "golpe": false, "db": -12, "suave": true },
+  { "nombre": "mito", "que": "A rubber stamp slammed down hard on paper on a wooden desk: one thick dull thump, close and dry", "oye": "a rubber stamp thumping on paper", "dura": 0.5, "en": 39.52, "golpe": true, "db": -5, "suave": false },
+  { "nombre": "ruido", "que": "A quick crackle of many tiny electric sparks and buzzing static, like a noisy radio band, soft and fading, close", "oye": "electric sparks and static buzz", "dura": 1.3, "en": 45.42, "golpe": false, "db": -13, "suave": true },
+  { "nombre": "licencia", "que": "A rubber stamp slammed down hard on paper on a wooden desk: one thick dull thump, close and dry", "oye": "a rubber stamp thumping on paper", "dura": 0.5, "en": 50.425, "golpe": true, "db": -5, "suave": false }
+]

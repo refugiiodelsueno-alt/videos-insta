@@ -1,0 +1,37 @@
+[
+  {
+    "archivo": "sonidos/zumbido-h1.wav",
+    "en": 0,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/rebota-h1.wav",
+    "en": 19.25,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/fuga-h1.wav",
+    "en": 30.9,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/interferencia-h1.wav",
+    "en": 32.94,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/mito-h1.wav",
+    "en": 39.48,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/ruido-h1.wav",
+    "en": 45.42,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/licencia-h1.wav",
+    "en": 50.425,
+    "volumen": 1
+  }
+]

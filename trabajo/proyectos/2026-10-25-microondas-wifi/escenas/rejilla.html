@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <!-- Rejilla: la onda cian vuelve al router y la naranja entra; la cámara entra en la puerta hasta ver los
+         agujeros (cota de 2 mm); la chapa gira de canto y la onda naranja, mucho más larga, choca y rebota; la luz, diminuta,
+         pasa por los agujeros; la chapa vuelve de frente y se ve la taza. -->
+    <template>
+      <style>
+        #root { position: absolute; inset: 0; overflow: hidden; background: var(--fondo); }
+      </style>
+      <div id="root" data-composition-id="__ID__" data-width="1080" data-height="1920" data-duration="__DURACION__">
+        <div id="__ID__-esc" class="m-capa"></div>
+      </div>
+      <script type="module">
+        import * as M from "./recursos/mundo.js";
+        const C = __CUES__, D = __DURACION__;
+        const tl = gsap.timeline({ paused: true });
+        const esc = document.getElementById("__ID__-esc");
+        // todo se dibuja con el reloj del vídeo entero (g) y los segundos de sus palabras (M.T)
+
+        const T = M.T, NS = "http://www.w3.org/2000/svg";
+        const E = M.escenario(esc, M.G0.rejilla), pi = M.pildora(E.capa), od = M.ondasDelante(E.sv);
+        const rg = M.rejillaGrande(esc);
+        esc.insertBefore(rg.el, E.vl);
+        const nodo = (tag, at) => {
+          const e = document.createElementNS(NS, tag);
+          for (const a in at) e.setAttribute(a, at[a]);
+          E.svg.appendChild(e);
+          return e;
+        };
+        const rej = M.etiqueta(E.capa, "rejilla", 100, 640);
+        const mide = M.cota(E.svg, "#ffffff");
+        const mm = M.etiqueta(E.capa, "<b>2 mm</b>", 0, 0);
+        // la chapa de canto: un corte con su metal y sus huecos
+        const canto = nodo("path", { fill: "none", stroke: "#aab2bc", "stroke-width": 12 });
+        const pulso = nodo("path", { fill: "none", stroke: M.NARANJA, "stroke-width": 8, "stroke-linecap": "round", "stroke-linejoin": "round" });
+        pulso.style.filter = `drop-shadow(0 0 10px ${M.NARANJA})`;
+        const rayos = [0, 1, 2, 3, 4, 5].map(() => {
+          const p = nodo("polyline", { fill: "none", stroke: "#fffaf0", "stroke-width": 4, "stroke-linecap": "round", "stroke-linejoin": "round" });
+          p.style.filter = "drop-shadow(0 0 6px #ffffff)";
+          return p;
+        });
+        const fuera = M.etiqueta(E.capa, "fuera", 110, 640), dentro = M.etiqueta(E.capa, "dentro", 760, 640);
+        const lo = M.etiqueta(E.capa, "onda <b>12 cm</b>", 620, 1180, "n");
+        const lz = M.etiqueta(E.capa, "luz <b>0,0005 mm</b>", 620, 1290);
+        const W = (v, L) => (Math.abs(v) < L ? 150 * Math.pow(Math.cos(Math.PI * v / (2 * L)), 2) * Math.sin(2 * Math.PI * v / L) : 0);
+        K.reloj(tl, D, (s) => {
+          const g = M.G0.rejilla + s;
+          const canto0 = M.sube(g, 18.0, 18.6) * (1 - M.sube(g, 24.4, 24.9));
+          const corte = M.sube(g, 18.55, 18.8) * (1 - M.sube(g, 24.4, 24.6));
+          const { k } = E.paso(s, (st, g, k) => {
+            const az = K.suave(K.tramo(k.z, 2.4, 3.0));
+            st.malla = (1 - az) * (1 - canto0);
+            st.velo = Math.max(st.velo, canto0 * 0.85);
+            st.dentro *= 1 - canto0;
+          });
+          pi(g);
+          od(g);
+          const az = K.suave(K.tramo(k.z, 2.4, 3.0));
+          rg(k, 84 * M.sube(g, 18.0, 18.75) * (1 - M.sube(g, 24.4, 24.9)), az * (1 - corte));
+          // «agujeritos» y «agujero»: la cota de 2 mm encima de un agujero
+          M.asoma(rej, g, T.agujeritos, 17.9);
+          const [cx, cy] = M.pantalla(k, M.VEN.x + 60.5 * M.PASO, M.VEN.y + 25.5 * M.PASO), d = M.AGUJERO * k.z;
+          const yl = cy - d / 2 - 30, u = K.sale(K.tramo(g, T.agujero - 0.05, T.agujero + 0.4)), va = 1 - M.sube(g, 17.7, 18.0);
+          mide(cx - d / 2, yl, cx + d / 2, yl, u * va, 18);
+          const c = K.sale(K.tramo(g, T.agujero, T.milimetros + 0.3));
+          mm.innerHTML = `<b>${(2 * c).toFixed(1).replace(".", ",")} mm</b>`;
+          mm.style.left = cx - mm.offsetWidth / 2 + "px";
+          mm.style.top = yl - 76 + "px";
+          M.asoma(mm, g, T.agujero, 17.7);
+          // de canto: el metal entre agujero y agujero, a escala
+          const p = M.PASO * k.z, y0 = 1000 + (M.VEN.y - k.y) * k.z, med = ((M.PASO - M.AGUJERO) * k.z) / 2;
+          let dd = "";
+          for (let j = Math.ceil((560 - y0) / p); y0 + j * p < 1450; j++) dd += `M540 ${(y0 + j * p - med).toFixed(1)}V${(y0 + j * p + med).toFixed(1)}`;
+          canto.setAttribute("d", dd || "M0 0");
+          const golpe = Math.exp(-Math.pow((g - 19.28) / 0.12, 2));
+          canto.setAttribute("stroke", golpe > 0.05 ? `rgb(${170 + 85 * golpe},${178 + 30 * golpe},${188 - 120 * golpe})` : "#aab2bc");
+          canto.style.opacity = corte;
+          // «cabe»: la onda naranja llega desde dentro, choca con la chapa y vuelve
+          const L = M.LAMBDA * k.z, cc = 1300 * (19.25 - g);
+          let pd = "";
+          for (let x = 540; x <= 1120; x += 5) {
+            const v = x - 540;
+            pd += (pd ? "L" : "M") + x + " " + (1000 + W(v - cc, L) + W(v + cc, L)).toFixed(1);
+          }
+          pulso.setAttribute("d", pd);
+          pulso.style.opacity = corte * K.lim(K.tramo(g, 18.5, 18.7)) * (1 - K.tramo(g, 20.2, 20.5));
+          // «luz»: ondas de luz minúsculas que cruzan los huecos hacia fuera
+          const huecos = [];
+          for (let j = Math.ceil((700 - y0) / p - 0.5); y0 + (j + 0.5) * p < 1330; j++) huecos.push(y0 + (j + 0.5) * p);
+          rayos.forEach((r, i) => {
+            const y = huecos[Math.floor((i + 0.5) * huecos.length / rayos.length)] ?? 1000;
+            const t = g - T.luz - 0.3 * i, x = 1100 - 700 * (((t % 1.8) + 1.8) % 1.8);
+            let pts = "";
+            for (let q = 0; q <= 90; q += 3) pts += `${(x + q).toFixed(1)},${(y + 4 * Math.sin((q / 10) * 2 * Math.PI)).toFixed(1)} `;
+            r.setAttribute("points", pts);
+            r.style.opacity = (t > 0 ? 1 : 0) * K.lim(K.tramo(x, 40, 160)) * K.lim(K.tramo(x, 1100, 1040)) * (1 - M.sube(g, 24.3, 24.5));
+          });
+          M.asoma(fuera, g, 18.6, 24.2);
+          M.asoma(dentro, g, 18.6, 24.2);
+          M.asoma(lo, g, 18.45, 24.1);
+          M.asoma(lz, g, T.diminuta - 0.05, 24.1);
+        });
+        window.__timelines["__ID__"] = tl;
+      </script>
+    </template>
+  </body>
+</html>

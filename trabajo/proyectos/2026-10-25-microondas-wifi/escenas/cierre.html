@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <!-- Cierre: la franja con el wifi dentro baja a la puerta del microondas y la cámara vuelve a F0: el último
+         fotograma es el primero del hook. -->
+    <template>
+      <style>
+        #root { position: absolute; inset: 0; overflow: hidden; background: var(--fondo); }
+      </style>
+      <div id="root" data-composition-id="__ID__" data-width="1080" data-height="1920" data-duration="__DURACION__">
+        <div id="__ID__-esc" class="m-capa"></div>
+      </div>
+      <script type="module">
+        import * as M from "./recursos/mundo.js";
+        const C = __CUES__, D = __DURACION__;
+        const tl = gsap.timeline({ paused: true });
+        const esc = document.getElementById("__ID__-esc");
+        // todo se dibuja con el reloj del vídeo entero (g) y los segundos de sus palabras (M.T)
+
+        const E = M.escenario(esc, M.G0.cierre), pi = M.pildora(E.capa), bd = M.banda(E.capa);
+        K.reloj(tl, D, (s) => {
+          const { g, k } = E.paso(s);
+          pi(g);
+          bd(g, k);
+        });
+        window.__timelines["__ID__"] = tl;
+      </script>
+    </template>
+  </body>
+</html>

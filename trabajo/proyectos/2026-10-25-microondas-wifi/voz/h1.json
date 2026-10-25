@@ -1,0 +1,1425 @@
+{
+  "proveedor": "elevenlabs",
+  "toma": "seguida",
+  "firma": "c9989fffcc02",
+  "duracion": 56.81,
+  "frases": [
+    {
+      "n": 1,
+      "parte": "hook",
+      "texto": "Tu wifi va más lento cada vez que calientas la leche.",
+      "escena": "hook",
+      "clave": "wifi",
+      "inicio": 0,
+      "fin": 2.96,
+      "ritmo": 1
+    },
+    {
+      "n": 2,
+      "parte": "cuerpo",
+      "texto": "No es tu router, ni casualidad: el microondas y el wifi usan casi la misma onda.",
+      "escena": "ondas",
+      "clave": "misma onda",
+      "inicio": 3.14,
+      "fin": 8.24,
+      "ritmo": 1
+    },
+    {
+      "n": 3,
+      "parte": "cuerpo",
+      "texto": "Una onda que mide unos doce centímetros de punta a punta.",
+      "escena": "ondas",
+      "clave": "doce centímetros",
+      "inicio": 8.42,
+      "fin": 11.54,
+      "ritmo": 1
+    },
+    {
+      "n": 4,
+      "parte": "cuerpo",
+      "texto": "Por eso la puerta del microondas lleva esa rejilla de agujeritos.",
+      "escena": "rejilla",
+      "clave": "rejilla",
+      "inicio": 11.72,
+      "fin": 15.32,
+      "ritmo": 1
+    },
+    {
+      "n": 5,
+      "parte": "cuerpo",
+      "texto": "Cada agujero mide un par de milímetros, así que la onda no cabe y rebota hacia dentro.",
+      "escena": "rejilla",
+      "clave": "rebota",
+      "inicio": 15.5,
+      "fin": 20.46,
+      "ritmo": 1
+    },
+    {
+      "n": 6,
+      "parte": "cuerpo",
+      "texto": "La luz, en cambio, es diminuta y pasa sin problema: por eso ves girar tu taza.",
+      "escena": "rejilla",
+      "clave": "luz",
+      "inicio": 20.64,
+      "fin": 25.36,
+      "ritmo": 1
+    },
+    {
+      "n": 7,
+      "parte": "cuerpo",
+      "texto": "Pero el microondas empuja con miles de veces más fuerza que tu router.",
+      "escena": "potencia",
+      "clave": "miles",
+      "inicio": 25.54,
+      "fin": 29.44,
+      "ritmo": 1
+    },
+    {
+      "n": 8,
+      "parte": "cuerpo",
+      "texto": "Así que basta con que se escape una pizca por la puerta para tapar la señal del wifi.",
+      "escena": "potencia",
+      "clave": "pizca",
+      "inicio": 29.62,
+      "fin": 34.42,
+      "ritmo": 1
+    },
+    {
+      "n": 9,
+      "parte": "cuerpo",
+      "texto": "¿Y por qué comparten onda? Casi todo el mundo cree que es la que mejor calienta el agua, y no es verdad.",
+      "escena": "mito",
+      "clave": "agua",
+      "inicio": 34.6,
+      "fin": 39.98,
+      "ritmo": 1
+    },
+    {
+      "n": 10,
+      "parte": "cuerpo",
+      "texto": "Esa onda se reservó para aparatos que calientan, y nadie la quería para comunicarse, por todo el ruido que meten.",
+      "escena": "banda",
+      "clave": "ruido",
+      "inicio": 40.16,
+      "fin": 46.52,
+      "ritmo": 1
+    },
+    {
+      "n": 11,
+      "parte": "cuerpo",
+      "texto": "Hasta que en 1985 Estados Unidos dejó usarla sin licencia, y de ahí salió el wifi.",
+      "escena": "banda",
+      "clave": "sin licencia",
+      "inicio": 46.7,
+      "fin": 52.66,
+      "ritmo": 1
+    },
+    {
+      "n": 12,
+      "parte": "cuerpo",
+      "texto": "Tu wifi vive en la onda que le sobraba al microondas, y por eso...",
+      "escena": "cierre",
+      "clave": "sobraba",
+      "inicio": 52.84,
+      "fin": 56.66,
+      "ritmo": 1
+    }
+  ],
+  "palabras": [
+    {
+      "texto": "Tu",
+      "inicio": 0,
+      "fin": 0.16,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "wifi",
+      "inicio": 0.32,
+      "fin": 0.48,
+      "frase": 1,
+      "clave": true
+    },
+    {
+      "texto": "va",
+      "inicio": 0.56,
+      "fin": 0.64,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "más",
+      "inicio": 0.68,
+      "fin": 0.8,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "lento",
+      "inicio": 0.88,
+      "fin": 1.2,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "cada",
+      "inicio": 1.28,
+      "fin": 1.44,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "vez",
+      "inicio": 1.52,
+      "fin": 1.6,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "que",
+      "inicio": 1.68,
+      "fin": 1.76,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "calientas",
+      "inicio": 1.84,
+      "fin": 2.24,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "la",
+      "inicio": 2.28,
+      "fin": 2.32,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "leche.",
+      "inicio": 2.4,
+      "fin": 2.96,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "No",
+      "inicio": 3.14,
+      "fin": 3.22,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "es",
+      "inicio": 3.26,
+      "fin": 3.3,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "tu",
+      "inicio": 3.38,
+      "fin": 3.46,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "router,",
+      "inicio": 3.64,
+      "fin": 4.08,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "ni",
+      "inicio": 4.12,
+      "fin": 4.16,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "casualidad:",
+      "inicio": 4.24,
+      "fin": 5.28,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "el",
+      "inicio": 5.32,
+      "fin": 5.36,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "microondas",
+      "inicio": 5.44,
+      "fin": 6,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "y",
+      "inicio": 6.027,
+      "fin": 6.053,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "el",
+      "inicio": 6.08,
+      "fin": 6.12,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "wifi",
+      "inicio": 6.16,
+      "fin": 6.56,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "usan",
+      "inicio": 6.72,
+      "fin": 6.88,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "casi",
+      "inicio": 7.04,
+      "fin": 7.36,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "la",
+      "inicio": 7.4,
+      "fin": 7.44,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "misma",
+      "inicio": 7.52,
+      "fin": 7.84,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "onda.",
+      "inicio": 8,
+      "fin": 8.24,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "Una",
+      "inicio": 8.42,
+      "fin": 8.58,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "onda",
+      "inicio": 8.66,
+      "fin": 8.9,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "que",
+      "inicio": 8.98,
+      "fin": 9.06,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "mide",
+      "inicio": 9.1,
+      "fin": 9.3,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "unos",
+      "inicio": 9.38,
+      "fin": 9.62,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "doce",
+      "inicio": 9.7,
+      "fin": 9.86,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "centímetros",
+      "inicio": 9.94,
+      "fin": 10.58,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "de",
+      "inicio": 10.62,
+      "fin": 10.66,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "punta",
+      "inicio": 10.74,
+      "fin": 10.98,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "a",
+      "inicio": 11.02,
+      "fin": 11.06,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "punta.",
+      "inicio": 11.14,
+      "fin": 11.54,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "Por",
+      "inicio": 11.72,
+      "fin": 11.8,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "eso",
+      "inicio": 11.88,
+      "fin": 12.12,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "la",
+      "inicio": 12.16,
+      "fin": 12.2,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "puerta",
+      "inicio": 12.28,
+      "fin": 12.52,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "del",
+      "inicio": 12.6,
+      "fin": 12.68,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "microondas",
+      "inicio": 12.8,
+      "fin": 13.32,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "lleva",
+      "inicio": 13.373,
+      "fin": 13.56,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "esa",
+      "inicio": 13.68,
+      "fin": 13.8,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "rejilla",
+      "inicio": 13.88,
+      "fin": 14.28,
+      "frase": 4,
+      "clave": true
+    },
+    {
+      "texto": "de",
+      "inicio": 14.32,
+      "fin": 14.36,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "agujeritos.",
+      "inicio": 14.4,
+      "fin": 15.32,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "Cada",
+      "inicio": 15.5,
+      "fin": 15.66,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "agujero",
+      "inicio": 15.74,
+      "fin": 16.14,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "mide",
+      "inicio": 16.18,
+      "fin": 16.38,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "un",
+      "inicio": 16.46,
+      "fin": 16.54,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "par",
+      "inicio": 16.62,
+      "fin": 16.7,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "de",
+      "inicio": 16.78,
+      "fin": 16.86,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "milímetros,",
+      "inicio": 16.94,
+      "fin": 17.66,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "así",
+      "inicio": 17.74,
+      "fin": 17.86,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "que",
+      "inicio": 17.9,
+      "fin": 17.98,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "la",
+      "inicio": 18.06,
+      "fin": 18.14,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "onda",
+      "inicio": 18.3,
+      "fin": 18.46,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "no",
+      "inicio": 18.62,
+      "fin": 18.7,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "cabe",
+      "inicio": 18.78,
+      "fin": 19.1,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "y",
+      "inicio": 19.26,
+      "fin": 19.3,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "rebota",
+      "inicio": 19.34,
+      "fin": 19.74,
+      "frase": 5,
+      "clave": true
+    },
+    {
+      "texto": "hacia",
+      "inicio": 19.78,
+      "fin": 19.98,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "dentro.",
+      "inicio": 20.06,
+      "fin": 20.46,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "La",
+      "inicio": 20.64,
+      "fin": 20.72,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "luz,",
+      "inicio": 20.76,
+      "fin": 21.093,
+      "frase": 6,
+      "clave": true
+    },
+    {
+      "texto": "en",
+      "inicio": 21.147,
+      "fin": 21.2,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "cambio,",
+      "inicio": 21.24,
+      "fin": 21.68,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "es",
+      "inicio": 21.76,
+      "fin": 21.84,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "diminuta",
+      "inicio": 21.92,
+      "fin": 22.4,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "y",
+      "inicio": 22.56,
+      "fin": 22.64,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "pasa",
+      "inicio": 22.72,
+      "fin": 22.96,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "sin",
+      "inicio": 23.04,
+      "fin": 23.12,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "problema:",
+      "inicio": 23.2,
+      "fin": 23.92,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "por",
+      "inicio": 24,
+      "fin": 24.08,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "eso",
+      "inicio": 24.2,
+      "fin": 24.32,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "ves",
+      "inicio": 24.4,
+      "fin": 24.56,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "girar",
+      "inicio": 24.6,
+      "fin": 24.8,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "tu",
+      "inicio": 24.88,
+      "fin": 24.96,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "taza.",
+      "inicio": 25,
+      "fin": 25.36,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "Pero",
+      "inicio": 25.54,
+      "fin": 25.62,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "el",
+      "inicio": 25.7,
+      "fin": 25.74,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "microondas",
+      "inicio": 25.78,
+      "fin": 26.34,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "empuja",
+      "inicio": 26.46,
+      "fin": 26.74,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "con",
+      "inicio": 26.82,
+      "fin": 27.06,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "miles",
+      "inicio": 27.14,
+      "fin": 27.46,
+      "frase": 7,
+      "clave": true
+    },
+    {
+      "texto": "de",
+      "inicio": 27.54,
+      "fin": 27.58,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "veces",
+      "inicio": 27.62,
+      "fin": 27.86,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "más",
+      "inicio": 28.02,
+      "fin": 28.18,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "fuerza",
+      "inicio": 28.26,
+      "fin": 28.5,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "que",
+      "inicio": 28.58,
+      "fin": 28.66,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "tu",
+      "inicio": 28.74,
+      "fin": 28.82,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "router.",
+      "inicio": 29,
+      "fin": 29.44,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "Así",
+      "inicio": 29.62,
+      "fin": 29.82,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "que",
+      "inicio": 29.86,
+      "fin": 30.02,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "basta",
+      "inicio": 30.1,
+      "fin": 30.34,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "con",
+      "inicio": 30.42,
+      "fin": 30.5,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "que",
+      "inicio": 30.54,
+      "fin": 30.58,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "se",
+      "inicio": 30.66,
+      "fin": 30.74,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "escape",
+      "inicio": 30.9,
+      "fin": 31.06,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "una",
+      "inicio": 31.22,
+      "fin": 31.46,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "pizca",
+      "inicio": 31.54,
+      "fin": 31.78,
+      "frase": 8,
+      "clave": true
+    },
+    {
+      "texto": "por",
+      "inicio": 31.86,
+      "fin": 31.94,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "la",
+      "inicio": 32.02,
+      "fin": 32.1,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "puerta",
+      "inicio": 32.18,
+      "fin": 32.5,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "para",
+      "inicio": 32.66,
+      "fin": 32.82,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "tapar",
+      "inicio": 32.94,
+      "fin": 33.14,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "la",
+      "inicio": 33.22,
+      "fin": 33.3,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "señal",
+      "inicio": 33.38,
+      "fin": 33.62,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "del",
+      "inicio": 33.7,
+      "fin": 33.78,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "wifi.",
+      "inicio": 33.94,
+      "fin": 34.42,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "¿Y",
+      "inicio": 34.6,
+      "fin": 34.68,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "por",
+      "inicio": 34.76,
+      "fin": 34.84,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "qué",
+      "inicio": 34.92,
+      "fin": 35,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "comparten",
+      "inicio": 35.08,
+      "fin": 35.48,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "onda?",
+      "inicio": 35.64,
+      "fin": 35.88,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "Casi",
+      "inicio": 36.06,
+      "fin": 36.3,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "todo",
+      "inicio": 36.38,
+      "fin": 36.46,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "el",
+      "inicio": 36.5,
+      "fin": 36.54,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "mundo",
+      "inicio": 36.62,
+      "fin": 36.78,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "cree",
+      "inicio": 36.86,
+      "fin": 37.1,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "que",
+      "inicio": 37.18,
+      "fin": 37.26,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "es",
+      "inicio": 37.34,
+      "fin": 37.42,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "la",
+      "inicio": 37.46,
+      "fin": 37.5,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "que",
+      "inicio": 37.58,
+      "fin": 37.66,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "mejor",
+      "inicio": 37.74,
+      "fin": 37.98,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "calienta",
+      "inicio": 38.06,
+      "fin": 38.46,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "el",
+      "inicio": 38.5,
+      "fin": 38.54,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "agua,",
+      "inicio": 38.62,
+      "fin": 39.1,
+      "frase": 9,
+      "clave": true
+    },
+    {
+      "texto": "y",
+      "inicio": 39.18,
+      "fin": 39.26,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "no",
+      "inicio": 39.34,
+      "fin": 39.42,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "es",
+      "inicio": 39.46,
+      "fin": 39.5,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "verdad.",
+      "inicio": 39.58,
+      "fin": 39.98,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "Esa",
+      "inicio": 40.16,
+      "fin": 40.4,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "onda",
+      "inicio": 40.48,
+      "fin": 40.72,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "se",
+      "inicio": 40.8,
+      "fin": 40.88,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "reservó",
+      "inicio": 40.96,
+      "fin": 41.36,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "para",
+      "inicio": 41.44,
+      "fin": 41.52,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "aparatos",
+      "inicio": 41.6,
+      "fin": 42,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "que",
+      "inicio": 42.08,
+      "fin": 42.16,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "calientan,",
+      "inicio": 42.24,
+      "fin": 42.96,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "y",
+      "inicio": 43.04,
+      "fin": 43.12,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "nadie",
+      "inicio": 43.24,
+      "fin": 43.44,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "la",
+      "inicio": 43.48,
+      "fin": 43.52,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "quería",
+      "inicio": 43.6,
+      "fin": 43.92,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "para",
+      "inicio": 44,
+      "fin": 44.08,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "comunicarse,",
+      "inicio": 44.16,
+      "fin": 44.88,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "por",
+      "inicio": 44.96,
+      "fin": 45.04,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "todo",
+      "inicio": 45.12,
+      "fin": 45.36,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "el",
+      "inicio": 45.4,
+      "fin": 45.44,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "ruido",
+      "inicio": 45.52,
+      "fin": 45.76,
+      "frase": 10,
+      "clave": true
+    },
+    {
+      "texto": "que",
+      "inicio": 45.8,
+      "fin": 45.84,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "meten.",
+      "inicio": 45.92,
+      "fin": 46.52,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "Hasta",
+      "inicio": 46.7,
+      "fin": 47.141,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "que",
+      "inicio": 47.141,
+      "fin": 47.436,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "en",
+      "inicio": 47.436,
+      "fin": 47.657,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "1985",
+      "inicio": 47.657,
+      "fin": 48.024,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "Estados",
+      "inicio": 48.024,
+      "fin": 48.613,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "Unidos",
+      "inicio": 48.613,
+      "fin": 49.128,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "dejó",
+      "inicio": 49.128,
+      "fin": 49.496,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "usarla",
+      "inicio": 49.496,
+      "fin": 50.011,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "sin",
+      "inicio": 50.011,
+      "fin": 50.305,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "licencia,",
+      "inicio": 50.305,
+      "fin": 50.968,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "y",
+      "inicio": 50.968,
+      "fin": 51.115,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "de",
+      "inicio": 51.115,
+      "fin": 51.336,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "ahí",
+      "inicio": 51.336,
+      "fin": 51.63,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "salió",
+      "inicio": 51.63,
+      "fin": 52.071,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "el",
+      "inicio": 52.071,
+      "fin": 52.292,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "wifi.",
+      "inicio": 52.292,
+      "fin": 52.66,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "Tu",
+      "inicio": 52.84,
+      "fin": 52.92,
+      "frase": 12,
+      "clave": false
+    },
+    {
+      "texto": "wifi",
+      "inicio": 53.1,
+      "fin": 53.3,
+      "frase": 12,
+      "clave": false
+    },
+    {
+      "texto": "vive",
+      "inicio": 53.38,
+      "fin": 53.62,
+      "frase": 12,
+      "clave": false
+    },
+    {
+      "texto": "en",
+      "inicio": 53.7,
+      "fin": 53.78,
+      "frase": 12,
+      "clave": false
+    },
+    {
+      "texto": "la",
+      "inicio": 53.82,
+      "fin": 53.86,
+      "frase": 12,
+      "clave": false
+    },
+    {
+      "texto": "onda",
+      "inicio": 53.94,
+      "fin": 54.18,
+      "frase": 12,
+      "clave": false
+    },
+    {
+      "texto": "que",
+      "inicio": 54.22,
+      "fin": 54.26,
+      "frase": 12,
+      "clave": false
+    },
+    {
+      "texto": "le",
+      "inicio": 54.34,
+      "fin": 54.38,
+      "frase": 12,
+      "clave": false
+    },
+    {
+      "texto": "sobraba",
+      "inicio": 54.42,
+      "fin": 54.74,
+      "frase": 12,
+      "clave": true
+    },
+    {
+      "texto": "al",
+      "inicio": 54.82,
+      "fin": 54.9,
+      "frase": 12,
+      "clave": false
+    },
+    {
+      "texto": "microondas,",
+      "inicio": 55.02,
+      "fin": 55.78,
+      "frase": 12,
+      "clave": false
+    },
+    {
+      "texto": "y",
+      "inicio": 55.82,
+      "fin": 55.86,
+      "frase": 12,
+      "clave": false
+    },
+    {
+      "texto": "por",
+      "inicio": 55.94,
+      "fin": 56.02,
+      "frase": 12,
+      "clave": false
+    },
+    {
+      "texto": "eso...",
+      "inicio": 56.1,
+      "fin": 56.66,
+      "frase": 12,
+      "clave": false
+    }
+  ]
+}

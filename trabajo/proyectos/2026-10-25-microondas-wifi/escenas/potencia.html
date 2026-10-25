@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <!-- Potencia: la cocina entera; el microondas empuja con 900 W y el router con 0,1 W; por la junta de la puerta se
+         escapa una pizca naranja y los arcos del wifi se rompen; el wifi del móvil se pone en rojo. -->
+    <template>
+      <style>
+        #root { position: absolute; inset: 0; overflow: hidden; background: var(--fondo); }
+      </style>
+      <div id="root" data-composition-id="__ID__" data-width="1080" data-height="1920" data-duration="__DURACION__">
+        <div id="__ID__-esc" class="m-capa"></div>
+      </div>
+      <script type="module">
+        import * as M from "./recursos/mundo.js";
+        const C = __CUES__, D = __DURACION__;
+        const tl = gsap.timeline({ paused: true });
+        const esc = document.getElementById("__ID__-esc");
+        // todo se dibuja con el reloj del vídeo entero (g) y los segundos de sus palabras (M.T)
+
+        const T = M.T;
+        const E = M.escenario(esc, M.G0.potencia), pi = M.pildora(E.capa);
+        const mo = M.etiqueta(E.capa, "microondas <b>900 W</b><small>800–1.000 W</small>", 520, 690, "n");
+        const rt = M.etiqueta(E.capa, "router <b>0,1 W</b><small>máx. en la UE</small>", 400, 560, "c");
+        const fu = M.etiqueta(E.capa, "fuga<small>máx. legal: 5 mW/cm²</small>", 640, 770, "n");
+        K.reloj(tl, D, (s) => {
+          const { g } = E.paso(s);
+          pi(g);
+          const w = Math.round(900 * K.sale(K.tramo(g, T.empuja, T.miles + 0.2)));
+          mo.innerHTML = `microondas <b>${w} W</b><small>800–1.000 W</small>`;
+          M.asoma(mo, g, T.empuja - 0.1, 30.5);
+          M.asoma(rt, g, T.router2 - 0.15, 30.5);
+          M.asoma(fu, g, T.escape, 33.95);
+        });
+        window.__timelines["__ID__"] = tl;
+      </script>
+    </template>
+  </body>
+</html>
