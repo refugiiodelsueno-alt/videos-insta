@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- La miniatura del vídeo: se abre desde build/h1/ (donde están kit.js y recursos/) y se fotografía a 1080×1920. -->
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@500;700;800;900&display=block" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <script src="kit.js"></script>
+    <style>
+      :root { --fondo: #0f1114; --tinta: #fff; --letra: "Figtree"; --letra-mono: "JetBrains Mono"; }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 1080px; height: 1920px; overflow: hidden; background: #0c0e11; }
+      #esc { position: absolute; inset: 0; overflow: hidden; }
+      .luz { position: absolute; inset: 0; pointer-events: none;
+        background: radial-gradient(ellipse 60% 40% at 50% 62%, rgba(255, 214, 90, 0.16), transparent 70%); }
+      .arriba { position: absolute; left: 0; right: 0; top: 0; height: 860px;
+        background: linear-gradient(to bottom, #0c0e11 0%, rgba(12, 14, 17, 0.9) 70%, rgba(12, 14, 17, 0) 100%); }
+      .abajo { position: absolute; left: 0; right: 0; bottom: 0; height: 380px;
+        background: linear-gradient(to top, rgba(12, 14, 17, 0.9), rgba(12, 14, 17, 0)); }
+      .titulo { position: absolute; left: 60px; right: 60px; top: 250px; text-align: center; font-family: Figtree, sans-serif;
+        color: #fff; text-shadow: 0 6px 30px rgba(0, 0, 0, 0.6); }
+      .titulo .l1 { font-weight: 800; font-size: 92px; line-height: 1; letter-spacing: -0.01em; }
+      .titulo .l2 { font-weight: 900; font-size: 136px; line-height: 1.02; letter-spacing: -0.02em; margin-top: 10px; }
+      .titulo .l2 em { font-style: normal; color: #ffd21f; text-shadow: 0 0 40px rgba(255, 210, 31, 0.55), 0 6px 30px rgba(0, 0, 0, 0.6); }
+      .marca { position: absolute; font-family: Figtree, sans-serif; font-weight: 800; font-size: 40px; color: #111;
+        background: #ffd21f; border-radius: 18px; padding: 12px 26px; box-shadow: 0 14px 40px rgba(0, 0, 0, 0.5), 0 0 30px rgba(255, 210, 31, 0.35); }
+    </style>
+  </head>
+  <body>
+    <div id="esc"></div>
+    <script type="module">
+      import * as M from "./recursos/mundo.js";
+      M.estilos();
+      const esc = document.getElementById("esc");
+      M.fondo(esc);
+      K.crear(esc, `<div class="luz"></div>`);
+
+      // la hoja, grande e inclinada
+      const cam = { x: 520, y: 330, z: 1.2, giro: -5 };
+      const mundo = K.crear(esc, `<div class="m-mundo"></div>`);
+      M.hoja(mundo, { modo: "tenue" });
+      M.cam(mundo, cam.x, cam.y, cam.z, cam.giro);
+
+      // la lupa: dentro brillan los puntos y se lee la hora
+      const LX = 540, LY = 1230, AUM = 3;
+      const L = M.lupa(esc, 300);
+      M.fondo(L.dentro);
+      const mundo2 = K.crear(L.dentro, `<div class="m-mundo"></div>`);
+      const h2 = M.hoja(mundo2, { modo: "brillo" });
+      h2.puntosEl.style.opacity = 0.55;
+      M.cam(mundo2, cam.x, cam.y, cam.z, cam.giro);
+      const pts = M.cifrasDePuntos("08:47", 8.6);
+      let svg = `<svg width="1080" height="1920" viewBox="0 0 1080 1920" style="position:absolute;left:0;top:0;overflow:visible">
+        <defs><radialGradient id="g"><stop offset="0" stop-color="#fff6b8"/><stop offset="0.4" stop-color="#ffd21f"/><stop offset="1" stop-color="#ffb800" stop-opacity="0"/></radialGradient></defs>
+        <g transform="rotate(${cam.giro} ${LX} ${LY})">
+        <rect x="${LX - 112}" y="${LY - 38}" width="224" height="76" rx="30" fill="#f6f3ea" opacity="0.95" style="filter: blur(8px)"/>`;
+      for (const [x, y] of pts) svg += `<circle cx="${LX + x}" cy="${LY + y}" r="4.6" fill="url(#g)"/><circle cx="${LX + x}" cy="${LY + y}" r="3.1" fill="#ffcf10"/>`;
+      svg += `</g></svg>`;
+      K.crear(L.dentro, svg);
+      M.ponLupa(L, LX, LY, AUM, -8);
+
+      K.crear(esc, `<div class="arriba"></div><div class="abajo"></div>`);
+      K.crear(esc, `<div class="titulo"><div class="l1">Tu impresora</div><div class="l2">te <em>FIRMA</em><br>cada hoja</div></div>`);
+      const marca = K.crear(esc, `<div class="marca">puntos amarillos invisibles</div>`);
+      marca.style.left = "470px";
+      marca.style.top = "790px";
+      marca.style.transform = "rotate(-5deg)";
+      document.fonts.ready.then(() => document.body.setAttribute("data-listo", "1"));
+    </script>
+  </body>
+</html>
