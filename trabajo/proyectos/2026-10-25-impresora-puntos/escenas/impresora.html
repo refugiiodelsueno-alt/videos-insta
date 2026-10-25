@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <!-- La hoja sale de una láser a color de oficina; por dentro, cuatro tóners y el amarillo es el que firma. -->
+    <template>
+      <style>
+        #root { position: absolute; inset: 0; overflow: hidden; background: var(--fondo); }
+      </style>
+      <div id="root" data-composition-id="__ID__" data-width="1080" data-height="1920" data-duration="__DURACION__">
+        <div id="__ID__-esc" class="m-capa"></div>
+      </div>
+      <script type="module">
+        import * as M from "./recursos/mundo.js";
+        const C = __CUES__, D = __DURACION__;
+        const t = (p, d) => (C[p] !== undefined ? C[p] : d);
+        const tl = gsap.timeline({ paused: true });
+        M.estilos();
+        const esc = document.getElementById("__ID__-esc");
+        M.fondo(esc);
+        const polvo = M.polvo(esc, 13);
+        const cam = K.crear(esc, `<div class="m-capa" style="transform-origin: 540px 1150px"></div>`);
+        const imp = M.impresora(cam.appendChild(document.createElement("div")));
+        const sal = M.salida(cam);
+        const hoja = M.hoja(sal, { modo: "tenue" });
+        hoja.style.transformOrigin = "0 0";
+
+        const capa = K.crear(cam, `<div class="m-capa"></div>`);
+        const svg = M.lienzo(capa);
+        const etq = M.etiqueta(capa, `tóner <b>amarillo</b>`, 690, 1470);
+        const ln = M.linea(svg, 720, 1500, 455, 1420);
+        M.techo(esc);
+
+        const imps = t("impresoras", 0.72), col = t("color", 1.76), mar = t("marcas", 2.48), cue = t("cuentan", 3.2);
+        imp.lcd.textContent = "Imprimiendo";
+        imp.lcd.style.fontSize = "30px";
+        K.reloj(tl, D, (s) => {
+          polvo(s);
+          const z = K.mez(1.0, 1.06, K.suave(K.tramo(s, 0, D)));
+          cam.style.transform = `scale(${z})`;
+          // la hoja sale por la ranura: arranca con la impresora y frena al final
+          const u = K.sale(K.tramo(s, 0, imps + 0.9));
+          const y = K.mez(M.RANURA + 20, M.RANURA - 640, u);
+          hoja.style.transform = `translate(140px, ${y}px) scale(0.8)`;
+          // por dentro: la tapa se hace transparente y el tóner amarillo se enciende; en «marcas» se cierra
+          const abre = K.suave(K.tramo(s, col - 0.2, col + 0.25)) * (1 - K.suave(K.tramo(s, mar + 0.25, mar + 0.6)));
+          imp.puerta.style.opacity = 1 - 0.9 * abre;
+          const late = Math.exp(-Math.pow((s - col - 0.3) / 0.25, 2));
+          imp.amarillo.style.filter = `brightness(${1 + 0.5 * abre + 0.4 * late})`;
+          imp.amarillo.style.boxShadow = `0 0 ${40 * abre}px ${10 * abre}px rgba(255,210,31,${0.7 * abre})`;
+          etq.style.opacity = K.sale(K.tramo(s, col + 0.1, col + 0.35)) * (1 - K.suave(K.tramo(s, mar + 0.2, mar + 0.5)));
+          M.trazo(ln, K.tramo(s, col + 0.1, col + 0.4));
+          svg.style.opacity = etq.style.opacity;
+          // la pantalla: «Listo», y nada más
+          if (s >= cue - 0.2) { imp.lcd.textContent = "Listo"; imp.lcd.style.fontSize = "38px"; }
+          else { imp.lcd.textContent = "Imprimiendo"; imp.lcd.style.fontSize = "30px"; }
+        });
+        window.__timelines["__ID__"] = tl;
+      </script>
+    </template>
+  </body>
+</html>

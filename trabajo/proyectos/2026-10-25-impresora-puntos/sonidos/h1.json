@@ -1,0 +1,57 @@
+[
+  {
+    "archivo": "sonidos/brillo-hook-h1.wav",
+    "en": 2.96,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/linterna-h1.wav",
+    "en": 10.585,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/cuadricula-h1.wav",
+    "en": 14.24,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/cifras-h1.wav",
+    "en": 19.16,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/imprime-h1.wav",
+    "en": 24.9,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/imprime-billete-h1.wav",
+    "en": 30.88,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/sello-h1.wav",
+    "en": 31.675,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/brillo-hora-h1.wav",
+    "en": 50.52,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/toque-1-h1.wav",
+    "en": 52.35,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/toque-2-h1.wav",
+    "en": 53.085,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/enviado-h1.wav",
+    "en": 53.55,
+    "volumen": 1
+  }
+]

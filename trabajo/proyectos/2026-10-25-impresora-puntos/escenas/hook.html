@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <!-- Hook: el folio del trabajo llena la pantalla y la lupa ya está pasando: dentro brillan los puntos amarillos. -->
+    <template>
+      <style>
+        #root { position: absolute; inset: 0; overflow: hidden; background: var(--fondo); }
+      </style>
+      <div id="root" data-composition-id="__ID__" data-width="1080" data-height="1920" data-duration="__DURACION__">
+        <div id="__ID__-esc" class="m-capa"></div>
+      </div>
+      <script type="module">
+        import * as M from "./recursos/mundo.js";
+        const C = __CUES__, D = __DURACION__;
+        const t = (p, d) => (C[p] !== undefined ? C[p] : d);
+        const tl = gsap.timeline({ paused: true });
+        M.estilos();
+        const esc = document.getElementById("__ID__-esc");
+
+        M.fondo(esc);
+        const polvo = M.polvo(esc, 11);
+        const mundo = K.crear(esc, `<div class="m-mundo"></div>`);
+        M.hoja(mundo, { modo: "tenue" });
+
+        // la lupa ve lo mismo, aumentado, con los puntos dibujados
+        const L = M.lupa(esc, 230);
+        M.fondo(L.dentro);
+        const mundo2 = K.crear(L.dentro, `<div class="m-mundo"></div>`);
+        const hoja2 = M.hoja(mundo2, { modo: "brillo" });
+
+        const capa = K.crear(esc, `<div class="m-capa"></div>`);
+        const svg = M.lienzo(capa);
+        const etq = M.etiqueta(capa, `puntos <b>amarillos</b>`, 96, 610);
+        const ln = M.linea(svg, 300, 694, 0, 0);
+        M.techo(esc);
+
+        // los puntos de verdad de la hoja (para que la línea de la etiqueta acabe en uno)
+        const B = M.bits(M.HOY), P = [];
+        for (let y = M.T.oy; y < M.H; y += M.T.py) for (let x = M.T.ox; x < M.W; x += M.T.px)
+          for (let r = 0; r < M.T.rows; r++) for (let c = 0; c < M.T.cols; c++) if (B[r][c]) P.push([x + c * M.T.s + 2.5, y + r * M.T.s + 2.5]);
+
+        const esc_ = t("escondido", 2.96), no = t("no", 4.06), ama = t("amarillo", 5.66), sim = t("simple", 7.42);
+        const camara = [
+          [0, { x: 500, y: 700, z: 1.26 }], [esc_, { x: 500, y: 690, z: 1.28 }], [no, { x: 498, y: 645, z: 1.3 }],
+          [ama, { x: 485, y: 660, z: 1.38 }], [sim, { x: 475, y: 680, z: 1.5 }], [D, { x: 470, y: 730, z: 1.95 }],
+        ];
+        const lupa = [
+          [0, { x: 330, y: 1030 }], [esc_ - 0.15, { x: 548, y: 1074 }], [esc_ + 0.9, { x: 566, y: 1086 }],
+          [no + 0.75, { x: 1520, y: 1820 }], [ama - 0.75, { x: 1520, y: 1820 }], [ama + 0.3, { x: 476, y: 1064 }],
+          [sim - 0.05, { x: 464, y: 1078 }], [sim + 0.7, { x: -420, y: 1560 }], [D, { x: -420, y: 1560 }],
+        ];
+        const Mz = 2.5;
+
+        K.reloj(tl, D, (s) => {
+          polvo(s);
+          const k = K.kf(s, camara);
+          M.cam(mundo, k.x, k.y, k.z);
+          M.cam(mundo2, k.x, k.y, k.z);
+          const l = K.kf(s, lupa);
+          const giro = -8 + 6 * Math.sin(s * 0.9);
+          M.ponLupa(L, l.x, l.y, Mz, giro);
+          // en «escondido» los puntos laten
+          const late = Math.exp(-Math.pow((s - esc_ - 0.18) / 0.22, 2));
+          hoja2.puntosEl.style.filter = `brightness(${1 + 0.7 * late}) drop-shadow(0 0 ${2 * late}px #ffd21f)`;
+
+          // la etiqueta, del «amarillo» a «simple vista»
+          const on = K.sale(K.tramo(s, ama + 0.25, ama + 0.6)) * (1 - K.suave(K.tramo(s, sim - 0.1, sim + 0.25)));
+          etq.style.opacity = on;
+          etq.style.transform = `translateY(${(1 - on) * 24}px) scale(${0.92 + 0.08 * on})`;
+          // el punto más cercano al centro de la lupa, visto dentro de la lupa
+          const wx = k.x + (l.x - 540) / k.z, wy = k.y + (l.y - 1000) / k.z;
+          let mejor = P[0], d = 1e9;
+          for (const p of P) { const dd = (p[0] - wx + 14) ** 2 + (p[1] - wy + 10) ** 2; if (dd < d) { d = dd; mejor = p; } }
+          const px = 540 + (mejor[0] - k.x) * k.z, py = 1000 + (mejor[1] - k.y) * k.z;
+          const dx = l.x + Mz * (px - l.x), dy = l.y + Mz * (py - l.y);
+          ln.l.setAttribute("x2", dx); ln.l.setAttribute("y2", dy); ln.c.setAttribute("cx", dx); ln.c.setAttribute("cy", dy);
+          ln.largo = Math.hypot(dx - 300, dy - 694);
+          M.trazo(ln, K.tramo(s, ama + 0.45, ama + 0.85));
+          svg.style.opacity = 1 - K.suave(K.tramo(s, sim - 0.1, sim + 0.25));
+        });
+        window.__timelines["__ID__"] = tl;
+      </script>
+    </template>
+  </body>
+</html>

@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <!-- 2017: el documento secreto, publicado en la prensa. Con la lupa, los puntos; y lo que decían. -->
+    <template>
+      <style>
+        #root { position: absolute; inset: 0; overflow: hidden; background: var(--fondo); }
+      </style>
+      <div id="root" data-composition-id="__ID__" data-width="1080" data-height="1920" data-duration="__DURACION__">
+        <div id="__ID__-esc" class="m-capa"></div>
+      </div>
+      <script type="module">
+        import * as M from "./recursos/mundo.js";
+        const C = __CUES__, D = __DURACION__;
+        const t = (p, d) => (C[p] !== undefined ? C[p] : d);
+        const tl = gsap.timeline({ paused: true });
+        M.estilos();
+        const esc = document.getElementById("__ID__-esc");
+
+        // la página de la prensa con el escaneo dentro (se dibuja dos veces: fuera y dentro de la lupa)
+        const pagina = (cont, modo) => {
+          const mundo = K.crear(cont, `<div class="m-mundo" style="width:1080px;height:1560px"></div>`);
+          const web = K.crear(mundo, `<div class="m-web" data-layout-ignore aria-hidden="true" style="height:1560px">
+            <div class="barra"><i style="left:34px;background:#ff5f57"></i><i style="left:70px;background:#febc2e"></i><i style="left:106px;background:#28c840"></i>
+            <div class="url">Noticias · Exclusiva</div></div>
+            <div class="tit">El documento secreto que alguien filtró a la prensa</div>
+            <div class="ante">DOCUMENTO PUBLICADO</div></div>`);
+          const doc = M.secreto(web, { modo });
+          doc.style.transformOrigin = "0 0";
+          doc.style.transform = "translate(140px, 380px) scale(0.8) rotate(-0.6deg)";
+          return { mundo, doc, prensa: [...web.querySelectorAll(".barra, .tit, .ante")] };
+        };
+        M.fondo(esc);
+        const polvo = M.polvo(esc, 17);
+        const A = pagina(esc, "tenue");
+        const marca = A.doc.querySelector(".marca");
+        const L = M.lupa(esc, 230);
+        M.fondo(L.dentro);
+        const B = pagina(L.dentro, "brillo");
+
+        const capa = K.crear(esc, `<div class="m-capa"></div>`);
+        const anio = M.etiqueta(capa, `<b>2017</b>`, 90, 590);
+        anio.style.fontSize = "64px";
+        const e1 = M.etiqueta(capa, `<small>impresora</small><b>n.º 29535218</b>`, 590, 700);
+        const e2 = M.etiqueta(capa, `<small>día</small><b>9 de mayo</b>`, 590, 880);
+        const e3 = M.etiqueta(capa, `<small>hora</small><b>6:20</b>`, 590, 1060);
+        const fuente = K.crear(capa, `<div class="m-fuente" style="left:90px;top:1400px">Recreación · fuente: Errata Security, CBS</div>`);
+        M.techo(esc);
+
+        const fil = t("filtro", 0.71), pre = t("prensa", 1.48), sec = t("secreto", 2.77), pub = t("publicada", 5.35);
+        const pun = t("puntos", 6.77), imp = t("impresora", 8.4), dia = t("dia", 9.82), hor = t("hora", 11.91);
+        const camara = [
+          [0, { x: 540, y: 1000, z: 1.3 }], [fil, { x: 540, y: 980, z: 1.24 }], [pre + 0.2, { x: 540, y: 690, z: 0.8 }],
+          [pub - 0.3, { x: 540, y: 720, z: 0.86 }], [pub + 0.7, { x: 500, y: 980, z: 1.35 }], [D, { x: 505, y: 1000, z: 1.42 }],
+        ];
+        const lupa = [[pun - 0.6, 1520, 1700], [pun + 0.55, 330, 900], [D, 345, 915]];
+        const aparece = (el, a, s) => { const u = K.sale(K.tramo(s, a, a + 0.3)); el.style.opacity = u; el.style.transform = `translateY(${(1 - u) * 20}px)`; };
+        K.reloj(tl, D, (s) => {
+          polvo(s);
+          const k = K.kf(s, camara);
+          M.cam(A.mundo, k.x, k.y, k.z);
+          M.cam(B.mundo, k.x, k.y, k.z);
+          const l = M.tramos(s, lupa);
+          M.ponLupa(L, l.x, l.y, 2.5, -6 + 4 * Math.sin(s * 0.8));
+          // «secreto»: la marca del documento late
+          const g = Math.exp(-Math.pow((s - sec - 0.15) / 0.2, 2));
+          marca.style.transform = `scale(${1 + 0.12 * g})`;
+          const a = K.sale(K.tramo(s, 0.1, 0.4)) * (1 - K.suave(K.tramo(s, pre, pre + 0.3)));
+          anio.style.opacity = a;
+          anio.style.transform = `scale(${0.9 + 0.1 * a})`;
+          const pr = K.suave(K.tramo(s, fil, pre));
+          for (const el of [...A.prensa, ...B.prensa]) el.style.opacity = pr;
+          aparece(e1, imp, s); aparece(e2, dia, s); aparece(e3, hor, s);
+          aparece(fuente, imp + 0.3, s);
+        });
+        window.__timelines["__ID__"] = tl;
+      </script>
+    </template>
+  </body>
+</html>

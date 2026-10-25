@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <!-- La misma hoja, con luz azul: el amarillo se traga el azul y los puntos salen oscuros; luego la cuadrícula. -->
+    <template>
+      <style>
+        #root { position: absolute; inset: 0; overflow: hidden; background: var(--fondo); }
+        .lz-azul { position: absolute; left: 0; top: 0; width: 1000px; height: 1414px;
+          -webkit-mask-image: linear-gradient(to bottom, #000 calc(var(--b) - 90px), transparent calc(var(--b) + 40px));
+          mask-image: linear-gradient(to bottom, #000 calc(var(--b) - 90px), transparent calc(var(--b) + 40px)); }
+        .lz-tinte { position: absolute; inset: 0; background: linear-gradient(150deg, rgba(70, 120, 255, 0.5), rgba(30, 70, 230, 0.68) 55%, rgba(14, 36, 160, 0.8)); mix-blend-mode: multiply; }
+        .lz-borde { position: absolute; left: 0; right: 0; height: 260px; margin-top: -170px; mix-blend-mode: screen;
+          background: linear-gradient(to bottom, rgba(90, 140, 255, 0), rgba(120, 170, 255, 0.55) 62%, rgba(90, 140, 255, 0)); }
+        .lz-linterna { position: absolute; left: 0; top: 0; width: 96px; height: 330px; transform-origin: 48px 0; }
+        .lz-linterna .cabeza { position: absolute; left: 0; top: 0; width: 96px; height: 110px; border-radius: 14px 14px 22px 22px;
+          background: linear-gradient(90deg, #0f1114, #4b5159 30%, #23272c 60%, #0b0c0e); }
+        .lz-linterna .lente { position: absolute; left: 10px; top: -6px; width: 76px; height: 20px; border-radius: 50%;
+          background: radial-gradient(ellipse at 50% 50%, #e8f0ff, #5b8cff 45%, #1d3fb8); box-shadow: 0 0 30px 10px rgba(80, 130, 255, 0.85); }
+        .lz-linterna .cuerpo { position: absolute; left: 14px; top: 104px; width: 68px; height: 226px; border-radius: 10px 10px 18px 18px;
+          background: repeating-linear-gradient(0deg, rgba(255,255,255,0.05) 0 5px, rgba(0,0,0,0.3) 5px 9px),
+            linear-gradient(90deg, #0d0e10, #3e434a 32%, #1d2024 62%, #08090a); }
+        .lz-haz { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; mix-blend-mode: screen; pointer-events: none; }
+      </style>
+      <div id="root" data-composition-id="__ID__" data-width="1080" data-height="1920" data-duration="__DURACION__">
+        <div id="__ID__-esc" class="m-capa"></div>
+      </div>
+      <script type="module">
+        import * as M from "./recursos/mundo.js";
+        const C = __CUES__, D = __DURACION__;
+        const t = (p, d) => (C[p] !== undefined ? C[p] : d);
+        const tl = gsap.timeline({ paused: true });
+        M.estilos();
+        const esc = document.getElementById("__ID__-esc");
+
+        M.fondo(esc);
+        const polvo = M.polvo(esc, 12);
+        const mundo = K.crear(esc, `<div class="m-mundo"></div>`);
+        const hoja = M.hoja(mundo, { modo: "tenue" });
+        const azul = K.crear(hoja, `<div class="lz-azul" data-layout-ignore><div class="lz-tinte"></div></div>`);
+        M.puntos(azul, "oscuro", M.bits(M.HOY));
+        const borde = K.crear(hoja, `<div class="lz-borde"></div>`);
+        const R = M.recuadros(hoja);
+        const svgR = R[0].el.ownerSVGElement;
+
+        const haz = K.crear(esc, `<div class="lz-haz"></div>`);
+        const lint = K.crear(esc, `<div class="lz-linterna"><div class="cuerpo"></div><div class="cabeza"></div><div class="lente"></div></div>`);
+        const capa = K.crear(esc, `<div class="m-capa"></div>`);
+        const etq = M.etiqueta(capa, `<b>15 × 8</b> puntos`, 330, 700);
+        M.techo(esc);
+
+        // el recuadro que se enseña primero: el más cercano a (510, 610) de la hoja
+        let elegido = R[0];
+        for (const r of R) if (Math.hypot(r.x - 510, r.y - 610) < Math.hypot(elegido.x - 510, elegido.y - 610)) elegido = r;
+
+        const ilu = t("iluminas", 0.4), luz = t("luz", 1.52), azu = t("azul", 1.76), cien = t("cientos", 2.96);
+        const cua = t("cuadricula", 4.24), rep = t("repite", 5.04), pag = t("pagina", 6.16);
+        const camara = [
+          [0, { x: 470, y: 730, z: 1.95 }], [azu, { x: 500, y: 640, z: 1.22 }], [cien + 0.25, { x: 505, y: 620, z: 1.3 }], [cua - 0.3, { x: 515, y: 625, z: 2.3 }],
+          [cua + 0.55, { x: elegido.x, y: elegido.y + 6, z: 5 }], [rep, { x: elegido.x, y: elegido.y + 6, z: 5.15 }],
+          [pag + 0.2, { x: 500, y: 712, z: 0.66 }], [D, { x: 500, y: 708, z: 0.68 }],
+        ];
+
+        K.reloj(tl, D, (s) => {
+          polvo(s);
+          const k = K.kf(s, camara);
+          M.cam(mundo, k.x, k.y, k.z);
+          // la luz baja por la hoja (en coordenadas de la hoja)
+          const b = K.mez(-160, 1600, K.suave(K.tramo(s, luz, cien + 0.5)));
+          azul.style.setProperty("--b", b + "px");
+          borde.style.top = b + "px";
+          borde.style.opacity = K.tramo(s, luz, luz + 0.2) * (1 - K.tramo(s, cien + 0.3, cien + 0.6));
+          // la linterna entra y apunta al borde de la luz
+          const ent = K.suave(K.tramo(s, ilu - 0.1, luz));
+          const lx = K.mez(-160, 120, ent), ly = 620;
+          const bx = 540 + (300 - k.x) * k.z, by = 1000 + (Math.min(b, 1414) - k.y) * k.z;
+          const ang = Math.atan2(by - ly, bx - lx) * 180 / Math.PI - 90;
+          lint.style.transform = `translate(${lx - 48}px, ${ly}px) rotate(${ang + 180}deg)`;
+          lint.style.opacity = 1 - K.suave(K.tramo(s, cua - 0.2, cua + 0.3));
+          const on = K.tramo(s, luz, luz + 0.12) * (1 - K.suave(K.tramo(s, cua - 0.2, cua + 0.3)));
+          haz.style.background = `radial-gradient(ellipse 620px 260px at ${bx + 200}px ${by}px, rgba(70,120,255,${0.45 * on}), rgba(70,120,255,0) 70%),
+            linear-gradient(${-ang}deg, rgba(70,120,255,${0.10 * on}), rgba(70,120,255,0) 60%)`;
+
+          // la cuadrícula: primero una, luego todas
+          svgR.style.strokeWidth = (3 / k.z).toFixed(3);
+          for (const r of R) {
+            let u;
+            if (r === elegido) u = K.sale(K.tramo(s, cua + 0.05, cua + 0.35));
+            else {
+              const d = Math.hypot(r.x - elegido.x, (r.y - elegido.y) * 1.2) / 1500;
+              u = K.sale(K.tramo(s, rep + 0.15 + d * 1.1, rep + 0.35 + d * 1.1));
+            }
+            r.el.setAttribute("opacity", u.toFixed(3));
+          }
+          const e = K.sale(K.tramo(s, cua + 0.35, cua + 0.65)) * (1 - K.suave(K.tramo(s, rep, rep + 0.3)));
+          etq.style.opacity = e;
+          etq.style.transform = `translateY(${(1 - e) * 20}px)`;
+        });
+        window.__timelines["__ID__"] = tl;
+      </script>
+    </template>
+  </body>
+</html>

@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <!-- Dentro de un recuadro: la fibra del papel y los puntos de tóner. Punto = 1, hueco = 0; luego se leen. -->
+    <template>
+      <style>
+        #root { position: absolute; inset: 0; overflow: hidden; background: var(--fondo); }
+        .cd-papel { position: absolute; left: -200px; top: 380px; width: 1480px; height: 1300px;
+          background: radial-gradient(ellipse 60% 55% at 40% 35%, #fbf9f2 0%, #e9e5da 55%, #bdb6a6 100%); }
+        .cd-papel::before { content: ""; position: absolute; inset: 0; background: url(recursos/papel.png); background-size: 1500px;
+          mix-blend-mode: multiply; opacity: 0.8; }
+        .cd-papel::after { content: ""; position: absolute; inset: 0; background: url(recursos/papel.png); background-size: 380px;
+          mix-blend-mode: multiply; opacity: 0.25; }
+        .cd-cifra { position: absolute; width: 52px; height: 52px; margin: -26px 0 0 -26px; text-align: center; line-height: 52px;
+          font-family: var(--letra-mono), monospace; font-weight: 800; font-size: 34px; opacity: 0; }
+        .cd-cifra.uno { color: #3a2a00; }
+        .cd-cifra.cero { color: #8b9097; }
+        .cd-grande { position: absolute; font-family: var(--letra-mono), monospace; font-weight: 800; font-size: 96px; color: #fff;
+          text-shadow: 0 4px 20px rgba(0,0,0,0.6); opacity: 0; }
+        .cd-banda { position: absolute; border-radius: 16px; background: rgba(255, 210, 31, 0.16); border: 3px solid #ffd21f; opacity: 0;
+          box-shadow: 0 0 24px rgba(255, 210, 31, 0.45); }
+      </style>
+      <div id="root" data-composition-id="__ID__" data-width="1080" data-height="1920" data-duration="__DURACION__">
+        <div id="__ID__-esc" class="m-capa"></div>
+      </div>
+      <script type="module">
+        import * as M from "./recursos/mundo.js";
+        const C = __CUES__, D = __DURACION__;
+        const t = (p, d) => (C[p] !== undefined ? C[p] : d);
+        const tl = gsap.timeline({ paused: true });
+        M.estilos();
+        const esc = document.getElementById("__ID__-esc");
+        M.fondo(esc);
+        const cam = K.crear(esc, `<div class="m-capa"></div>`);
+        const papel = K.crear(cam, `<div class="cd-papel" data-layout-ignore></div>`);
+
+        // la rejilla de 15 × 8, a 52 px
+        const P = 52, X0 = 540 - 7 * P, Y0 = 650;
+        const B = M.bits(M.HOY);
+        const az = K.azar(5);
+        let svg = `<svg width="1080" height="1920" viewBox="0 0 1080 1920" style="position:absolute;left:0;top:0;overflow:visible">
+          <defs><radialGradient id="__ID__-tn" cx="0.42" cy="0.38"><stop offset="0" stop-color="#fff2a0"/><stop offset="0.45" stop-color="#ffd21f"/><stop offset="1" stop-color="#e2a800"/></radialGradient>
+          <filter id="__ID__-gl" x="-1" y="-1" width="3" height="3"><feGaussianBlur stdDeviation="7"/></filter></defs><g class="rej">`;
+        for (let c = 0; c <= M.T.cols; c++) svg += `<line x1="${X0 - P / 2 + c * P}" y1="${Y0 - P / 2}" x2="${X0 - P / 2 + c * P}" y2="${Y0 - P / 2 + 8 * P}" stroke="rgba(214,160,0,0.28)" stroke-width="1.5"/>`;
+        for (let r = 0; r <= M.T.rows; r++) svg += `<line x1="${X0 - P / 2}" y1="${Y0 - P / 2 + r * P}" x2="${X0 - P / 2 + 15 * P}" y2="${Y0 - P / 2 + r * P}" stroke="rgba(214,160,0,0.28)" stroke-width="1.5"/>`;
+        svg += `</g><g class="pts">`;
+        for (let r = 0; r < M.T.rows; r++) for (let c = 0; c < M.T.cols; c++) if (B[r][c]) {
+          const x = X0 + c * P + (az() - 0.5) * 3, y = Y0 + r * P + (az() - 0.5) * 3;
+          svg += `<g><circle cx="${x}" cy="${y}" r="22" fill="#ffd21f" opacity="0.55" filter="url(#__ID__-gl)"/>`;
+          for (let k = 0; k < 4; k++) svg += `<circle cx="${x + (az() - 0.5) * 9}" cy="${y + (az() - 0.5) * 9}" r="${10 + az() * 5}" fill="url(#__ID__-tn)" opacity="0.85"/>`;
+          svg += `</g>`;
+        }
+        svg += `</g></svg>`;
+        K.crear(cam, svg);
+
+        // las bandas de cada dato y sus cifras
+        const banda = (c1, c2) => K.crear(cam, `<div class="cd-banda" style="left:${X0 - P / 2 + c1 * P - 6}px;top:${Y0 - P / 2 + P - 6}px;width:${(c2 - c1 + 1) * P + 12}px;height:${7 * P + 12}px"></div>`);
+        const bSerie = banda(10, 13), bDia = banda(5, 7), bHora1 = banda(1, 1), bHora2 = banda(4, 4);
+        const cifras = [];
+        for (let r = 0; r < M.T.rows; r++) for (let c = 0; c < M.T.cols; c++) {
+          const el = K.crear(cam, `<div class="cd-cifra ${B[r][c] ? "uno" : "cero"}" style="left:${X0 + c * P}px;top:${Y0 + r * P}px">${B[r][c]}</div>`);
+          cifras.push({ el, r, c });
+        }
+        // el punto y el hueco que se señalan
+        const pu = { c: 2, r: 2 }, hu = { c: 0, r: 3 };
+        if (!B[pu.r][pu.c]) pu.c = 3;
+        const lien = M.lienzo(cam);
+        const anillo = (c, r) => {
+          const a = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+          a.setAttribute("cx", X0 + c * P); a.setAttribute("cy", Y0 + r * P); a.setAttribute("r", 30);
+          a.setAttribute("fill", "none"); a.setAttribute("stroke", "#fff"); a.setAttribute("stroke-width", 5);
+          lien.appendChild(a);
+          return a;
+        };
+        const aU = anillo(pu.c, pu.r), aC = anillo(hu.c, hu.r);
+        const gU = K.crear(cam, `<div class="cd-grande" style="left:${X0 + pu.c * P + 40}px;top:${Y0 + pu.r * P - 150}px">1</div>`);
+        const gC = K.crear(cam, `<div class="cd-grande" style="left:${X0 + hu.c * P - 20}px;top:${Y0 + hu.r * P + 50}px">0</div>`);
+
+        const capa = K.crear(cam, `<div class="m-capa"></div>`);
+        const svgL = M.lienzo(capa);
+        const fondoY = Y0 - P / 2 + 8 * P + 6;
+        const eS = M.etiqueta(capa, `<small>N.º de serie</small><b>5048 3172</b>`, 560, 1095);
+        const lS = M.linea(svgL, 760, 1095, X0 + 11.5 * P, fondoY);
+        const eD = M.etiqueta(capa, `<small>día</small><b>25/10/2026</b>`, 250, 1180);
+        const lD = M.linea(svgL, 420, 1180, X0 + 6 * P, fondoY);
+        const eH = M.etiqueta(capa, `<small>hora</small><b>08:47</b>`, 70, 1290);
+        const lH = M.linea(svgL, 160, 1290, X0 + 2.5 * P, fondoY);
+        M.techo(esc);
+
+        const uno = t("uno", 1.16), cero = t("cero", 2.64), jun = t("juntos", 3.22);
+        const ser = t("serie", 4.74), dia = t("dia", 7.08), hor = t("hora", 7.72);
+        const aparece = (el, a) => { const u = K.sale(K.tramo(s_, a, a + 0.3)); el.style.opacity = u; el.style.transform = `translateY(${(1 - u) * 20}px)`; };
+        let s_ = 0;
+        const pP = [X0 + pu.c * P, Y0 + pu.r * P], pH = [X0 + hu.c * P, Y0 + hu.r * P];
+        const foco = [
+          [0, { x: 560, y: 820, z: 1.02 }], [uno - 0.1, { x: pP[0] + 60, y: pP[1] + 40, z: 1.5 }], [cero - 0.6, { x: pP[0] + 30, y: pP[1] + 60, z: 1.55 }],
+          [cero, { x: pH[0] + 80, y: pH[1] + 30, z: 1.5 }], [jun + 0.5, { x: 540, y: 860, z: 1.02 }], [ser, { x: 560, y: 900, z: 1.04 }],
+          [D, { x: 520, y: 930, z: 1.12 }],
+        ];
+        K.reloj(tl, D, (s) => {
+          s_ = s;
+          const f = K.kf(s, foco);
+          cam.style.transform = `translate(${540 - f.x * f.z}px, ${840 - f.y * f.z}px) scale(${f.z}) rotate(${-1 + Math.sin(s * 0.5)}deg)`;
+          // el uno y el cero
+          const u1 = K.sale(K.tramo(s, uno - 0.1, uno + 0.2)) * (1 - K.tramo(s, jun + 0.1, jun + 0.4));
+          aU.setAttribute("opacity", u1); aU.setAttribute("r", 30 + 12 * (1 - K.sale(K.tramo(s, uno - 0.1, uno + 0.25))));
+          gU.style.opacity = u1; gU.style.transform = `scale(${0.6 + 0.4 * K.sale(K.tramo(s, uno - 0.1, uno + 0.25))})`;
+          const u0 = K.sale(K.tramo(s, cero - 0.1, cero + 0.2)) * (1 - K.tramo(s, jun + 0.1, jun + 0.4));
+          aC.setAttribute("opacity", u0); aC.setAttribute("r", 30 + 12 * (1 - K.sale(K.tramo(s, cero - 0.1, cero + 0.25))));
+          gC.style.opacity = u0; gC.style.transform = `scale(${0.6 + 0.4 * K.sale(K.tramo(s, cero - 0.1, cero + 0.25))})`;
+          // todas las cifras, una tras otra
+          for (const q of cifras) {
+            const a = jun + 0.1 + (q.c * 8 + q.r) * 0.006;
+            q.el.style.opacity = K.sale(K.tramo(s, a, a + 0.18));
+          }
+          // lo que dicen
+          const banda_ = (el, a) => { el.style.opacity = K.sale(K.tramo(s, a - 0.1, a + 0.2)); };
+          banda_(bSerie, ser); banda_(bDia, dia); banda_(bHora1, hor); banda_(bHora2, hor);
+          aparece(eS, ser + 0.15); M.trazo(lS, K.tramo(s, ser + 0.05, ser + 0.35));
+          aparece(eD, dia + 0.1); M.trazo(lD, K.tramo(s, dia, dia + 0.3));
+          aparece(eH, hor + 0.1); M.trazo(lH, K.tramo(s, hor, hor + 0.3));
+        });
+        window.__timelines["__ID__"] = tl;
+      </script>
+    </template>
+  </body>
+</html>

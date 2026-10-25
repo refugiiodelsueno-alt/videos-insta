@@ -1,0 +1,1247 @@
+{
+  "proveedor": "elevenlabs",
+  "toma": "seguida",
+  "firma": "25669d0fa40e",
+  "duracion": 54.76,
+  "frases": [
+    {
+      "n": 1,
+      "parte": "hook",
+      "texto": "Las hojas que imprimes en el trabajo llevan un mensaje escondido.",
+      "escena": "hook",
+      "clave": "escondido",
+      "inicio": 0,
+      "fin": 3.8,
+      "ritmo": 1
+    },
+    {
+      "n": 2,
+      "parte": "cuerpo",
+      "texto": "Y no lo ves porque está escrito en amarillo, con puntitos que a simple vista no se distinguen.",
+      "escena": "hook",
+      "clave": "amarillo",
+      "inicio": 3.98,
+      "fin": 9.02,
+      "ritmo": 1
+    },
+    {
+      "n": 3,
+      "parte": "cuerpo",
+      "texto": "Pero si iluminas la hoja con luz azul, aparecen cientos, en una cuadrícula que se repite por toda la página.",
+      "escena": "luz-azul",
+      "clave": "luz azul",
+      "inicio": 9.2,
+      "fin": 15.76,
+      "ritmo": 1
+    },
+    {
+      "n": 4,
+      "parte": "cuerpo",
+      "texto": "Cada punto es un uno, y cada hueco, un cero.",
+      "escena": "codigo",
+      "clave": "uno",
+      "inicio": 15.94,
+      "fin": 18.9,
+      "ritmo": 1
+    },
+    {
+      "n": 5,
+      "parte": "cuerpo",
+      "texto": "Y juntos dicen el número de serie de la impresora y, en muchas, el día y la hora exactos.",
+      "escena": "codigo",
+      "clave": "número de serie",
+      "inicio": 19.08,
+      "fin": 24.76,
+      "ritmo": 1
+    },
+    {
+      "n": 6,
+      "parte": "cuerpo",
+      "texto": "Lo hacen muchas impresoras láser a color, y las marcas no te lo cuentan.",
+      "escena": "impresora",
+      "clave": "láser",
+      "inicio": 24.94,
+      "fin": 28.62,
+      "ritmo": 1
+    },
+    {
+      "n": 7,
+      "parte": "cuerpo",
+      "texto": "¿Para qué? Para que nadie pueda imprimir billetes falsos sin dejar rastro.",
+      "escena": "billete",
+      "clave": "billetes",
+      "inicio": 28.8,
+      "fin": 33.12,
+      "ritmo": 1
+    },
+    {
+      "n": 8,
+      "parte": "cuerpo",
+      "texto": "En 2017 se filtró a la prensa un documento secreto de Estados Unidos, y en la copia publicada estaban los puntos.",
+      "escena": "filtracion",
+      "clave": "secreto",
+      "inicio": 33.3,
+      "fin": 40.52,
+      "ritmo": 1
+    },
+    {
+      "n": 9,
+      "parte": "cuerpo",
+      "texto": "Decían la impresora, el día, 9 de mayo, y la hora: 6:20.",
+      "escena": "filtracion",
+      "clave": "6:20",
+      "inicio": 40.6,
+      "fin": 46.2,
+      "ritmo": 1
+    },
+    {
+      "n": 10,
+      "parte": "cuerpo",
+      "texto": "Así que esa hoja que dejaste en la impresora no es anónima: lleva tu hora firmada.",
+      "escena": "cierre",
+      "clave": "firmada",
+      "inicio": 46.28,
+      "fin": 51.48,
+      "ritmo": 1
+    },
+    {
+      "n": 11,
+      "parte": "cuerpo",
+      "texto": "Envíaselo a ese compañero que lo imprime todo.",
+      "escena": "cierre",
+      "clave": "Envíaselo",
+      "inicio": 51.6,
+      "fin": 53.96,
+      "ritmo": 1
+    }
+  ],
+  "palabras": [
+    {
+      "texto": "Las",
+      "inicio": 0,
+      "fin": 0.24,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "hojas",
+      "inicio": 0.28,
+      "fin": 0.48,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "que",
+      "inicio": 0.56,
+      "fin": 0.64,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "imprimes",
+      "inicio": 0.72,
+      "fin": 1.04,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "en",
+      "inicio": 1.12,
+      "fin": 1.2,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "el",
+      "inicio": 1.24,
+      "fin": 1.28,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "trabajo",
+      "inicio": 1.32,
+      "fin": 1.84,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "llevan",
+      "inicio": 1.92,
+      "fin": 2.24,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "un",
+      "inicio": 2.28,
+      "fin": 2.32,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "mensaje",
+      "inicio": 2.4,
+      "fin": 2.88,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "escondido.",
+      "inicio": 2.96,
+      "fin": 3.8,
+      "frase": 1,
+      "clave": true
+    },
+    {
+      "texto": "Y",
+      "inicio": 3.98,
+      "fin": 4.02,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "no",
+      "inicio": 4.06,
+      "fin": 4.14,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "lo",
+      "inicio": 4.18,
+      "fin": 4.22,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "ves",
+      "inicio": 4.3,
+      "fin": 4.54,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "porque",
+      "inicio": 4.7,
+      "fin": 4.94,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "está",
+      "inicio": 5.02,
+      "fin": 5.153,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "escrito",
+      "inicio": 5.207,
+      "fin": 5.5,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "en",
+      "inicio": 5.54,
+      "fin": 5.58,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "amarillo,",
+      "inicio": 5.66,
+      "fin": 6.3,
+      "frase": 2,
+      "clave": true
+    },
+    {
+      "texto": "con",
+      "inicio": 6.38,
+      "fin": 6.46,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "puntitos",
+      "inicio": 6.54,
+      "fin": 7.1,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "que",
+      "inicio": 7.18,
+      "fin": 7.26,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "a",
+      "inicio": 7.3,
+      "fin": 7.34,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "simple",
+      "inicio": 7.42,
+      "fin": 7.74,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "vista",
+      "inicio": 7.78,
+      "fin": 8.06,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "no",
+      "inicio": 8.14,
+      "fin": 8.22,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "se",
+      "inicio": 8.26,
+      "fin": 8.3,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "distinguen.",
+      "inicio": 8.38,
+      "fin": 9.02,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "Pero",
+      "inicio": 9.2,
+      "fin": 9.36,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "si",
+      "inicio": 9.44,
+      "fin": 9.52,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "iluminas",
+      "inicio": 9.6,
+      "fin": 10.08,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "la",
+      "inicio": 10.12,
+      "fin": 10.16,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "hoja",
+      "inicio": 10.24,
+      "fin": 10.4,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "con",
+      "inicio": 10.48,
+      "fin": 10.64,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "luz",
+      "inicio": 10.72,
+      "fin": 10.88,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "azul,",
+      "inicio": 10.96,
+      "fin": 11.52,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "aparecen",
+      "inicio": 11.6,
+      "fin": 12.08,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "cientos,",
+      "inicio": 12.16,
+      "fin": 13.04,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "en",
+      "inicio": 13.12,
+      "fin": 13.2,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "una",
+      "inicio": 13.28,
+      "fin": 13.36,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "cuadrícula",
+      "inicio": 13.44,
+      "fin": 13.92,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "que",
+      "inicio": 13.96,
+      "fin": 14,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "se",
+      "inicio": 14.08,
+      "fin": 14.16,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "repite",
+      "inicio": 14.24,
+      "fin": 14.56,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "por",
+      "inicio": 14.64,
+      "fin": 14.8,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "toda",
+      "inicio": 14.96,
+      "fin": 15.12,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "la",
+      "inicio": 15.2,
+      "fin": 15.28,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "página.",
+      "inicio": 15.36,
+      "fin": 15.76,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "Cada",
+      "inicio": 15.94,
+      "fin": 16.1,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "punto",
+      "inicio": 16.18,
+      "fin": 16.5,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "es",
+      "inicio": 16.66,
+      "fin": 16.82,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "un",
+      "inicio": 16.9,
+      "fin": 16.98,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "uno,",
+      "inicio": 17.1,
+      "fin": 17.46,
+      "frase": 4,
+      "clave": true
+    },
+    {
+      "texto": "y",
+      "inicio": 17.5,
+      "fin": 17.54,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "cada",
+      "inicio": 17.58,
+      "fin": 17.7,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "hueco,",
+      "inicio": 17.78,
+      "fin": 18.34,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "un",
+      "inicio": 18.42,
+      "fin": 18.5,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "cero.",
+      "inicio": 18.58,
+      "fin": 18.9,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "Y",
+      "inicio": 19.08,
+      "fin": 19.12,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "juntos",
+      "inicio": 19.16,
+      "fin": 19.64,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "dicen",
+      "inicio": 19.72,
+      "fin": 19.96,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "el",
+      "inicio": 20.04,
+      "fin": 20.12,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "número",
+      "inicio": 20.2,
+      "fin": 20.44,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "de",
+      "inicio": 20.52,
+      "fin": 20.6,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "serie",
+      "inicio": 20.68,
+      "fin": 20.92,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "de",
+      "inicio": 20.96,
+      "fin": 21,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "la",
+      "inicio": 21.04,
+      "fin": 21.08,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "impresora",
+      "inicio": 21.16,
+      "fin": 21.64,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "y,",
+      "inicio": 21.82,
+      "fin": 21.953,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "en",
+      "inicio": 22.007,
+      "fin": 22.06,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "muchas,",
+      "inicio": 22.18,
+      "fin": 22.7,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "el",
+      "inicio": 22.78,
+      "fin": 22.94,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "día",
+      "inicio": 23.02,
+      "fin": 23.26,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "y",
+      "inicio": 23.42,
+      "fin": 23.46,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "la",
+      "inicio": 23.5,
+      "fin": 23.58,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "hora",
+      "inicio": 23.66,
+      "fin": 23.82,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "exactos.",
+      "inicio": 24,
+      "fin": 24.76,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "Lo",
+      "inicio": 24.94,
+      "fin": 25.02,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "hacen",
+      "inicio": 25.1,
+      "fin": 25.26,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "muchas",
+      "inicio": 25.34,
+      "fin": 25.58,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "impresoras",
+      "inicio": 25.66,
+      "fin": 26.14,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "láser",
+      "inicio": 26.22,
+      "fin": 26.46,
+      "frase": 6,
+      "clave": true
+    },
+    {
+      "texto": "a",
+      "inicio": 26.5,
+      "fin": 26.54,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "color,",
+      "inicio": 26.7,
+      "fin": 27.1,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "y",
+      "inicio": 27.14,
+      "fin": 27.18,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "las",
+      "inicio": 27.26,
+      "fin": 27.34,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "marcas",
+      "inicio": 27.42,
+      "fin": 27.74,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "no",
+      "inicio": 27.82,
+      "fin": 27.9,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "te",
+      "inicio": 27.94,
+      "fin": 27.98,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "lo",
+      "inicio": 28.06,
+      "fin": 28.1,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "cuentan.",
+      "inicio": 28.14,
+      "fin": 28.62,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "¿Para",
+      "inicio": 28.8,
+      "fin": 28.96,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "qué?",
+      "inicio": 29.04,
+      "fin": 29.76,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "Para",
+      "inicio": 29.84,
+      "fin": 29.92,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "que",
+      "inicio": 30,
+      "fin": 30.08,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "nadie",
+      "inicio": 30.16,
+      "fin": 30.48,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "pueda",
+      "inicio": 30.56,
+      "fin": 30.8,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "imprimir",
+      "inicio": 30.88,
+      "fin": 31.2,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "billetes",
+      "inicio": 31.28,
+      "fin": 31.6,
+      "frase": 7,
+      "clave": true
+    },
+    {
+      "texto": "falsos",
+      "inicio": 31.68,
+      "fin": 32.08,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "sin",
+      "inicio": 32.16,
+      "fin": 32.24,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "dejar",
+      "inicio": 32.32,
+      "fin": 32.56,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "rastro.",
+      "inicio": 32.64,
+      "fin": 33.12,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "En",
+      "inicio": 33.3,
+      "fin": 33.493,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "2017",
+      "inicio": 33.493,
+      "fin": 33.816,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "se",
+      "inicio": 33.816,
+      "fin": 34.009,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "filtró",
+      "inicio": 34.009,
+      "fin": 34.46,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "a",
+      "inicio": 34.46,
+      "fin": 34.589,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "la",
+      "inicio": 34.589,
+      "fin": 34.783,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "prensa",
+      "inicio": 34.783,
+      "fin": 35.234,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "un",
+      "inicio": 35.234,
+      "fin": 35.427,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "documento",
+      "inicio": 35.427,
+      "fin": 36.072,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "secreto",
+      "inicio": 36.072,
+      "fin": 36.588,
+      "frase": 8,
+      "clave": true
+    },
+    {
+      "texto": "de",
+      "inicio": 36.588,
+      "fin": 36.781,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "Estados",
+      "inicio": 36.781,
+      "fin": 37.297,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "Unidos,",
+      "inicio": 37.297,
+      "fin": 37.748,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "y",
+      "inicio": 37.748,
+      "fin": 37.877,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "en",
+      "inicio": 37.877,
+      "fin": 38.07,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "la",
+      "inicio": 38.07,
+      "fin": 38.264,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "copia",
+      "inicio": 38.264,
+      "fin": 38.651,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "publicada",
+      "inicio": 38.651,
+      "fin": 39.295,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "estaban",
+      "inicio": 39.295,
+      "fin": 39.811,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "los",
+      "inicio": 39.811,
+      "fin": 40.069,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "puntos.",
+      "inicio": 40.069,
+      "fin": 40.52,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "Decían",
+      "inicio": 40.6,
+      "fin": 41.369,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "la",
+      "inicio": 41.369,
+      "fin": 41.698,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "impresora,",
+      "inicio": 41.698,
+      "fin": 42.796,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "el",
+      "inicio": 42.796,
+      "fin": 43.125,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "día,",
+      "inicio": 43.125,
+      "fin": 43.565,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "9",
+      "inicio": 43.565,
+      "fin": 43.784,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "de",
+      "inicio": 43.784,
+      "fin": 44.114,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "mayo,",
+      "inicio": 44.114,
+      "fin": 44.663,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "y",
+      "inicio": 44.663,
+      "fin": 44.882,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "la",
+      "inicio": 44.882,
+      "fin": 45.212,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "hora:",
+      "inicio": 45.212,
+      "fin": 45.761,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "6:20.",
+      "inicio": 45.761,
+      "fin": 46.2,
+      "frase": 9,
+      "clave": true
+    },
+    {
+      "texto": "Así",
+      "inicio": 46.28,
+      "fin": 46.4,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "que",
+      "inicio": 46.44,
+      "fin": 46.68,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "esa",
+      "inicio": 46.8,
+      "fin": 46.92,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "hoja",
+      "inicio": 47,
+      "fin": 47.16,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "que",
+      "inicio": 47.24,
+      "fin": 47.32,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "dejaste",
+      "inicio": 47.36,
+      "fin": 47.64,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "en",
+      "inicio": 47.72,
+      "fin": 47.76,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "la",
+      "inicio": 47.8,
+      "fin": 47.84,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "impresora",
+      "inicio": 47.88,
+      "fin": 48.52,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "no",
+      "inicio": 48.6,
+      "fin": 48.68,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "es",
+      "inicio": 48.76,
+      "fin": 48.84,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "anónima:",
+      "inicio": 48.92,
+      "fin": 49.72,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "lleva",
+      "inicio": 49.773,
+      "fin": 49.96,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "tu",
+      "inicio": 50.04,
+      "fin": 50.2,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "hora",
+      "inicio": 50.32,
+      "fin": 50.44,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "firmada.",
+      "inicio": 50.52,
+      "fin": 51.48,
+      "frase": 10,
+      "clave": true
+    },
+    {
+      "texto": "Envíaselo",
+      "inicio": 51.6,
+      "fin": 52.04,
+      "frase": 11,
+      "clave": true
+    },
+    {
+      "texto": "a",
+      "inicio": 52.08,
+      "fin": 52.12,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "ese",
+      "inicio": 52.2,
+      "fin": 52.28,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "compañero",
+      "inicio": 52.36,
+      "fin": 52.84,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "que",
+      "inicio": 52.88,
+      "fin": 52.92,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "lo",
+      "inicio": 53,
+      "fin": 53.04,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "imprime",
+      "inicio": 53.08,
+      "fin": 53.4,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "todo.",
+      "inicio": 53.56,
+      "fin": 53.96,
+      "frase": 11,
+      "clave": false
+    }
+  ]
+}

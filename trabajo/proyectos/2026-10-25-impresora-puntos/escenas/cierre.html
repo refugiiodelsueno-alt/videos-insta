@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <!-- La hoja olvidada en la impresora: en la lupa, su hora firmada. Luego todo es un reel en un móvil y se envía. -->
+    <template>
+      <style>
+        #root { position: absolute; inset: 0; overflow: hidden; background: #08090b; }
+        .ci-pantalla { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; overflow: hidden; background: var(--fondo); border-radius: 0; }
+      </style>
+      <div id="root" data-composition-id="__ID__" data-width="1080" data-height="1920" data-duration="__DURACION__">
+        <div id="__ID__-esc" class="m-capa"></div>
+      </div>
+      <script type="module">
+        import * as M from "./recursos/mundo.js";
+        const C = __CUES__, D = __DURACION__;
+        const t = (p, d) => (C[p] !== undefined ? C[p] : d);
+        const tl = gsap.timeline({ paused: true });
+        M.estilos();
+        const esc = document.getElementById("__ID__-esc");
+        const fuera = K.crear(esc, `<div class="m-fondo"></div>`);
+        const envol = K.crear(esc, `<div class="m-capa"></div>`);
+        const pant = K.crear(envol, `<div class="ci-pantalla"></div>`);
+
+        // la escena de la impresora (dos veces: fuera y dentro de la lupa)
+        const SX = 140, SY = M.RANURA - 640, ESC = 0.8;
+        const LX = 520, LY = 830;                       // dónde se para la lupa
+        const wx = (LX - SX) / ESC, wy = (LY - SY) / ESC; // ese punto, en la hoja
+        const capas = [];
+        const escena = (cont, modo) => {
+          M.fondo(cont);
+          cont = K.crear(cont, `<div class="m-capa"></div>`);
+          capas.push(cont);
+          const imp = M.impresora(cont.appendChild(document.createElement("div")));
+          imp.lcd.textContent = "Listo";
+          const sal = M.salida(cont);
+          const hoja = M.hoja(sal, { modo });
+          hoja.style.transformOrigin = "0 0";
+          hoja.style.transform = `translate(${SX}px, ${SY}px) scale(${ESC})`;
+          return { imp, hoja };
+        };
+        escena(pant, "tenue");
+        const polvo = M.polvo(pant, 19);
+        const L = M.lupa(pant, 230);
+        const dentro = escena(L.dentro, "brillo");
+        // «08:47» escrito con puntos, en la hoja de dentro de la lupa
+        const pts = M.cifrasDePuntos("08:47", 8);
+        let c = `<svg width="${M.W}" height="${M.H}" viewBox="0 0 ${M.W} ${M.H}" style="position:absolute;left:0;top:0;overflow:visible">
+          <defs><radialGradient id="__ID__-g"><stop offset="0" stop-color="#fff6b8"/><stop offset="0.4" stop-color="#ffd21f"/><stop offset="1" stop-color="#ffb800" stop-opacity="0"/></radialGradient></defs>`;
+        pts.forEach(([x, y]) => { c += `<circle cx="${wx + x}" cy="${wy + y}" r="7" fill="url(#__ID__-g)"/><circle cx="${wx + x}" cy="${wy + y}" r="3" fill="#ffcf10"/>`; });
+        c += `</svg>`;
+        const fondoHora = K.crear(dentro.hoja, `<div style="position:absolute;left:${wx - 100}px;top:${wy - 32}px;width:200px;height:64px;border-radius:24px;background:rgba(247,245,239,0.9);box-shadow:0 0 18px 14px rgba(247,245,239,0.9);opacity:0"></div>`);
+        const hora = K.crear(dentro.hoja, c);
+
+        // el reel: iconos, nombre y la hoja de enviar
+        const ico = (y, d) => `<div class="ico" style="top:${y}px"><svg viewBox="0 0 100 100"><path d="${d}" fill="none" stroke="#fff" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/></svg></div>`;
+        const ui = K.crear(pant, `<div class="m-reel-ui">
+          ${ico(1120, "M50 86 C20 64 8 48 8 32 C8 18 19 9 31 9 C40 9 46 14 50 21 C54 14 60 9 69 9 C81 9 92 18 92 32 C92 48 80 64 50 86 Z")}
+          ${ico(1290, "M50 10 C74 10 92 26 92 46 C92 66 74 82 50 82 C43 82 37 81 31 78 L12 88 L18 70 C11 63 8 55 8 46 C8 26 26 10 50 10 Z")}
+          ${ico(1460, "M92 10 L8 44 L40 56 L52 90 Z M40 56 L92 10")}
+          ${ico(1630, "M20 50 h0 M50 50 h0 M80 50 h0")}
+          <div class="nombre">@tu_cuenta</div></div>`);
+        const env = K.crear(pant, `<div class="m-hoja-env" style="top:1920px"><div class="asa"></div><div class="t">Enviar</div>
+          <div class="c" style="left:50px"><i style="background:linear-gradient(135deg,#ff9a3c,#e8484e)">C</i>Compañero</div>
+          <div class="c" style="left:380px"><i style="background:linear-gradient(135deg,#6a7bff,#a24cf0)">M</i>Marta</div>
+          <div class="c" style="left:710px"><i style="background:linear-gradient(135deg,#25c48f,#1a8fd1)">G</i>Grupo curro</div>
+          <div class="ok">Enviar</div></div>`);
+        const elegido = env.querySelector(".c i");
+        const ok = env.querySelector(".ok");
+        const movil = K.crear(envol, `<div class="m-movil"></div>`);
+        const isla = K.crear(envol, `<div class="m-isla"></div>`);
+        M.techo(esc);
+        const toque = K.crear(esc, `<div class="m-toque"></div>`);
+        const dedo = M.dedo(esc);
+
+        const ano = t("anonima", 2.64), fir = t("firmada", 4.24), envi = t("enviaselo", 5.32), comp = t("companero", 6.08);
+        const todo = t("todo", 7.28);
+        const k1 = 0.48, Y1 = 1010;
+        const aPant = (x, y, k, Y) => [540 + (x - 540) * k, Y + (y - 960) * k];   // de la pantalla del reel a la de verdad
+        const t1 = envi + 0.75, t2 = comp + 0.75, t3 = Math.min(todo - 0.05, D - 0.6);
+        // la lupa: entra, se para en la hora y se va (cada tramo arranca y frena suave)
+        const lupa = [[ano - 0.9, 1500, 1700], [ano + 0.45, LX - 50, LY + 12], [fir - 0.1, LX - 19, LY - 4], [fir + 0.55, LX - 16, LY - 2], [envi + 0.25, -380, 1600]];
+        K.reloj(tl, D, (s) => {
+          polvo(s);
+          const zc = K.mez(1, 1.07, K.suave(K.tramo(s, 0, envi))), xc = K.mez(0, -18, K.suave(K.tramo(s, 0, envi)));
+          for (const cp of capas) cp.style.transform = `translate(${540 - 540 * zc + xc}px, ${900 - 900 * zc}px) scale(${zc})`;
+          const l = M.tramos(s, lupa);
+          M.ponLupa(L, l.x, l.y, 2.5, -6 + 4 * Math.sin(s * 0.8));
+          // la hora firmada se enciende en la lupa
+          const h = K.sale(K.tramo(s, fir - 0.15, fir + 0.3));
+          hora.style.opacity = h;
+          fondoHora.style.opacity = h;
+          dentro.hoja.puntosEl.style.opacity = 1 - 0.8 * h;
+          hora.style.filter = `drop-shadow(0 0 ${3 * h}px #ffd21f)`;
+          // todo se aleja hasta ser un reel en un móvil
+          const u = K.suave(K.tramo(s, envi - 0.05, envi + 0.6));
+          const k = K.mez(1, k1, u), Y = K.mez(960, Y1, u);
+          envol.style.transform = `translate(${540 - 540 * k}px, ${Y - 960 * k}px) scale(${k})`;
+          pant.style.borderRadius = `${90 * u}px`;
+          movil.style.opacity = u > 0.001 ? 1 : 0;
+          isla.style.opacity = movil.style.opacity;
+          ui.style.opacity = K.tramo(s, envi + 0.2, envi + 0.5);
+          // la hoja de enviar sube cuando el dedo toca el avión
+          const sube = K.sale(K.tramo(s, t1 + 0.05, t1 + 0.45));
+          env.style.top = `${K.mez(1920, 1020, sube)}px`;
+          const sel = K.sale(K.tramo(s, t2, t2 + 0.15));
+          elegido.style.boxShadow = `0 0 0 ${16 * sel}px #2f7cf6`;
+          ok.textContent = s >= t3 + 0.08 ? "Enviado ✓" : "Enviar";
+          ok.style.background = s >= t3 + 0.08 ? "#22a06b" : "#2f7cf6";
+          // el dedo: entra, toca enviar, elige al compañero y envía
+          const pAvion = aPant(980, 1510, k1, Y1), pComp = aPant(210, 1330, k1, Y1), pOk = aPant(540, 1735, k1, Y1);
+          const camino = [
+            [0, { x: 1250, y: 2300 }], [envi + 0.15, { x: 1250, y: 2300 }], [t1, { x: pAvion[0], y: pAvion[1] }],
+            [t1 + 0.25, { x: pAvion[0] + 10, y: pAvion[1] + 20 }], [t2, { x: pComp[0], y: pComp[1] }],
+            [t2 + 0.2, { x: pComp[0] + 20, y: pComp[1] + 40 }], [t3, { x: pOk[0], y: pOk[1] }], [t3 + 0.35, { x: pOk[0] + 120, y: pOk[1] + 300 }],
+            [D, { x: pOk[0] + 160, y: pOk[1] + 420 }],
+          ];
+          const p = K.kf(s, camino);
+          const ap = (tt) => Math.exp(-Math.pow((s - tt) / 0.07, 2));
+          M.ponDedo(dedo, p.x, p.y, ap(t1) + ap(t2) + ap(t3));
+          let tq = null;
+          for (const tt of [t1, t2, t3]) if (s >= tt && s < tt + 0.35) tq = tt;
+          if (tq !== null) {
+            const v = (s - tq) / 0.35;
+            const pp = tq === t1 ? pAvion : tq === t2 ? pComp : pOk;
+            toque.style.left = pp[0] + "px"; toque.style.top = pp[1] + "px";
+            toque.style.opacity = 1 - v;
+            toque.style.transform = `scale(${0.5 + v})`;
+          } else toque.style.opacity = 0;
+        });
+        window.__timelines["__ID__"] = tl;
+      </script>
+    </template>
+  </body>
+</html>
