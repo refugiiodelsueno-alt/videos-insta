@@ -72,7 +72,8 @@
           // de canto: el metal entre agujero y agujero, a escala
           const p = M.PASO * k.z, y0 = 1000 + (M.VEN.y - k.y) * k.z, med = ((M.PASO - M.AGUJERO) * k.z) / 2;
           let dd = "";
-          for (let j = Math.ceil((560 - y0) / p); y0 + j * p < 1450; j++) dd += `M540 ${(y0 + j * p - med).toFixed(1)}V${(y0 + j * p + med).toFixed(1)}`;
+          // solo de canto, y nunca con una chapa tan lejos que los huecos no se vean (p diminuto: bucle sin fin)
+          if (corte > 0.001 && p > 2) for (let j = Math.ceil((560 - y0) / p); y0 + j * p < 1450; j++) dd += `M540 ${(y0 + j * p - med).toFixed(1)}V${(y0 + j * p + med).toFixed(1)}`;
           canto.setAttribute("d", dd || "M0 0");
           const golpe = Math.exp(-Math.pow((g - 19.28) / 0.12, 2));
           canto.setAttribute("stroke", golpe > 0.05 ? `rgb(${170 + 85 * golpe},${178 + 30 * golpe},${188 - 120 * golpe})` : "#aab2bc");
@@ -88,7 +89,7 @@
           pulso.style.opacity = corte * K.lim(K.tramo(g, 18.5, 18.7)) * (1 - K.tramo(g, 20.2, 20.5));
           // «luz»: ondas de luz minúsculas que cruzan los huecos hacia fuera
           const huecos = [];
-          for (let j = Math.ceil((700 - y0) / p - 0.5); y0 + (j + 0.5) * p < 1330; j++) huecos.push(y0 + (j + 0.5) * p);
+          if (p > 2) for (let j = Math.ceil((700 - y0) / p - 0.5); y0 + (j + 0.5) * p < 1330; j++) huecos.push(y0 + (j + 0.5) * p);
           rayos.forEach((r, i) => {
             const y = huecos[Math.floor((i + 0.5) * huecos.length / rayos.length)] ?? 1000;
             const t = g - T.luz - 0.3 * i, x = 1100 - 700 * (((t % 1.8) + 1.8) % 1.8);

@@ -473,6 +473,9 @@ export function rejillaGrande(cont) {
   const m = K.crear(giro, `<div style="position:absolute;background:linear-gradient(160deg,#2a2e34 0%,#121417 45%,#1f2227 100%)"></div>`);
   // k: la cámara {x, y, z}; giroY en grados; a: opacidad
   const f = (k, giroY = 0, a = 1) => {
+    // apagada, fuera del todo: su máscara de miles de agujeros es lo más caro de pintar del vídeo
+    caja.style.display = a > 0.002 ? "" : "none";
+    if (a <= 0.002) return;
     const x0 = 540 + (VEN.x - k.x) * k.z, y0 = 1000 + (VEN.y - k.y) * k.z;
     const x1 = x0 + VEN.w * k.z, y1 = y0 + VEN.h * k.z;
     const L = Math.max(-400, x0), T = Math.max(-400, y0), R = Math.min(1480, x1), B = Math.min(2320, y1);
@@ -572,6 +575,9 @@ export function escenario(esc, g0) {
     const g = g0 + s, k = camaraEn(g), st = { ...estado(g), z: k.z };
     if (cambia) cambia(st, g, k);
     E.cam(k);
+    // de cerca (dentro de la ventana o de la leche) las sombras difuminadas quedan detrás del microondas, y su blur
+    // escalado ×40 es tan caro de pintar que el check no acaba: fuera
+    for (const e of esc.querySelectorAll(".m-sombra, .m-sombrapared")) e.style.display = k.z > 4 ? "none" : "";
     E.pv(g);
     E.vl.style.opacity = st.velo;
     E.coc.pon(g, st);
