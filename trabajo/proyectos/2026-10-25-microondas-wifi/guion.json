@@ -1,0 +1,145 @@
+{
+  "titulo": "Tu microondas te roba el wifi",
+  "slug": "microondas-wifi",
+  "idioma": "es",
+  "voz": {
+    "proveedor": "elevenlabs",
+    "id": "851ejYcv2BoNPjrkw93G",
+    "modelo": "eleven_v4",
+    "velocidad": 1,
+    "estabilidad": 0.35,
+    "similitud": 0.7,
+    "kokoro": "ef_dora"
+  },
+  "subtitulos": "arriba",
+  "aperturas": [
+    {
+      "id": "h1",
+      "escena": "hook",
+      "frases": [
+        {
+          "texto": "Tu wifi va más lento cada vez que calientas la leche.",
+          "clave": "wifi"
+        }
+      ]
+    }
+  ],
+  "reserva": [
+    {
+      "id": "h2",
+      "escena": "hook",
+      "frases": [
+        {
+          "texto": "La videollamada se corta justo cuando alguien pone el microondas.",
+          "clave": "microondas"
+        }
+      ],
+      "imagen": "el microondas encendido con la taza girando; al lado, una videollamada en un móvil que se congela"
+    },
+    {
+      "id": "h3",
+      "escena": "hook",
+      "frases": [
+        {
+          "texto": "Tu microondas y tu router se pelean por la misma onda, y siempre gana el microondas.",
+          "clave": "misma onda"
+        }
+      ],
+      "imagen": "el microondas y el router frente a frente; la onda naranja del microondas aplasta la azul del wifi"
+    },
+    {
+      "id": "h4",
+      "escena": "hook",
+      "frases": [
+        {
+          "texto": "Si se te corta el wifi al calentar la comida, mira el microondas.",
+          "clave": "microondas"
+        }
+      ],
+      "imagen": "las rayitas del wifi en el móvil bajan una a una mientras la taza gira dentro del microondas"
+    }
+  ],
+  "cuerpo": [
+    {
+      "texto": "No es tu router, ni casualidad: el microondas y el wifi usan casi la misma onda.",
+      "escena": "ondas",
+      "clave": "misma onda"
+    },
+    {
+      "texto": "Una onda que mide unos doce centímetros de punta a punta.",
+      "dicho": "Una onda que mide unos doce centímetros de punta a punta.",
+      "escena": "ondas",
+      "clave": "doce centímetros"
+    },
+    {
+      "texto": "Por eso la puerta del microondas lleva esa rejilla de agujeritos.",
+      "escena": "rejilla",
+      "clave": "rejilla"
+    },
+    {
+      "texto": "Cada agujero mide un par de milímetros, así que la onda no cabe y rebota hacia dentro.",
+      "escena": "rejilla",
+      "clave": "rebota"
+    },
+    {
+      "texto": "La luz, en cambio, es diminuta y pasa sin problema: por eso ves girar tu taza.",
+      "escena": "rejilla",
+      "clave": "luz"
+    },
+    {
+      "texto": "Pero el microondas empuja con miles de veces más fuerza que tu router.",
+      "escena": "potencia",
+      "clave": "miles"
+    },
+    {
+      "texto": "Así que basta con que se escape una pizca por la puerta para tapar la señal del wifi.",
+      "escena": "potencia",
+      "clave": "pizca"
+    },
+    {
+      "texto": "¿Y por qué comparten onda? Casi todo el mundo cree que es la que mejor calienta el agua, y no es verdad.",
+      "escena": "mito",
+      "clave": "agua"
+    },
+    {
+      "texto": "Esa onda se reservó para aparatos que calientan, y nadie la quería para comunicarse, por todo el ruido que meten.",
+      "escena": "banda",
+      "clave": "ruido"
+    },
+    {
+      "texto": "Hasta que en 1985 Estados Unidos dejó usarla sin licencia, y de ahí salió el wifi.",
+      "dicho": "Hasta que en mil novecientos ochenta y cinco Estados Unidos dejó usarla sin licencia, y de ahí salió el wifi.",
+      "escena": "banda",
+      "clave": "sin licencia"
+    },
+    {
+      "texto": "Tu wifi vive en la onda que le sobraba al microondas, y por eso...",
+      "escena": "cierre",
+      "clave": "sobraba"
+    }
+  ],
+  "cola": 0.15,
+  "escenas": {
+    "hook": {
+      "entrada": "corte"
+    },
+    "ondas": {
+      "entrada": "corte"
+    },
+    "rejilla": {
+      "entrada": "corte"
+    },
+    "potencia": {
+      "entrada": "corte"
+    },
+    "mito": {
+      "entrada": "corte"
+    },
+    "banda": {
+      "entrada": "corte"
+    },
+    "cierre": {
+      "entrada": "corte"
+    }
+  }
+}
