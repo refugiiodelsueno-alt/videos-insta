@@ -149,7 +149,7 @@ const DIBUJO = `
   <linearGradient id="c-piedra" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9a958e"/><stop offset="0.35" stop-color="#6c6862"/><stop offset="1" stop-color="#3d3a36"/></linearGradient>
   <pattern id="c-azulejo" width="120" height="60" patternUnits="userSpaceOnUse"><rect width="120" height="60" fill="#1f1c19"/><path d="M0 0.5H120M0.5 0V60" stroke="rgba(255,255,255,0.06)" stroke-width="2"/></pattern>
   <pattern id="c-esp" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="16" height="16" fill="#d9c58f"/><path d="M0 0V16" stroke="#b6a067" stroke-width="4"/></pattern>
-  <linearGradient id="c-hueco" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1b4a6c"/><stop offset="1" stop-color="#0d2438"/></linearGradient>
+  <linearGradient id="c-hueco" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3f84b5"/><stop offset="1" stop-color="#1d4e78"/></linearGradient>
   <radialGradient id="c-luz" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="rgba(220,245,255,0.55)"/><stop offset="0.5" stop-color="rgba(160,215,255,0.18)"/><stop offset="1" stop-color="rgba(160,215,255,0)"/></radialGradient>
   <linearGradient id="c-chapa" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#9aa2ab"/><stop offset="0.5" stop-color="#e3e8ed"/><stop offset="1" stop-color="#b9c0c8"/></linearGradient>
   <linearGradient id="c-asa" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5d636b"/><stop offset="0.35" stop-color="#d2d7dd"/><stop offset="0.65" stop-color="#8a9098"/><stop offset="1" stop-color="#3a3e44"/></linearGradient>
@@ -204,7 +204,7 @@ const DIBUJO = `
   <rect x="720" y="1040" width="240" height="165" rx="6" fill="#4b6da6"/>
   <rect x="720" y="1040" width="240" height="22" rx="6" fill="#6688c0"/>
   <rect x="760" y="1092" width="160" height="60" rx="6" fill="#f2f4f7" opacity="0.85"/>
-  <rect x="440" y="455" width="595" height="750" fill="rgba(8,24,40,0.38)"/>
+  <rect x="440" y="455" width="595" height="750" fill="rgba(8,24,40,0.16)"/>
   <rect x="440" y="410" width="8" height="45" fill="#e3e8ed"/>
   <rect x="440" y="1205" width="8" height="45" fill="#e3e8ed"/>
   <g class="c-puerta">
