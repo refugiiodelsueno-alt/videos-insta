@@ -1,0 +1,62 @@
+[
+  {
+    "archivo": "sonidos/zumbido-h1.wav",
+    "en": 0,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/cierra-h1.wav",
+    "en": 0.14,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/tiron1-h1.wav",
+    "en": 1.73,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/tiron2-h1.wav",
+    "en": 3.26,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/despega-h1.wav",
+    "en": 8.495,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/bala-h1.wav",
+    "en": 13.6,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/cierra2-h1.wav",
+    "en": 16.845,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/portazo-h1.wav",
+    "en": 32.635,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/soplo-h1.wav",
+    "en": 32.72,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/facil-h1.wav",
+    "en": 39.03,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/siseo-h1.wav",
+    "en": 41.26,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/abre-h1.wav",
+    "en": 48.225,
+    "volumen": 1
+  }
+]
