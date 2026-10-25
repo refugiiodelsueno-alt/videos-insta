@@ -49,6 +49,8 @@ const CSS = `
     repeating-linear-gradient(88deg, rgba(255,255,255,0.025) 0 3px, transparent 3px 11px),
     linear-gradient(180deg, #2a2119 0%, #1d1712 40%, #120e0b 100%); }
 .m-sombra { left: 360px; top: 960px; width: 1040px; height: 70px; border-radius: 50%; background: rgba(0,0,0,0.7); filter: blur(18px); }
+.m-cerca .m-sombra, .m-cerca .m-sombrapared { display: none; }
+.m-cerca svg * { filter: none !important; }
 .m-sombrapared { left: 400px; top: 460px; width: 1010px; height: 560px; border-radius: 40px; background: rgba(0,0,0,0.55); filter: blur(40px); }
 
 .m-mo { left: 380px; top: 420px; width: 1000px; height: 580px; border-radius: 28px;
@@ -91,7 +93,7 @@ const CSS = `
 .m-ven .plato { left: ${PLATO.x - 220}px; top: ${PLATO.y - 40}px; width: 440px; height: 80px; border-radius: 50%;
   background: radial-gradient(ellipse at 40% 35%, rgba(255,255,255,0.4), rgba(255,255,255,0.08) 60%, rgba(255,255,255,0.18));
   box-shadow: inset 0 0 0 3px rgba(255,255,255,0.35), 0 8px 10px rgba(60,40,20,0.35); }
-.m-ven .sombra { width: 170px; height: 34px; border-radius: 50%; background: rgba(60,40,20,0.45); filter: blur(6px); }
+.m-ven .sombra { width: 182px; height: 46px; border-radius: 50%; background: radial-gradient(closest-side, rgba(60,40,20,0.45) 55%, rgba(60,40,20,0)); }
 .m-ven .taza { width: 146px; height: 165px; transform-origin: 73px 165px; }
 .m-ven .taza > * { position: absolute; }
 .m-ven .cuerpo { left: 0; top: 0; width: 146px; height: 165px; border-radius: 4px 4px 34px 34px / 4px 4px 22px 22px; z-index: 1;
@@ -103,7 +105,7 @@ const CSS = `
   box-shadow: inset -2px 0 0 rgba(0,0,0,0.12), 2px 2px 4px rgba(60,40,20,0.3); }
 .m-ven .borde { left: -3px; top: -19px; width: 152px; height: 38px; border-radius: 50%; z-index: 3; box-sizing: border-box;
   border: 7px solid #f6f3ec; background: radial-gradient(ellipse at 45% 40%, #fffdf6, #f4ead6 60%, #e2d4b8); }
-.m-ven .vapor { width: 70px; height: 120px; border-radius: 50%; background: radial-gradient(closest-side, rgba(255,255,255,0.8), rgba(255,255,255,0)); filter: blur(5px); }
+.m-ven .vapor { width: 70px; height: 120px; border-radius: 50%; background: radial-gradient(closest-side, rgba(255,255,255,0.8), rgba(255,255,255,0)); }
 .m-ven .dentro { left: 0; top: 0; overflow: visible; }
 .m-ven .tono { inset: 0; background: rgba(6,7,8,0.42); }
 .m-ven .malla { inset: 0; background: linear-gradient(160deg, #23272c 0%, #0d0f11 45%, #1a1d21 100%);
@@ -327,7 +329,7 @@ export function ventana(cont, x = VEN.x, y = VEN.y) {
     const cx = PLATO.x + 64 * sn, base = PLATO.y + 4 + 12 * cs, esc = 1 + 0.035 * cs;
     taza.style.transform = `translate(${cx - 73}px, ${base - 165}px) scale(${esc})`;
     taza.style.zIndex = 0;
-    sombra.style.transform = `translate(${cx - 85}px, ${base - 18}px) scale(${esc})`;
+    sombra.style.transform = `translate(${cx - 91}px, ${base - 24}px) scale(${esc})`;
     // el asa y el dibujo giran con la taza
     const sa = Math.sin(th + 0.4), ca = Math.cos(th + 0.4);
     asa.style.left = `${73 + sa * 86 - 29}px`;
@@ -575,9 +577,9 @@ export function escenario(esc, g0) {
     const g = g0 + s, k = camaraEn(g), st = { ...estado(g), z: k.z };
     if (cambia) cambia(st, g, k);
     E.cam(k);
-    // de cerca (dentro de la ventana o de la leche) las sombras difuminadas quedan detrás del microondas, y su blur
-    // escalado ×40 es tan caro de pintar que el check no acaba: fuera
-    for (const e of esc.querySelectorAll(".m-sombra, .m-sombrapared")) e.style.display = k.z > 4 ? "none" : "";
+    // de cerca (dentro de la ventana o de la leche), sin filtros: escalados ×40 son tan caros de pintar que el check no
+    // acaba, y ahí no se notan (las sombras quedan detrás del microondas y el brillo de las ondas, fuera de cuadro)
+    E.mundo.classList.toggle("m-cerca", k.z > 4);
     E.pv(g);
     E.vl.style.opacity = st.velo;
     E.coc.pon(g, st);
