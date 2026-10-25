@@ -1,0 +1,4 @@
+# Ajustes de Codex para esta carpeta. Codex los usa cuando confías en la carpeta (te lo pregunta la primera vez).
+# La conversación se resume antes de hacerse enorme: lo importante del vídeo ya está en archivos (guion, plan, notas,
+# escenas) y así no se relee entera en cada paso.
+model_auto_compact_token_limit = 150000
