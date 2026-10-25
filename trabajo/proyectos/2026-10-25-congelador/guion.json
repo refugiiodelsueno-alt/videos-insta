@@ -13,30 +13,116 @@
   },
   "subtitulos": "arriba",
   "aperturas": [
-    { "id": "h1", "escena": "hook", "frases": [ { "texto": "Cierras el congelador, lo intentas abrir otra vez y no se abre.", "clave": "no se abre" } ] }
+    {
+      "id": "h1",
+      "escena": "hook",
+      "frases": [
+        {
+          "texto": "Cierras el congelador, lo intentas abrir otra vez y no se abre.",
+          "clave": "no se abre"
+        }
+      ]
+    }
   ],
   "reserva": [
-    { "id": "h2", "escena": "hook", "frases": [ { "texto": "La puerta de tu congelador tiene cuarenta kilos encima justo después de cerrarla.", "clave": "cuarenta kilos" } ], "imagen": "la puerta del congelador de frente, con la mano tirando; encima, flechas que la aprietan y «40 kg» contando" },
-    { "id": "h3", "escena": "hook", "frases": [ { "texto": "Lo que no te deja abrir el congelador es el aire de tu cocina.", "clave": "aire" } ], "imagen": "la mano tira de la puerta y no se mueve; las moléculas de aire de la cocina chocan contra ella" },
-    { "id": "h4", "escena": "hook", "frases": [ { "texto": "¿Por qué el congelador no se abre justo después de cerrarlo?", "clave": "no se abre" } ], "imagen": "la puerta se cierra, la mano tira enseguida y la puerta no cede" }
+    {
+      "id": "h2",
+      "escena": "hook",
+      "frases": [
+        {
+          "texto": "La puerta de tu congelador tiene cuarenta kilos encima justo después de cerrarla.",
+          "clave": "cuarenta kilos"
+        }
+      ],
+      "imagen": "la puerta del congelador de frente, con la mano tirando; encima, flechas que la aprietan y «40 kg» contando"
+    },
+    {
+      "id": "h3",
+      "escena": "hook",
+      "frases": [
+        {
+          "texto": "Lo que no te deja abrir el congelador es el aire de tu cocina.",
+          "clave": "aire"
+        }
+      ],
+      "imagen": "la mano tira de la puerta y no se mueve; las moléculas de aire de la cocina chocan contra ella"
+    },
+    {
+      "id": "h4",
+      "escena": "hook",
+      "frases": [
+        {
+          "texto": "¿Por qué el congelador no se abre justo después de cerrarlo?",
+          "clave": "no se abre"
+        }
+      ],
+      "imagen": "la puerta se cierra, la mano tira enseguida y la puerta no cede"
+    }
   ],
   "cuerpo": [
-    { "texto": "Y no es la goma ni el hielo: algo empuja la puerta desde fuera.", "escena": "hook", "clave": "desde fuera" },
-    { "texto": "Cuando abres, entra el aire de tu cocina, que está caliente.", "escena": "aire", "clave": "caliente" },
-    { "texto": "Ese aire son moléculas que van más rápido que una bala y chocan sin parar contra todo.", "escena": "aire", "clave": "bala" },
-    { "texto": "Al cerrar, el frío las frena en segundos, así que dentro chocan menos y empujan menos.", "escena": "aire", "clave": "frena" },
-    { "texto": "Pero fuera, las de tu cocina siguen chocando igual de fuerte contra la puerta.", "escena": "fuerza", "clave": "fuera" },
-    { "texto": "Basta con que dentro empujen un uno por ciento menos para que la puerta tenga encima unos cuarenta kilos.", "escena": "fuerza", "clave": "cuarenta kilos" },
-    { "texto": "Y si la cierras de golpe, peor: echas aire fuera y dentro queda todavía menos.", "escena": "fuerza", "clave": "de golpe" },
-    { "texto": "Por eso, si esperas un minuto, se abre sin esfuerzo: por la goma se cuela aire hasta que dentro empuja igual que fuera.", "escena": "junta", "clave": "un minuto" },
-    { "texto": "La puerta no la sujeta el frío: la sujeta el aire de tu cocina, y por eso...", "escena": "cierre", "clave": "aire" }
+    {
+      "texto": "Y no es la goma ni el hielo: algo empuja la puerta desde fuera.",
+      "escena": "hook",
+      "clave": "desde fuera"
+    },
+    {
+      "texto": "Cuando abres, entra el aire de tu cocina, que está caliente.",
+      "escena": "aire",
+      "clave": "caliente"
+    },
+    {
+      "texto": "Ese aire son moléculas que van más rápido que una bala y chocan sin parar contra todo.",
+      "escena": "aire",
+      "clave": "bala"
+    },
+    {
+      "texto": "Al cerrar, el frío las frena en segundos, así que dentro chocan menos y empujan menos.",
+      "escena": "aire",
+      "clave": "frena"
+    },
+    {
+      "texto": "Pero fuera, las de tu cocina siguen chocando igual de fuerte contra la puerta.",
+      "escena": "fuerza",
+      "clave": "fuera"
+    },
+    {
+      "texto": "Basta con que dentro empujen un uno por ciento menos para que la puerta tenga encima unos cuarenta kilos.",
+      "escena": "fuerza",
+      "clave": "cuarenta kilos"
+    },
+    {
+      "texto": "Y si la cierras de golpe, peor: echas aire fuera y dentro queda todavía menos.",
+      "escena": "fuerza",
+      "clave": "de golpe"
+    },
+    {
+      "texto": "Por eso, si esperas un minuto, se abre sin esfuerzo: por la goma se cuela aire hasta que dentro empuja igual que fuera.",
+      "escena": "junta",
+      "clave": "un minuto"
+    },
+    {
+      "texto": "La puerta no la sujeta el frío: la sujeta el aire de tu cocina, y por eso...",
+      "escena": "cierre",
+      "clave": "aire"
+    }
   ],
   "cola": 0.15,
   "escenas": {
-    "hook": { "entrada": "corte" },
-    "aire": { "entrada": "corte" },
-    "fuerza": { "entrada": "corte" },
-    "junta": { "entrada": "corte" },
-    "cierre": { "entrada": "corte" }
-  }
+    "hook": {
+      "entrada": "corte"
+    },
+    "aire": {
+      "entrada": "corte"
+    },
+    "fuerza": {
+      "entrada": "corte"
+    },
+    "junta": {
+      "entrada": "corte"
+    },
+    "cierre": {
+      "entrada": "corte"
+    }
+  },
+  "sonido": true
 }

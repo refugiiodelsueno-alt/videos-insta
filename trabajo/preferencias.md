@@ -7,3 +7,4 @@
 - Final en bucle (desde el vídeo siguiente al de la impresora): nada de «envíaselo», «sígueme» ni el móvil con el dedo. La última frase es la revelación, corta y seca, y el vídeo se corta en su última palabra (`"cola": 0.15` en `guion.json`), sin pausa, sin música que baje ni nada que avise del final. El último plano acaba en el mismo encuadre que el primer fotograma del hook y, si se puede, la última frase enlaza con la primera del hook, para que al volver a empezar no se note el salto y se vean los 2 primeros segundos otra vez.
 - Al entregar, enseñar siempre la miniatura (portada) y la descripción del post (caption) junto al vídeo.
 - Al entregar, dar también un comentario para fijar en el post (dato extra, pregunta o lo que mejor funcione), guardado en `comentario.txt` en la carpeta de salida.
+- No parar a preguntar: guion aprobado de antemano y siempre con efectos de sonido. Hacer el vídeo entero seguido y enseñarlo terminado.

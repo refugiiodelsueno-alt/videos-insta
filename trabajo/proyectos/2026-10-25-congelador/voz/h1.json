@@ -1,0 +1,1216 @@
+{
+  "proveedor": "elevenlabs",
+  "toma": "seguida",
+  "firma": "128242d3a23b",
+  "duracion": 49.45,
+  "frases": [
+    {
+      "n": 1,
+      "parte": "hook",
+      "texto": "Cierras el congelador, lo intentas abrir otra vez y no se abre.",
+      "escena": "hook",
+      "clave": "no se abre",
+      "inicio": 0,
+      "fin": 4.4,
+      "ritmo": 1
+    },
+    {
+      "n": 2,
+      "parte": "cuerpo",
+      "texto": "Y no es la goma ni el hielo: algo empuja la puerta desde fuera.",
+      "escena": "hook",
+      "clave": "desde fuera",
+      "inicio": 4.44,
+      "fin": 8.16,
+      "ritmo": 1
+    },
+    {
+      "n": 3,
+      "parte": "cuerpo",
+      "texto": "Cuando abres, entra el aire de tu cocina, que está caliente.",
+      "escena": "aire",
+      "clave": "caliente",
+      "inicio": 8.34,
+      "fin": 11.46,
+      "ritmo": 1
+    },
+    {
+      "n": 4,
+      "parte": "cuerpo",
+      "texto": "Ese aire son moléculas que van más rápido que una bala y chocan sin parar contra todo.",
+      "escena": "aire",
+      "clave": "bala",
+      "inicio": 11.64,
+      "fin": 16.36,
+      "ritmo": 1
+    },
+    {
+      "n": 5,
+      "parte": "cuerpo",
+      "texto": "Al cerrar, el frío las frena en segundos, así que dentro chocan menos y empujan menos.",
+      "escena": "aire",
+      "clave": "frena",
+      "inicio": 16.54,
+      "fin": 21.58,
+      "ritmo": 1
+    },
+    {
+      "n": 6,
+      "parte": "cuerpo",
+      "texto": "Pero fuera, las de tu cocina siguen chocando igual de fuerte contra la puerta.",
+      "escena": "fuerza",
+      "clave": "fuera",
+      "inicio": 21.76,
+      "fin": 25.68,
+      "ritmo": 1
+    },
+    {
+      "n": 7,
+      "parte": "cuerpo",
+      "texto": "Basta con que dentro empujen un uno por ciento menos para que la puerta tenga encima unos cuarenta kilos.",
+      "escena": "fuerza",
+      "clave": "cuarenta kilos",
+      "inicio": 25.86,
+      "fin": 31.94,
+      "ritmo": 1
+    },
+    {
+      "n": 8,
+      "parte": "cuerpo",
+      "texto": "Y si la cierras de golpe, peor: echas aire fuera y dentro queda todavía menos.",
+      "escena": "fuerza",
+      "clave": "de golpe",
+      "inicio": 31.98,
+      "fin": 37.14,
+      "ritmo": 1
+    },
+    {
+      "n": 9,
+      "parte": "cuerpo",
+      "texto": "Por eso, si esperas un minuto, se abre sin esfuerzo: por la goma se cuela aire hasta que dentro empuja igual que fuera.",
+      "escena": "junta",
+      "clave": "un minuto",
+      "inicio": 37.22,
+      "fin": 44.34,
+      "ritmo": 1
+    },
+    {
+      "n": 10,
+      "parte": "cuerpo",
+      "texto": "La puerta no la sujeta el frío: la sujeta el aire de tu cocina, y por eso...",
+      "escena": "cierre",
+      "clave": "aire",
+      "inicio": 44.38,
+      "fin": 49.3,
+      "ritmo": 1
+    }
+  ],
+  "palabras": [
+    {
+      "texto": "Cierras",
+      "inicio": 0,
+      "fin": 0.4,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "el",
+      "inicio": 0.44,
+      "fin": 0.48,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "congelador,",
+      "inicio": 0.56,
+      "fin": 1.52,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "lo",
+      "inicio": 1.56,
+      "fin": 1.6,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "intentas",
+      "inicio": 1.68,
+      "fin": 2,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "abrir",
+      "inicio": 2.08,
+      "fin": 2.32,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "otra",
+      "inicio": 2.36,
+      "fin": 2.48,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "vez",
+      "inicio": 2.56,
+      "fin": 2.8,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "y",
+      "inicio": 3.04,
+      "fin": 3.12,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "no",
+      "inicio": 3.28,
+      "fin": 3.36,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "se",
+      "inicio": 3.44,
+      "fin": 3.6,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "abre.",
+      "inicio": 3.68,
+      "fin": 4.4,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "Y",
+      "inicio": 4.44,
+      "fin": 4.48,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "no",
+      "inicio": 4.56,
+      "fin": 4.6,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "es",
+      "inicio": 4.64,
+      "fin": 4.72,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "la",
+      "inicio": 4.76,
+      "fin": 4.8,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "goma",
+      "inicio": 4.88,
+      "fin": 5.12,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "ni",
+      "inicio": 5.2,
+      "fin": 5.28,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "el",
+      "inicio": 5.32,
+      "fin": 5.36,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "hielo:",
+      "inicio": 5.44,
+      "fin": 6.16,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "algo",
+      "inicio": 6.32,
+      "fin": 6.48,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "empuja",
+      "inicio": 6.64,
+      "fin": 6.96,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "la",
+      "inicio": 7.04,
+      "fin": 7.12,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "puerta",
+      "inicio": 7.2,
+      "fin": 7.52,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "desde",
+      "inicio": 7.6,
+      "fin": 7.76,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "fuera.",
+      "inicio": 7.84,
+      "fin": 8.16,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "Cuando",
+      "inicio": 8.34,
+      "fin": 8.58,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "abres,",
+      "inicio": 8.66,
+      "fin": 9.14,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "entra",
+      "inicio": 9.26,
+      "fin": 9.46,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "el",
+      "inicio": 9.5,
+      "fin": 9.54,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "aire",
+      "inicio": 9.62,
+      "fin": 9.78,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "de",
+      "inicio": 9.82,
+      "fin": 9.86,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "tu",
+      "inicio": 9.94,
+      "fin": 10.02,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "cocina,",
+      "inicio": 10.1,
+      "fin": 10.58,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "que",
+      "inicio": 10.62,
+      "fin": 10.66,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "está",
+      "inicio": 10.74,
+      "fin": 10.86,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "caliente.",
+      "inicio": 10.9,
+      "fin": 11.46,
+      "frase": 3,
+      "clave": true
+    },
+    {
+      "texto": "Ese",
+      "inicio": 11.64,
+      "fin": 11.8,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "aire",
+      "inicio": 11.88,
+      "fin": 12.12,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "son",
+      "inicio": 12.24,
+      "fin": 12.36,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "moléculas",
+      "inicio": 12.44,
+      "fin": 12.92,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "que",
+      "inicio": 12.96,
+      "fin": 13,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "van",
+      "inicio": 13.08,
+      "fin": 13.24,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "más",
+      "inicio": 13.32,
+      "fin": 13.48,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "rápido",
+      "inicio": 13.56,
+      "fin": 13.88,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "que",
+      "inicio": 13.96,
+      "fin": 14.04,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "una",
+      "inicio": 14.12,
+      "fin": 14.2,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "bala",
+      "inicio": 14.24,
+      "fin": 14.44,
+      "frase": 4,
+      "clave": true
+    },
+    {
+      "texto": "y",
+      "inicio": 14.6,
+      "fin": 14.68,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "chocan",
+      "inicio": 14.76,
+      "fin": 15.08,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "sin",
+      "inicio": 15.16,
+      "fin": 15.32,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "parar",
+      "inicio": 15.4,
+      "fin": 15.64,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "contra",
+      "inicio": 15.72,
+      "fin": 15.96,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "todo.",
+      "inicio": 16.04,
+      "fin": 16.36,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "Al",
+      "inicio": 16.54,
+      "fin": 16.7,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "cerrar,",
+      "inicio": 16.82,
+      "fin": 17.26,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "el",
+      "inicio": 17.3,
+      "fin": 17.34,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "frío",
+      "inicio": 17.5,
+      "fin": 17.74,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "las",
+      "inicio": 17.82,
+      "fin": 17.9,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "frena",
+      "inicio": 17.94,
+      "fin": 18.14,
+      "frase": 5,
+      "clave": true
+    },
+    {
+      "texto": "en",
+      "inicio": 18.22,
+      "fin": 18.3,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "segundos,",
+      "inicio": 18.38,
+      "fin": 19.1,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "así",
+      "inicio": 19.18,
+      "fin": 19.3,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "que",
+      "inicio": 19.34,
+      "fin": 19.42,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "dentro",
+      "inicio": 19.54,
+      "fin": 19.74,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "chocan",
+      "inicio": 19.82,
+      "fin": 20.14,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "menos",
+      "inicio": 20.26,
+      "fin": 20.54,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "y",
+      "inicio": 20.62,
+      "fin": 20.66,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "empujan",
+      "inicio": 20.7,
+      "fin": 21.1,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "menos.",
+      "inicio": 21.18,
+      "fin": 21.58,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "Pero",
+      "inicio": 21.76,
+      "fin": 21.92,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "fuera,",
+      "inicio": 22,
+      "fin": 22.48,
+      "frase": 6,
+      "clave": true
+    },
+    {
+      "texto": "las",
+      "inicio": 22.56,
+      "fin": 22.64,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "de",
+      "inicio": 22.68,
+      "fin": 22.72,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "tu",
+      "inicio": 22.8,
+      "fin": 22.88,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "cocina",
+      "inicio": 22.96,
+      "fin": 23.2,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "siguen",
+      "inicio": 23.36,
+      "fin": 23.6,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "chocando",
+      "inicio": 23.68,
+      "fin": 24.08,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "igual",
+      "inicio": 24.16,
+      "fin": 24.4,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "de",
+      "inicio": 24.44,
+      "fin": 24.48,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "fuerte",
+      "inicio": 24.56,
+      "fin": 24.8,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "contra",
+      "inicio": 24.88,
+      "fin": 25.12,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "la",
+      "inicio": 25.16,
+      "fin": 25.2,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "puerta.",
+      "inicio": 25.28,
+      "fin": 25.68,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "Basta",
+      "inicio": 25.86,
+      "fin": 26.1,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "con",
+      "inicio": 26.14,
+      "fin": 26.18,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "que",
+      "inicio": 26.26,
+      "fin": 26.34,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "dentro",
+      "inicio": 26.46,
+      "fin": 26.66,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "empujen",
+      "inicio": 26.74,
+      "fin": 27.22,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "un",
+      "inicio": 27.3,
+      "fin": 27.38,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "uno",
+      "inicio": 27.54,
+      "fin": 27.7,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "por",
+      "inicio": 27.78,
+      "fin": 27.94,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "ciento",
+      "inicio": 28.02,
+      "fin": 28.26,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "menos",
+      "inicio": 28.34,
+      "fin": 28.66,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "para",
+      "inicio": 28.82,
+      "fin": 28.9,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "que",
+      "inicio": 28.98,
+      "fin": 29.06,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "la",
+      "inicio": 29.1,
+      "fin": 29.14,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "puerta",
+      "inicio": 29.22,
+      "fin": 29.46,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "tenga",
+      "inicio": 29.54,
+      "fin": 29.78,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "encima",
+      "inicio": 29.86,
+      "fin": 30.1,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "unos",
+      "inicio": 30.22,
+      "fin": 30.34,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "cuarenta",
+      "inicio": 30.5,
+      "fin": 30.98,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "kilos.",
+      "inicio": 31.06,
+      "fin": 31.94,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "Y",
+      "inicio": 31.98,
+      "fin": 32.02,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "si",
+      "inicio": 32.06,
+      "fin": 32.1,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "la",
+      "inicio": 32.14,
+      "fin": 32.18,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "cierras",
+      "inicio": 32.26,
+      "fin": 32.5,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "de",
+      "inicio": 32.58,
+      "fin": 32.62,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "golpe,",
+      "inicio": 32.66,
+      "fin": 33.14,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "peor:",
+      "inicio": 33.22,
+      "fin": 33.94,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "echas",
+      "inicio": 34.02,
+      "fin": 34.26,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "aire",
+      "inicio": 34.38,
+      "fin": 34.5,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "fuera",
+      "inicio": 34.58,
+      "fin": 34.82,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "y",
+      "inicio": 34.98,
+      "fin": 35.06,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "dentro",
+      "inicio": 35.18,
+      "fin": 35.38,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "queda",
+      "inicio": 35.46,
+      "fin": 35.7,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "todavía",
+      "inicio": 35.78,
+      "fin": 36.26,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "menos.",
+      "inicio": 36.34,
+      "fin": 37.14,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "Por",
+      "inicio": 37.22,
+      "fin": 37.3,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "eso,",
+      "inicio": 37.42,
+      "fin": 37.7,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "si",
+      "inicio": 37.74,
+      "fin": 37.78,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "esperas",
+      "inicio": 37.86,
+      "fin": 38.18,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "un",
+      "inicio": 38.26,
+      "fin": 38.34,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "minuto,",
+      "inicio": 38.42,
+      "fin": 38.9,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "se",
+      "inicio": 38.98,
+      "fin": 39.06,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "abre",
+      "inicio": 39.14,
+      "fin": 39.3,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "sin",
+      "inicio": 39.38,
+      "fin": 39.46,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "esfuerzo:",
+      "inicio": 39.54,
+      "fin": 40.42,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "por",
+      "inicio": 40.5,
+      "fin": 40.58,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "la",
+      "inicio": 40.66,
+      "fin": 40.74,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "goma",
+      "inicio": 40.78,
+      "fin": 41.06,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "se",
+      "inicio": 41.14,
+      "fin": 41.22,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "cuela",
+      "inicio": 41.26,
+      "fin": 41.46,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "aire",
+      "inicio": 41.54,
+      "fin": 41.78,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "hasta",
+      "inicio": 41.86,
+      "fin": 42.1,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "que",
+      "inicio": 42.18,
+      "fin": 42.26,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "dentro",
+      "inicio": 42.38,
+      "fin": 42.58,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "empuja",
+      "inicio": 42.7,
+      "fin": 42.98,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "igual",
+      "inicio": 43.06,
+      "fin": 43.3,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "que",
+      "inicio": 43.38,
+      "fin": 43.46,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "fuera.",
+      "inicio": 43.5,
+      "fin": 44.34,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "La",
+      "inicio": 44.38,
+      "fin": 44.42,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "puerta",
+      "inicio": 44.5,
+      "fin": 44.9,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "no",
+      "inicio": 44.94,
+      "fin": 44.98,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "la",
+      "inicio": 45.06,
+      "fin": 45.14,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "sujeta",
+      "inicio": 45.18,
+      "fin": 45.54,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "el",
+      "inicio": 45.58,
+      "fin": 45.62,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "frío:",
+      "inicio": 45.7,
+      "fin": 46.26,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "la",
+      "inicio": 46.3,
+      "fin": 46.34,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "sujeta",
+      "inicio": 46.42,
+      "fin": 46.9,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "el",
+      "inicio": 46.98,
+      "fin": 47.14,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "aire",
+      "inicio": 47.22,
+      "fin": 47.46,
+      "frase": 10,
+      "clave": true
+    },
+    {
+      "texto": "de",
+      "inicio": 47.5,
+      "fin": 47.54,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "tu",
+      "inicio": 47.62,
+      "fin": 47.7,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "cocina,",
+      "inicio": 47.78,
+      "fin": 48.42,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "y",
+      "inicio": 48.5,
+      "fin": 48.58,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "por",
+      "inicio": 48.66,
+      "fin": 48.74,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "eso...",
+      "inicio": 48.9,
+      "fin": 49.3,
+      "frase": 10,
+      "clave": false
+    }
+  ]
+}
