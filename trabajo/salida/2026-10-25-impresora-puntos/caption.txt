@@ -1,5 +1,16 @@
-Las hojas que imprimes en el trabajo llevan tu impresora y tu hora escritas en puntos amarillos que no ves.
+Tu impresora firma cada hoja con puntos amarillos que no ves 🖨️🟡
 
-Muchas impresoras láser a color añaden una cuadrícula de puntos diminutos con su número de serie y, en muchas, la fecha y la hora. Se ven con luz azul o lupa. Nació para rastrear billetes falsos.
+Tu número de serie, la fecha y la hora. En cada página 👀
 
-Fuentes: EFF, TU Dresden (2018).
+🔍 Muchas impresoras láser a color añaden una cuadrícula de puntitos amarillos, más pequeños que la punta de un alfiler.
+🧾 Ese dibujo es un código: dice qué impresora la sacó y, en muchas, cuándo.
+🔦 Con luz azul o una lupa aparecen.
+💵 Nació para pillar a quien imprimía billetes falsos.
+
+🤯 En Dresde (Alemania) hicieron un programa que los lee… y otro que los borra.
+
+📌 Guárdalo y pásaselo a quien imprime todo en la oficina.
+
+Fuentes: Electronic Frontier Foundation (EFF); Richter et al., TU Dresden (2018).
+
+#ciencia #curiosidades #sabiasque #tecnologia #privacidad
