@@ -1,0 +1,23 @@
+[
+  { "nombre": "llamarada", "que": "A sudden burst of fire igniting: a deep whoomp of flames flaring up with a crackling roar tail, close, no music", "oye": "a fire flaring up whoosh", "dura": 1.0, "en": 1.04, "golpe": true, "db": -6, "suave": false },
+  { "nombre": "glitch", "que": "A short digital hologram glitch: crackly electronic stutter with a brief bitcrushed buzz, clean, close", "oye": "a digital glitch stutter", "dura": 0.6, "en": 2.6, "golpe": true, "db": -8, "suave": true },
+  { "nombre": "zoom", "que": "A smooth deep whoosh diving into something, a soft airy swoosh that sinks lower, clean", "oye": "a deep diving whoosh", "dura": 0.9, "en": 3.6, "golpe": false, "db": -11, "suave": true },
+  { "nombre": "chisporroteo", "que": "A hot sizzle like water drops on a hot pan, short crackling hiss, close foley", "oye": "a hot sizzle hiss", "dura": 1.0, "en": 6.4, "golpe": false, "db": -13, "suave": true },
+  { "nombre": "clic", "que": "A key sliding into a lock and clicking into place: a crisp metallic snap, close foley, dry", "oye": "a key clicking into a lock", "dura": 0.5, "en": 12.74, "golpe": true, "db": -6, "suave": false },
+  { "nombre": "abre", "que": "A lock turning and a door unlatching: a metallic clunk followed by a soft airy release, close", "oye": "a lock turning open", "dura": 0.7, "en": 13.52, "golpe": true, "db": -9, "suave": false },
+  { "nombre": "alarma", "que": "A short urgent alarm siren blare with an electric zap at the start, two quick pulses, clean", "oye": "an alarm siren blare", "dura": 1.0, "en": 16.68, "golpe": true, "db": -8, "suave": true },
+  { "nombre": "rugido", "que": "A roaring fire flaring up hard: a big crackling whoosh of flames, close", "oye": "a roaring fire whoosh", "dura": 1.2, "en": 17.12, "golpe": true, "db": -10, "suave": false },
+  { "nombre": "gota", "que": "A single drop of water falling and splashing: a clean liquid plip, close, gentle", "oye": "a water drop plip", "dura": 0.5, "en": 19.04, "golpe": true, "db": -10, "suave": false },
+  { "nombre": "lagrima", "que": "Two small water droplets falling into water one after another: soft liquid bloops, close, gentle", "oye": "water droplets bloop", "dura": 0.6, "en": 20.72, "golpe": true, "db": -10, "suave": false },
+  { "nombre": "escaner", "que": "A laboratory scanner sweeping: a soft electronic hum moving across with tiny beeps, clean, sci-fi", "oye": "an electronic scanner sweep", "dura": 1.6, "en": 21.76, "golpe": false, "db": -13, "suave": true },
+  { "nombre": "pipeta", "que": "A single drop from a pipette landing on a glass dish: a tiny bright liquid plink, close", "oye": "a tiny liquid plink", "dura": 0.5, "en": 24.28, "golpe": true, "db": -9, "suave": false },
+  { "nombre": "medalla", "que": "A gold medal swinging and clinking: a bright metallic ring with a short shimmer, close", "oye": "a bright metal clink ring", "dura": 0.9, "en": 25.2, "golpe": true, "db": -8, "suave": true },
+  { "nombre": "frio", "que": "Ice crystals forming quickly: crisp crackling frost spreading over glass with a cold airy shimmer, close", "oye": "frost crackling ice", "dura": 1.2, "en": 30.54, "golpe": false, "db": -10, "suave": true },
+  { "nombre": "abre2", "que": "A lock turning and a door unlatching: a metallic clunk followed by a soft airy release, close", "oye": "a lock turning open", "dura": 0.7, "en": 29.58, "golpe": true, "db": -10, "suave": false },
+  { "nombre": "picotazo", "que": "A small bird pecking at a plant: two quick light wooden taps and a leaf rustle, close foley", "oye": "a bird pecking taps", "dura": 0.5, "en": 34.46, "golpe": true, "db": -9, "suave": false },
+  { "nombre": "trago", "que": "A small cartoonish gulp swallow, short and clean, close", "oye": "a quick gulp", "dura": 0.5, "en": 35.6, "golpe": true, "db": -10, "suave": false },
+  { "nombre": "aleteo", "que": "A small bird taking off: quick fluttering wing flaps fading away, close foley", "oye": "bird wings flapping", "dura": 1.2, "en": 36.38, "golpe": false, "db": -9, "suave": false },
+  { "nombre": "semillas", "que": "Small seeds dropping onto soft soil: a light patter of tiny taps, close foley", "oye": "seeds pattering on soil", "dura": 0.8, "en": 36.9, "golpe": false, "db": -12, "suave": false },
+  { "nombre": "brota", "que": "A soft magical pop of a sprout growing: a gentle rising bloop with a light sparkle, clean", "oye": "a gentle sprouting pop", "dura": 0.6, "en": 37.5, "golpe": true, "db": -12, "suave": true },
+  { "nombre": "arde", "que": "A burst of fire igniting: a deep whoomp of flames flaring up with crackling, close", "oye": "a fire flaring up whoosh", "dura": 0.9, "en": 44.7, "golpe": true, "db": -8, "suave": false }
+]

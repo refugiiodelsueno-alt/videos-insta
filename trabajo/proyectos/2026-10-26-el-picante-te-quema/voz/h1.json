@@ -1,0 +1,1077 @@
+{
+  "proveedor": "elevenlabs",
+  "toma": "seguida",
+  "firma": "6574c7fb367c",
+  "duracion": 45.41,
+  "frases": [
+    {
+      "n": 1,
+      "parte": "hook",
+      "texto": "El picante no te quema la boca: le está mintiendo a tu lengua.",
+      "escena": "hook",
+      "clave": "mintiendo",
+      "inicio": 0,
+      "fin": 4,
+      "ritmo": 1
+    },
+    {
+      "n": 2,
+      "parte": "cuerpo",
+      "texto": "En tu lengua hay un sensor que solo salta con calor de verdad, a más de 43 grados.",
+      "escena": "sensor",
+      "clave": "43 grados",
+      "inicio": 4.08,
+      "fin": 9.76,
+      "ritmo": 1
+    },
+    {
+      "n": 3,
+      "parte": "cuerpo",
+      "texto": "La capsaicina del chile encaja en ese sensor como una llave y lo abre sin nada de calor.",
+      "escena": "llave",
+      "clave": "como una llave",
+      "inicio": 9.84,
+      "fin": 15.36,
+      "ritmo": 1
+    },
+    {
+      "n": 4,
+      "parte": "cuerpo",
+      "texto": "Tu cerebro recibe una alarma de fuego y el cuerpo se la cree: sudas, te pones rojo y lloras.",
+      "escena": "alarma",
+      "clave": "alarma de fuego",
+      "inicio": 15.4,
+      "fin": 21.68,
+      "ritmo": 1
+    },
+    {
+      "n": 5,
+      "parte": "cuerpo",
+      "texto": "Encontrar ese sensor gracias al chile le dio el Nobel de 2021 a David Julius.",
+      "escena": "nobel",
+      "clave": "el Nobel",
+      "inicio": 21.76,
+      "fin": 27.1,
+      "ritmo": 1
+    },
+    {
+      "n": 6,
+      "parte": "cuerpo",
+      "texto": "Y el mentol hace el mismo truco al revés: abre el sensor del frío sin que haga frío.",
+      "escena": "mentol",
+      "clave": "al revés",
+      "inicio": 27.14,
+      "fin": 32.54,
+      "ritmo": 1
+    },
+    {
+      "n": 7,
+      "parte": "cuerpo",
+      "texto": "A los pájaros la capsaicina no les pica nada: se comen el chile y siembran sus semillas enteras.",
+      "escena": "pajaros",
+      "clave": "no les pica",
+      "inicio": 32.58,
+      "fin": 38.38,
+      "ritmo": 1
+    },
+    {
+      "n": 8,
+      "parte": "cuerpo",
+      "texto": "El chile pica para espantar a los mamíferos, y aun así, en cada bocado, tu lengua se vuelve a creer que arde.",
+      "escena": "cierre",
+      "clave": "se vuelve a creer",
+      "inicio": 38.46,
+      "fin": 45.26,
+      "ritmo": 1
+    }
+  ],
+  "palabras": [
+    {
+      "texto": "El",
+      "inicio": 0,
+      "fin": 0.16,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "picante",
+      "inicio": 0.24,
+      "fin": 0.64,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "no",
+      "inicio": 0.72,
+      "fin": 0.8,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "te",
+      "inicio": 0.88,
+      "fin": 0.96,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "quema",
+      "inicio": 1.04,
+      "fin": 1.28,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "la",
+      "inicio": 1.32,
+      "fin": 1.36,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "boca:",
+      "inicio": 1.44,
+      "fin": 2.08,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "le",
+      "inicio": 2.16,
+      "fin": 2.24,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "está",
+      "inicio": 2.32,
+      "fin": 2.48,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "mintiendo",
+      "inicio": 2.6,
+      "fin": 2.96,
+      "frase": 1,
+      "clave": true
+    },
+    {
+      "texto": "a",
+      "inicio": 2.987,
+      "fin": 3.013,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "tu",
+      "inicio": 3.04,
+      "fin": 3.12,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "lengua.",
+      "inicio": 3.2,
+      "fin": 4,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "En",
+      "inicio": 4.08,
+      "fin": 4.29,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "tu",
+      "inicio": 4.29,
+      "fin": 4.501,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "lengua",
+      "inicio": 4.501,
+      "fin": 4.992,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "hay",
+      "inicio": 4.992,
+      "fin": 5.272,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "un",
+      "inicio": 5.272,
+      "fin": 5.482,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "sensor",
+      "inicio": 5.482,
+      "fin": 5.973,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "que",
+      "inicio": 5.973,
+      "fin": 6.254,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "solo",
+      "inicio": 6.254,
+      "fin": 6.604,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "salta",
+      "inicio": 6.604,
+      "fin": 7.025,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "con",
+      "inicio": 7.025,
+      "fin": 7.306,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "calor",
+      "inicio": 7.306,
+      "fin": 7.726,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "de",
+      "inicio": 7.726,
+      "fin": 7.937,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "verdad,",
+      "inicio": 7.937,
+      "fin": 8.428,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "a",
+      "inicio": 8.428,
+      "fin": 8.568,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "más",
+      "inicio": 8.568,
+      "fin": 8.848,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "de",
+      "inicio": 8.848,
+      "fin": 9.059,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "43",
+      "inicio": 9.059,
+      "fin": 9.269,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "grados.",
+      "inicio": 9.269,
+      "fin": 9.76,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "La",
+      "inicio": 9.84,
+      "fin": 9.88,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "capsaicina",
+      "inicio": 9.92,
+      "fin": 10.48,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "del",
+      "inicio": 10.52,
+      "fin": 10.56,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "chile",
+      "inicio": 10.72,
+      "fin": 11.04,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "encaja",
+      "inicio": 11.16,
+      "fin": 11.52,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "en",
+      "inicio": 11.56,
+      "fin": 11.6,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "ese",
+      "inicio": 11.68,
+      "fin": 11.84,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "sensor",
+      "inicio": 12.02,
+      "fin": 12.22,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "como",
+      "inicio": 12.34,
+      "fin": 12.46,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "una",
+      "inicio": 12.54,
+      "fin": 12.7,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "llave",
+      "inicio": 12.74,
+      "fin": 13.02,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "y",
+      "inicio": 13.2,
+      "fin": 13.28,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "lo",
+      "inicio": 13.36,
+      "fin": 13.44,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "abre",
+      "inicio": 13.52,
+      "fin": 13.84,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "sin",
+      "inicio": 14,
+      "fin": 14.16,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "nada",
+      "inicio": 14.24,
+      "fin": 14.4,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "de",
+      "inicio": 14.44,
+      "fin": 14.48,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "calor.",
+      "inicio": 14.56,
+      "fin": 15.36,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "Tu",
+      "inicio": 15.4,
+      "fin": 15.44,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "cerebro",
+      "inicio": 15.52,
+      "fin": 16,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "recibe",
+      "inicio": 16.12,
+      "fin": 16.4,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "una",
+      "inicio": 16.48,
+      "fin": 16.56,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "alarma",
+      "inicio": 16.68,
+      "fin": 16.88,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "de",
+      "inicio": 16.96,
+      "fin": 17.04,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "fuego",
+      "inicio": 17.12,
+      "fin": 17.52,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "y",
+      "inicio": 17.56,
+      "fin": 17.6,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "el",
+      "inicio": 17.68,
+      "fin": 17.76,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "cuerpo",
+      "inicio": 17.84,
+      "fin": 18.08,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "se",
+      "inicio": 18.12,
+      "fin": 18.16,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "la",
+      "inicio": 18.24,
+      "fin": 18.32,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "cree:",
+      "inicio": 18.4,
+      "fin": 18.96,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "sudas,",
+      "inicio": 19.04,
+      "fin": 19.6,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "te",
+      "inicio": 19.64,
+      "fin": 19.68,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "pones",
+      "inicio": 19.76,
+      "fin": 20,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "rojo",
+      "inicio": 20.08,
+      "fin": 20.48,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "y",
+      "inicio": 20.56,
+      "fin": 20.64,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "lloras.",
+      "inicio": 20.72,
+      "fin": 21.68,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "Encontrar",
+      "inicio": 21.76,
+      "fin": 22.454,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "ese",
+      "inicio": 22.454,
+      "fin": 22.731,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "sensor",
+      "inicio": 22.731,
+      "fin": 23.216,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "gracias",
+      "inicio": 23.216,
+      "fin": 23.771,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "al",
+      "inicio": 23.771,
+      "fin": 23.979,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "chile",
+      "inicio": 23.979,
+      "fin": 24.395,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "le",
+      "inicio": 24.395,
+      "fin": 24.603,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "dio",
+      "inicio": 24.603,
+      "fin": 24.881,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "el",
+      "inicio": 24.881,
+      "fin": 25.089,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "Nobel",
+      "inicio": 25.089,
+      "fin": 25.505,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "de",
+      "inicio": 25.505,
+      "fin": 25.713,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "2021",
+      "inicio": 25.713,
+      "fin": 26.06,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "a",
+      "inicio": 26.06,
+      "fin": 26.198,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "David",
+      "inicio": 26.198,
+      "fin": 26.615,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "Julius.",
+      "inicio": 26.615,
+      "fin": 27.1,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "Y",
+      "inicio": 27.14,
+      "fin": 27.18,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "el",
+      "inicio": 27.22,
+      "fin": 27.26,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "mentol",
+      "inicio": 27.38,
+      "fin": 27.74,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "hace",
+      "inicio": 27.78,
+      "fin": 27.98,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "el",
+      "inicio": 28.02,
+      "fin": 28.06,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "mismo",
+      "inicio": 28.14,
+      "fin": 28.38,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "truco",
+      "inicio": 28.46,
+      "fin": 28.62,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "al",
+      "inicio": 28.7,
+      "fin": 28.78,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "revés:",
+      "inicio": 28.9,
+      "fin": 29.5,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "abre",
+      "inicio": 29.58,
+      "fin": 29.82,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "el",
+      "inicio": 29.86,
+      "fin": 29.9,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "sensor",
+      "inicio": 29.98,
+      "fin": 30.3,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "del",
+      "inicio": 30.38,
+      "fin": 30.46,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "frío",
+      "inicio": 30.54,
+      "fin": 30.78,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "sin",
+      "inicio": 30.94,
+      "fin": 31.18,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "que",
+      "inicio": 31.26,
+      "fin": 31.34,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "haga",
+      "inicio": 31.38,
+      "fin": 31.58,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "frío.",
+      "inicio": 31.66,
+      "fin": 32.54,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "A",
+      "inicio": 32.58,
+      "fin": 32.62,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "los",
+      "inicio": 32.7,
+      "fin": 32.78,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "pájaros",
+      "inicio": 32.86,
+      "fin": 33.26,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "la",
+      "inicio": 33.3,
+      "fin": 33.34,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "capsaicina",
+      "inicio": 33.42,
+      "fin": 34.06,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "no",
+      "inicio": 34.1,
+      "fin": 34.14,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "les",
+      "inicio": 34.22,
+      "fin": 34.38,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "pica",
+      "inicio": 34.46,
+      "fin": 34.62,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "nada:",
+      "inicio": 34.7,
+      "fin": 35.26,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "se",
+      "inicio": 35.34,
+      "fin": 35.42,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "comen",
+      "inicio": 35.5,
+      "fin": 35.66,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "el",
+      "inicio": 35.7,
+      "fin": 35.74,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "chile",
+      "inicio": 35.82,
+      "fin": 36.14,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "y",
+      "inicio": 36.22,
+      "fin": 36.3,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "siembran",
+      "inicio": 36.38,
+      "fin": 36.78,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "sus",
+      "inicio": 36.86,
+      "fin": 36.94,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "semillas",
+      "inicio": 37.02,
+      "fin": 37.34,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "enteras.",
+      "inicio": 37.5,
+      "fin": 38.38,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "El",
+      "inicio": 38.46,
+      "fin": 38.54,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "chile",
+      "inicio": 38.62,
+      "fin": 38.86,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "pica",
+      "inicio": 38.9,
+      "fin": 39.18,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "para",
+      "inicio": 39.26,
+      "fin": 39.42,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "espantar",
+      "inicio": 39.5,
+      "fin": 39.82,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "a",
+      "inicio": 39.86,
+      "fin": 39.9,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "los",
+      "inicio": 39.98,
+      "fin": 40.06,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "mamíferos,",
+      "inicio": 40.1,
+      "fin": 40.94,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "y",
+      "inicio": 41.02,
+      "fin": 41.1,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "aun",
+      "inicio": 41.14,
+      "fin": 41.26,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "así,",
+      "inicio": 41.34,
+      "fin": 41.82,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "en",
+      "inicio": 41.9,
+      "fin": 41.98,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "cada",
+      "inicio": 42.14,
+      "fin": 42.3,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "bocado,",
+      "inicio": 42.38,
+      "fin": 42.94,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "tu",
+      "inicio": 43.02,
+      "fin": 43.1,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "lengua",
+      "inicio": 43.14,
+      "fin": 43.5,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "se",
+      "inicio": 43.58,
+      "fin": 43.66,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "vuelve",
+      "inicio": 43.74,
+      "fin": 44.06,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "a",
+      "inicio": 44.1,
+      "fin": 44.14,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "creer",
+      "inicio": 44.22,
+      "fin": 44.46,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "que",
+      "inicio": 44.54,
+      "fin": 44.62,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "arde.",
+      "inicio": 44.7,
+      "fin": 45.26,
+      "frase": 8,
+      "clave": false
+    }
+  ]
+}

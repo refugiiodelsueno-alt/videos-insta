@@ -1,0 +1,44 @@
+{
+  "titulo": "El picante te miente",
+  "slug": "el-picante-te-quema",
+  "idioma": "es",
+  "voz": {
+    "proveedor": "elevenlabs",
+    "id": "851ejYcv2BoNPjrkw93G",
+    "modelo": "eleven_v4",
+    "velocidad": 1,
+    "estabilidad": 0.35,
+    "similitud": 0.7,
+    "kokoro": "ef_dora"
+  },
+  "subtitulos": "arriba",
+  "aperturas": [
+    { "id": "h1", "escena": "hook", "frases": [ { "texto": "El picante no te quema la boca: le está mintiendo a tu lengua.", "clave": "mintiendo" } ] }
+  ],
+  "reserva": [
+    { "id": "h2", "escena": "hook", "frases": [ { "texto": "Cuando comes picante, tu cuerpo entero cree que estás ardiendo.", "clave": "ardiendo" } ], "imagen": "una boca con llamas y, al lado, un termómetro que marca 36 grados: no hay fuego" },
+    { "id": "h3", "escena": "hook", "frases": [ { "texto": "Un chile ayudó a ganar un premio Nobel, y es por lo que sientes al morderlo.", "clave": "premio Nobel" } ], "imagen": "un chile rojo que gira y se convierte en una medalla de oro" },
+    { "id": "h4", "escena": "hook", "frases": [ { "texto": "A un pájaro el picante no le pica nada, y el chile lo sabe.", "clave": "no le pica" } ], "imagen": "un pájaro se traga un chile entero tan tranquilo mientras un ratón huye" }
+  ],
+  "cuerpo": [
+    { "texto": "En tu lengua hay un sensor que solo salta con calor de verdad, a más de 43 grados.", "dicho": "En tu lengua hay un sensor que solo salta con calor de verdad, a más de cuarenta y tres grados.", "escena": "sensor", "clave": "43 grados" },
+    { "texto": "La capsaicina del chile encaja en ese sensor como una llave y lo abre sin nada de calor.", "escena": "llave", "clave": "como una llave" },
+    { "texto": "Tu cerebro recibe una alarma de fuego y el cuerpo se la cree: sudas, te pones rojo y lloras.", "escena": "alarma", "clave": "alarma de fuego" },
+    { "texto": "Encontrar ese sensor gracias al chile le dio el Nobel de 2021 a David Julius.", "dicho": "Encontrar ese sensor gracias al chile le dio el Nobel de dos mil veintiuno a David Julius.", "escena": "nobel", "clave": "el Nobel" },
+    { "texto": "Y el mentol hace el mismo truco al revés: abre el sensor del frío sin que haga frío.", "escena": "mentol", "clave": "al revés" },
+    { "texto": "A los pájaros la capsaicina no les pica nada: se comen el chile y siembran sus semillas enteras.", "escena": "pajaros", "clave": "no les pica" },
+    { "texto": "El chile pica para espantar a los mamíferos, y aun así, en cada bocado, tu lengua se vuelve a creer que arde.", "escena": "cierre", "clave": "se vuelve a creer" }
+  ],
+  "cola": 0.15,
+  "escenas": {
+    "hook": { "entrada": "corte" },
+    "sensor": { "entrada": "corte" },
+    "llave": { "entrada": "corte" },
+    "alarma": { "entrada": "corte" },
+    "nobel": { "entrada": "corte" },
+    "mentol": { "entrada": "corte" },
+    "pajaros": { "entrada": "corte" },
+    "cierre": { "entrada": "corte" }
+  },
+  "sonido": true
+}

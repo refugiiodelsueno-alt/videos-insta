@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <!--
+      El esqueleto de una escena en 2D. Se copia a escenas/<nombre>.html y se rellena con lo que dice plan.md para sus
+      frases. No trae ningún dibujo de ejemplo a propósito: lo que se dibuja sale de la referencia y del plan.
+      - Todo va dentro de <template>: lo de fuera se pierde.
+      - __ID__, __CUES__ y __DURACION__ los cambia montar.mjs. No los escribas a mano.
+      - C["palabra"]: segundo en que se dice esa palabra, desde que empieza la escena (sin tildes ni signos, en
+        minúsculas). C["palabra#2"] la segunda vez. C["@1"] la primera frase, C["@fin"] el final de la última.
+      - Cada movimiento empieza en un C[...]: nunca un segundo escrito a mano.
+      - Los ids llevan delante __ID__. Un solo timeline, en pausa, en window.__timelines["__ID__"].
+      - Nada de Math.random, Date.now ni red. Para azar, K.azar(semilla).
+    -->
+    <template>
+      <style>
+        #root { position: absolute; inset: 0; overflow: hidden; background: var(--fondo); font-family: var(--letra), sans-serif; color: var(--tinta); }
+        #__ID__-mundo { position: absolute; inset: 0; }
+      </style>
+      <div id="root" data-composition-id="__ID__" data-width="1080" data-height="1920" data-duration="__DURACION__">
+        <div id="__ID__-mundo"></div>
+      </div>
+      <script>
+        (function () {
+          var C = __CUES__, D = __DURACION__;
+          var t = function (p, d) { return C[p] !== undefined ? C[p] : d; };
+          var tl = gsap.timeline({ paused: true });
+          // Lo que dice plan.md para estas frases, cada cambio en su palabra.
+          tl.to({}, { duration: D }, 0);
+          window.__timelines["__ID__"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

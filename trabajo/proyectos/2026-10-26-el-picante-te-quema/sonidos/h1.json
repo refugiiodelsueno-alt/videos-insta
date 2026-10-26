@@ -1,0 +1,107 @@
+[
+  {
+    "archivo": "sonidos/llamarada-h1.wav",
+    "en": 0.9,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/glitch-h1.wav",
+    "en": 2.25,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/zoom-h1.wav",
+    "en": 3.6,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/chisporroteo-h1.wav",
+    "en": 6.4,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/clic-h1.wav",
+    "en": 12.525,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/abre-h1.wav",
+    "en": 13.42,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/alarma-h1.wav",
+    "en": 16.625,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/rugido-h1.wav",
+    "en": 17.04,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/gota-h1.wav",
+    "en": 19.04,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/lagrima-h1.wav",
+    "en": 20.685,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/escaner-h1.wav",
+    "en": 21.76,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/pipeta-h1.wav",
+    "en": 24.28,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/medalla-h1.wav",
+    "en": 25.175,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/frio-h1.wav",
+    "en": 30.54,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/abre2-h1.wav",
+    "en": 29.325,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/picotazo-h1.wav",
+    "en": 34.315,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/trago-h1.wav",
+    "en": 35.48,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/aleteo-h1.wav",
+    "en": 36.38,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/semillas-h1.wav",
+    "en": 36.9,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/brota-h1.wav",
+    "en": 37.5,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/arde-h1.wav",
+    "en": 44.635,
+    "volumen": 1
+  }
+]
