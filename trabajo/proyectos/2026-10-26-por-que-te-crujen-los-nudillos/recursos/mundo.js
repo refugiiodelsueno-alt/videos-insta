@@ -129,7 +129,10 @@ const CAMINO = [
   [37.0, { x: -2010, y: 1140, z: 1.12 }], [40.0, { x: -2000, y: 1145, z: 1.08 }], [42.5, { x: -2000, y: 1110, z: 1.05 }], [44.25, { x: -2000, y: 1100, z: 1.02 }],
   [44.26, { x: 540, y: 1060, z: 1.05 }], [46.3, { x: 540, y: 1070, z: 1.25 }], [47.4, { x: 540, y: 1075, z: 1.35 }], [TOTAL, F0],   // corte: la mano otra vez
 ];
-export const camaraEn = (g) => camara(g, CAMINO);
+// cada escena con sus claves: así el fotograma de antes de un corte no cae a medio camino entre dos sitios
+const BORDES = Object.values(G0).sort((a, b) => a - b).concat([TOTAL + 1]);
+const TRAMOS = BORDES.slice(0, -1).map((a, i) => CAMINO.filter(([t]) => t >= a && t < BORDES[i + 1]));
+export const camaraEn = (g) => { let i = 0; while (i < TRAMOS.length - 1 && g >= BORDES[i + 1]) i++; return camara(g, TRAMOS[i]); };
 
 // ── svg ─────────────────────────────────────────────────────────────────────────────────────────────────────────
 function el(padre, tag, at = {}) {

@@ -1,0 +1,137 @@
+[
+  {
+    "archivo": "sonidos/crac-h1.wav",
+    "en": 0.21,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/lupa-h1.wav",
+    "en": 1.6,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/burbujeo-h1.wav",
+    "en": 2.3,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/sale-h1.wav",
+    "en": 3.6,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/dentro-h1.wav",
+    "en": 4.435,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/bien-h1.wav",
+    "en": 4.74,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/botella-h1.wav",
+    "en": 9.815,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/tira-h1.wav",
+    "en": 13,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/tapon-h1.wav",
+    "en": 13.935,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/nace-h1.wav",
+    "en": 15.91,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/rm-h1.wav",
+    "en": 17.2,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/barrido-h1.wav",
+    "en": 18.92,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/cable-h1.wav",
+    "en": 19.76,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/crac2-h1.wav",
+    "en": 21.815,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/hueco-h1.wav",
+    "en": 23.845,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/dentro2-h1.wav",
+    "en": 25.745,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/nada-h1.wav",
+    "en": 27.4,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/reloj-h1.wav",
+    "en": 29.18,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/disuelve-h1.wav",
+    "en": 30.4,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/manos-h1.wav",
+    "en": 31.755,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/cracs-h1.wav",
+    "en": 35.69,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/contador-h1.wav",
+    "en": 37.18,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/bien2-h1.wav",
+    "en": 40.26,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/medalla-h1.wav",
+    "en": 43.11,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/vuelve-h1.wav",
+    "en": 44.195,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/crac3-h1.wav",
+    "en": 46.25,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/refresco-h1.wav",
+    "en": 46.275,
+    "volumen": 1
+  }
+]

@@ -1,0 +1,144 @@
+{
+  "titulo": "Un agujero en lo que ves",
+  "slug": "agujero-en-lo-que-ves",
+  "idioma": "es",
+  "voz": {
+    "proveedor": "elevenlabs",
+    "id": "851ejYcv2BoNPjrkw93G",
+    "modelo": "eleven_v4",
+    "velocidad": 1,
+    "estabilidad": 0.35,
+    "similitud": 0.7,
+    "kokoro": "ef_dora"
+  },
+  "subtitulos": "arriba",
+  "aperturas": [
+    {
+      "id": "h1",
+      "escena": "hook",
+      "frases": [
+        {
+          "texto": "Ahora mismo hay un agujero en lo que ves, y tu cerebro te lo está tapando.",
+          "clave": "un agujero"
+        }
+      ]
+    }
+  ],
+  "reserva": [
+    {
+      "id": "h2",
+      "escena": "hook",
+      "frases": [
+        {
+          "texto": "Tápate un ojo y mira la cruz: el punto rojo va a desaparecer.",
+          "clave": "desaparecer"
+        }
+      ],
+      "imagen": "la cruz y el punto rojo sobre las rayas; el punto se borra y las rayas lo cruzan"
+    },
+    {
+      "id": "h3",
+      "escena": "hook",
+      "frases": [
+        {
+          "texto": "Tienes un agujero en cada ojo donde no ves absolutamente nada.",
+          "clave": "un agujero"
+        }
+      ],
+      "imagen": "un ojo enorme con un agujero negro en el fondo"
+    },
+    {
+      "id": "h4",
+      "escena": "hook",
+      "frases": [
+        {
+          "texto": "Una parte de lo que estás viendo ahora mismo es mentira.",
+          "clave": "es mentira"
+        }
+      ],
+      "imagen": "las rayas con un parche cosido que se descose"
+    }
+  ],
+  "cuerpo": [
+    {
+      "texto": "Tápate el ojo izquierdo, mira fijamente la cruz y acércate el móvil despacio.",
+      "escena": "prueba",
+      "clave": "la cruz"
+    },
+    {
+      "texto": "Más o menos a un palmo de la cara, el punto rojo desaparece.",
+      "escena": "prueba",
+      "clave": "desaparece"
+    },
+    {
+      "texto": "Y en su sitio no ves negro: ves las rayas del fondo, que se inventa tu cerebro.",
+      "escena": "prueba",
+      "clave": "se inventa"
+    },
+    {
+      "texto": "Es tu punto ciego: el sitio por donde el nervio óptico sale del ojo.",
+      "escena": "ojo",
+      "clave": "punto ciego"
+    },
+    {
+      "texto": "Ahí se juntan un millón de cables de la retina, y no queda sitio para nada que vea la luz.",
+      "escena": "ojo",
+      "clave": "un millón de cables"
+    },
+    {
+      "texto": "Y es enorme: en el cielo, te cabrían diez lunas llenas en fila dentro de él.",
+      "escena": "cielo",
+      "clave": "diez lunas"
+    },
+    {
+      "texto": "No lo notas porque cada ojo tapa el agujero del otro.",
+      "escena": "ojos",
+      "clave": "el agujero del otro"
+    },
+    {
+      "texto": "Y con uno cerrado, tu cerebro rellena el hueco con lo que hay alrededor.",
+      "escena": "ojos",
+      "clave": "rellena el hueco"
+    },
+    {
+      "texto": "El pulpo no tiene: en su ojo, los cables van por detrás de la retina.",
+      "escena": "pulpo",
+      "clave": "el pulpo"
+    },
+    {
+      "texto": "En el nuestro van por delante, y tienen que atravesarla para salir.",
+      "escena": "pulpo",
+      "clave": "por delante"
+    },
+    {
+      "texto": "Así que ahora mismo, un trozo de lo que ves te lo está inventando tu cerebro.",
+      "escena": "cierre",
+      "clave": "inventando"
+    }
+  ],
+  "cola": 0.15,
+  "escenas": {
+    "hook": {
+      "entrada": "corte"
+    },
+    "prueba": {
+      "entrada": "corte"
+    },
+    "ojo": {
+      "entrada": "corte"
+    },
+    "cielo": {
+      "entrada": "corte"
+    },
+    "ojos": {
+      "entrada": "corte"
+    },
+    "pulpo": {
+      "entrada": "corte"
+    },
+    "cierre": {
+      "entrada": "corte"
+    }
+  },
+  "sonido": true
+}
