@@ -1,0 +1,130 @@
+{
+  "titulo": "Ese crac es una burbuja",
+  "slug": "por-que-te-crujen-los-nudillos",
+  "idioma": "es",
+  "voz": {
+    "proveedor": "elevenlabs",
+    "id": "851ejYcv2BoNPjrkw93G",
+    "modelo": "eleven_v4",
+    "velocidad": 1,
+    "estabilidad": 0.35,
+    "similitud": 0.7,
+    "kokoro": "ef_dora"
+  },
+  "subtitulos": "arriba",
+  "aperturas": [
+    {
+      "id": "h1",
+      "escena": "hook",
+      "frases": [
+        {
+          "texto": "Ese crac de tus dedos es una burbuja de gas que nace dentro del nudillo.",
+          "clave": "burbuja"
+        }
+      ]
+    }
+  ],
+  "reserva": [
+    {
+      "id": "h2",
+      "escena": "hook",
+      "frases": [
+        {
+          "texto": "Un médico se crujió los dedos de una sola mano durante 50 años, a propósito.",
+          "dicho": "Un médico se crujió los dedos de una sola mano durante cincuenta años, a propósito.",
+          "clave": "una sola mano"
+        }
+      ],
+      "imagen": "dos manos juntas: la izquierda cruje sin parar con un contador de años y la derecha quieta"
+    },
+    {
+      "id": "h3",
+      "escena": "hook",
+      "frases": [
+        {
+          "texto": "Tu nudillo tiene 20 minutos en los que no puede volver a crujir.",
+          "dicho": "Tu nudillo tiene veinte minutos en los que no puede volver a crujir.",
+          "clave": "20 minutos"
+        }
+      ],
+      "imagen": "un nudillo por rayos X con un cronómetro que cuenta y la burbuja que se deshace"
+    },
+    {
+      "id": "h4",
+      "escena": "hook",
+      "frases": [
+        {
+          "texto": "Dentro de tus dedos hay gas disuelto, como en una botella de refresco.",
+          "clave": "gas disuelto"
+        }
+      ],
+      "imagen": "un dedo por rayos X junto a una botella cerrada: los dos sueltan burbujas a la vez"
+    }
+  ],
+  "cuerpo": [
+    {
+      "texto": "No se rompe nada ni chocan los huesos: entre ellos hay un líquido con gas disuelto, como un refresco cerrado.",
+      "escena": "junta",
+      "clave": "gas disuelto"
+    },
+    {
+      "texto": "Cuando tiras del dedo, los huesos se separan, la presión cae de golpe y el gas forma una burbuja.",
+      "escena": "junta",
+      "clave": "la presión cae"
+    },
+    {
+      "texto": "Lo vieron en directo metiendo un dedo en una resonancia y tirando de él con un cable.",
+      "escena": "resonancia",
+      "clave": "resonancia"
+    },
+    {
+      "texto": "Justo en el crac, entre los huesos aparece un hueco negro: la burbuja.",
+      "escena": "resonancia",
+      "clave": "hueco negro"
+    },
+    {
+      "texto": "Por eso no lo puedes crujir otra vez enseguida: hay que esperar unos 20 minutos a que el gas se vuelva a disolver.",
+      "dicho": "Por eso no lo puedes crujir otra vez enseguida: hay que esperar unos veinte minutos a que el gas se vuelva a disolver.",
+      "escena": "espera",
+      "clave": "20 minutos"
+    },
+    {
+      "texto": "¿Y la artrosis? Un médico se crujió solo la mano izquierda durante 50 años, más de 36.000 veces.",
+      "dicho": "¿Y la artrosis? Un médico se crujió solo la mano izquierda durante cincuenta años, más de treinta y seis mil veces.",
+      "escena": "manos",
+      "clave": "50 años"
+    },
+    {
+      "texto": "Al final, ninguna de sus dos manos tenía artrosis, y le dieron un Ig Nobel.",
+      "escena": "manos",
+      "clave": "ninguna"
+    },
+    {
+      "texto": "Así que no se te rompe nada: cada crac es un refresco que se abre dentro de tu dedo.",
+      "escena": "cierre",
+      "clave": "un refresco"
+    }
+  ],
+  "cola": 0.15,
+  "escenas": {
+    "hook": {
+      "entrada": "corte"
+    },
+    "junta": {
+      "entrada": "corte"
+    },
+    "resonancia": {
+      "entrada": "corte"
+    },
+    "espera": {
+      "entrada": "corte"
+    },
+    "manos": {
+      "entrada": "corte"
+    },
+    "cierre": {
+      "entrada": "corte"
+    }
+  },
+  "sonido": true
+}

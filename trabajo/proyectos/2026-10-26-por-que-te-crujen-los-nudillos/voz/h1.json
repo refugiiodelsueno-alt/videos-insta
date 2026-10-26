@@ -1,0 +1,1213 @@
+{
+  "proveedor": "elevenlabs",
+  "toma": "seguida",
+  "firma": "b68aae83223a",
+  "duracion": 49.41,
+  "frases": [
+    {
+      "n": 1,
+      "parte": "hook",
+      "texto": "Ese crac de tus dedos es una burbuja de gas que nace dentro del nudillo.",
+      "escena": "hook",
+      "clave": "burbuja",
+      "inicio": 0,
+      "fin": 4.32,
+      "ritmo": 1
+    },
+    {
+      "n": 2,
+      "parte": "cuerpo",
+      "texto": "No se rompe nada ni chocan los huesos: entre ellos hay un líquido con gas disuelto, como un refresco cerrado.",
+      "escena": "junta",
+      "clave": "gas disuelto",
+      "inicio": 4.5,
+      "fin": 10.98,
+      "ritmo": 1
+    },
+    {
+      "n": 3,
+      "parte": "cuerpo",
+      "texto": "Cuando tiras del dedo, los huesos se separan, la presión cae de golpe y el gas forma una burbuja.",
+      "escena": "junta",
+      "clave": "la presión cae",
+      "inicio": 11.16,
+      "fin": 16.74,
+      "ritmo": 1
+    },
+    {
+      "n": 4,
+      "parte": "cuerpo",
+      "texto": "Lo vieron en directo metiendo un dedo en una resonancia y tirando de él con un cable.",
+      "escena": "resonancia",
+      "clave": "resonancia",
+      "inicio": 16.92,
+      "fin": 21.16,
+      "ritmo": 1
+    },
+    {
+      "n": 5,
+      "parte": "cuerpo",
+      "texto": "Justo en el crac, entre los huesos aparece un hueco negro: la burbuja.",
+      "escena": "resonancia",
+      "clave": "hueco negro",
+      "inicio": 21.34,
+      "fin": 25.6,
+      "ritmo": 1
+    },
+    {
+      "n": 6,
+      "parte": "cuerpo",
+      "texto": "Por eso no lo puedes crujir otra vez enseguida: hay que esperar unos 20 minutos a que el gas se vuelva a disolver.",
+      "escena": "espera",
+      "clave": "20 minutos",
+      "inicio": 25.78,
+      "fin": 31.62,
+      "ritmo": 1
+    },
+    {
+      "n": 7,
+      "parte": "cuerpo",
+      "texto": "¿Y la artrosis? Un médico se crujió solo la mano izquierda durante 50 años, más de 36.000 veces.",
+      "escena": "manos",
+      "clave": "50 años",
+      "inicio": 31.8,
+      "fin": 39.42,
+      "ritmo": 1
+    },
+    {
+      "n": 8,
+      "parte": "cuerpo",
+      "texto": "Al final, ninguna de sus dos manos tenía artrosis, y le dieron un Ig Nobel.",
+      "escena": "manos",
+      "clave": "ninguna",
+      "inicio": 39.5,
+      "fin": 44.22,
+      "ritmo": 1
+    },
+    {
+      "n": 9,
+      "parte": "cuerpo",
+      "texto": "Así que no se te rompe nada: cada crac es un refresco que se abre dentro de tu dedo.",
+      "escena": "cierre",
+      "clave": "un refresco",
+      "inicio": 44.26,
+      "fin": 49.26,
+      "ritmo": 1
+    }
+  ],
+  "palabras": [
+    {
+      "texto": "Ese",
+      "inicio": 0,
+      "fin": 0.24,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "crac",
+      "inicio": 0.32,
+      "fin": 0.48,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "de",
+      "inicio": 0.56,
+      "fin": 0.6,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "tus",
+      "inicio": 0.64,
+      "fin": 0.8,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "dedos",
+      "inicio": 0.88,
+      "fin": 1.28,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "es",
+      "inicio": 1.36,
+      "fin": 1.52,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "una",
+      "inicio": 1.6,
+      "fin": 1.68,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "burbuja",
+      "inicio": 1.76,
+      "fin": 2.08,
+      "frase": 1,
+      "clave": true
+    },
+    {
+      "texto": "de",
+      "inicio": 2.16,
+      "fin": 2.24,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "gas",
+      "inicio": 2.32,
+      "fin": 2.48,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "que",
+      "inicio": 2.56,
+      "fin": 2.64,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "nace",
+      "inicio": 2.72,
+      "fin": 2.96,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "dentro",
+      "inicio": 3.12,
+      "fin": 3.44,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "del",
+      "inicio": 3.52,
+      "fin": 3.6,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "nudillo.",
+      "inicio": 3.64,
+      "fin": 4.32,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "No",
+      "inicio": 4.5,
+      "fin": 4.58,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "se",
+      "inicio": 4.62,
+      "fin": 4.66,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "rompe",
+      "inicio": 4.74,
+      "fin": 5.06,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "nada",
+      "inicio": 5.1,
+      "fin": 5.38,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "ni",
+      "inicio": 5.46,
+      "fin": 5.54,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "chocan",
+      "inicio": 5.62,
+      "fin": 5.86,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "los",
+      "inicio": 5.94,
+      "fin": 6.02,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "huesos:",
+      "inicio": 6.1,
+      "fin": 6.82,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "entre",
+      "inicio": 6.94,
+      "fin": 7.06,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "ellos",
+      "inicio": 7.14,
+      "fin": 7.46,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "hay",
+      "inicio": 7.54,
+      "fin": 7.7,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "un",
+      "inicio": 7.74,
+      "fin": 7.78,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "líquido",
+      "inicio": 7.86,
+      "fin": 8.18,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "con",
+      "inicio": 8.26,
+      "fin": 8.42,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "gas",
+      "inicio": 8.5,
+      "fin": 8.58,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "disuelto,",
+      "inicio": 8.66,
+      "fin": 9.38,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "como",
+      "inicio": 9.46,
+      "fin": 9.54,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "un",
+      "inicio": 9.62,
+      "fin": 9.7,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "refresco",
+      "inicio": 9.82,
+      "fin": 10.18,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "cerrado.",
+      "inicio": 10.3,
+      "fin": 10.98,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "Cuando",
+      "inicio": 11.16,
+      "fin": 11.4,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "tiras",
+      "inicio": 11.44,
+      "fin": 11.64,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "del",
+      "inicio": 11.72,
+      "fin": 11.8,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "dedo,",
+      "inicio": 11.92,
+      "fin": 12.28,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "los",
+      "inicio": 12.36,
+      "fin": 12.44,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "huesos",
+      "inicio": 12.52,
+      "fin": 12.84,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "se",
+      "inicio": 12.92,
+      "fin": 13,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "separan,",
+      "inicio": 13.08,
+      "fin": 13.72,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "la",
+      "inicio": 13.8,
+      "fin": 13.88,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "presión",
+      "inicio": 14.06,
+      "fin": 14.26,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "cae",
+      "inicio": 14.34,
+      "fin": 14.5,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "de",
+      "inicio": 14.54,
+      "fin": 14.58,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "golpe",
+      "inicio": 14.66,
+      "fin": 14.98,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "y",
+      "inicio": 15.14,
+      "fin": 15.22,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "el",
+      "inicio": 15.3,
+      "fin": 15.38,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "gas",
+      "inicio": 15.5,
+      "fin": 15.62,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "forma",
+      "inicio": 15.78,
+      "fin": 16.02,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "una",
+      "inicio": 16.1,
+      "fin": 16.18,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "burbuja.",
+      "inicio": 16.26,
+      "fin": 16.74,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "Lo",
+      "inicio": 16.92,
+      "fin": 17,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "vieron",
+      "inicio": 17.08,
+      "fin": 17.24,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "en",
+      "inicio": 17.28,
+      "fin": 17.32,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "directo",
+      "inicio": 17.4,
+      "fin": 17.8,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "metiendo",
+      "inicio": 17.88,
+      "fin": 18.2,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "un",
+      "inicio": 18.28,
+      "fin": 18.36,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "dedo",
+      "inicio": 18.44,
+      "fin": 18.6,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "en",
+      "inicio": 18.64,
+      "fin": 18.68,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "una",
+      "inicio": 18.76,
+      "fin": 18.84,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "resonancia",
+      "inicio": 18.92,
+      "fin": 19.56,
+      "frase": 4,
+      "clave": true
+    },
+    {
+      "texto": "y",
+      "inicio": 19.64,
+      "fin": 19.72,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "tirando",
+      "inicio": 19.76,
+      "fin": 20.12,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "de",
+      "inicio": 20.2,
+      "fin": 20.28,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "él",
+      "inicio": 20.36,
+      "fin": 20.44,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "con",
+      "inicio": 20.52,
+      "fin": 20.6,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "un",
+      "inicio": 20.64,
+      "fin": 20.68,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "cable.",
+      "inicio": 20.76,
+      "fin": 21.16,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "Justo",
+      "inicio": 21.34,
+      "fin": 21.66,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "en",
+      "inicio": 21.7,
+      "fin": 21.74,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "el",
+      "inicio": 21.78,
+      "fin": 21.82,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "crac,",
+      "inicio": 21.9,
+      "fin": 22.38,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "entre",
+      "inicio": 22.5,
+      "fin": 22.62,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "los",
+      "inicio": 22.7,
+      "fin": 22.78,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "huesos",
+      "inicio": 22.82,
+      "fin": 23.18,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "aparece",
+      "inicio": 23.36,
+      "fin": 23.76,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "un",
+      "inicio": 23.8,
+      "fin": 23.84,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "hueco",
+      "inicio": 23.92,
+      "fin": 24.16,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "negro:",
+      "inicio": 24.24,
+      "fin": 24.88,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "la",
+      "inicio": 24.96,
+      "fin": 25.04,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "burbuja.",
+      "inicio": 25.08,
+      "fin": 25.6,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "Por",
+      "inicio": 25.78,
+      "fin": 25.86,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "eso",
+      "inicio": 25.98,
+      "fin": 26.1,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "no",
+      "inicio": 26.18,
+      "fin": 26.26,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "lo",
+      "inicio": 26.34,
+      "fin": 26.42,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "puedes",
+      "inicio": 26.473,
+      "fin": 26.66,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "crujir",
+      "inicio": 26.74,
+      "fin": 27.06,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "otra",
+      "inicio": 27.1,
+      "fin": 27.22,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "vez",
+      "inicio": 27.3,
+      "fin": 27.38,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "enseguida:",
+      "inicio": 27.46,
+      "fin": 28.26,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "hay",
+      "inicio": 28.34,
+      "fin": 28.42,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "que",
+      "inicio": 28.46,
+      "fin": 28.5,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "esperar",
+      "inicio": 28.62,
+      "fin": 28.82,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "unos",
+      "inicio": 28.9,
+      "fin": 29.14,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "20",
+      "inicio": 29.18,
+      "fin": 29.46,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "minutos",
+      "inicio": 29.54,
+      "fin": 29.94,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "a",
+      "inicio": 30.02,
+      "fin": 30.06,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "que",
+      "inicio": 30.1,
+      "fin": 30.18,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "el",
+      "inicio": 30.22,
+      "fin": 30.26,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "gas",
+      "inicio": 30.34,
+      "fin": 30.58,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "se",
+      "inicio": 30.66,
+      "fin": 30.74,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "vuelva",
+      "inicio": 30.78,
+      "fin": 30.98,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "a",
+      "inicio": 31.02,
+      "fin": 31.06,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "disolver.",
+      "inicio": 31.14,
+      "fin": 31.62,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "¿Y",
+      "inicio": 31.8,
+      "fin": 31.966,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "la",
+      "inicio": 31.966,
+      "fin": 32.214,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "artrosis?",
+      "inicio": 32.214,
+      "fin": 32.96,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "Un",
+      "inicio": 32.96,
+      "fin": 33.208,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "médico",
+      "inicio": 33.208,
+      "fin": 33.788,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "se",
+      "inicio": 33.788,
+      "fin": 34.036,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "crujió",
+      "inicio": 34.036,
+      "fin": 34.616,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "solo",
+      "inicio": 34.616,
+      "fin": 35.03,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "la",
+      "inicio": 35.03,
+      "fin": 35.279,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "mano",
+      "inicio": 35.279,
+      "fin": 35.693,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "izquierda",
+      "inicio": 35.693,
+      "fin": 36.521,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "durante",
+      "inicio": 36.521,
+      "fin": 37.184,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "50",
+      "inicio": 37.184,
+      "fin": 37.432,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "años,",
+      "inicio": 37.432,
+      "fin": 37.846,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "más",
+      "inicio": 37.846,
+      "fin": 38.178,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "de",
+      "inicio": 38.178,
+      "fin": 38.426,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "36.000",
+      "inicio": 38.426,
+      "fin": 38.923,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "veces.",
+      "inicio": 38.923,
+      "fin": 39.42,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "Al",
+      "inicio": 39.5,
+      "fin": 39.58,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "final,",
+      "inicio": 39.74,
+      "fin": 40.14,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "ninguna",
+      "inicio": 40.26,
+      "fin": 40.54,
+      "frase": 8,
+      "clave": true
+    },
+    {
+      "texto": "de",
+      "inicio": 40.62,
+      "fin": 40.7,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "sus",
+      "inicio": 40.78,
+      "fin": 40.86,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "dos",
+      "inicio": 40.94,
+      "fin": 41.02,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "manos",
+      "inicio": 41.1,
+      "fin": 41.42,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "tenía",
+      "inicio": 41.5,
+      "fin": 41.74,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "artrosis,",
+      "inicio": 41.82,
+      "fin": 42.54,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "y",
+      "inicio": 42.58,
+      "fin": 42.62,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "le",
+      "inicio": 42.66,
+      "fin": 42.7,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "dieron",
+      "inicio": 42.78,
+      "fin": 43.02,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "un",
+      "inicio": 43.1,
+      "fin": 43.14,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "Ig",
+      "inicio": 43.18,
+      "fin": 43.26,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "Nobel.",
+      "inicio": 43.3,
+      "fin": 44.22,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "Así",
+      "inicio": 44.26,
+      "fin": 44.38,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "que",
+      "inicio": 44.46,
+      "fin": 44.7,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "no",
+      "inicio": 44.78,
+      "fin": 44.86,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "se",
+      "inicio": 44.94,
+      "fin": 45.02,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "te",
+      "inicio": 45.06,
+      "fin": 45.1,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "rompe",
+      "inicio": 45.18,
+      "fin": 45.42,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "nada:",
+      "inicio": 45.5,
+      "fin": 46.06,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "cada",
+      "inicio": 46.14,
+      "fin": 46.3,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "crac",
+      "inicio": 46.38,
+      "fin": 46.7,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "es",
+      "inicio": 46.78,
+      "fin": 46.86,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "un",
+      "inicio": 46.94,
+      "fin": 47.02,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "refresco",
+      "inicio": 47.14,
+      "fin": 47.58,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "que",
+      "inicio": 47.62,
+      "fin": 47.66,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "se",
+      "inicio": 47.82,
+      "fin": 47.9,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "abre",
+      "inicio": 47.98,
+      "fin": 48.14,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "dentro",
+      "inicio": 48.22,
+      "fin": 48.46,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "de",
+      "inicio": 48.54,
+      "fin": 48.58,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "tu",
+      "inicio": 48.62,
+      "fin": 48.7,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "dedo.",
+      "inicio": 48.78,
+      "fin": 49.26,
+      "frase": 9,
+      "clave": false
+    }
+  ]
+}
