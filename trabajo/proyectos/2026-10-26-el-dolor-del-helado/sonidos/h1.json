@@ -1,0 +1,57 @@
+[
+  {
+    "archivo": "sonidos/pinchazo-h1.wav",
+    "en": 0.23,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/tacha-h1.wav",
+    "en": 2.025,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/escarcha-h1.wav",
+    "en": 4.3,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/mordisco-h1.wav",
+    "en": 8.53,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/golpe-h1.wav",
+    "en": 13.595,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/latido-h1.wav",
+    "en": 18.8,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/calor-h1.wav",
+    "en": 26.4,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/tictac-h1.wav",
+    "en": 30.38,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/doble-h1.wav",
+    "en": 32.04,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/zumbido-h1.wav",
+    "en": 37,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/revela-h1.wav",
+    "en": 44.6,
+    "volumen": 1
+  }
+]

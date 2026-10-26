@@ -1,0 +1,44 @@
+{
+  "titulo": "El dolor del helado",
+  "slug": "el-dolor-del-helado",
+  "idioma": "es",
+  "voz": {
+    "proveedor": "elevenlabs",
+    "id": "851ejYcv2BoNPjrkw93G",
+    "modelo": "eleven_v4",
+    "velocidad": 1,
+    "estabilidad": 0.35,
+    "similitud": 0.7,
+    "kokoro": "ef_dora"
+  },
+  "subtitulos": "arriba",
+  "aperturas": [
+    { "id": "h1", "escena": "hook", "frases": [ { "texto": "Ese pinchazo en la frente al comer helado no viene de tu frente.", "clave": "no viene" } ] }
+  ],
+  "reserva": [
+    { "id": "h2", "escena": "hook", "frases": [ { "texto": "¿Por qué el helado te duele en la frente si te lo comes con la boca?", "clave": "frente" } ], "imagen": "el helado tocando los labios y, a la vez, un destello rojo en la frente" },
+    { "id": "h3", "escena": "hook", "frases": [ { "texto": "Comerte el helado deprisa hace que te duela la cabeza el doble.", "clave": "el doble" } ], "imagen": "dos helados con su cronómetro, 5 s y 30 s, y la frente que se enciende el doble con el rápido" },
+    { "id": "h4", "escena": "hook", "frases": [ { "texto": "Tu cerebro no sabe dónde te duele cuando comes helado.", "clave": "no sabe" } ], "imagen": "el frío sube por el paladar y el dolor aparece en la frente, lejos" }
+  ],
+  "cuerpo": [
+    { "texto": "Ni se te congela el cerebro: todo empieza en el techo de tu boca.", "escena": "hook", "clave": "techo" },
+    { "texto": "Cuando el helado toca el paladar, el frío cierra sus vasos de sangre, y justo después se abren de golpe.", "escena": "boca", "clave": "de golpe" },
+    { "texto": "En Harvard lo midieron: justo cuando duele, una arteria de detrás de la frente se ensancha y entra más sangre.", "escena": "arteria", "clave": "se ensancha" },
+    { "texto": "Y en cuanto vuelve a estrecharse, el dolor se va.", "escena": "arteria", "clave": "se va" },
+    { "texto": "Por eso se pasa antes si pegas la lengua al paladar: lo calientas.", "escena": "lengua", "clave": "lengua" },
+    { "texto": "Y en un colegio lo probaron: a los que se comían el helado en 5 segundos les dolió el doble que a los que tardaban medio minuto.", "dicho": "Y en un colegio lo probaron: a los que se comían el helado en cinco segundos les dolió el doble que a los que tardaban medio minuto.", "escena": "experimento", "clave": "el doble" },
+    { "texto": "Pero ¿por qué en la frente? Porque el aviso lo lleva un nervio que recoge lo que sientes en toda la cara.", "escena": "nervio", "clave": "nervio" },
+    { "texto": "Así que el dolor nace en tu boca, pero tu cerebro lo pone en la frente.", "escena": "cierre", "clave": "frente" }
+  ],
+  "cola": 0.15,
+  "escenas": {
+    "hook": { "entrada": "corte" },
+    "boca": { "entrada": "corte" },
+    "arteria": { "entrada": "corte" },
+    "lengua": { "entrada": "corte" },
+    "experimento": { "entrada": "corte" },
+    "nervio": { "entrada": "corte" },
+    "cierre": { "entrada": "corte" }
+  },
+  "sonido": true
+}

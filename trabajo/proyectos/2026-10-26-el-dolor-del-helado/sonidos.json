@@ -1,0 +1,13 @@
+[
+  { "nombre": "pinchazo", "que": "A sharp sudden sting: one quick high bright zing like a needle prick, short and piercing, clean, close", "oye": "a sharp sting zing", "dura": 0.5, "en": 0.3, "golpe": true, "db": -8, "suave": false },
+  { "nombre": "tacha", "que": "A quick marker stroke crossing out a word: a short dry felt-tip swipe on paper, close foley", "oye": "a marker swipe", "dura": 0.5, "en": 2.32, "golpe": true, "db": -12, "suave": false },
+  { "nombre": "escarcha", "que": "Ice crystals forming quickly: a delicate crackling frost spreading over glass, crisp tiny icy crackles, close", "oye": "a crisp frost crackle", "dura": 0.9, "en": 4.3, "golpe": false, "db": -12, "suave": true },
+  { "nombre": "mordisco", "que": "Biting into a scoop of cold ice cream: a soft wet creamy bite with a tiny icy crunch, close foley", "oye": "a soft ice cream bite", "dura": 0.6, "en": 8.6, "golpe": true, "db": -9, "suave": false },
+  { "nombre": "golpe", "que": "A deep soft punchy thump like a sudden heartbeat pulse, low and round, short, no reverb tail", "oye": "a deep pulse thump", "dura": 0.5, "en": 13.62, "golpe": true, "db": -6, "suave": false },
+  { "nombre": "latido", "que": "A steady muffled heartbeat heard from inside the body, two soft low thumps per beat, warm, about one beat per second", "oye": "a muffled heartbeat", "dura": 3.0, "en": 18.8, "golpe": false, "db": -14, "suave": true },
+  { "nombre": "calor", "que": "A gentle warm rising hum, soft and cozy, like warmth spreading, smooth sine swell, no harshness", "oye": "a warm rising hum", "dura": 1.2, "en": 26.4, "golpe": false, "db": -15, "suave": true },
+  { "nombre": "tictac", "que": "A fast stopwatch ticking: quick crisp mechanical clicks, close, clean", "oye": "fast stopwatch ticks", "dura": 0.9, "en": 30.38, "golpe": false, "db": -13, "suave": false },
+  { "nombre": "doble", "que": "A bold punchy pop with a short bright ding, like a result appearing on screen, clean UI, close", "oye": "a bold result pop", "dura": 0.5, "en": 32.04, "golpe": true, "db": -8, "suave": false },
+  { "nombre": "zumbido", "que": "A quick electric zap travelling along a wire: a short bright crackling buzz that rises, clean, close", "oye": "an electric nerve zap", "dura": 0.8, "en": 37.0, "golpe": false, "db": -12, "suave": false },
+  { "nombre": "revela", "que": "A satisfying reveal: one bright soft pop with a short shimmering ding, clean, uplifting, close", "oye": "a bright reveal pop", "dura": 0.7, "en": 44.6, "golpe": true, "db": -9, "suave": false }
+]
