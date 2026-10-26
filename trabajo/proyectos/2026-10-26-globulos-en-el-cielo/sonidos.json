@@ -1,0 +1,17 @@
+[
+  { "nombre": "aro", "que": "A tiny crystal glass tick: one bright short glassy ping, very clean, close, dry", "oye": "a small glass ping", "dura": 0.5, "en": 0.32, "golpe": true, "db": -8, "suave": true },
+  { "nombre": "lupa", "que": "A fast deep whoosh plunging underwater: a quick airy rush ending in a soft wet bloop, close", "oye": "a whoosh plunging into water", "dura": 0.8, "en": 3.12, "golpe": true, "db": -5, "suave": false },
+  { "nombre": "moscas", "que": "Soft airy glassy shimmer, like thin wind chimes barely touched, gentle and floaty", "oye": "a soft airy shimmer", "dura": 1.0, "en": 4.96, "golpe": false, "db": -15, "suave": true },
+  { "nombre": "pupila", "que": "A smooth rising whoosh accelerating into a tunnel: airy rush building up to a soft swell", "oye": "a rising whoosh", "dura": 1.0, "en": 9.37, "golpe": true, "db": -9, "suave": false },
+  { "nombre": "retina", "que": "A deep fast zoom whoosh diving down: airy rush with a low soft thump at the end", "oye": "a diving whoosh", "dura": 0.9, "en": 12.6, "golpe": true, "db": -8, "suave": false },
+  { "nombre": "rayos", "que": "Bright sparkling light rain: many tiny soft glassy twinkles falling, gentle shimmer", "oye": "sparkling twinkles", "dura": 1.0, "en": 12.4, "golpe": false, "db": -15, "suave": true },
+  { "nombre": "borra1", "que": "A quick soft eraser swipe across paper: one smooth airy swish, close foley", "oye": "an eraser swish", "dura": 0.6, "en": 15.94, "golpe": false, "db": -10, "suave": false },
+  { "nombre": "flujo", "que": "Thick liquid flowing through a narrow soft tube: a gentle wet rushing pulse, muffled, close", "oye": "liquid flowing in a tube", "dura": 2.0, "en": 19.1, "golpe": false, "db": -14, "suave": true },
+  { "nombre": "aparta", "que": "Soft jelly blobs being squeezed and pushed aside: a slow wet squishy squeeze, close foley", "oye": "a wet squishy squeeze", "dura": 0.8, "en": 25.95, "golpe": false, "db": -11, "suave": false },
+  { "nombre": "enciende", "que": "A bright magical light turning on: one soft shimmering bell chime with a sparkle, clean", "oye": "a soft bright chime", "dura": 1.0, "en": 32.26, "golpe": true, "db": -7, "suave": true },
+  { "nombre": "borra2", "que": "A quick soft eraser swipe across paper that slips: one smooth airy swish, close foley", "oye": "an eraser swish", "dura": 0.6, "en": 35.62, "golpe": false, "db": -10, "suave": false },
+  { "nombre": "latido1", "que": "One human heartbeat heard through a stethoscope: a deep muffled lub-dub, close, dry", "oye": "a heartbeat lub-dub", "dura": 0.7, "en": 39.22, "golpe": true, "db": -5, "suave": false },
+  { "nombre": "latido2", "que": "One human heartbeat heard through a stethoscope: a deep muffled lub-dub, close, dry", "oye": "a heartbeat lub-dub", "dura": 0.7, "en": 40.13, "golpe": true, "db": -6, "suave": false },
+  { "nombre": "mira", "que": "A small soft camera focus lock: one quiet short electronic click with a tiny blip", "oye": "a soft focus click", "dura": 0.5, "en": 41.1, "golpe": true, "db": -12, "suave": true },
+  { "nombre": "sangre", "que": "A low soft swell of blood rushing: a deep muffled whoosh rising and fading, warm", "oye": "a low rushing swell", "dura": 1.2, "en": 49.0, "golpe": false, "db": -11, "suave": true }
+]

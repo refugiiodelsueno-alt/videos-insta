@@ -1,0 +1,77 @@
+[
+  {
+    "archivo": "sonidos/aro-h1.wav",
+    "en": 0.32,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/lupa-h1.wav",
+    "en": 3.015,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/moscas-h1.wav",
+    "en": 4.96,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/pupila-h1.wav",
+    "en": 9.06,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/retina-h1.wav",
+    "en": 12.32,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/rayos-h1.wav",
+    "en": 12.4,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/borra1-h1.wav",
+    "en": 15.94,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/flujo-h1.wav",
+    "en": 19.1,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/aparta-h1.wav",
+    "en": 25.95,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/enciende-h1.wav",
+    "en": 32.245,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/borra2-h1.wav",
+    "en": 35.62,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/latido1-h1.wav",
+    "en": 39.055,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/latido2-h1.wav",
+    "en": 40.025,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/mira-h1.wav",
+    "en": 40.87,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/sangre-h1.wav",
+    "en": 49,
+    "volumen": 1
+  }
+]

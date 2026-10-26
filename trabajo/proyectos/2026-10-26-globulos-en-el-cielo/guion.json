@@ -1,0 +1,47 @@
+{
+  "titulo": "Los puntitos del cielo azul",
+  "slug": "globulos-en-el-cielo",
+  "idioma": "es",
+  "voz": {
+    "proveedor": "elevenlabs",
+    "id": "851ejYcv2BoNPjrkw93G",
+    "modelo": "eleven_v4",
+    "velocidad": 1,
+    "estabilidad": 0.35,
+    "similitud": 0.7,
+    "kokoro": "ef_dora"
+  },
+  "subtitulos": "arriba",
+  "aperturas": [
+    { "id": "h1", "escena": "hook", "frases": [ { "texto": "Esos puntitos de luz que ves en el cielo azul son tus glóbulos blancos.", "clave": "glóbulos blancos" } ] }
+  ],
+  "reserva": [
+    { "id": "h2", "escena": "hook", "frases": [ { "texto": "Cuando miras al cielo azul, estás viendo tu propia sangre.", "clave": "tu propia sangre" } ], "imagen": "un cielo azul que llena la pantalla con puntitos de luz corriendo; se tiñe de rojo un instante y se ven los vasos" },
+    { "id": "h3", "escena": "hook", "frases": [ { "texto": "Mira un cielo azul y verás puntitos que corren al ritmo de tu corazón.", "clave": "tu corazón" } ], "imagen": "el cielo con los puntitos que dan un acelerón a la vez, con un latido" },
+    { "id": "h4", "escena": "hook", "frases": [ { "texto": "Tu ojo mira a través de tu propia sangre, y tu cerebro te lo esconde.", "clave": "te lo esconde" } ], "imagen": "un ojo enorme mirando al cielo; encima, una red de vasos rojos que se borra" }
+  ],
+  "cuerpo": [
+    { "texto": "No son moscas volantes: es tu sangre, moviéndose dentro de tu ojo.", "escena": "ojo", "clave": "tu sangre" },
+    { "texto": "Antes de llegar al fondo del ojo, la luz tiene que cruzar una red de vasitos de sangre.", "escena": "retina", "clave": "vasitos" },
+    { "texto": "No la ves porque tu cerebro la borra: siempre está en el mismo sitio.", "escena": "sombra", "clave": "la borra" },
+    { "texto": "Por dentro van los glóbulos rojos, en fila, y se tragan la luz azul.", "escena": "capilar", "clave": "se tragan" },
+    { "texto": "Pero a veces pasa un glóbulo blanco, más grande y más lento, que aparta a los rojos.", "escena": "capilar", "clave": "glóbulo blanco" },
+    { "texto": "Por ese hueco se cuela la luz azul, y en tu ojo se enciende un puntito.", "escena": "capilar", "clave": "un puntito" },
+    { "texto": "Y como se mueve, tu cerebro no lo puede borrar.", "escena": "cielo", "clave": "no lo puede borrar" },
+    { "texto": "Van a saltitos, más rápido con cada latido de tu corazón.", "escena": "cielo", "clave": "cada latido" },
+    { "texto": "Y justo donde miras no hay ninguno: ahí no hay vasos, para que veas nítido.", "escena": "centro", "clave": "no hay ninguno" },
+    { "texto": "Así que cada vez que miras el cielo azul, lo estás mirando a través de tu propia sangre.", "escena": "cierre", "clave": "tu propia sangre" }
+  ],
+  "cola": 0.15,
+  "escenas": {
+    "hook": { "entrada": "corte" },
+    "ojo": { "entrada": "corte" },
+    "retina": { "entrada": "corte" },
+    "sombra": { "entrada": "corte" },
+    "capilar": { "entrada": "corte" },
+    "cielo": { "entrada": "corte" },
+    "centro": { "entrada": "corte" },
+    "cierre": { "entrada": "corte" }
+  },
+  "sonido": true
+}
