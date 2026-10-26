@@ -1,0 +1,21 @@
+[
+  { "nombre": "crac", "que": "A loud crisp knuckle crack: one sharp hollow pop of a finger joint, very close foley, dry, punchy", "oye": "a sharp knuckle crack", "dura": 0.5, "en": 0.27, "golpe": true, "db": -6, "suave": false },
+  { "nombre": "rayos", "que": "A sci-fi x-ray scanner sweep: a smooth rising electronic whoosh with a soft glassy shimmer, clean, cinematic", "oye": "an x-ray scan whoosh", "dura": 0.9, "en": 0.6, "golpe": false, "db": -14, "suave": true },
+  { "nombre": "burbuja", "que": "A single round bubble forming underwater: one deep soft bloop, clean, close", "oye": "a deep bubble bloop", "dura": 0.6, "en": 3.3, "golpe": true, "db": -12, "suave": true },
+  { "nombre": "rebobina", "que": "A VHS tape rewinding fast: a quick high whirring mechanical squeal that rises, with tape hiss, retro", "oye": "a fast tape rewind whir", "dura": 0.7, "en": 5.2, "golpe": false, "db": -12, "suave": true },
+  { "nombre": "refresco", "que": "A sealed soda bottle being gently shaken: soft liquid sloshing with a faint fizz inside, close foley", "oye": "a sealed soda slosh", "dura": 1.0, "en": 10.0, "golpe": false, "db": -14, "suave": true },
+  { "nombre": "estira", "que": "Slow tension building: a low creaking stretch of rubber and leather pulled tight, rising strain, close foley", "oye": "a tight rubber stretch creak", "dura": 2.6, "en": 13.0, "golpe": false, "db": -13, "suave": true },
+  { "nombre": "suelta", "que": "A sharp snap release: a taut rubber band snapping with a hollow pop, punchy, close", "oye": "a hollow snap release", "dura": 0.5, "en": 18.06, "golpe": true, "db": -8, "suave": false },
+  { "nombre": "abre", "que": "Opening a soda bottle: a crisp pressurized psst hiss followed by fizzing bubbles, close foley", "oye": "a soda bottle psst and fizz", "dura": 1.4, "en": 19.15, "golpe": true, "db": -11, "suave": true },
+  { "nombre": "pop", "que": "A small cartoon bubble pop appearing: one soft round plip, clean, bright", "oye": "a soft bubble plip", "dura": 0.5, "en": 20.7, "golpe": true, "db": -12, "suave": false },
+  { "nombre": "crac2", "que": "A crisp knuckle crack: one sharp hollow pop of a finger joint, very close foley, dry", "oye": "a knuckle crack", "dura": 0.5, "en": 22.96, "golpe": true, "db": -10, "suave": false },
+  { "nombre": "rebobina2", "que": "A VHS tape rewinding fast: a quick high whirring mechanical squeal that rises, with tape hiss, retro", "oye": "a fast tape rewind whir", "dura": 0.7, "en": 28.4, "golpe": false, "db": -12, "suave": true },
+  { "nombre": "escaner", "que": "An MRI machine: rhythmic loud electronic knocking and beeping pulses, clinical, close", "oye": "MRI machine beeps", "dura": 1.6, "en": 29.0, "golpe": false, "db": -15, "suave": true },
+  { "nombre": "crac3", "que": "A loud crisp knuckle crack: one sharp hollow pop of a finger joint, very close foley, dry, punchy", "oye": "a sharp knuckle crack", "dura": 0.5, "en": 33.1, "golpe": true, "db": -7, "suave": false },
+  { "nombre": "nada", "que": "A dull muted thud: a soft fleshy tug with no pop at all, close foley, dry", "oye": "a muted dull tug", "dura": 0.5, "en": 38.2, "golpe": true, "db": -13, "suave": false },
+  { "nombre": "reloj", "que": "A clock ticking quickly, time-lapse ticking accelerating, clean, close", "oye": "a fast ticking clock", "dura": 2.4, "en": 39.7, "golpe": false, "db": -14, "suave": true },
+  { "nombre": "serie", "que": "Several knuckles cracking one after another: a quick series of small sharp finger joint pops, close foley, dry", "oye": "a series of knuckle pops", "dura": 2.2, "en": 44.2, "golpe": false, "db": -11, "suave": false },
+  { "nombre": "barrido", "que": "A medical scanner sweep: a smooth rising electronic hum passing over, clean, cinematic", "oye": "a scanner sweep hum", "dura": 1.0, "en": 47.9, "golpe": false, "db": -13, "suave": true },
+  { "nombre": "acierto", "que": "A satisfying correct-answer chime: one bright soft ding with a short shimmer, clean, close", "oye": "a bright correct ding", "dura": 0.7, "en": 49.1, "golpe": true, "db": -11, "suave": true },
+  { "nombre": "vuelve", "que": "A fast soft whoosh swooping back, clean cinematic transition", "oye": "a soft whoosh", "dura": 0.8, "en": 50.6, "golpe": false, "db": -13, "suave": true }
+]

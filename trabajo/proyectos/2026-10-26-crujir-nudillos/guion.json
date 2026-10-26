@@ -1,0 +1,115 @@
+{
+  "titulo": "Por qué crujen los nudillos",
+  "slug": "crujir-nudillos",
+  "idioma": "es",
+  "voz": {
+    "proveedor": "elevenlabs",
+    "id": "851ejYcv2BoNPjrkw93G",
+    "modelo": "eleven_v4",
+    "velocidad": 1,
+    "estabilidad": 0.35,
+    "similitud": 0.7,
+    "kokoro": "ef_dora"
+  },
+  "subtitulos": "arriba",
+  "aperturas": [
+    {
+      "id": "h1",
+      "escena": "hook",
+      "frases": [
+        {
+          "texto": "Ese crujido de tus nudillos no es un hueso: es una burbuja naciendo dentro de tu dedo.",
+          "clave": "una burbuja"
+        }
+      ]
+    }
+  ],
+  "reserva": [
+    {
+      "id": "h2",
+      "escena": "hook",
+      "frases": [
+        {
+          "texto": "Cada vez que te crujes los dedos, dentro nace una burbuja en menos de un parpadeo.",
+          "clave": "una burbuja"
+        }
+      ],
+      "imagen": "una burbuja que aparece de golpe entre dos huesos dentro de un dedo transparente"
+    },
+    {
+      "id": "h3",
+      "escena": "hook",
+      "frases": [
+        {
+          "texto": "Un médico se crujió solo una mano durante sesenta años para ver qué pasaba.",
+          "clave": "sesenta años"
+        }
+      ],
+      "imagen": "dos manos, una con chispas de crujido y otra quieta, con un contador de años"
+    }
+  ],
+  "cuerpo": [
+    {
+      "texto": "Tus dedos se unen con una cápsula llena de líquido, con gas disuelto, como un refresco cerrado.",
+      "escena": "hook",
+      "clave": "gas disuelto"
+    },
+    {
+      "texto": "Cuando tiras, las dos superficies se resisten a separarse y la presión del líquido cae en picado.",
+      "escena": "tira",
+      "clave": "la presión"
+    },
+    {
+      "texto": "Hasta que se sueltan de golpe: el gas sale del líquido y forma una burbuja en un instante. Ese es el crac.",
+      "escena": "tira",
+      "clave": "el crac"
+    },
+    {
+      "texto": "Durante casi setenta años se discutió si sonaba al nacer o al explotar.",
+      "escena": "resonancia",
+      "clave": "al explotar"
+    },
+    {
+      "texto": "En 2015 lo grabaron por dentro con una resonancia: el ruido llega justo cuando nace la burbuja, y la burbuja sigue ahí después.",
+      "escena": "resonancia",
+      "clave": "sigue ahí"
+    },
+    {
+      "texto": "Por eso no puedes crujir el mismo dedo dos veces seguidas: el gas tarda unos veinte minutos en volver a disolverse.",
+      "escena": "veinte",
+      "clave": "veinte minutos"
+    },
+    {
+      "texto": "Y un médico se crujió los nudillos de una sola mano cada día durante sesenta años. ¿Artritis? En ninguna de las dos.",
+      "escena": "manos",
+      "clave": "ninguna"
+    },
+    {
+      "texto": "Así que la próxima vez que lo oigas, ya lo sabes:",
+      "escena": "cierre",
+      "clave": "ya lo sabes"
+    }
+  ],
+  "cola": 0.15,
+  "escenas": {
+    "hook": {
+      "entrada": "corte"
+    },
+    "tira": {
+      "entrada": "corte"
+    },
+    "resonancia": {
+      "entrada": "corte"
+    },
+    "veinte": {
+      "entrada": "corte"
+    },
+    "manos": {
+      "entrada": "corte"
+    },
+    "cierre": {
+      "entrada": "corte"
+    }
+  },
+  "sonido": true
+}

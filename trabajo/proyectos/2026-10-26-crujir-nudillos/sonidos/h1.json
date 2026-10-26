@@ -1,0 +1,97 @@
+[
+  {
+    "archivo": "sonidos/crac-h1.wav",
+    "en": 0.25,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/rayos-h1.wav",
+    "en": 0.6,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/burbuja-h1.wav",
+    "en": 3.19,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/rebobina-h1.wav",
+    "en": 5.2,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/refresco-h1.wav",
+    "en": 10,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/estira-h1.wav",
+    "en": 13,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/suelta-h1.wav",
+    "en": 18.06,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/abre-h1.wav",
+    "en": 19.03,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/pop-h1.wav",
+    "en": 20.57,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/crac2-h1.wav",
+    "en": 22.95,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/rebobina2-h1.wav",
+    "en": 28.4,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/escaner-h1.wav",
+    "en": 29,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/crac3-h1.wav",
+    "en": 33.08,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/nada-h1.wav",
+    "en": 38.175,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/reloj-h1.wav",
+    "en": 39.7,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/serie-h1.wav",
+    "en": 44.2,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/barrido-h1.wav",
+    "en": 47.9,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/acierto-h1.wav",
+    "en": 49.1,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/vuelve-h1.wav",
+    "en": 50.6,
+    "volumen": 1
+  }
+]
