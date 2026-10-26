@@ -1,0 +1,37 @@
+[
+  {
+    "archivo": "sonidos/play-h1.wav",
+    "en": 0.12,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/tacha-h1.wav",
+    "en": 4.885,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/aire-h1.wav",
+    "en": 13.3,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/hueso-h1.wav",
+    "en": 18.2,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/tapon-h1.wav",
+    "en": 33.295,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/estrellas-h1.wav",
+    "en": 39.8,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/revela-h1.wav",
+    "en": 43.56,
+    "volumen": 1
+  }
+]

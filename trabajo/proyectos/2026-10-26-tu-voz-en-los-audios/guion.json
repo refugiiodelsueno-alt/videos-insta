@@ -1,0 +1,45 @@
+{
+  "titulo": "Tu voz en los audios",
+  "slug": "tu-voz-en-los-audios",
+  "idioma": "es",
+  "voz": {
+    "proveedor": "elevenlabs",
+    "id": "851ejYcv2BoNPjrkw93G",
+    "modelo": "eleven_v4",
+    "velocidad": 1,
+    "estabilidad": 0.35,
+    "similitud": 0.7,
+    "kokoro": "ef_dora"
+  },
+  "subtitulos": "arriba",
+  "aperturas": [
+    { "id": "h1", "escena": "hook", "frases": [ { "texto": "La voz que odias en tus audios es tu voz de verdad.", "clave": "de verdad" } ] }
+  ],
+  "reserva": [
+    { "id": "h2", "escena": "hook", "frases": [ { "texto": "Nadie más que tú ha oído nunca la voz que oyes al hablar.", "clave": "nadie" } ], "imagen": "la cabeza de perfil hablando: ondas cian salen de la boca hacia fuera y un brillo dorado se queda dentro del cráneo, hasta su propio oído" },
+    { "id": "h3", "escena": "hook", "frases": [ { "texto": "Tus huesos te cambian la voz cada vez que hablas.", "clave": "huesos" } ], "imagen": "la cabeza de perfil, el cráneo se ve a través de la piel y vibra en dorado con cada sílaba" },
+    { "id": "h4", "escena": "hook", "frases": [ { "texto": "¿Por qué en los audios tu voz suena rara y la de tus amigos no?", "clave": "amigos" } ], "imagen": "el móvil con dos notas de voz: la tuya en rojo, rara; la de un amigo, normal" }
+  ],
+  "cuerpo": [
+    { "texto": "No es que el móvil grabe mal: así te oyen todos.", "escena": "hook", "clave": "todos" },
+    { "texto": "La que suena rara es la que oyes tú, porque te llega por dos caminos.", "escena": "cabeza", "clave": "dos caminos" },
+    { "texto": "Uno va por fuera: sale de tu boca, cruza el aire y entra por la oreja.", "escena": "cabeza", "clave": "aire" },
+    { "texto": "El otro va por dentro: al hablar, vibran los huesos de tu cabeza y la llevan directa al oído.", "escena": "craneo", "clave": "huesos" },
+    { "texto": "Y el hueso deja pasar mejor los graves, así que por dentro suenas más grave y más lleno.", "escena": "craneo", "clave": "graves" },
+    { "texto": "El micro solo oye el aire, así que en el audio te faltan esos graves y suenas más fino.", "escena": "micro", "clave": "fino" },
+    { "texto": "Tápate los oídos y habla: casi todo te llega por el hueso, y suenas aún más grave.", "escena": "tapado", "clave": "más grave" },
+    { "texto": "En un experimento, la gente puntuó su voz grabada mejor que la de los demás, sin saber que era la suya.", "escena": "experimento", "clave": "la suya" },
+    { "texto": "Así que la voz rara no es la del audio: es la que oyes tú.", "escena": "cierre", "clave": "tú" }
+  ],
+  "cola": 0.15,
+  "escenas": {
+    "hook": { "entrada": "corte" },
+    "cabeza": { "entrada": "corte" },
+    "craneo": { "entrada": "corte" },
+    "micro": { "entrada": "corte" },
+    "tapado": { "entrada": "corte" },
+    "experimento": { "entrada": "corte" },
+    "cierre": { "entrada": "corte" }
+  },
+  "sonido": true
+}

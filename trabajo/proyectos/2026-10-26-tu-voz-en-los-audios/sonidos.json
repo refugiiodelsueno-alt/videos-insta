@@ -1,0 +1,9 @@
+[
+  { "nombre": "play", "que": "A phone voice message play button being tapped: one soft short digital UI click with a tiny bright blip, clean, close", "oye": "a soft phone UI tap", "dura": 0.5, "en": 0.12, "golpe": true, "db": -6, "suave": false },
+  { "nombre": "tacha", "que": "A quick marker stroke crossing out a word: a short dry felt-tip swipe on paper, close foley", "oye": "a marker swipe", "dura": 0.5, "en": 5.16, "golpe": true, "db": -12, "suave": false },
+  { "nombre": "aire", "que": "A soft airy whoosh passing from left to right: gentle breath-like air movement, smooth, no wind howl", "oye": "a soft air whoosh", "dura": 0.9, "en": 13.3, "golpe": false, "db": -14, "suave": true },
+  { "nombre": "hueso", "que": "A deep low resonant hum vibrating through bone: a warm muffled low frequency buzz, felt more than heard, close", "oye": "a deep low bone hum", "dura": 1.4, "en": 18.2, "golpe": false, "db": -10, "suave": true },
+  { "nombre": "tapon", "que": "A fingertip pressing into an ear canal: a muffled soft thump and the sudden pressure of a blocked ear, close", "oye": "a muffled ear-plug thump", "dura": 0.6, "en": 33.3, "golpe": true, "db": -8, "suave": false },
+  { "nombre": "estrellas", "que": "Rating stars filling in one after another: a quick rising sequence of small sparkly chimes, light, clean UI", "oye": "rising sparkle chimes", "dura": 1.2, "en": 39.8, "golpe": false, "db": -14, "suave": true },
+  { "nombre": "revela", "que": "A satisfying reveal: one bright soft pop with a short shimmering ding, clean, uplifting, close", "oye": "a bright reveal pop", "dura": 0.7, "en": 43.56, "golpe": true, "db": -9, "suave": false }
+]

@@ -10,3 +10,5 @@
 - Al entregar, dar también un comentario para fijar en el post (dato extra, pregunta o lo que mejor funcione), guardado en `comentario.txt` en la carpeta de salida.
 - Al entregar, pegar siempre en el chat el texto completo de la descripción y del comentario fijado, listos para copiar.
 - No parar a preguntar: guion aprobado de antemano y siempre con efectos de sonido. Hacer el vídeo entero seguido y enseñarlo terminado.
+
+- Un vídeo tras otro sin parar: al acabar uno, empieza el siguiente (tema elegido por mí) hasta que diga que pare.

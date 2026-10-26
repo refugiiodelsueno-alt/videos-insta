@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <!--
+      El esqueleto de una escena en 3D (kit3d.js). Se copia a escenas/<nombre>.html y se rellena con lo que dice plan.md.
+      - Lo que sale en varias escenas (el objeto, su sitio) va en recursos/mundo.js y cada escena lo importa.
+      - Un modelo .glb de verdad en recursos/ (de dónde sale y su licencia, en notas.md), cargado con cargar().
+      - La cámara, con camino(): pasa por sus puntos sin pararse en cada uno. Seguir algo, con seguir() y un peso que
+        cambie con suave(). Nada arranca ni para de golpe.
+      - Las mismas reglas que escena.html: __ID__, __CUES__, __DURACION__, un timeline en window.__timelines["__ID__"].
+    -->
+    <template>
+      <style>
+        #root { position: absolute; inset: 0; overflow: hidden; }
+        #__ID__-3d { position: absolute; inset: 0; width: 100%; height: 100%; }
+      </style>
+      <div id="root" data-composition-id="__ID__" data-width="1080" data-height="1920" data-duration="__DURACION__">
+        <canvas id="__ID__-3d" width="1080" height="1920"></canvas>
+      </div>
+      <script type="module">
+        import { estudio, cargar, camino, seguir, poner, suave, V } from "./kit3d.js";
+        const C = __CUES__, D = __DURACION__;
+        const t = (p, d) => (C[p] !== undefined ? C[p] : d);
+        const tl = gsap.timeline({ paused: true });
+        const E = estudio("#__ID__-3d", { fondo: "#000000" });   // el fondo y la luz, los de la referencia
+        // const objeto = await cargar(E, "recursos/objeto.glb");
+        E.cada(tl, D, (s) => {
+          // dónde está cada cosa en el segundo s, y la cámara:
+          camino(E, s, [[0, V(6, 2, 8), V(0, 0.5, 0)], [D, V(5, 1.6, 6.5), V(0, 0.5, 0)]]);
+        });
+        window.__timelines["__ID__"] = tl;
+      </script>
+    </template>
+  </body>
+</html>
