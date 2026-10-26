@@ -1,0 +1,130 @@
+{
+  "titulo": "Tus dedos no se arrugan por el agua",
+  "slug": "dedos-arrugados",
+  "idioma": "es",
+  "voz": {
+    "proveedor": "elevenlabs",
+    "id": "851ejYcv2BoNPjrkw93G",
+    "modelo": "eleven_v4",
+    "velocidad": 1,
+    "estabilidad": 0.35,
+    "similitud": 0.7,
+    "kokoro": "ef_dora"
+  },
+  "subtitulos": "arriba",
+  "aperturas": [
+    {
+      "id": "h1",
+      "escena": "hook",
+      "frases": [
+        {
+          "texto": "Tus dedos no se arrugan por el agua.",
+          "clave": "por el agua"
+        }
+      ]
+    }
+  ],
+  "reserva": [
+    {
+      "id": "h2",
+      "escena": "hook",
+      "frases": [
+        {
+          "texto": "Si te cortan este nervio, tu dedo ya no se arruga en el agua.",
+          "clave": "nervio"
+        }
+      ],
+      "imagen": "la mano en el agua; un nervio dorado sube por un dedo y se corta en rojo; ese dedo queda liso y los demás se arrugan"
+    },
+    {
+      "id": "h3",
+      "escena": "hook",
+      "frases": [
+        {
+          "texto": "Tu cuerpo te arruga los dedos en la bañera a propósito.",
+          "clave": "a propósito"
+        }
+      ],
+      "imagen": "la yema en primer plano bajo el agua, plegándose en surcos mientras dentro brillan los nervios"
+    },
+    {
+      "id": "h4",
+      "escena": "hook",
+      "frases": [
+        {
+          "texto": "¿Por qué en la bañera se te arrugan los dedos, pero no el brazo?",
+          "clave": "brazo"
+        }
+      ],
+      "imagen": "brazo y mano bajo el agua: la yema se arruga y el brazo sigue liso al lado"
+    }
+  ],
+  "cuerpo": [
+    {
+      "texto": "Si fuera la piel empapándose, se te arrugaría también el brazo, y solo se arrugan las yemas.",
+      "escena": "brazo",
+      "clave": "yemas"
+    },
+    {
+      "texto": "Y lo más raro: si el nervio de un dedo está roto, ese dedo sale de la bañera liso.",
+      "escena": "nervio",
+      "clave": "liso"
+    },
+    {
+      "texto": "Así que no es el agua: es tu sistema nervioso, y lo hace a propósito.",
+      "escena": "nervio",
+      "clave": "a propósito"
+    },
+    {
+      "texto": "Al notar el agua, los nervios aprietan los vasos de sangre de la yema.",
+      "escena": "dentro",
+      "clave": "vasos"
+    },
+    {
+      "texto": "Entra menos sangre, la yema se deshincha y la piel que sobra se pliega en surcos.",
+      "escena": "dentro",
+      "clave": "surcos"
+    },
+    {
+      "texto": "¿Y para qué? Como un neumático de lluvia: sus surcos echan el agua para no patinar.",
+      "escena": "rueda",
+      "clave": "neumático"
+    },
+    {
+      "texto": "En un experimento, con los dedos arrugados, la gente pasaba canicas mojadas de un bote a otro un 12 % más rápido.",
+      "dicho": "En un experimento, con los dedos arrugados, la gente pasaba canicas mojadas de un bote a otro un doce por ciento más rápido.",
+      "escena": "canicas",
+      "clave": "12 %"
+    },
+    {
+      "texto": "No es por el agua: es para el agua.",
+      "escena": "cierre",
+      "clave": "para el agua"
+    }
+  ],
+  "cola": 0.15,
+  "escenas": {
+    "hook": {
+      "entrada": "corte"
+    },
+    "brazo": {
+      "entrada": "corte"
+    },
+    "nervio": {
+      "entrada": "corte"
+    },
+    "dentro": {
+      "entrada": "corte"
+    },
+    "rueda": {
+      "entrada": "corte"
+    },
+    "canicas": {
+      "entrada": "corte"
+    },
+    "cierre": {
+      "entrada": "corte"
+    }
+  },
+  "sonido": true
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "archivo": "sonidos/gota-h1.wav",
+    "en": 0.15,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/chasquido-h1.wav",
+    "en": 9.88,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/aprieta-h1.wav",
+    "en": 19.49,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/pliega-h1.wav",
+    "en": 25.5,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/charco-h1.wav",
+    "en": 27.8,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/canica1-h1.wav",
+    "en": 32.9,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/canica2-h1.wav",
+    "en": 34.89,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/canica3-h1.wav",
+    "en": 36.825,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/canica4-h1.wav",
+    "en": 38.87,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/hilo-h1.wav",
+    "en": 40.98,
+    "volumen": 1
+  }
+]

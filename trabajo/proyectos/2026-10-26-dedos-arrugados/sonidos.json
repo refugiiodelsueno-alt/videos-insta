@@ -1,0 +1,12 @@
+[
+  { "nombre": "gota", "que": "A single water drop falling onto wet skin: one crisp small plip with a tiny splash, close foley, dry, bathroom", "oye": "a water drop plip", "dura": 0.5, "en": 0.15, "golpe": true, "db": -4, "suave": false },
+  { "nombre": "chasquido", "que": "A thin taut string snapping: one short sharp electric snap with a tiny crackle, close, dry", "oye": "a thin string snapping", "dura": 0.5, "en": 10.08, "golpe": true, "db": -10, "suave": true },
+  { "nombre": "aprieta", "que": "A soft rubber tube being squeezed tight: a short wet rubbery squeak and squish, close foley", "oye": "a rubber tube squeezed", "dura": 0.6, "en": 19.86, "golpe": true, "db": -12, "suave": false },
+  { "nombre": "pliega", "que": "Wet skin wrinkling and folding: a soft quick wet crinkle like damp cloth being scrunched, close foley", "oye": "a soft wet crinkle", "dura": 0.7, "en": 25.5, "golpe": false, "db": -12, "suave": true },
+  { "nombre": "charco", "que": "A car tyre rolling fast through a shallow puddle: a quick watery hiss and splash spraying sideways, close", "oye": "a tyre splashing through a puddle", "dura": 1.2, "en": 27.8, "golpe": false, "db": -8, "suave": false },
+  { "nombre": "canica1", "que": "A glass marble dropped into a jar of water: a small glassy clink and a tiny plop, close foley", "oye": "a marble clinking into a jar", "dura": 0.5, "en": 32.9, "golpe": true, "db": -14, "suave": false },
+  { "nombre": "canica2", "que": "A glass marble dropped into a jar of water: a small glassy clink and a tiny plop, close foley", "oye": "a marble clinking into a jar", "dura": 0.5, "en": 34.9, "golpe": true, "db": -14, "suave": false },
+  { "nombre": "canica3", "que": "A glass marble dropped into a jar of water: a small glassy clink and a tiny plop, close foley", "oye": "a marble clinking into a jar", "dura": 0.5, "en": 36.9, "golpe": true, "db": -14, "suave": false },
+  { "nombre": "canica4", "que": "A glass marble dropped into a jar of water: a small glassy clink and a tiny plop, close foley", "oye": "a marble clinking into a jar", "dura": 0.5, "en": 38.9, "golpe": true, "db": -13, "suave": false },
+  { "nombre": "hilo", "que": "A thin trickle of water running through small grooves: a gentle bright trickling flow, close, no splash", "oye": "a trickle of water", "dura": 1.2, "en": 40.98, "golpe": false, "db": -14, "suave": true }
+]
