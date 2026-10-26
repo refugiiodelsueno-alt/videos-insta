@@ -1,0 +1,18 @@
+      /* El aspecto del vídeo. Cada escena lo usa con var(--...). Se cambia aquí, no en cada escena. */
+      :root {
+        --fondo: #0f1114;           /* fondo oscuro */
+        --fondo-claro: #f5f4f0;     /* fondo claro, para escenas de papel o de pantalla */
+        --rejilla: rgba(255, 255, 255, 0.035);
+        --tinta: #ffffff;           /* la palabra que suena y el texto principal */
+        --tinta-dicha: #7b818a;     /* palabras ya dichas */
+        --tinta-oscura: #111418;    /* texto sobre fondo claro */
+        --marca: #2f7cf6;           /* recuadro de la palabra clave */
+        --verde: #22d38a;
+        --rojo: #f0445a;
+        --ambar: #f5a524;
+        --letra: "Figtree";
+        --letra-mono: "JetBrains Mono";
+        --sub-tam: 74px;            /* tamaño del subtítulo */
+        --sub-arriba: 318px;        /* dónde va el subtítulo arriba (las escenas dibujan de 540 a 1450) */
+        --sub-abajo: 1390px;
+      }

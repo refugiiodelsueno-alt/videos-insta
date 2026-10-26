@@ -1,0 +1,1142 @@
+{
+  "proveedor": "elevenlabs",
+  "toma": "seguida",
+  "firma": "c2bceef1f25e",
+  "duracion": 48.83,
+  "frases": [
+    {
+      "n": 1,
+      "parte": "hook",
+      "texto": "Un gato se gira en el aire sin apoyarse en nada, y eso parecía imposible.",
+      "escena": "hook",
+      "clave": "imposible",
+      "inicio": 0,
+      "fin": 5.2,
+      "ritmo": 1
+    },
+    {
+      "n": 2,
+      "parte": "cuerpo",
+      "texto": "Para empezar a girar, tienes que empujar contra algo.",
+      "escena": "regla",
+      "clave": "empujar contra algo",
+      "inicio": 5.28,
+      "fin": 8.16,
+      "ritmo": 1
+    },
+    {
+      "n": 3,
+      "parte": "cuerpo",
+      "texto": "Por eso, en 1894, las fotos de un gato cayendo dejaron a los científicos de París sin palabras.",
+      "escena": "fotos",
+      "clave": "sin palabras",
+      "inicio": 8.2,
+      "fin": 15.36,
+      "ritmo": 1
+    },
+    {
+      "n": 4,
+      "parte": "cuerpo",
+      "texto": "El truco es que el gato no gira entero: se dobla por la cintura y gira por mitades.",
+      "escena": "truco",
+      "clave": "por mitades",
+      "inicio": 15.54,
+      "fin": 20.74,
+      "ritmo": 1
+    },
+    {
+      "n": 5,
+      "parte": "cuerpo",
+      "texto": "Primero encoge las patas de delante y gira la mitad de delante, muy rápido.",
+      "escena": "truco",
+      "clave": "encoge",
+      "inicio": 20.92,
+      "fin": 25.08,
+      "ritmo": 1
+    },
+    {
+      "n": 6,
+      "parte": "cuerpo",
+      "texto": "La de atrás, con las patas estiradas, gira un poco al revés.",
+      "escena": "truco",
+      "clave": "al revés",
+      "inicio": 25.26,
+      "fin": 28.7,
+      "ritmo": 1
+    },
+    {
+      "n": 7,
+      "parte": "cuerpo",
+      "texto": "Luego cambia: encoge las de atrás y las gira hasta ponerlas debajo.",
+      "escena": "truco",
+      "clave": "cambia",
+      "inicio": 28.88,
+      "fin": 32.8,
+      "ritmo": 1
+    },
+    {
+      "n": 8,
+      "parte": "cuerpo",
+      "texto": "Como una patinadora: con los brazos pegados, gira mucho más rápido.",
+      "escena": "patinadora",
+      "clave": "brazos pegados",
+      "inicio": 32.98,
+      "fin": 36.86,
+      "ritmo": 1
+    },
+    {
+      "n": 9,
+      "parte": "cuerpo",
+      "texto": "Y todo en menos de medio segundo.",
+      "escena": "oido",
+      "clave": "medio segundo",
+      "inicio": 37.04,
+      "fin": 39.12,
+      "ritmo": 1
+    },
+    {
+      "n": 10,
+      "parte": "cuerpo",
+      "texto": "Años después, se estudió este giro para que los astronautas se dieran la vuelta flotando.",
+      "escena": "espacio",
+      "clave": "astronautas",
+      "inicio": 39.3,
+      "fin": 43.86,
+      "ritmo": 1
+    },
+    {
+      "n": 11,
+      "parte": "cuerpo",
+      "texto": "El gato no rompe la física: la usa mejor que nadie para hacer lo imposible.",
+      "escena": "cierre",
+      "clave": "lo imposible",
+      "inicio": 44.04,
+      "fin": 48.68,
+      "ritmo": 1
+    }
+  ],
+  "palabras": [
+    {
+      "texto": "Un",
+      "inicio": 0,
+      "fin": 0.16,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "gato",
+      "inicio": 0.2,
+      "fin": 0.48,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "se",
+      "inicio": 0.56,
+      "fin": 0.64,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "gira",
+      "inicio": 0.72,
+      "fin": 0.88,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "en",
+      "inicio": 0.92,
+      "fin": 0.96,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "el",
+      "inicio": 1.04,
+      "fin": 1.12,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "aire",
+      "inicio": 1.24,
+      "fin": 1.36,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "sin",
+      "inicio": 1.44,
+      "fin": 1.6,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "apoyarse",
+      "inicio": 1.68,
+      "fin": 2.16,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "en",
+      "inicio": 2.24,
+      "fin": 2.32,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "nada,",
+      "inicio": 2.4,
+      "fin": 3.04,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "y",
+      "inicio": 3.08,
+      "fin": 3.12,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "eso",
+      "inicio": 3.2,
+      "fin": 3.44,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "parecía",
+      "inicio": 3.52,
+      "fin": 3.92,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "imposible.",
+      "inicio": 4,
+      "fin": 5.2,
+      "frase": 1,
+      "clave": true
+    },
+    {
+      "texto": "Para",
+      "inicio": 5.28,
+      "fin": 5.36,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "empezar",
+      "inicio": 5.44,
+      "fin": 5.68,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "a",
+      "inicio": 5.72,
+      "fin": 5.76,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "girar,",
+      "inicio": 5.84,
+      "fin": 6.24,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "tienes",
+      "inicio": 6.28,
+      "fin": 6.48,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "que",
+      "inicio": 6.56,
+      "fin": 6.64,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "empujar",
+      "inicio": 6.72,
+      "fin": 7.04,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "contra",
+      "inicio": 7.12,
+      "fin": 7.36,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "algo.",
+      "inicio": 7.52,
+      "fin": 8.16,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "Por",
+      "inicio": 8.2,
+      "fin": 8.24,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "eso,",
+      "inicio": 8.32,
+      "fin": 8.72,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "en",
+      "inicio": 8.8,
+      "fin": 8.88,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "1894,",
+      "inicio": 8.96,
+      "fin": 10.64,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "las",
+      "inicio": 10.72,
+      "fin": 10.8,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "fotos",
+      "inicio": 10.88,
+      "fin": 11.12,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "de",
+      "inicio": 11.16,
+      "fin": 11.2,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "un",
+      "inicio": 11.24,
+      "fin": 11.28,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "gato",
+      "inicio": 11.36,
+      "fin": 11.6,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "cayendo",
+      "inicio": 11.64,
+      "fin": 12.08,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "dejaron",
+      "inicio": 12.24,
+      "fin": 12.72,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "a",
+      "inicio": 12.76,
+      "fin": 12.8,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "los",
+      "inicio": 12.88,
+      "fin": 12.96,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "científicos",
+      "inicio": 13.08,
+      "fin": 13.52,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "de",
+      "inicio": 13.56,
+      "fin": 13.6,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "París",
+      "inicio": 13.68,
+      "fin": 14.08,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "sin",
+      "inicio": 14.2,
+      "fin": 14.32,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "palabras.",
+      "inicio": 14.4,
+      "fin": 15.36,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "El",
+      "inicio": 15.54,
+      "fin": 15.62,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "truco",
+      "inicio": 15.7,
+      "fin": 16.02,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "es",
+      "inicio": 16.18,
+      "fin": 16.26,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "que",
+      "inicio": 16.34,
+      "fin": 16.367,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "el",
+      "inicio": 16.393,
+      "fin": 16.42,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "gato",
+      "inicio": 16.5,
+      "fin": 16.74,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "no",
+      "inicio": 16.9,
+      "fin": 16.98,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "gira",
+      "inicio": 17.06,
+      "fin": 17.3,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "entero:",
+      "inicio": 17.46,
+      "fin": 18.18,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "se",
+      "inicio": 18.26,
+      "fin": 18.34,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "dobla",
+      "inicio": 18.42,
+      "fin": 18.58,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "por",
+      "inicio": 18.66,
+      "fin": 18.82,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "la",
+      "inicio": 18.86,
+      "fin": 18.9,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "cintura",
+      "inicio": 18.98,
+      "fin": 19.38,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "y",
+      "inicio": 19.54,
+      "fin": 19.62,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "gira",
+      "inicio": 19.7,
+      "fin": 19.94,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "por",
+      "inicio": 20.02,
+      "fin": 20.1,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "mitades.",
+      "inicio": 20.22,
+      "fin": 20.74,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "Primero",
+      "inicio": 20.92,
+      "fin": 21.24,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "encoge",
+      "inicio": 21.32,
+      "fin": 21.56,
+      "frase": 5,
+      "clave": true
+    },
+    {
+      "texto": "las",
+      "inicio": 21.64,
+      "fin": 21.72,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "patas",
+      "inicio": 21.8,
+      "fin": 22.04,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "de",
+      "inicio": 22.12,
+      "fin": 22.16,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "delante",
+      "inicio": 22.2,
+      "fin": 22.68,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "y",
+      "inicio": 22.76,
+      "fin": 22.84,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "gira",
+      "inicio": 22.92,
+      "fin": 23.16,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "la",
+      "inicio": 23.2,
+      "fin": 23.24,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "mitad",
+      "inicio": 23.32,
+      "fin": 23.56,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "de",
+      "inicio": 23.6,
+      "fin": 23.64,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "delante,",
+      "inicio": 23.72,
+      "fin": 24.28,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "muy",
+      "inicio": 24.36,
+      "fin": 24.52,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "rápido.",
+      "inicio": 24.6,
+      "fin": 25.08,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "La",
+      "inicio": 25.26,
+      "fin": 25.34,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "de",
+      "inicio": 25.38,
+      "fin": 25.42,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "atrás,",
+      "inicio": 25.5,
+      "fin": 25.98,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "con",
+      "inicio": 26.02,
+      "fin": 26.06,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "las",
+      "inicio": 26.14,
+      "fin": 26.22,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "patas",
+      "inicio": 26.3,
+      "fin": 26.54,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "estiradas,",
+      "inicio": 26.62,
+      "fin": 27.34,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "gira",
+      "inicio": 27.38,
+      "fin": 27.58,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "un",
+      "inicio": 27.66,
+      "fin": 27.82,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "poco",
+      "inicio": 27.86,
+      "fin": 28.06,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "al",
+      "inicio": 28.14,
+      "fin": 28.22,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "revés.",
+      "inicio": 28.34,
+      "fin": 28.7,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "Luego",
+      "inicio": 28.88,
+      "fin": 29.12,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "cambia:",
+      "inicio": 29.2,
+      "fin": 29.84,
+      "frase": 7,
+      "clave": true
+    },
+    {
+      "texto": "encoge",
+      "inicio": 29.96,
+      "fin": 30.24,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "las",
+      "inicio": 30.32,
+      "fin": 30.4,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "de",
+      "inicio": 30.44,
+      "fin": 30.48,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "atrás",
+      "inicio": 30.6,
+      "fin": 30.96,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "y",
+      "inicio": 31,
+      "fin": 31.04,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "las",
+      "inicio": 31.12,
+      "fin": 31.28,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "gira",
+      "inicio": 31.32,
+      "fin": 31.52,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "hasta",
+      "inicio": 31.56,
+      "fin": 31.76,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "ponerlas",
+      "inicio": 31.84,
+      "fin": 32.32,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "debajo.",
+      "inicio": 32.4,
+      "fin": 32.8,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "Como",
+      "inicio": 32.98,
+      "fin": 33.14,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "una",
+      "inicio": 33.22,
+      "fin": 33.3,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "patinadora:",
+      "inicio": 33.38,
+      "fin": 34.26,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "con",
+      "inicio": 34.34,
+      "fin": 34.42,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "los",
+      "inicio": 34.46,
+      "fin": 34.5,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "brazos",
+      "inicio": 34.58,
+      "fin": 34.82,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "pegados,",
+      "inicio": 34.9,
+      "fin": 35.38,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "gira",
+      "inicio": 35.42,
+      "fin": 35.62,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "mucho",
+      "inicio": 35.78,
+      "fin": 36.02,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "más",
+      "inicio": 36.1,
+      "fin": 36.18,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "rápido.",
+      "inicio": 36.26,
+      "fin": 36.86,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "Y",
+      "inicio": 37.04,
+      "fin": 37.12,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "todo",
+      "inicio": 37.28,
+      "fin": 37.52,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "en",
+      "inicio": 37.64,
+      "fin": 37.76,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "menos",
+      "inicio": 37.84,
+      "fin": 38,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "de",
+      "inicio": 38.08,
+      "fin": 38.16,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "medio",
+      "inicio": 38.24,
+      "fin": 38.48,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "segundo.",
+      "inicio": 38.56,
+      "fin": 39.12,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "Años",
+      "inicio": 39.3,
+      "fin": 39.54,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "después,",
+      "inicio": 39.62,
+      "fin": 40.1,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "se",
+      "inicio": 40.14,
+      "fin": 40.18,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "estudió",
+      "inicio": 40.26,
+      "fin": 40.66,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "este",
+      "inicio": 40.78,
+      "fin": 40.9,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "giro",
+      "inicio": 40.98,
+      "fin": 41.22,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "para",
+      "inicio": 41.3,
+      "fin": 41.38,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "que",
+      "inicio": 41.46,
+      "fin": 41.54,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "los",
+      "inicio": 41.62,
+      "fin": 41.7,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "astronautas",
+      "inicio": 41.82,
+      "fin": 42.34,
+      "frase": 10,
+      "clave": true
+    },
+    {
+      "texto": "se",
+      "inicio": 42.42,
+      "fin": 42.5,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "dieran",
+      "inicio": 42.607,
+      "fin": 42.82,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "la",
+      "inicio": 42.86,
+      "fin": 42.9,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "vuelta",
+      "inicio": 42.98,
+      "fin": 43.22,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "flotando.",
+      "inicio": 43.3,
+      "fin": 43.86,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "El",
+      "inicio": 44.04,
+      "fin": 44.12,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "gato",
+      "inicio": 44.16,
+      "fin": 44.52,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "no",
+      "inicio": 44.56,
+      "fin": 44.6,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "rompe",
+      "inicio": 44.68,
+      "fin": 45,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "la",
+      "inicio": 45.04,
+      "fin": 45.08,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "física:",
+      "inicio": 45.16,
+      "fin": 45.88,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "la",
+      "inicio": 45.92,
+      "fin": 45.96,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "usa",
+      "inicio": 46.04,
+      "fin": 46.28,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "mejor",
+      "inicio": 46.4,
+      "fin": 46.68,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "que",
+      "inicio": 46.76,
+      "fin": 46.84,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "nadie",
+      "inicio": 46.96,
+      "fin": 47.24,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "para",
+      "inicio": 47.32,
+      "fin": 47.4,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "hacer",
+      "inicio": 47.44,
+      "fin": 47.72,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "lo",
+      "inicio": 47.76,
+      "fin": 47.8,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "imposible.",
+      "inicio": 47.88,
+      "fin": 48.68,
+      "frase": 11,
+      "clave": false
+    }
+  ]
+}

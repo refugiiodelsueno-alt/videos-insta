@@ -17,7 +17,7 @@ const asoma = (g, a, b = 1e9) => K.sale(K.tramo(g, a, a + 0.35)) * (1 - K.suave(
 const pico = (g, t, sub = 0.08, baja = 0.5) => K.sale(K.tramo(g, t, t + sub)) * (1 - K.suave(K.tramo(g, t + sub, t + baja)));
 
 // el segundo en que empieza cada escena (build/h1/index.html)
-export const G0 = { hook: 0, prueba: 4.5, ojo: 18.68, cielo: 28.58, ojos: 33.86, pulpo: 41.38, cierre: 49.8 };
+export const G0 = { hook: 0, prueba: 4.507, ojo: 18.68, cielo: 28.58, ojos: 33.86, pulpo: 41.38, cierre: 49.8 };
 // el segundo de cada palabra que mueve algo, en el vídeo entero (voz/h1.json)
 export const T = {
   agujero: 1.12, cerebro: 2.72, tapando: 3.52,
@@ -36,7 +36,7 @@ const HRX = 150, HRY = 200;               // el agujero del punto ciego, más al
 // lo abierto que está el agujero (1 abierto, 0 tapado del todo)
 const abierto = (g) => {
   if (g < G0.prueba) return 1 - sube(g, T.tapando - 0.1, T.tapando + 0.85);
-  if (g < G0.cierre) return 0;
+  if (g < G0.cierre) return 0.8 * sube(g, 13.5, 14.1) * (1 - sube(g, T.rayas - 0.1, T.rayas + 0.8));
   return K.sale(K.tramo(g, T.inventando + 0.05, T.inventando + 0.75));
 };
 // el desplazamiento de las rayas: corren a velocidad fija en el hook y en el cierre, y están quietas en la prueba
@@ -76,12 +76,12 @@ const LAMINA = { x: 540, y: 1000, z: 1 };                 // la pantalla tal cua
 const CAMINO = [
   [0, F0], [2.2, { x: 902, y: 978, z: 1.72 }], [3.5, { x: 902, y: 975, z: 1.78 }], [4.49, { x: 880, y: 980, z: 1.6 }], // el agujero
   [4.5, LAMINA], [18.67, LAMINA],                                                                                    // corte: la prueba, quieta
-  [18.68, { x: 3000, y: 1000, z: 1.0 }], [21.2, { x: 3040, y: 1000, z: 1.06 }], [23.5, { x: 3120, y: 1000, z: 1.16 }], // corte: el ojo
+  [18.68, { x: 3010, y: 1000, z: 1.1 }], [21.2, { x: 3040, y: 1000, z: 1.17 }], [23.5, { x: 3120, y: 1000, z: 1.3 }], // corte: el ojo
   [24.25, { x: 3290, y: 1000, z: 2.6 }], [25.0, { x: CC[0] + 12, y: 1000, z: 5.0 }], [28.57, { x: CC[0] + 14, y: 1000, z: 5.3 }],
-  [28.58, { x: CIELO[0], y: 1020, z: 1.0 }], [33.85, { x: CIELO[0], y: 1000, z: 1.07 }],                              // corte: el cielo
-  [33.86, { x: VISTAS[0], y: 1000, z: 1.0 }], [36.4, { x: VISTAS[0], y: 1000, z: 1.12 }], [41.37, { x: VISTAS[0], y: 1000, z: 1.2 }], // corte: los dos ojos
-  [41.38, { x: PULPO[0], y: PULPO[1], z: 1.3 }], [45.3, { x: PULPO[0], y: PULPO[1], z: 1.4 }],                       // corte: el pulpo
-  [46.4, { x: HUMANO[0], y: HUMANO[1], z: 1.4 }], [49.79, { x: HUMANO[0], y: HUMANO[1], z: 1.5 }],
+  [28.58, { x: CIELO[0] + 120, y: 900, z: 1.05 }], [30.6, { x: CIELO[0], y: 980, z: 1.12 }], [33.85, { x: CIELO[0], y: 1000, z: 1.3 }],                              // corte: el cielo
+  [33.86, { x: VISTAS[0], y: 960, z: 1.0 }], [35.3, { x: VISTAS[0], y: 960, z: 1.06 }], [36.6, { x: VISTAS[0], y: 940, z: 1.55 }], [41.37, { x: VISTAS[0] + 60, y: 960, z: 1.75 }], // corte: los dos ojos
+  [41.38, { x: PULPO[0] + 60, y: PULPO[1] - 20, z: 1.5 }], [45.3, { x: PULPO[0] + 90, y: PULPO[1], z: 1.65 }],                       // corte: el pulpo
+  [46.4, { x: HUMANO[0] + 90, y: HUMANO[1], z: 1.65 }], [49.79, { x: HUMANO[0] + 150, y: HUMANO[1], z: 1.85 }],
   [49.8, LAMINA], [51.0, { x: 560, y: 1000, z: 1.02 }], [52.9, { x: 870, y: 985, z: 1.45 }], [53.7, F0], [TOTAL, F0],     // corte: la lámina otra vez
 ];
 // cada escena con sus claves: así el fotograma de antes de un corte no cae a medio camino entre dos sitios
@@ -212,6 +212,7 @@ function lamina(cam) {
   el(punto, "circle", { r: 62, fill: "url(#c-halo-rojo)" });
   el(punto, "circle", { r: 40, fill: "url(#c-rojo)" });
   el(punto, "circle", { cx: -12, cy: -13, r: 11, fill: "rgba(255,255,255,0.35)" });
+  const aroP = el(g, "circle", { cx: PUNTO[0], cy: PUNTO[1], r: 40, fill: "none", stroke: ROJO, "stroke-width": 6 });
   // el agujero del punto ciego
   const ag = agujero(g, PUNTO[0], PUNTO[1], HRX, HRY, 11);
   // la cara con un ojo tapado y el móvil que se acerca (abajo, lejos del punto)
@@ -240,8 +241,10 @@ function lamina(cam) {
     el(g, "g"); // nada: el patrón se mueve con su transform
     PAT.forEach((p) => p.setAttribute("patternTransform", `rotate(45) translate(${f1(o)} 0)`));
     // el punto: no está en el hook (se lo ha tragado el agujero), y en el cierre se va cuando se inventa el trozo
-    const pv = gg < G0.prueba ? 0 : gg < G0.cierre ? 1 - sube(gg, T.rayas - 0.2, T.rayas + 0.5) : 1 - sube(gg, T.trozo, T.trozo + 0.6);
+    const pv = gg < G0.prueba ? 0 : gg < G0.cierre ? 1 - sube(gg, T.desaparece - 0.1, T.desaparece + 0.4) : 1 - sube(gg, T.trozo, T.trozo + 0.6);
     show(punto, pv);
+    const ua = gg >= G0.prueba && gg < G0.cierre ? K.tramo(gg, T.desaparece, T.desaparece + 0.9) : 0;
+    aroP.setAttribute("r", f1(40 + 160 * K.sale(ua))); show(aroP, ua > 0 && ua < 1 ? 1 - ua : 0);
     // los aros de la cruz: «mírala fijamente»
     aros.forEach((a, i) => {
       const u = K.tramo(gg, T.mira + i * 0.55, T.mira + i * 0.55 + 1.1);
@@ -252,14 +255,14 @@ function lamina(cam) {
     const borde = gg < G0.prueba ? 0 : gg < G0.cierre ? asoma(gg, T.inventa - 0.1, G0.ojo) * 0.9 : asoma(gg, T.trozo + 0.2, T.inventando);
     ag(gg, abierto(gg), 1, borde);
     // la cara, abajo
-    const c = gg >= G0.prueba && gg < G0.cierre ? asoma(gg, T.tapate - 0.05, T.desaparece + 0.3) : 0;
+    const c = gg >= G0.prueba && gg < G0.cierre ? asoma(gg, T.tapate - 0.05, T.inventa) : 0;
     show(cara, c);
     cara.setAttribute("transform", `translate(330 1300) scale(${f1(0.9 + 0.1 * c)})`);
     const tapa = sube(gg, T.tapate + 0.1, T.izquierdo + 0.3);
     mano.setAttribute("transform", `translate(${f1(-70 * (1 - tapa))} ${f1(60 * (1 - tapa))})`);
     show(mano, tapa);
     // el móvil se acerca y se aleja despacio
-    const m = gg >= G0.prueba && gg < G0.cierre ? asoma(gg, T.acercate - 0.1, T.desaparece + 0.3) : 0;
+    const m = gg >= G0.prueba && gg < G0.cierre ? asoma(gg, T.acercate - 0.1, T.inventa) : 0;
     const vaiven = 0.5 - 0.5 * Math.cos(vuelta(gg, 0.4));
     movil.setAttribute("transform", `translate(${f1(720 - 170 * vaiven)} 1300) scale(${f1(0.75 + 0.25 * vaiven)})`);
     show(movil, m);
@@ -413,7 +416,7 @@ function cielo(cam) {
   const la = luna(g); la.setAttribute("transform", `translate(${L0[0]} ${L0[1]})`);
   // el punto ciego
   const RX = (LUNA * 10.6) / 2, RY = (LUNA * 14.4) / 2;
-  const mancha = el(g, "ellipse", { cx, cy, rx: RX, ry: RY, fill: "rgba(0,0,0,0.45)", stroke: ROJO, "stroke-width": 6, "stroke-dasharray": "22 14" });
+  const mancha = el(g, "ellipse", { cx, cy, rx: RX, ry: RY, fill: "rgba(4,6,12,0.55)", stroke: ROJO, "stroke-width": 6, "stroke-dasharray": "22 14" });
   // las diez lunas en fila
   const lunas = Array.from({ length: 10 }, (_, i) => { const l = luna(g); return { e: l, x: cx - RX + LUNA / 2 + i * LUNA + (2 * RX - 10 * LUNA) / 2 }; });
   return (gg) => {
@@ -425,6 +428,7 @@ function cielo(cam) {
     mancha.setAttribute("rx", f1(RX * (0.2 + 0.8 * K.sale(m))));
     mancha.setAttribute("ry", f1(RY * (0.2 + 0.8 * K.sale(m))));
     show(mancha, m);
+    mancha.setAttribute("stroke-dashoffset", f1(-ciclo(gg, 0.5) * 36 * 3));
     lunas.forEach((l, i) => {
       const u = K.tramo(gg, T.diez + i * 0.11, T.diez + i * 0.11 + 0.45), s = K.suave(u);
       const x = L0[0] + (l.x - L0[0]) * s, y = L0[1] + (cy - L0[1]) * s - 120 * Math.sin(Math.PI * s);
@@ -542,7 +546,7 @@ function pulpos(cam) {
   const P = ojoDiagrama(g, PULPO[0], PULPO[1], 205, true, 51);
   const H = ojoDiagrama(g, HUMANO[0], HUMANO[1], 205, false, 53);
   // el pulpo, arriba a la izquierda de su ojo
-  const pu = el(g, "g", { transform: `translate(${PULPO[0] - 250} ${PULPO[1] - 250})` });
+  const pu = el(g, "g", { transform: `translate(${PULPO[0] - 170} ${PULPO[1] - 250}) scale(0.85)` });
   const tent = Array.from({ length: 8 }, (_, i) => el(pu, "path", { fill: "none", stroke: "#e2725b", "stroke-width": 16, "stroke-linecap": "round" }));
   el(pu, "path", { d: "M-70 10 C-80 -90 80 -90 70 10 C60 40 -60 40 -70 10 Z", fill: "#ef8a6e", stroke: "#b8503a", "stroke-width": 4 });
   [-26, 26].forEach((x) => { el(pu, "ellipse", { cx: x, cy: -6, rx: 15, ry: 12, fill: "#fff6e0" }); el(pu, "rect", { x: x - 10, y: -9, width: 20, height: 6, rx: 3, fill: "#1a1a1a" }); });
@@ -572,7 +576,7 @@ const DEFS = `
   <radialGradient id="c-punto-o" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="rgba(255,246,216,0.75)"/><stop offset="0.4" stop-color="rgba(255,194,74,0.45)"/><stop offset="1" stop-color="rgba(255,194,74,0)"/></radialGradient>
   <filter id="c-brillo" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   <radialGradient id="c-luz-ojo" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="rgba(95,150,210,0.12)"/><stop offset="1" stop-color="rgba(95,150,210,0)"/></radialGradient>
-  <radialGradient id="c-vitreo" cx="0.4" cy="0.45" r="0.65"><stop offset="0" stop-color="#18283a"/><stop offset="1" stop-color="#0d1622"/></radialGradient>
+  <radialGradient id="c-vitreo" cx="0.4" cy="0.45" r="0.65"><stop offset="0" stop-color="#24405c"/><stop offset="1" stop-color="#132436"/></radialGradient>
   <linearGradient id="c-vitreo-cerca" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0d1622"/><stop offset="1" stop-color="#16263a"/></linearGradient>
   <linearGradient id="c-retina" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e9b24e"/><stop offset="1" stop-color="#c98a2e"/></linearGradient>
   <linearGradient id="c-nervio" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cdbda6"/><stop offset="0.5" stop-color="#f1e6d4"/><stop offset="1" stop-color="#c2b199"/></linearGradient>
@@ -582,7 +586,7 @@ const DEFS = `
   <linearGradient id="c-cono" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#d07a2a"/><stop offset="1" stop-color="#ffb36a"/></linearGradient>
   <linearGradient id="c-haz" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="rgba(255,240,200,0)"/><stop offset="0.8" stop-color="rgba(255,240,200,0.35)"/><stop offset="1" stop-color="rgba(255,240,200,0.7)"/></linearGradient>
   <linearGradient id="c-haz-rojo" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="rgba(255,90,110,0)"/><stop offset="0.8" stop-color="rgba(255,90,110,0.35)"/><stop offset="1" stop-color="rgba(255,90,110,0.75)"/></linearGradient>
-  <linearGradient id="c-noche" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#050913"/><stop offset="0.6" stop-color="#0f1f3d"/><stop offset="1" stop-color="#23365e"/></linearGradient>
+  <linearGradient id="c-noche" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0a1430"/><stop offset="0.55" stop-color="#1c3566"/><stop offset="1" stop-color="#3a5a92"/></linearGradient>
   <radialGradient id="c-luna" cx="0.4" cy="0.38" r="0.65"><stop offset="0" stop-color="#fffbea"/><stop offset="0.7" stop-color="#e9e3cc"/><stop offset="1" stop-color="#c9c2a8"/></radialGradient>
   <radialGradient id="c-halo-luna" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="rgba(255,250,225,0.35)"/><stop offset="1" stop-color="rgba(255,250,225,0)"/></radialGradient>
 </defs>`;
@@ -605,36 +609,37 @@ function rotulos(capa) {
   const abajo = fijo(540, 1420);
   // hook
   r(`un <b>agujero</b>`, "r g", abajo, (g) => asoma(g, T.agujero, T.tapando - 0.2));
-  r(`tu <b>cerebro</b> lo tapa`, "c g", abajo, (g) => asoma(g, T.tapando, 4.45));
+  r(`tu <b>cerebro</b> lo tapa`, "c g", abajo, (g) => asoma(g, T.tapando, 4.1));
   // la prueba (abajo, lejos del punto)
   r(`tapa el ojo <b>izquierdo</b>`, "o", fijo(700, 1180), (g) => asoma(g, T.izquierdo, T.mira - 0.1));
   r(`mira la <b>cruz</b>`, "", fijo(700, 1180), (g) => asoma(g, T.mira, T.acercate - 0.1));
   r(`acerca el móvil <b>despacio</b>`, "c", fijo(560, 1440), (g) => asoma(g, T.acercate, T.desaparece - 0.1));
-  r(`el punto <b>desaparece</b>`, "r g", fijo(540, 1440), (g) => asoma(g, T.desaparece, T.negro + 0.6));
+  r(`el punto <b>desaparece</b>`, "r g", fijo(540, 1440), (g) => asoma(g, T.desaparece, 13.45));
+  r(`¿<b>negro</b>? no`, "r g", fijo(540, 1440), (g) => asoma(g, 13.5, T.rayas - 0.1));
   r(`ves las <b>rayas</b>`, "c g", fijo(540, 1440), (g) => asoma(g, T.rayas, T.inventa - 0.1));
-  r(`se las <b>inventa</b> tu cerebro`, "c g", fijo(540, 1440), (g) => asoma(g, T.inventa, 18.6));
+  r(`se las <b>inventa</b> tu cerebro`, "c g", fijo(540, 1440), (g) => asoma(g, T.inventa, 18.3));
   // el ojo
   r(`punto <b>ciego</b>`, "r g", fijo(540, 1420), (g) => asoma(g, T.ciego, T.nervio - 0.1));
   r(`nervio <b>óptico</b>`, "c g", fijo(540, 1420), (g) => asoma(g, T.nervio, 23.3));
   r(`<b>1.000.000</b> de cables`, "c g", fijo(330, 1420), (g) => asoma(g, T.millon, T.queda - 0.2));
-  r(`aquí <b>sí</b> ven la luz`, "o", fijo(400, 700), (g) => asoma(g, T.queda + 0.1, 28.5));
-  r(`aquí <b>nada</b>`, "r g", fijo(330, 1180), (g) => asoma(g, T.queda + 1.0, 28.5));
+  r(`aquí <b>sí</b> ven la luz`, "o", fijo(400, 700), (g) => asoma(g, T.queda + 0.1, 28.2));
+  r(`aquí <b>nada</b>`, "r g", fijo(330, 1180), (g) => asoma(g, T.queda + 1.0, 28.2));
   // el cielo
   r(`tu punto <b>ciego</b>`, "r", fijo(540, 1460), (g) => asoma(g, T.enorme + 0.3, T.diez - 0.1));
-  r(`<b>10</b> lunas llenas`, "o g", fijo(540, 1460), (g) => asoma(g, T.diez + 0.3, 33.8));
+  r(`<b>10</b> lunas llenas`, "o g", fijo(540, 1460), (g) => asoma(g, T.diez + 0.3, 33.5));
   // los dos ojos
   r(`ojo <b>izquierdo</b>`, "o", junto(VISTAS[0] - 268, VISTAS[1] + 320), (g) => asoma(g, 34.0, T.tapa));
   r(`ojo <b>derecho</b>`, "c", junto(VISTAS[0] + 268, VISTAS[1] + 320), (g) => asoma(g, 34.15, T.tapa));
   r(`se <b>tapan</b> entre los dos`, "v g", fijo(540, 1420), (g) => asoma(g, T.otro - 0.2, T.cerrado - 0.2));
   r(`un ojo <b>cerrado</b>`, "o g", fijo(540, 1420), (g) => asoma(g, T.cerrado, T.rellena - 0.1));
-  r(`lo <b>rellena</b> con lo de alrededor`, "c", fijo(540, 1420), (g) => asoma(g, T.rellena, 41.3));
+  r(`lo <b>rellena</b> con lo de alrededor`, "c", fijo(540, 1420), (g) => asoma(g, T.rellena, 41.0));
   // el pulpo
   r(`<b>pulpo</b>`, "n g", junto(PULPO[0] - 250, PULPO[1] + 280), (g) => asoma(g, T.pulpo, 45.7));
   r(`cables <b>detrás</b>`, "v", junto(PULPO[0] + 230, PULPO[1] - 270), (g) => asoma(g, T.detras, 45.7));
   r(`sin punto ciego`, "v", junto(PULPO[0], PULPO[1] + 300), (g) => asoma(g, T.retina, 45.7));
-  r(`<b>tú</b>`, "c g", junto(HUMANO[0] - 250, HUMANO[1] - 270), (g) => asoma(g, T.nuestro, 49.7));
-  r(`cables <b>delante</b>`, "r", junto(HUMANO[0] + 230, HUMANO[1] - 270), (g) => asoma(g, T.delante, 49.7));
-  r(`el <b>agujero</b>`, "r g", junto(HUMANO[0] + 183, HUMANO[1] + 200), (g) => asoma(g, T.atravesarla + 0.3, 49.7));
+  r(`<b>tú</b>`, "c g", junto(HUMANO[0] - 250, HUMANO[1] - 270), (g) => asoma(g, T.nuestro, 49.4));
+  r(`cables <b>delante</b>`, "r", junto(HUMANO[0] + 230, HUMANO[1] - 270), (g) => asoma(g, T.delante, 49.4));
+  r(`el <b>agujero</b>`, "r g", junto(HUMANO[0] + 183, HUMANO[1] + 200), (g) => asoma(g, T.atravesarla + 0.3, 49.4));
   // el cierre
   r(`<b>inventado</b>`, "c g", fijo(540, 1420), (g) => asoma(g, T.trozo + 0.3, T.inventando + 0.4));
   return (g, k) => L.forEach((l) => { const [x, y] = l.sitio(k); pon(l.e, x, y, l.on(g)); });

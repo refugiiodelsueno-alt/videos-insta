@@ -1,0 +1,142 @@
+[
+  {
+    "archivo": "sonidos/vacio-h1.wav",
+    "en": 0,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/rasgo-h1.wav",
+    "en": 1.07,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/cose-h1.wav",
+    "en": 3.45,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/corte-h1.wav",
+    "en": 4.49,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/anillo-h1.wav",
+    "en": 6.08,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/acerca-h1.wav",
+    "en": 7.78,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/desaparece-h1.wav",
+    "en": 11.725,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/negro-h1.wav",
+    "en": 13.47,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/rayas-h1.wav",
+    "en": 15.8,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/inventa-h1.wav",
+    "en": 17.1,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/ojo-h1.wav",
+    "en": 18.61,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/laser-h1.wav",
+    "en": 18.79,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/corriente-h1.wav",
+    "en": 21.4,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/zoom-h1.wav",
+    "en": 23.35,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/luz-h1.wav",
+    "en": 26,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/nada-h1.wav",
+    "en": 26.985,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/noche-h1.wav",
+    "en": 28.58,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/crece-h1.wav",
+    "en": 28.9,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/lunas-h1.wav",
+    "en": 31.25,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/vistas-h1.wav",
+    "en": 33.86,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/junta-h1.wav",
+    "en": 35.115,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/parpado-h1.wav",
+    "en": 37.3,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/rellena-h1.wav",
+    "en": 38.6,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/agua-h1.wav",
+    "en": 41.27,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/baja-h1.wav",
+    "en": 45.6,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/atraviesa-h1.wav",
+    "en": 48.28,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/vuelve-h1.wav",
+    "en": 49.795,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/rasgo2-h1.wav",
+    "en": 52.58,
+    "volumen": 1
+  }
+]

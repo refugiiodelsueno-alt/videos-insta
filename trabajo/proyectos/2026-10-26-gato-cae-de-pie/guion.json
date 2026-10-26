@@ -1,0 +1,142 @@
+{
+  "titulo": "El gato que rompe la física",
+  "slug": "gato-cae-de-pie",
+  "idioma": "es",
+  "voz": {
+    "proveedor": "elevenlabs",
+    "id": "851ejYcv2BoNPjrkw93G",
+    "modelo": "eleven_v4",
+    "velocidad": 1,
+    "estabilidad": 0.35,
+    "similitud": 0.7,
+    "kokoro": "ef_dora"
+  },
+  "subtitulos": "arriba",
+  "aperturas": [
+    {
+      "id": "h1",
+      "escena": "hook",
+      "frases": [
+        {
+          "texto": "Un gato se gira en el aire sin apoyarse en nada, y eso parecía imposible.",
+          "clave": "imposible"
+        }
+      ]
+    }
+  ],
+  "reserva": [
+    {
+      "id": "h2",
+      "escena": "hook",
+      "frases": [
+        {
+          "texto": "Suelta un gato boca arriba y en medio segundo cae de pie, sin empujar contra nada.",
+          "clave": "sin empujar"
+        }
+      ],
+      "imagen": "un gato boca arriba cayendo que se gira en un instante, con un cronómetro"
+    },
+    {
+      "id": "h3",
+      "escena": "hook",
+      "frases": [
+        {
+          "texto": "Estas fotos de un gato cayendo dejaron a los científicos sin explicación.",
+          "clave": "sin explicación"
+        }
+      ],
+      "imagen": "una tira de fotos antiguas en sepia de un gato girando en el aire"
+    },
+    {
+      "id": "h4",
+      "escena": "hook",
+      "frases": [
+        {
+          "texto": "Un gato hace en el aire algo que tú no podrías hacer ni aunque quisieras.",
+          "clave": "ni aunque quisieras"
+        }
+      ],
+      "imagen": "un gato y una persona cayendo boca arriba; el gato gira, la persona no"
+    }
+  ],
+  "cuerpo": [
+    {
+      "texto": "Para empezar a girar, tienes que empujar contra algo.",
+      "escena": "regla",
+      "clave": "empujar contra algo"
+    },
+    {
+      "texto": "Por eso, en 1894, las fotos de un gato cayendo dejaron a los científicos de París sin palabras.",
+      "escena": "fotos",
+      "clave": "sin palabras"
+    },
+    {
+      "texto": "El truco es que el gato no gira entero: se dobla por la cintura y gira por mitades.",
+      "escena": "truco",
+      "clave": "por mitades"
+    },
+    {
+      "texto": "Primero encoge las patas de delante y gira la mitad de delante, muy rápido.",
+      "escena": "truco",
+      "clave": "encoge"
+    },
+    {
+      "texto": "La de atrás, con las patas estiradas, gira un poco al revés.",
+      "escena": "truco",
+      "clave": "al revés"
+    },
+    {
+      "texto": "Luego cambia: encoge las de atrás y las gira hasta ponerlas debajo.",
+      "escena": "truco",
+      "clave": "cambia"
+    },
+    {
+      "texto": "Como una patinadora: con los brazos pegados, gira mucho más rápido.",
+      "escena": "patinadora",
+      "clave": "brazos pegados"
+    },
+    {
+      "texto": "Y todo en menos de medio segundo.",
+      "escena": "oido",
+      "clave": "medio segundo"
+    },
+    {
+      "texto": "Años después, se estudió este giro para que los astronautas se dieran la vuelta flotando.",
+      "escena": "espacio",
+      "clave": "astronautas"
+    },
+    {
+      "texto": "El gato no rompe la física: la usa mejor que nadie para hacer lo imposible.",
+      "escena": "cierre",
+      "clave": "lo imposible"
+    }
+  ],
+  "cola": 0.15,
+  "escenas": {
+    "hook": {
+      "entrada": "corte"
+    },
+    "regla": {
+      "entrada": "corte"
+    },
+    "fotos": {
+      "entrada": "corte"
+    },
+    "truco": {
+      "entrada": "corte"
+    },
+    "patinadora": {
+      "entrada": "corte"
+    },
+    "oido": {
+      "entrada": "corte"
+    },
+    "espacio": {
+      "entrada": "corte"
+    },
+    "cierre": {
+      "entrada": "corte"
+    }
+  },
+  "sonido": true
+}
