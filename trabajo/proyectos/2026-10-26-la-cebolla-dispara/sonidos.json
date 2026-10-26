@@ -1,0 +1,16 @@
+[
+  { "nombre": "corte", "que": "A sharp kitchen knife slicing through a crisp raw onion on a wooden cutting board: one crunchy wet slice ending in a soft wooden tap, close foley, dry", "oye": "a knife slicing an onion", "dura": 0.6, "en": 0.25, "golpe": false, "db": -9, "suave": false },
+  { "nombre": "disparo", "que": "A fast silenced gunshot whoosh: a short punchy pfft followed by a quick airy swoosh of a spray of tiny droplets, close, no reverb", "oye": "a quick silenced shot whoosh", "dura": 0.6, "en": 2.68, "golpe": true, "db": -5, "suave": false },
+  { "nombre": "tajo", "que": "A kitchen knife chopping hard into an onion and hitting a wooden board: one crunchy slice and a solid wooden thunk, close foley", "oye": "a knife chop on a board", "dura": 0.5, "en": 7.5, "golpe": true, "db": -7, "suave": false },
+  { "nombre": "rompe", "que": "A wet soft pop like a tiny bubble or cell membrane bursting, squishy, close, short", "oye": "a wet soft pop", "dura": 0.5, "en": 12.92, "golpe": true, "db": -8, "suave": false },
+  { "nombre": "burbujeo", "que": "A quick fizzing chemical reaction: tiny bubbling fizz rising into a soft airy hiss of gas being released, close", "oye": "a fizzing gas hiss", "dura": 1.5, "en": 14.75, "golpe": false, "db": -13, "suave": true },
+  { "nombre": "sube", "que": "A soft airy upward whoosh, like a light vapor rising quickly, smooth, no harshness", "oye": "a rising airy whoosh", "dura": 0.9, "en": 17.6, "golpe": false, "db": -12, "suave": true },
+  { "nombre": "alarma", "que": "A short electric nerve zap: a quick crackling buzz with a tense rising sting, clean, close", "oye": "an electric zap sting", "dura": 0.7, "en": 20.24, "golpe": true, "db": -9, "suave": true },
+  { "nombre": "lagrima", "que": "A single water droplet falling into water: a clean liquid bloop plip, close, gentle", "oye": "a water drop plip", "dura": 0.5, "en": 21.96, "golpe": true, "db": -9, "suave": false },
+  { "nombre": "rec", "que": "A digital camera starting to record: a short clean electronic double beep, soft, close", "oye": "a camera record beep", "dura": 0.5, "en": 23.4, "golpe": true, "db": -12, "suave": true },
+  { "nombre": "nube", "que": "A slow motion spray of fine mist: a deep slowed-down airy whoosh with a soft sparkling shimmer, smooth", "oye": "a slow motion mist whoosh", "dura": 1.6, "en": 27.2, "golpe": false, "db": -11, "suave": true },
+  { "nombre": "latigo", "que": "A fast whip pan swish: one quick sharp air whoosh passing by, clean, close", "oye": "a fast whoosh swish", "dura": 0.5, "en": 30.75, "golpe": true, "db": -9, "suave": false },
+  { "nombre": "picado", "que": "Fast frantic chopping with a dull knife on a wooden board: rapid crunchy thuds, close kitchen foley", "oye": "fast knife chopping", "dura": 1.0, "en": 34.94, "golpe": false, "db": -11, "suave": false },
+  { "nombre": "afilar", "que": "A chef knife sliding along a sharpening steel: one bright clean metallic shing ring, close", "oye": "a knife sharpening shing", "dura": 0.8, "en": 36.46, "golpe": false, "db": -8, "suave": true },
+  { "nombre": "despacio", "que": "A slow gentle knife slice through a raw onion: one soft calm crisp cut, close foley, dry", "oye": "a gentle onion slice", "dura": 0.9, "en": 37.8, "golpe": false, "db": -11, "suave": false }
+]

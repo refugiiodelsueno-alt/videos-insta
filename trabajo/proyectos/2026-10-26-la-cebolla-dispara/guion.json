@@ -1,0 +1,42 @@
+{
+  "titulo": "La cebolla te dispara",
+  "slug": "la-cebolla-dispara",
+  "idioma": "es",
+  "voz": {
+    "proveedor": "elevenlabs",
+    "id": "851ejYcv2BoNPjrkw93G",
+    "modelo": "eleven_v4",
+    "velocidad": 1,
+    "estabilidad": 0.35,
+    "similitud": 0.7,
+    "kokoro": "ef_dora"
+  },
+  "subtitulos": "arriba",
+  "aperturas": [
+    { "id": "h1", "escena": "hook", "frases": [ { "texto": "Lloras al cortar cebolla porque la cebolla te está disparando.", "clave": "disparando" } ] }
+  ],
+  "reserva": [
+    { "id": "h2", "escena": "hook", "frases": [ { "texto": "Cada vez que cortas una cebolla, te lanza una nube de gotas a la cara.", "clave": "nube de gotas" } ], "imagen": "el cuchillo entra y una nube de gotitas sale disparada hacia el ojo" },
+    { "id": "h3", "escena": "hook", "frases": [ { "texto": "Un cuchillo sin filo te hace llorar más con la cebolla, y está medido.", "clave": "sin filo" } ], "imagen": "dos cuchillos, uno romo que levanta una nube enorme y uno afilado que casi no" },
+    { "id": "h4", "escena": "hook", "frases": [ { "texto": "Una cebolla entera no te hace llorar. Fabrica el arma cuando la cortas.", "clave": "el arma" } ], "imagen": "una cebolla entera tranquila y, al primer corte, la nube que sale" }
+  ],
+  "cuerpo": [
+    { "texto": "Entera no tiene nada que haga llorar: el arma la fabrica en cuanto la cortas.", "escena": "hook", "clave": "fabrica" },
+    { "texto": "Cada célula guarda por separado un compuesto de azufre y una enzima, y el cuchillo, al romperla, los mezcla.", "escena": "celula", "clave": "los mezcla" },
+    { "texto": "En segundos fabrican un gas que antes no existía, y sube hasta tus ojos.", "escena": "celula", "clave": "un gas" },
+    { "texto": "Unos nervios del ojo lo detectan, y tu cuerpo suelta lágrimas para lavarlo.", "escena": "ojo", "clave": "lágrimas" },
+    { "texto": "En Cornell lo grabaron a cámara superlenta: cada corte lanza una nube de gotitas que sube hasta 60 centímetros.", "dicho": "En Cornell lo grabaron a cámara superlenta: cada corte lanza una nube de gotitas que sube hasta sesenta centímetros.", "escena": "camara", "clave": "60 centímetros" },
+    { "texto": "Y las que más salen, y más rápido, son con un cuchillo sin filo y cortando deprisa.", "escena": "cuchillos", "clave": "sin filo" },
+    { "texto": "Así que afila el cuchillo y corta despacio: así la cebolla casi no puede dispararte.", "escena": "cierre", "clave": "despacio" }
+  ],
+  "cola": 0.15,
+  "escenas": {
+    "hook": { "entrada": "corte" },
+    "celula": { "entrada": "corte" },
+    "ojo": { "entrada": "corte" },
+    "camara": { "entrada": "corte" },
+    "cuchillos": { "entrada": "corte" },
+    "cierre": { "entrada": "corte" }
+  },
+  "sonido": true
+}
