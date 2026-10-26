@@ -8,4 +8,5 @@
 - Al entregar, enseñar siempre la miniatura (portada) y la descripción del post (caption) junto al vídeo.
 - Descripción del post (`pie.txt`) al estilo Instagram, desde el congelador: primera línea gancho con emoji, frases cortas en líneas sueltas con emojis al principio, el dato que sorprende, el truco o lo útil, una llamada a guardar o compartir el post (no en el vídeo), fuentes en una línea y 4–5 hashtags al final. Esto manda sobre «sin hashtags» de la skill.
 - Al entregar, dar también un comentario para fijar en el post (dato extra, pregunta o lo que mejor funcione), guardado en `comentario.txt` en la carpeta de salida.
+- Al entregar, pegar siempre en el chat el texto completo de la descripción y del comentario fijado, listos para copiar.
 - No parar a preguntar: guion aprobado de antemano y siempre con efectos de sonido. Hacer el vídeo entero seguido y enseñarlo terminado.
