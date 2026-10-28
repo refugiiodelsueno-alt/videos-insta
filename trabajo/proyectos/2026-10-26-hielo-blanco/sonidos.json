@@ -1,0 +1,23 @@
+[
+  { "nombre": "tintineo", "que": "Ice cubes clinking in an empty glass: two or three bright crisp glassy clinks, very close foley, clean", "oye": "ice clinking in a glass", "dura": 0.7, "en": 0.0, "golpe": true, "db": -9, "suave": false },
+  { "nombre": "zoom", "que": "A fast cinematic zoom-in whoosh with a soft glassy shimmer, rising, clean", "oye": "a zoom-in whoosh", "dura": 1.0, "en": 2.7, "golpe": false, "db": -13, "suave": true },
+  { "nombre": "burbujas", "que": "Tiny air bubbles trapped and pushing, soft muffled underwater bubbling, close, gentle", "oye": "soft trapped bubbling", "dura": 1.4, "en": 3.6, "golpe": false, "db": -14, "suave": true },
+  { "nombre": "molecula", "que": "Playful soft bubbly blips, like tiny molecules bouncing, light synthetic plips, clean", "oye": "soft bubbly blips", "dura": 1.2, "en": 5.5, "golpe": false, "db": -15, "suave": true },
+  { "nombre": "cristal", "que": "Ice crystals forming: delicate crackling and glassy tinkling growing slowly, close foley, clean", "oye": "ice crystals crackling", "dura": 2.0, "en": 7.6, "golpe": false, "db": -13, "suave": true },
+  { "nombre": "empuja", "que": "A slow low pushing whoosh, a soft swelling rise, cinematic, clean", "oye": "a slow pushing swell", "dura": 1.6, "en": 11.4, "golpe": false, "db": -14, "suave": true },
+  { "nombre": "frio", "que": "A cold icy wind gust, a short frosty whoosh with a crystalline shimmer, clean", "oye": "an icy gust", "dura": 1.2, "en": 15.0, "golpe": false, "db": -13, "suave": true },
+  { "nombre": "crece", "que": "Ice freezing and cracking: a slow crackling tightening of ice growing inward, close foley", "oye": "ice crackling as it grows", "dura": 3.0, "en": 18.0, "golpe": false, "db": -13, "suave": true },
+  { "nombre": "atrapado", "que": "A short muffled thump of something trapped hitting a wall, low and dull, close", "oye": "a muffled trapped thump", "dura": 0.5, "en": 22.0, "golpe": true, "db": -10, "suave": false },
+  { "nombre": "efervescente", "que": "Thousands of tiny fizzy bubbles appearing at once, soft effervescent fizz, close, clean", "oye": "a soft fizz of tiny bubbles", "dura": 1.2, "en": 24.1, "golpe": false, "db": -14, "suave": true },
+  { "nombre": "rayos", "que": "Bright light beams shimmering on: a soft magical rising glassy sparkle, cinematic, clean", "oye": "a glassy light shimmer", "dura": 1.4, "en": 25.8, "golpe": false, "db": -14, "suave": true },
+  { "nombre": "blanco", "que": "A soft bright whoosh bloom, a gentle airy swell into white, cinematic, clean", "oye": "a soft bright bloom", "dura": 0.8, "en": 28.9, "golpe": false, "db": -13, "suave": true },
+  { "nombre": "no", "que": "A short soft wrong-answer buzz, a gentle low double bloop, clean, not harsh", "oye": "a soft wrong buzz", "dura": 0.6, "en": 33.65, "golpe": true, "db": -12, "suave": false },
+  { "nombre": "maquina", "que": "An industrial ice machine humming with a water pump circulating and trickling water, steady, close", "oye": "an ice machine pump and trickling water", "dura": 3.0, "en": 40.8, "golpe": false, "db": -15, "suave": true },
+  { "nombre": "escapa", "que": "Small air bubbles rising and popping at a water surface, a quick series of gentle plops, close foley", "oye": "bubbles popping at the surface", "dura": 1.6, "en": 45.0, "golpe": false, "db": -13, "suave": true },
+  { "nombre": "tapa", "que": "A plastic cooler lid popping off and flying away: a hollow plastic thunk with a swish, close foley", "oye": "a plastic lid popping off", "dura": 0.6, "en": 50.2, "golpe": true, "db": -11, "suave": false },
+  { "nombre": "puerta", "que": "A freezer door closing: a soft rubber-sealed thud with a faint hum, close foley", "oye": "a freezer door thud", "dura": 0.6, "en": 51.6, "golpe": true, "db": -12, "suave": false },
+  { "nombre": "sierra", "que": "A knife sawing quickly through a block of ice: a short crisp scraping crunch, close foley", "oye": "a knife cutting through ice", "dura": 0.6, "en": 54.55, "golpe": true, "db": -9, "suave": false },
+  { "nombre": "cae", "que": "A chunk of ice dropping and sliding away: a heavy icy clunk and slide, close foley", "oye": "an ice chunk clunk", "dura": 0.5, "en": 55.6, "golpe": true, "db": -11, "suave": false },
+  { "nombre": "brillo", "que": "A clean sparkling chime, bright crystal-clear twinkle, magical, short", "oye": "a crystal-clear twinkle", "dura": 0.8, "en": 55.9, "golpe": true, "db": -12, "suave": true },
+  { "nombre": "vuelve", "que": "A fast soft whoosh swooping back, clean cinematic transition", "oye": "a soft whoosh", "dura": 0.8, "en": 56.75, "golpe": false, "db": -13, "suave": true }
+]

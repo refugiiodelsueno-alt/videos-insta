@@ -608,7 +608,7 @@ async function espacioMundo(E) {
   const cargaTex = (u) => new Promise((ok) => new tres.TextureLoader().load(u, (t) => { t.colorSpace = tres.SRGBColorSpace; t.anisotropy = 8; ok(t); }));
   const [mapa, nubes] = await Promise.all([cargaTex("recursos/tierra.jpg"), cargaTex("recursos/tierra-nubes.png")]);
   const tierra = new tres.Mesh(new tres.SphereGeometry(14, 128, 96), new tres.MeshStandardMaterial({ map: mapa, roughness: 0.9 }));
-  tierra.position.set(-2.5, -16.2, -8); E.scene.add(tierra);
+  tierra.position.set(-2.5, -17.6, -9); E.scene.add(tierra);
   const capaN = new tres.Mesh(new tres.SphereGeometry(14.08, 128, 96), new tres.MeshStandardMaterial({ map: nubes, transparent: true, opacity: 0.7, depthWrite: false }));
   capaN.position.copy(tierra.position); E.scene.add(capaN);
   const halo = new tres.Mesh(new tres.SphereGeometry(14.6, 96, 64), new tres.ShaderMaterial({
@@ -650,11 +650,11 @@ async function espacioMundo(E) {
     mitades[0].m.traverse((o) => { if (o.isMesh) o.material.emissive?.setRGB(0.37 * tinte * 0.14, 0.83 * tinte * 0.14, 1 * tinte * 0.14); });
     mitades[1].m.traverse((o) => { if (o.isMesh) o.material.emissive?.setRGB(1 * tinte * 0.14, 0.71 * tinte * 0.14, 0.28 * tinte * 0.14); });
     tierra.rotation.y = 0.6 + g * 0.02; capaN.rotation.y = 0.6 + g * 0.026;
-    vuelo(E, g, [[39.21, V(1.4, 1.9, 5.4), V(0, 0.55, 0)], [41.5, V(-0.5, 1.8, 4.9), V(0, 0.7, 0)], [43.95, V(-1.2, 1.7, 4.6), V(0, 0.8, 0)]], 1.1);
+    vuelo(E, g, [[39.21, V(1.4, 1.7, 5.4), V(0, 0.3, 0)], [41.5, V(-0.5, 1.7, 4.9), V(0, 0.55, 0)], [43.95, V(-1.2, 1.7, 4.6), V(0, 0.8, 0)]], 1.1);
     E.camera.fov = 36; E.camera.updateProjectionMatrix();
     E.dibuja();
-    E.pon(e1, { x: 540, y: 620 }, asoma(g, T.anos - 0.1, 41.6), 0, 0);
-    E.pon(e2, { x: 540, y: 620 }, asoma(g, T.vuelta - 0.2), 0, 0);
+    E.pon(e1, { x: 540, y: 1560 }, asoma(g, T.anos - 0.1, 41.6), 0, 0);
+    E.pon(e2, { x: 540, y: 1560 }, asoma(g, T.vuelta - 0.2), 0, 0);
   };
   return E;
 }

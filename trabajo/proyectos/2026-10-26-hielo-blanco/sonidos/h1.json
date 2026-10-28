@@ -1,0 +1,107 @@
+[
+  {
+    "archivo": "sonidos/tintineo-h1.wav",
+    "en": 0,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/zoom-h1.wav",
+    "en": 2.7,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/burbujas-h1.wav",
+    "en": 3.6,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/molecula-h1.wav",
+    "en": 5.5,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/cristal-h1.wav",
+    "en": 7.6,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/empuja-h1.wav",
+    "en": 11.4,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/frio-h1.wav",
+    "en": 15,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/crece-h1.wav",
+    "en": 18,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/atrapado-h1.wav",
+    "en": 21.995,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/efervescente-h1.wav",
+    "en": 24.1,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/rayos-h1.wav",
+    "en": 25.8,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/blanco-h1.wav",
+    "en": 28.9,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/no-h1.wav",
+    "en": 33.555,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/maquina-h1.wav",
+    "en": 40.8,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/escapa-h1.wav",
+    "en": 45,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/tapa-h1.wav",
+    "en": 50.165,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/puerta-h1.wav",
+    "en": 51.575,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/sierra-h1.wav",
+    "en": 54.345,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/cae-h1.wav",
+    "en": 55.58,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/brillo-h1.wav",
+    "en": 55.9,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/vuelve-h1.wav",
+    "en": 56.75,
+    "volumen": 1
+  }
+]
