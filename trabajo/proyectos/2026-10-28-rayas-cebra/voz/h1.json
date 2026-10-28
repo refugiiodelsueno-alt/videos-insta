@@ -1,0 +1,1275 @@
+{
+  "proveedor": "elevenlabs",
+  "toma": "seguida",
+  "firma": "f80af1deedce",
+  "duracion": 56.13,
+  "frases": [
+    {
+      "n": 1,
+      "parte": "hook",
+      "texto": "Las rayas de la cebra no la esconden de los leones: la protegen de las moscas.",
+      "escena": "hook",
+      "clave": "moscas",
+      "inicio": 0,
+      "fin": 5.04,
+      "ritmo": 1
+    },
+    {
+      "n": 2,
+      "parte": "cuerpo",
+      "texto": "De lejos, a los ojos de un león, las rayas se mezclan y la cebra se ve gris.",
+      "escena": "leon",
+      "clave": "gris",
+      "inicio": 5.22,
+      "fin": 10.26,
+      "ritmo": 1
+    },
+    {
+      "n": 3,
+      "parte": "cuerpo",
+      "texto": "Su enemigo de verdad es mucho más pequeño: el tábano, una mosca que pica y contagia enfermedades.",
+      "escena": "tabano",
+      "clave": "tábano",
+      "inicio": 10.3,
+      "fin": 16.9,
+      "ritmo": 1
+    },
+    {
+      "n": 4,
+      "parte": "cuerpo",
+      "texto": "Y el pelo de la cebra es tan corto que su picadura lo atraviesa sin problema.",
+      "escena": "tabano",
+      "clave": "tan corto",
+      "inicio": 16.927,
+      "fin": 21.72,
+      "ritmo": 1
+    },
+    {
+      "n": 5,
+      "parte": "cuerpo",
+      "texto": "En 2019 lo grabaron en una granja inglesa: los tábanos se acercaban igual a las cebras que a los caballos.",
+      "escena": "granja",
+      "clave": "igual",
+      "inicio": 21.76,
+      "fin": 28.36,
+      "ritmo": 1
+    },
+    {
+      "n": 6,
+      "parte": "cuerpo",
+      "texto": "Pero sobre las cebras se posaban cuatro veces menos.",
+      "escena": "granja",
+      "clave": "cuatro veces menos",
+      "inicio": 28.413,
+      "fin": 31.48,
+      "ritmo": 1
+    },
+    {
+      "n": 7,
+      "parte": "cuerpo",
+      "texto": "No frenaban a tiempo: pasaban de largo, o chocaban y rebotaban.",
+      "escena": "aterrizaje",
+      "clave": "rebotaban",
+      "inicio": 31.56,
+      "fin": 36.04,
+      "ritmo": 1
+    },
+    {
+      "n": 8,
+      "parte": "cuerpo",
+      "texto": "Luego vistieron a los caballos con una manta de rayas, y también se posaron muchas menos.",
+      "escena": "pruebas",
+      "clave": "manta de rayas",
+      "inicio": 36.12,
+      "fin": 41.4,
+      "ritmo": 1
+    },
+    {
+      "n": 9,
+      "parte": "cuerpo",
+      "texto": "Y en Japón pintaron rayas a unas vacas: tenían la mitad de moscas encima.",
+      "escena": "pruebas",
+      "clave": "la mitad",
+      "inicio": 41.44,
+      "fin": 46.44,
+      "ritmo": 1
+    },
+    {
+      "n": 10,
+      "parte": "cuerpo",
+      "texto": "Nadie sabe aún qué ve exactamente la mosca, pero de cerca las rayas la despistan justo al aterrizar.",
+      "escena": "ojo",
+      "clave": "despistan",
+      "inicio": 46.493,
+      "fin": 52.84,
+      "ritmo": 1
+    },
+    {
+      "n": 11,
+      "parte": "cuerpo",
+      "texto": "Así que la próxima vez que veas una cebra, recuerda:",
+      "escena": "cierre",
+      "clave": "recuerda",
+      "inicio": 52.92,
+      "fin": 55.98,
+      "ritmo": 1
+    }
+  ],
+  "palabras": [
+    {
+      "texto": "Las",
+      "inicio": 0,
+      "fin": 0.16,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "rayas",
+      "inicio": 0.24,
+      "fin": 0.48,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "de",
+      "inicio": 0.56,
+      "fin": 0.6,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "la",
+      "inicio": 0.64,
+      "fin": 0.72,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "cebra",
+      "inicio": 0.8,
+      "fin": 1.12,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "no",
+      "inicio": 1.2,
+      "fin": 1.28,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "la",
+      "inicio": 1.36,
+      "fin": 1.4,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "esconden",
+      "inicio": 1.44,
+      "fin": 1.92,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "de",
+      "inicio": 1.96,
+      "fin": 2,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "los",
+      "inicio": 2.08,
+      "fin": 2.16,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "leones:",
+      "inicio": 2.24,
+      "fin": 3.04,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "la",
+      "inicio": 3.12,
+      "fin": 3.2,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "protegen",
+      "inicio": 3.28,
+      "fin": 3.84,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "de",
+      "inicio": 3.92,
+      "fin": 3.96,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "las",
+      "inicio": 4,
+      "fin": 4.16,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "moscas.",
+      "inicio": 4.24,
+      "fin": 5.04,
+      "frase": 1,
+      "clave": true
+    },
+    {
+      "texto": "De",
+      "inicio": 5.22,
+      "fin": 5.3,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "lejos,",
+      "inicio": 5.38,
+      "fin": 5.86,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "a",
+      "inicio": 5.9,
+      "fin": 5.94,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "los",
+      "inicio": 6.02,
+      "fin": 6.1,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "ojos",
+      "inicio": 6.18,
+      "fin": 6.34,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "de",
+      "inicio": 6.38,
+      "fin": 6.42,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "un",
+      "inicio": 6.5,
+      "fin": 6.54,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "león,",
+      "inicio": 6.58,
+      "fin": 7.22,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "las",
+      "inicio": 7.3,
+      "fin": 7.38,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "rayas",
+      "inicio": 7.46,
+      "fin": 7.7,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "se",
+      "inicio": 7.78,
+      "fin": 7.86,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "mezclan",
+      "inicio": 7.98,
+      "fin": 8.34,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "y",
+      "inicio": 8.5,
+      "fin": 8.58,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "la",
+      "inicio": 8.62,
+      "fin": 8.66,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "cebra",
+      "inicio": 8.74,
+      "fin": 9.06,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "se",
+      "inicio": 9.14,
+      "fin": 9.22,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "ve",
+      "inicio": 9.26,
+      "fin": 9.3,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "gris.",
+      "inicio": 9.38,
+      "fin": 10.26,
+      "frase": 2,
+      "clave": true
+    },
+    {
+      "texto": "Su",
+      "inicio": 10.3,
+      "fin": 10.34,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "enemigo",
+      "inicio": 10.42,
+      "fin": 10.74,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "de",
+      "inicio": 10.78,
+      "fin": 10.82,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "verdad",
+      "inicio": 10.9,
+      "fin": 11.3,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "es",
+      "inicio": 11.42,
+      "fin": 11.54,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "mucho",
+      "inicio": 11.62,
+      "fin": 11.86,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "más",
+      "inicio": 11.94,
+      "fin": 12.1,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "pequeño:",
+      "inicio": 12.18,
+      "fin": 12.98,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "el",
+      "inicio": 13.06,
+      "fin": 13.14,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "tábano,",
+      "inicio": 13.22,
+      "fin": 14.02,
+      "frase": 3,
+      "clave": true
+    },
+    {
+      "texto": "una",
+      "inicio": 14.1,
+      "fin": 14.18,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "mosca",
+      "inicio": 14.26,
+      "fin": 14.5,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "que",
+      "inicio": 14.58,
+      "fin": 14.66,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "pica",
+      "inicio": 14.74,
+      "fin": 15.06,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "y",
+      "inicio": 15.1,
+      "fin": 15.14,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "contagia",
+      "inicio": 15.22,
+      "fin": 15.62,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "enfermedades.",
+      "inicio": 15.7,
+      "fin": 16.9,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "Y",
+      "inicio": 16.927,
+      "fin": 16.953,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "el",
+      "inicio": 16.98,
+      "fin": 17.06,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "pelo",
+      "inicio": 17.14,
+      "fin": 17.3,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "de",
+      "inicio": 17.34,
+      "fin": 17.38,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "la",
+      "inicio": 17.42,
+      "fin": 17.46,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "cebra",
+      "inicio": 17.54,
+      "fin": 17.86,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "es",
+      "inicio": 17.98,
+      "fin": 18.1,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "tan",
+      "inicio": 18.22,
+      "fin": 18.34,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "corto",
+      "inicio": 18.42,
+      "fin": 18.74,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "que",
+      "inicio": 18.92,
+      "fin": 19,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "su",
+      "inicio": 19.08,
+      "fin": 19.12,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "picadura",
+      "inicio": 19.16,
+      "fin": 19.56,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "lo",
+      "inicio": 19.6,
+      "fin": 19.64,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "atraviesa",
+      "inicio": 19.72,
+      "fin": 20.2,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "sin",
+      "inicio": 20.32,
+      "fin": 20.44,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "problema.",
+      "inicio": 20.52,
+      "fin": 21.72,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "En",
+      "inicio": 21.76,
+      "fin": 21.8,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "2019",
+      "inicio": 21.88,
+      "fin": 22.6,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "lo",
+      "inicio": 22.76,
+      "fin": 22.84,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "grabaron",
+      "inicio": 22.92,
+      "fin": 23.24,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "en",
+      "inicio": 23.32,
+      "fin": 23.4,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "una",
+      "inicio": 23.48,
+      "fin": 23.56,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "granja",
+      "inicio": 23.68,
+      "fin": 23.88,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "inglesa:",
+      "inicio": 23.96,
+      "fin": 24.84,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "los",
+      "inicio": 24.92,
+      "fin": 25,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "tábanos",
+      "inicio": 25.08,
+      "fin": 25.48,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "se",
+      "inicio": 25.52,
+      "fin": 25.56,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "acercaban",
+      "inicio": 25.64,
+      "fin": 26.04,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "igual",
+      "inicio": 26.12,
+      "fin": 26.28,
+      "frase": 5,
+      "clave": true
+    },
+    {
+      "texto": "a",
+      "inicio": 26.36,
+      "fin": 26.4,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "las",
+      "inicio": 26.44,
+      "fin": 26.52,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "cebras",
+      "inicio": 26.6,
+      "fin": 26.92,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "que",
+      "inicio": 27,
+      "fin": 27.08,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "a",
+      "inicio": 27.12,
+      "fin": 27.16,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "los",
+      "inicio": 27.24,
+      "fin": 27.32,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "caballos.",
+      "inicio": 27.4,
+      "fin": 28.36,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "Pero",
+      "inicio": 28.413,
+      "fin": 28.52,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "sobre",
+      "inicio": 28.56,
+      "fin": 28.76,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "las",
+      "inicio": 28.84,
+      "fin": 28.92,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "cebras",
+      "inicio": 29,
+      "fin": 29.32,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "se",
+      "inicio": 29.4,
+      "fin": 29.48,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "posaban",
+      "inicio": 29.56,
+      "fin": 29.96,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "cuatro",
+      "inicio": 30.04,
+      "fin": 30.36,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "veces",
+      "inicio": 30.4,
+      "fin": 30.68,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "menos.",
+      "inicio": 30.76,
+      "fin": 31.48,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "No",
+      "inicio": 31.56,
+      "fin": 31.64,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "frenaban",
+      "inicio": 31.68,
+      "fin": 32.04,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "a",
+      "inicio": 32.08,
+      "fin": 32.12,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "tiempo:",
+      "inicio": 32.16,
+      "fin": 32.76,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "pasaban",
+      "inicio": 32.84,
+      "fin": 33.16,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "de",
+      "inicio": 33.2,
+      "fin": 33.24,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "largo,",
+      "inicio": 33.32,
+      "fin": 33.8,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "o",
+      "inicio": 33.88,
+      "fin": 33.96,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "chocaban",
+      "inicio": 34.04,
+      "fin": 34.6,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "y",
+      "inicio": 34.64,
+      "fin": 34.68,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "rebotaban.",
+      "inicio": 34.76,
+      "fin": 36.04,
+      "frase": 7,
+      "clave": true
+    },
+    {
+      "texto": "Luego",
+      "inicio": 36.12,
+      "fin": 36.28,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "vistieron",
+      "inicio": 36.36,
+      "fin": 36.76,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "a",
+      "inicio": 36.787,
+      "fin": 36.813,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "los",
+      "inicio": 36.84,
+      "fin": 36.92,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "caballos",
+      "inicio": 37,
+      "fin": 37.4,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "con",
+      "inicio": 37.48,
+      "fin": 37.56,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "una",
+      "inicio": 37.64,
+      "fin": 37.72,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "manta",
+      "inicio": 37.8,
+      "fin": 38.04,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "de",
+      "inicio": 38.12,
+      "fin": 38.16,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "rayas,",
+      "inicio": 38.2,
+      "fin": 38.84,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "y",
+      "inicio": 38.92,
+      "fin": 39,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "también",
+      "inicio": 39.08,
+      "fin": 39.4,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "se",
+      "inicio": 39.48,
+      "fin": 39.56,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "posaron",
+      "inicio": 39.64,
+      "fin": 40.04,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "muchas",
+      "inicio": 40.12,
+      "fin": 40.44,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "menos.",
+      "inicio": 40.52,
+      "fin": 41.4,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "Y",
+      "inicio": 41.44,
+      "fin": 41.48,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "en",
+      "inicio": 41.52,
+      "fin": 41.56,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "Japón",
+      "inicio": 41.64,
+      "fin": 42.04,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "pintaron",
+      "inicio": 42.08,
+      "fin": 42.52,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "rayas",
+      "inicio": 42.64,
+      "fin": 42.84,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "a",
+      "inicio": 42.92,
+      "fin": 42.96,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "unas",
+      "inicio": 43,
+      "fin": 43.16,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "vacas:",
+      "inicio": 43.24,
+      "fin": 43.88,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "tenían",
+      "inicio": 43.96,
+      "fin": 44.28,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "la",
+      "inicio": 44.32,
+      "fin": 44.36,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "mitad",
+      "inicio": 44.44,
+      "fin": 44.84,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "de",
+      "inicio": 44.88,
+      "fin": 44.92,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "moscas",
+      "inicio": 45,
+      "fin": 45.32,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "encima.",
+      "inicio": 45.44,
+      "fin": 46.44,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "Nadie",
+      "inicio": 46.493,
+      "fin": 46.68,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "sabe",
+      "inicio": 46.72,
+      "fin": 46.92,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "aún",
+      "inicio": 46.96,
+      "fin": 47.16,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "qué",
+      "inicio": 47.24,
+      "fin": 47.4,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "ve",
+      "inicio": 47.48,
+      "fin": 47.56,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "exactamente",
+      "inicio": 47.64,
+      "fin": 48.28,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "la",
+      "inicio": 48.36,
+      "fin": 48.4,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "mosca,",
+      "inicio": 48.44,
+      "fin": 49.16,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "pero",
+      "inicio": 49.24,
+      "fin": 49.36,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "de",
+      "inicio": 49.4,
+      "fin": 49.48,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "cerca",
+      "inicio": 49.56,
+      "fin": 49.88,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "las",
+      "inicio": 50.04,
+      "fin": 50.2,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "rayas",
+      "inicio": 50.28,
+      "fin": 50.52,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "la",
+      "inicio": 50.56,
+      "fin": 50.6,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "despistan",
+      "inicio": 50.68,
+      "fin": 51.24,
+      "frase": 10,
+      "clave": true
+    },
+    {
+      "texto": "justo",
+      "inicio": 51.32,
+      "fin": 51.6,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "al",
+      "inicio": 51.64,
+      "fin": 51.72,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "aterrizar.",
+      "inicio": 51.76,
+      "fin": 52.84,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "Así",
+      "inicio": 52.92,
+      "fin": 53.04,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "que",
+      "inicio": 53.08,
+      "fin": 53.24,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "la",
+      "inicio": 53.42,
+      "fin": 53.5,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "próxima",
+      "inicio": 53.58,
+      "fin": 53.9,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "vez",
+      "inicio": 53.98,
+      "fin": 54.14,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "que",
+      "inicio": 54.18,
+      "fin": 54.22,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "veas",
+      "inicio": 54.3,
+      "fin": 54.46,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "una",
+      "inicio": 54.54,
+      "fin": 54.62,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "cebra,",
+      "inicio": 54.7,
+      "fin": 55.26,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "recuerda:",
+      "inicio": 55.38,
+      "fin": 55.98,
+      "frase": 11,
+      "clave": true
+    }
+  ]
+}

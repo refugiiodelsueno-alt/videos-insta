@@ -125,3 +125,16 @@ export const firmaVoz = (guion, ap) => createHash("sha1")
 // Palabras para el subtítulo y las marcas de tiempo: se quitan signos y se pasa a minúsculas sin tildes.
 export const palabras = (t) => String(t).split(/\s+/).filter(Boolean);
 export const clave = (w) => String(w).toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9ñ%.,]/g, "").replace(/[.,]+$/g, "");
+
+// Sin GPU, un vídeo con escenas 3D pesadas no cabe en los 120 s que `hyperframes check` se da a sí mismo: entonces se
+// pasa por tramos (--range), que mira lo mismo y da a cada tramo su propio plazo.
+export function comprobar(out, dur) {
+  const r = hyperframes(["check"], { cwd: out });
+  if (r.ok || !/within its deadline/.test(r.salida + r.errores)) return r;
+  console.log("  el check no cabe en su plazo de una vez (sin GPU): lo paso por tramos de 5 s");
+  for (let a = 0; a < dur; a += 5) {
+    const t = hyperframes(["check", "--range", `${r3(a)},${r3(Math.min(dur, a + 5))}`], { cwd: out });
+    if (!t.ok) return t;
+  }
+  return { ok: true, salida: "", errores: "" };
+}

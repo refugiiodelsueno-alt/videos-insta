@@ -7,7 +7,7 @@
 // falta volver a mirarlo después. Tarda unos minutos por apertura. Imprime las rutas.
 import { copyFileSync, existsSync, mkdirSync, readFileSync, rmSync, statSync } from "node:fs";
 import { basename, join } from "node:path";
-import { RAIZ, aperturas, duracion, fallo, ffm, hyperframes, posicional, proyecto, r3, resumen, tiene } from "./_comun.mjs";
+import { RAIZ, aperturas, comprobar, duracion, fallo, ffm, hyperframes, posicional, proyecto, r3, resumen, tiene } from "./_comun.mjs";
 import { montar } from "./montar.mjs";
 import { juzgar, referenciaDe } from "./medir.mjs";
 
@@ -19,7 +19,7 @@ mkdirSync(salida, { recursive: true });
 const hechos = [];
 for (const ap of aperturas(guion)) {
   const { out, voz } = montar(dir, guion, ap);
-  const chk = hyperframes(["check"], { cwd: out });
+  const chk = comprobar(out, voz.duracion);
   if (!chk.ok) fallo(`${ap.id}: el check falla; revisa antes de entregar:\n${resumen(chk)}`);
   const mp4 = join(salida, `${slug}-${ap.id}.mp4`);
   const r = hyperframes(["render", "--quality", "high", "--fps", "60", "--output", mp4, "--quiet"], { cwd: out });

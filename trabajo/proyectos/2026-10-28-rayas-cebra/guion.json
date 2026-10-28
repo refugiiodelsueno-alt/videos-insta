@@ -1,0 +1,131 @@
+{
+  "titulo": "Por qué las cebras tienen rayas",
+  "slug": "rayas-cebra",
+  "idioma": "es",
+  "voz": {
+    "proveedor": "elevenlabs",
+    "id": "851ejYcv2BoNPjrkw93G",
+    "modelo": "eleven_v4",
+    "velocidad": 1,
+    "estabilidad": 0.35,
+    "similitud": 0.7,
+    "kokoro": "ef_dora"
+  },
+  "subtitulos": "arriba",
+  "aperturas": [
+    {
+      "id": "h1",
+      "escena": "hook",
+      "frases": [
+        {
+          "texto": "Las rayas de la cebra no la esconden de los leones: la protegen de las moscas.",
+          "clave": "moscas"
+        }
+      ]
+    }
+  ],
+  "reserva": [
+    {
+      "id": "h2",
+      "escena": "hook",
+      "frases": [
+        {
+          "texto": "Una cebra es una pista de aterrizaje en la que ninguna mosca sabe aterrizar.",
+          "clave": "aterrizar"
+        }
+      ],
+      "imagen": "un tábano que se acerca a la cebra y rebota"
+    },
+    {
+      "id": "h3",
+      "escena": "hook",
+      "frases": [
+        {
+          "texto": "Si le pintas rayas a una vaca, le quitas la mitad de las moscas.",
+          "clave": "la mitad"
+        }
+      ],
+      "imagen": "una vaca pintada de cebra con pocas moscas"
+    }
+  ],
+  "cuerpo": [
+    {
+      "texto": "De lejos, a los ojos de un león, las rayas se mezclan y la cebra se ve gris.",
+      "escena": "leon",
+      "clave": "gris"
+    },
+    {
+      "texto": "Su enemigo de verdad es mucho más pequeño: el tábano, una mosca que pica y contagia enfermedades.",
+      "escena": "tabano",
+      "clave": "tábano"
+    },
+    {
+      "texto": "Y el pelo de la cebra es tan corto que su picadura lo atraviesa sin problema.",
+      "escena": "tabano",
+      "clave": "tan corto"
+    },
+    {
+      "texto": "En 2019 lo grabaron en una granja inglesa: los tábanos se acercaban igual a las cebras que a los caballos.",
+      "escena": "granja",
+      "clave": "igual"
+    },
+    {
+      "texto": "Pero sobre las cebras se posaban cuatro veces menos.",
+      "escena": "granja",
+      "clave": "cuatro veces menos"
+    },
+    {
+      "texto": "No frenaban a tiempo: pasaban de largo, o chocaban y rebotaban.",
+      "escena": "aterrizaje",
+      "clave": "rebotaban"
+    },
+    {
+      "texto": "Luego vistieron a los caballos con una manta de rayas, y también se posaron muchas menos.",
+      "escena": "pruebas",
+      "clave": "manta de rayas"
+    },
+    {
+      "texto": "Y en Japón pintaron rayas a unas vacas: tenían la mitad de moscas encima.",
+      "escena": "pruebas",
+      "clave": "la mitad"
+    },
+    {
+      "texto": "Nadie sabe aún qué ve exactamente la mosca, pero de cerca las rayas la despistan justo al aterrizar.",
+      "escena": "ojo",
+      "clave": "despistan"
+    },
+    {
+      "texto": "Así que la próxima vez que veas una cebra, recuerda:",
+      "escena": "cierre",
+      "clave": "recuerda"
+    }
+  ],
+  "cola": 0.15,
+  "escenas": {
+    "hook": {
+      "entrada": "corte"
+    },
+    "leon": {
+      "entrada": "corte"
+    },
+    "tabano": {
+      "entrada": "corte"
+    },
+    "granja": {
+      "entrada": "corte"
+    },
+    "aterrizaje": {
+      "entrada": "corte"
+    },
+    "pruebas": {
+      "entrada": "corte"
+    },
+    "ojo": {
+      "entrada": "corte"
+    },
+    "cierre": {
+      "entrada": "corte"
+    }
+  },
+  "sonido": true
+}

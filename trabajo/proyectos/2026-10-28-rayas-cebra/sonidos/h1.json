@@ -1,0 +1,152 @@
+[
+  {
+    "archivo": "sonidos/zumbido-h1.wav",
+    "en": 0,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/lanza-h1.wav",
+    "en": 3.25,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/choque-h1.wav",
+    "en": 3.875,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/sabana-h1.wav",
+    "en": 5.15,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/lente-h1.wav",
+    "en": 6.55,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/borra-h1.wav",
+    "en": 7.95,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/gris-h1.wav",
+    "en": 9.4,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/baja-h1.wav",
+    "en": 11.4,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/posa-h1.wav",
+    "en": 11.7,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/pica-h1.wav",
+    "en": 14.7,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/germenes-h1.wav",
+    "en": 15.65,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/atraviesa-h1.wav",
+    "en": 19.115,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/graba-h1.wav",
+    "en": 21.115,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/enjambre-h1.wav",
+    "en": 23,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/cuenta-h1.wav",
+    "en": 25.4,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/posan-h1.wav",
+    "en": 28.9,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/pasa-h1.wav",
+    "en": 31.9,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/rebota-h1.wav",
+    "en": 33.995,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/manta-h1.wav",
+    "en": 36.7,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/posan2-h1.wav",
+    "en": 39.1,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/barre-h1.wav",
+    "en": 41.15,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/brocha-h1.wav",
+    "en": 42.1,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/posan3-h1.wav",
+    "en": 43.9,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/duda-h1.wav",
+    "en": 46.7,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/mareo-h1.wav",
+    "en": 49.5,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/mira-h1.wav",
+    "en": 50.3,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/vuelve-h1.wav",
+    "en": 52.85,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/lanza2-h1.wav",
+    "en": 53.35,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/choque2-h1.wav",
+    "en": 53.98,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/zumbido2-h1.wav",
+    "en": 54.6,
+    "volumen": 1
+  }
+]

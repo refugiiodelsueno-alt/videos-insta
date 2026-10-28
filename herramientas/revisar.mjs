@@ -19,22 +19,9 @@ import { spawnSync } from "node:child_process";
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { join, resolve } from "node:path";
 import { cortes, juzgar, referenciaDe, tirones } from "./medir.mjs";
-import { RAIZ, aperturas, arg, fallo, firmaVoz, hyperframes, leerJson, posicional, proyecto, r3, resumen, tiene } from "./_comun.mjs";
+import { RAIZ, aperturas, arg, comprobar, fallo, firmaVoz, hyperframes, leerJson, posicional, proyecto, r3, resumen, tiene } from "./_comun.mjs";
 import { ENCADENADO, montar } from "./montar.mjs";
 import { hoja, rejilla } from "./comparar.mjs";
-
-// Sin GPU, un vídeo con escenas 3D pesadas no cabe en los 120 s que `hyperframes check` se da a sí mismo: entonces se
-// pasa por tramos (--range), que mira lo mismo y da a cada tramo su propio plazo.
-function comprobar(out, dur) {
-  const r = hyperframes(["check"], { cwd: out });
-  if (r.ok || !/within its deadline/.test(r.salida + r.errores)) return r;
-  console.log("  el check no cabe en su plazo de una vez (sin GPU): lo paso por tramos de 5 s");
-  for (let a = 0; a < dur; a += 5) {
-    const t = hyperframes(["check", "--range", `${r3(a)},${r3(Math.min(dur, a + 5))}`], { cwd: out });
-    if (!t.ok) return t;
-  }
-  return { ok: true, salida: "", errores: "" };
-}
 
 const { dir, guion } = proyecto(posicional());
 const hojas = [];
