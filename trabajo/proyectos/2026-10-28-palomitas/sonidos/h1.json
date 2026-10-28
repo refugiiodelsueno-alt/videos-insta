@@ -1,0 +1,162 @@
+[
+  {
+    "archivo": "sonidos/chisporroteo-h1.wav",
+    "en": 0,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/pop-h1.wav",
+    "en": 0.165,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/raja-h1.wav",
+    "en": 2.08,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/lenta-h1.wav",
+    "en": 3.4,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/tictac-h1.wav",
+    "en": 4.3,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/pop2-h1.wav",
+    "en": 7.33,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/corte-h1.wav",
+    "en": 8.42,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/gota-h1.wav",
+    "en": 9.355,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/rebote-h1.wav",
+    "en": 12.4,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/llama-h1.wav",
+    "en": 13.8,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/vapor-h1.wav",
+    "en": 15.65,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/presion-h1.wav",
+    "en": 17.4,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/hierve-h1.wav",
+    "en": 21.4,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/cruje-h1.wav",
+    "en": 24.1,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/revienta-h1.wav",
+    "en": 25.12,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/blando-h1.wav",
+    "en": 26.9,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/hincha-h1.wav",
+    "en": 28.07,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/burbujas-h1.wav",
+    "en": 29.3,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/enfria-h1.wav",
+    "en": 30.25,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/duro-h1.wav",
+    "en": 31.295,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/patita-h1.wav",
+    "en": 33.62,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/salta-h1.wav",
+    "en": 34.705,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/gimnasta-h1.wav",
+    "en": 36.42,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/silba-h1.wav",
+    "en": 40.82,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/pop3-h1.wav",
+    "en": 41.61,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/corcho-h1.wav",
+    "en": 43.645,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/cubo-h1.wav",
+    "en": 44.75,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/marca-h1.wav",
+    "en": 46.18,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/fuga-h1.wav",
+    "en": 47.7,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/baja-h1.wav",
+    "en": 49.1,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/palomitas-h1.wav",
+    "en": 51,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/vuelve-h1.wav",
+    "en": 53.75,
+    "volumen": 1
+  }
+]

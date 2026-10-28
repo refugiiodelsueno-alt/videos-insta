@@ -1,0 +1,132 @@
+[
+  {
+    "archivo": "sonidos/toc-h1.wav",
+    "en": 0.28,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/gotas-h1.wav",
+    "en": 1.36,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/dias-h1.wav",
+    "en": 2.45,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/bascula-h1.wav",
+    "en": 3.61,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/bolsa-h1.wav",
+    "en": 5,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/toc2-h1.wav",
+    "en": 6.83,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/zoom-h1.wav",
+    "en": 7.45,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/brillo-h1.wav",
+    "en": 8.5,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/horno-h1.wav",
+    "en": 11.42,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/hincha-h1.wav",
+    "en": 13.3,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/enfria-h1.wav",
+    "en": 16.62,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/cristal-h1.wav",
+    "en": 19.58,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/rejas-h1.wav",
+    "en": 20.965,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/presa-h1.wav",
+    "en": 23.86,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/toc3-h1.wav",
+    "en": 26.58,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/nevera-h1.wav",
+    "en": 27.4,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/corte-h1.wav",
+    "en": 30.12,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/escarcha-h1.wav",
+    "en": 32.3,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/ding-h1.wav",
+    "en": 33.74,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/tostar-h1.wav",
+    "en": 35.1,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/vapor-h1.wav",
+    "en": 36,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/abre-h1.wav",
+    "en": 38.2,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/suelta-h1.wav",
+    "en": 39.6,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/frio-h1.wav",
+    "en": 41,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/aleja-h1.wav",
+    "en": 42.4,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/toc4-h1.wav",
+    "en": 44.135,
+    "volumen": 1
+  }
+]

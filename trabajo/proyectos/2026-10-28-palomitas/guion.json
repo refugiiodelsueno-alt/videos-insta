@@ -1,0 +1,138 @@
+{
+  "titulo": "por qué explotan las palomitas",
+  "slug": "palomitas",
+  "idioma": "es",
+  "voz": {
+    "proveedor": "elevenlabs",
+    "id": "851ejYcv2BoNPjrkw93G",
+    "modelo": "eleven_v4",
+    "velocidad": 1,
+    "estabilidad": 0.35,
+    "similitud": 0.7,
+    "kokoro": "ef_dora"
+  },
+  "subtitulos": "arriba",
+  "aperturas": [
+    {
+      "id": "h1",
+      "escena": "hook",
+      "frases": [
+        {
+          "texto": "El «pop» de las palomitas no es el grano rompiéndose.",
+          "clave": "pop"
+        }
+      ]
+    }
+  ],
+  "reserva": [
+    {
+      "id": "h2",
+      "escena": "hook",
+      "frases": [
+        {
+          "texto": "Cada palomita es una olla a presión que revienta a 180 grados.",
+          "clave": "olla a presión"
+        }
+      ],
+      "imagen": "un grano por dentro con el vapor apretando y un manómetro que sube hasta que revienta"
+    },
+    {
+      "id": "h3",
+      "escena": "hook",
+      "frases": [
+        {
+          "texto": "Las palomitas no saltan por la explosión: les sale una pata.",
+          "clave": "una pata"
+        }
+      ],
+      "imagen": "un grano que se abre y una patita de almidón que lo lanza dando una voltereta"
+    },
+    {
+      "id": "h4",
+      "escena": "hook",
+      "frases": [
+        {
+          "texto": "Los granos que se quedan sin abrir tienen un agujero.",
+          "clave": "agujero"
+        }
+      ],
+      "imagen": "el grano duro del fondo del bol, con una grieta por la que se escapa el vapor"
+    }
+  ],
+  "cuerpo": [
+    {
+      "texto": "El grano se abre primero, y el ruido llega una décima de segundo después.",
+      "escena": "lento",
+      "clave": "después"
+    },
+    {
+      "texto": "Todo empieza con una gota de agua, encerrada en una cáscara que no deja escapar nada.",
+      "escena": "dentro",
+      "clave": "gota de agua"
+    },
+    {
+      "texto": "Con el calor, esa agua se convierte en vapor y aprieta como una olla a presión: unas nueve veces más que el aire de fuera.",
+      "escena": "dentro",
+      "clave": "olla a presión"
+    },
+    {
+      "texto": "A unos 180 grados, la cáscara ya no aguanta y se raja.",
+      "dicho": "A unos ciento ochenta grados, la cáscara ya no aguanta y se raja.",
+      "escena": "dentro",
+      "clave": "se raja"
+    },
+    {
+      "texto": "El almidón de dentro, blando por el calor, se hincha de golpe como una espuma, y al enfriarse se queda duro.",
+      "escena": "espuma",
+      "clave": "espuma"
+    },
+    {
+      "texto": "Y para saltar, le sale una patita de almidón que empuja contra la olla, como un gimnasta haciendo una voltereta.",
+      "escena": "salto",
+      "clave": "patita"
+    },
+    {
+      "texto": "El ruido llega justo después: el vapor escapa de golpe por la grieta, como al descorchar una botella.",
+      "escena": "ruido",
+      "clave": "vapor"
+    },
+    {
+      "texto": "Por eso los granos que se quedan sin abrir tienen la cáscara dañada: el vapor se les escapa antes de tiempo.",
+      "escena": "duros",
+      "clave": "dañada"
+    },
+    {
+      "texto": "Así que la próxima vez que las oigas en la olla, acuérdate:",
+      "escena": "cierre",
+      "clave": "acuérdate"
+    }
+  ],
+  "cola": 0.15,
+  "escenas": {
+    "hook": {
+      "entrada": "corte"
+    },
+    "lento": {
+      "entrada": "corte"
+    },
+    "dentro": {
+      "entrada": "corte"
+    },
+    "espuma": {
+      "entrada": "corte"
+    },
+    "salto": {
+      "entrada": "corte"
+    },
+    "ruido": {
+      "entrada": "corte"
+    },
+    "duros": {
+      "entrada": "corte"
+    },
+    "cierre": {
+      "entrada": "corte"
+    }
+  },
+  "sonido": true
+}

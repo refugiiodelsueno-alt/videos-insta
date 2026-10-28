@@ -1,0 +1,137 @@
+{
+  "titulo": "por qué el pan se pone duro",
+  "slug": "pan-duro",
+  "idioma": "es",
+  "voz": {
+    "proveedor": "elevenlabs",
+    "id": "851ejYcv2BoNPjrkw93G",
+    "modelo": "eleven_v4",
+    "velocidad": 1,
+    "estabilidad": 0.35,
+    "similitud": 0.7,
+    "kokoro": "ef_dora"
+  },
+  "subtitulos": "arriba",
+  "aperturas": [
+    {
+      "id": "h1",
+      "escena": "hook",
+      "frases": [
+        {
+          "texto": "El pan duro no está seco.",
+          "clave": "seco"
+        }
+      ]
+    }
+  ],
+  "reserva": [
+    {
+      "id": "h2",
+      "escena": "hook",
+      "frases": [
+        {
+          "texto": "Meter el pan en la nevera lo pone duro más rápido.",
+          "clave": "nevera"
+        }
+      ],
+      "imagen": "dos panes, uno en la encimera y otro en la nevera; el de la nevera se llena de cristales y se pone duro antes"
+    },
+    {
+      "id": "h3",
+      "escena": "hook",
+      "frases": [
+        {
+          "texto": "Al pan duro no le falta agua: la tiene presa.",
+          "clave": "presa"
+        }
+      ],
+      "imagen": "la miga de cerca con gotas de agua encerradas en cristales de almidón"
+    },
+    {
+      "id": "h4",
+      "escena": "hook",
+      "frases": [
+        {
+          "texto": "Tu pan se pone duro aunque esté dentro de la bolsa.",
+          "clave": "bolsa"
+        }
+      ],
+      "imagen": "una barra en su bolsa cerrada que golpea la mesa como una piedra"
+    }
+  ],
+  "cuerpo": [
+    {
+      "texto": "Se endurece aunque no pierda agua: por eso se te pone duro también dentro de la bolsa.",
+      "escena": "bolsa",
+      "clave": "bolsa"
+    },
+    {
+      "texto": "El culpable es el almidón, los granitos que forman la miga.",
+      "escena": "miga",
+      "clave": "almidón"
+    },
+    {
+      "texto": "En el horno, el calor los abre y se empapan de agua, así que la miga sale blanda.",
+      "escena": "horno",
+      "clave": "se empapan"
+    },
+    {
+      "texto": "Pero al enfriarse, sus cadenas se vuelven a juntar en cristales duros, con el agua atrapada dentro.",
+      "escena": "cristales",
+      "clave": "cristales"
+    },
+    {
+      "texto": "El agua sigue ahí, pero presa, así que la miga se nota seca y dura.",
+      "escena": "cristales",
+      "clave": "presa"
+    },
+    {
+      "texto": "Y el frío de la nevera lo acelera: allí se pone duro varias veces más rápido.",
+      "escena": "nevera",
+      "clave": "nevera"
+    },
+    {
+      "texto": "En el congelador, en cambio, se queda como estaba.",
+      "escena": "nevera",
+      "clave": "congelador"
+    },
+    {
+      "texto": "Por eso al calentarlo vuelve a estar tierno: el calor deshace los cristales y suelta el agua, hasta que se enfría otra vez.",
+      "escena": "tostar",
+      "clave": "tierno"
+    },
+    {
+      "texto": "Así que, aunque suene como una piedra, acuérdate:",
+      "escena": "cierre",
+      "clave": "acuérdate"
+    }
+  ],
+  "cola": 0.15,
+  "escenas": {
+    "hook": {
+      "entrada": "corte"
+    },
+    "bolsa": {
+      "entrada": "corte"
+    },
+    "miga": {
+      "entrada": "corte"
+    },
+    "horno": {
+      "entrada": "corte"
+    },
+    "cristales": {
+      "entrada": "corte"
+    },
+    "nevera": {
+      "entrada": "corte"
+    },
+    "tostar": {
+      "entrada": "corte"
+    },
+    "cierre": {
+      "entrada": "corte"
+    }
+  },
+  "sonido": true
+}

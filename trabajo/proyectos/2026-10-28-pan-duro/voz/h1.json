@@ -1,0 +1,1090 @@
+{
+  "proveedor": "elevenlabs",
+  "toma": "seguida",
+  "firma": "9520a726d89a",
+  "duracion": 45.75,
+  "frases": [
+    {
+      "n": 1,
+      "parte": "hook",
+      "texto": "El pan duro no está seco.",
+      "escena": "hook",
+      "clave": "seco",
+      "inicio": 0,
+      "fin": 2.16,
+      "ritmo": 1
+    },
+    {
+      "n": 2,
+      "parte": "cuerpo",
+      "texto": "Se endurece aunque no pierda agua: por eso se te pone duro también dentro de la bolsa.",
+      "escena": "bolsa",
+      "clave": "bolsa",
+      "inicio": 2.2,
+      "fin": 7.36,
+      "ritmo": 1
+    },
+    {
+      "n": 3,
+      "parte": "cuerpo",
+      "texto": "El culpable es el almidón, los granitos que forman la miga.",
+      "escena": "miga",
+      "clave": "almidón",
+      "inicio": 7.44,
+      "fin": 11.36,
+      "ritmo": 1
+    },
+    {
+      "n": 4,
+      "parte": "cuerpo",
+      "texto": "En el horno, el calor los abre y se empapan de agua, así que la miga sale blanda.",
+      "escena": "horno",
+      "clave": "se empapan",
+      "inicio": 11.44,
+      "fin": 16.56,
+      "ritmo": 1
+    },
+    {
+      "n": 5,
+      "parte": "cuerpo",
+      "texto": "Pero al enfriarse, sus cadenas se vuelven a juntar en cristales duros, con el agua atrapada dentro.",
+      "escena": "cristales",
+      "clave": "cristales",
+      "inicio": 16.613,
+      "fin": 22.48,
+      "ritmo": 1
+    },
+    {
+      "n": 6,
+      "parte": "cuerpo",
+      "texto": "El agua sigue ahí, pero presa, así que la miga se nota seca y dura.",
+      "escena": "cristales",
+      "clave": "presa",
+      "inicio": 22.52,
+      "fin": 27.36,
+      "ritmo": 1
+    },
+    {
+      "n": 7,
+      "parte": "cuerpo",
+      "texto": "Y el frío de la nevera lo acelera: allí se pone duro varias veces más rápido.",
+      "escena": "nevera",
+      "clave": "nevera",
+      "inicio": 27.4,
+      "fin": 32.08,
+      "ritmo": 1
+    },
+    {
+      "n": 8,
+      "parte": "cuerpo",
+      "texto": "En el congelador, en cambio, se queda como estaba.",
+      "escena": "nevera",
+      "clave": "congelador",
+      "inicio": 32.12,
+      "fin": 34.96,
+      "ritmo": 1
+    },
+    {
+      "n": 9,
+      "parte": "cuerpo",
+      "texto": "Por eso al calentarlo vuelve a estar tierno: el calor deshace los cristales y suelta el agua, hasta que se enfría otra vez.",
+      "escena": "tostar",
+      "clave": "tierno",
+      "inicio": 35.04,
+      "fin": 42.4,
+      "ritmo": 1
+    },
+    {
+      "n": 10,
+      "parte": "cuerpo",
+      "texto": "Así que, aunque suene como una piedra, acuérdate:",
+      "escena": "cierre",
+      "clave": "acuérdate",
+      "inicio": 42.48,
+      "fin": 45.6,
+      "ritmo": 1
+    }
+  ],
+  "palabras": [
+    {
+      "texto": "El",
+      "inicio": 0,
+      "fin": 0.16,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "pan",
+      "inicio": 0.24,
+      "fin": 0.32,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "duro",
+      "inicio": 0.4,
+      "fin": 0.8,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "no",
+      "inicio": 0.96,
+      "fin": 1.04,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "está",
+      "inicio": 1.12,
+      "fin": 1.32,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "seco.",
+      "inicio": 1.36,
+      "fin": 2.16,
+      "frase": 1,
+      "clave": true
+    },
+    {
+      "texto": "Se",
+      "inicio": 2.2,
+      "fin": 2.24,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "endurece",
+      "inicio": 2.32,
+      "fin": 2.88,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "aunque",
+      "inicio": 2.92,
+      "fin": 3.2,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "no",
+      "inicio": 3.28,
+      "fin": 3.36,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "pierda",
+      "inicio": 3.44,
+      "fin": 3.68,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "agua:",
+      "inicio": 3.76,
+      "fin": 4.4,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "por",
+      "inicio": 4.44,
+      "fin": 4.48,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "eso",
+      "inicio": 4.56,
+      "fin": 4.8,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "se",
+      "inicio": 4.84,
+      "fin": 4.88,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "te",
+      "inicio": 4.96,
+      "fin": 5.04,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "pone",
+      "inicio": 5.12,
+      "fin": 5.28,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "duro",
+      "inicio": 5.36,
+      "fin": 5.6,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "también",
+      "inicio": 5.68,
+      "fin": 6,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "dentro",
+      "inicio": 6.12,
+      "fin": 6.32,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "de",
+      "inicio": 6.36,
+      "fin": 6.4,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "la",
+      "inicio": 6.48,
+      "fin": 6.52,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "bolsa.",
+      "inicio": 6.56,
+      "fin": 7.36,
+      "frase": 2,
+      "clave": true
+    },
+    {
+      "texto": "El",
+      "inicio": 7.44,
+      "fin": 7.52,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "culpable",
+      "inicio": 7.6,
+      "fin": 8.16,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "es",
+      "inicio": 8.24,
+      "fin": 8.32,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "el",
+      "inicio": 8.4,
+      "fin": 8.48,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "almidón,",
+      "inicio": 8.56,
+      "fin": 9.28,
+      "frase": 3,
+      "clave": true
+    },
+    {
+      "texto": "los",
+      "inicio": 9.36,
+      "fin": 9.44,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "granitos",
+      "inicio": 9.56,
+      "fin": 9.92,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "que",
+      "inicio": 10,
+      "fin": 10.16,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "forman",
+      "inicio": 10.24,
+      "fin": 10.48,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "la",
+      "inicio": 10.52,
+      "fin": 10.56,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "miga.",
+      "inicio": 10.64,
+      "fin": 11.36,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "En",
+      "inicio": 11.44,
+      "fin": 11.52,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "el",
+      "inicio": 11.56,
+      "fin": 11.6,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "horno,",
+      "inicio": 11.68,
+      "fin": 12.08,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "el",
+      "inicio": 12.16,
+      "fin": 12.24,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "calor",
+      "inicio": 12.36,
+      "fin": 12.56,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "los",
+      "inicio": 12.68,
+      "fin": 12.8,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "abre",
+      "inicio": 12.88,
+      "fin": 13.2,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "y",
+      "inicio": 13.24,
+      "fin": 13.28,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "se",
+      "inicio": 13.36,
+      "fin": 13.44,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "empapan",
+      "inicio": 13.56,
+      "fin": 13.92,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "de",
+      "inicio": 14,
+      "fin": 14.08,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "agua,",
+      "inicio": 14.24,
+      "fin": 14.56,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "así",
+      "inicio": 14.68,
+      "fin": 14.84,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "que",
+      "inicio": 14.88,
+      "fin": 15.04,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "la",
+      "inicio": 15.08,
+      "fin": 15.12,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "miga",
+      "inicio": 15.2,
+      "fin": 15.44,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "sale",
+      "inicio": 15.56,
+      "fin": 15.68,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "blanda.",
+      "inicio": 15.72,
+      "fin": 16.56,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "Pero",
+      "inicio": 16.613,
+      "fin": 16.72,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "al",
+      "inicio": 16.76,
+      "fin": 16.8,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "enfriarse,",
+      "inicio": 16.88,
+      "fin": 17.6,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "sus",
+      "inicio": 17.68,
+      "fin": 17.76,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "cadenas",
+      "inicio": 17.84,
+      "fin": 18.24,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "se",
+      "inicio": 18.32,
+      "fin": 18.4,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "vuelven",
+      "inicio": 18.44,
+      "fin": 18.72,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "a",
+      "inicio": 18.76,
+      "fin": 18.8,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "juntar",
+      "inicio": 18.84,
+      "fin": 19.2,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "en",
+      "inicio": 19.28,
+      "fin": 19.36,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "cristales",
+      "inicio": 19.44,
+      "fin": 19.84,
+      "frase": 5,
+      "clave": true
+    },
+    {
+      "texto": "duros,",
+      "inicio": 19.92,
+      "fin": 20.48,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "con",
+      "inicio": 20.56,
+      "fin": 20.64,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "el",
+      "inicio": 20.68,
+      "fin": 20.72,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "agua",
+      "inicio": 20.8,
+      "fin": 21.04,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "atrapada",
+      "inicio": 21.12,
+      "fin": 21.52,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "dentro.",
+      "inicio": 21.6,
+      "fin": 22.48,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "El",
+      "inicio": 22.52,
+      "fin": 22.56,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "agua",
+      "inicio": 22.64,
+      "fin": 22.8,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "sigue",
+      "inicio": 22.88,
+      "fin": 23.12,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "ahí,",
+      "inicio": 23.2,
+      "fin": 23.6,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "pero",
+      "inicio": 23.68,
+      "fin": 23.84,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "presa,",
+      "inicio": 23.92,
+      "fin": 24.56,
+      "frase": 6,
+      "clave": true
+    },
+    {
+      "texto": "así",
+      "inicio": 24.64,
+      "fin": 24.84,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "que",
+      "inicio": 24.88,
+      "fin": 25.04,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "la",
+      "inicio": 25.08,
+      "fin": 25.12,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "miga",
+      "inicio": 25.2,
+      "fin": 25.44,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "se",
+      "inicio": 25.52,
+      "fin": 25.6,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "nota",
+      "inicio": 25.68,
+      "fin": 25.92,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "seca",
+      "inicio": 26,
+      "fin": 26.32,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "y",
+      "inicio": 26.48,
+      "fin": 26.56,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "dura.",
+      "inicio": 26.6,
+      "fin": 27.36,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "Y",
+      "inicio": 27.4,
+      "fin": 27.44,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "el",
+      "inicio": 27.48,
+      "fin": 27.52,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "frío",
+      "inicio": 27.6,
+      "fin": 27.76,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "de",
+      "inicio": 27.84,
+      "fin": 27.88,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "la",
+      "inicio": 27.92,
+      "fin": 27.96,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "nevera",
+      "inicio": 28,
+      "fin": 28.32,
+      "frase": 7,
+      "clave": true
+    },
+    {
+      "texto": "lo",
+      "inicio": 28.36,
+      "fin": 28.4,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "acelera:",
+      "inicio": 28.48,
+      "fin": 29.2,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "allí",
+      "inicio": 29.28,
+      "fin": 29.44,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "se",
+      "inicio": 29.52,
+      "fin": 29.6,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "pone",
+      "inicio": 29.68,
+      "fin": 29.84,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "duro",
+      "inicio": 29.88,
+      "fin": 30.16,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "varias",
+      "inicio": 30.24,
+      "fin": 30.56,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "veces",
+      "inicio": 30.6,
+      "fin": 30.88,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "más",
+      "inicio": 30.96,
+      "fin": 31.12,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "rápido.",
+      "inicio": 31.16,
+      "fin": 32.08,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "En",
+      "inicio": 32.12,
+      "fin": 32.16,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "el",
+      "inicio": 32.24,
+      "fin": 32.28,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "congelador,",
+      "inicio": 32.32,
+      "fin": 32.933,
+      "frase": 8,
+      "clave": true
+    },
+    {
+      "texto": "en",
+      "inicio": 32.987,
+      "fin": 33.04,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "cambio,",
+      "inicio": 33.12,
+      "fin": 33.6,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "se",
+      "inicio": 33.64,
+      "fin": 33.68,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "queda",
+      "inicio": 33.76,
+      "fin": 33.92,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "como",
+      "inicio": 34,
+      "fin": 34.16,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "estaba.",
+      "inicio": 34.24,
+      "fin": 34.96,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "Por",
+      "inicio": 35.04,
+      "fin": 35.12,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "eso",
+      "inicio": 35.24,
+      "fin": 35.36,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "al",
+      "inicio": 35.44,
+      "fin": 35.52,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "calentarlo",
+      "inicio": 35.6,
+      "fin": 36.16,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "vuelve",
+      "inicio": 36.24,
+      "fin": 36.56,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "a",
+      "inicio": 36.587,
+      "fin": 36.613,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "estar",
+      "inicio": 36.64,
+      "fin": 36.88,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "tierno:",
+      "inicio": 36.96,
+      "fin": 37.68,
+      "frase": 9,
+      "clave": true
+    },
+    {
+      "texto": "el",
+      "inicio": 37.76,
+      "fin": 37.84,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "calor",
+      "inicio": 37.92,
+      "fin": 38.16,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "deshace",
+      "inicio": 38.24,
+      "fin": 38.64,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "los",
+      "inicio": 38.68,
+      "fin": 38.72,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "cristales",
+      "inicio": 38.8,
+      "fin": 39.36,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "y",
+      "inicio": 39.44,
+      "fin": 39.52,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "suelta",
+      "inicio": 39.6,
+      "fin": 39.92,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "el",
+      "inicio": 39.96,
+      "fin": 40,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "agua,",
+      "inicio": 40.08,
+      "fin": 40.56,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "hasta",
+      "inicio": 40.6,
+      "fin": 40.8,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "que",
+      "inicio": 40.88,
+      "fin": 40.92,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "se",
+      "inicio": 40.96,
+      "fin": 41.04,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "enfría",
+      "inicio": 41.12,
+      "fin": 41.44,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "otra",
+      "inicio": 41.48,
+      "fin": 41.6,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "vez.",
+      "inicio": 41.68,
+      "fin": 42.4,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "Así",
+      "inicio": 42.48,
+      "fin": 42.64,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "que,",
+      "inicio": 42.72,
+      "fin": 43.04,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "aunque",
+      "inicio": 43.08,
+      "fin": 43.36,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "suene",
+      "inicio": 43.44,
+      "fin": 43.68,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "como",
+      "inicio": 43.8,
+      "fin": 43.92,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "una",
+      "inicio": 44,
+      "fin": 44.08,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "piedra,",
+      "inicio": 44.16,
+      "fin": 44.64,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "acuérdate:",
+      "inicio": 44.76,
+      "fin": 45.6,
+      "frase": 10,
+      "clave": true
+    }
+  ]
+}
