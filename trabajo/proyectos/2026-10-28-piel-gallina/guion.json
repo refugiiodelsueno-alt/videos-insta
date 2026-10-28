@@ -1,0 +1,149 @@
+{
+  "titulo": "por qué se te pone la piel de gallina",
+  "slug": "piel-gallina",
+  "idioma": "es",
+  "voz": {
+    "proveedor": "elevenlabs",
+    "id": "851ejYcv2BoNPjrkw93G",
+    "modelo": "eleven_v4",
+    "velocidad": 1,
+    "estabilidad": 0.35,
+    "similitud": 0.7,
+    "kokoro": "ef_dora"
+  },
+  "subtitulos": "arriba",
+  "aperturas": [
+    {
+      "id": "h1",
+      "escena": "hook",
+      "frases": [
+        {
+          "texto": "La piel de gallina es tu cuerpo intentando ponerte un abrigo que ya no tienes.",
+          "clave": "abrigo"
+        }
+      ]
+    }
+  ],
+  "reserva": [
+    {
+      "id": "h2",
+      "escena": "hook",
+      "frases": [
+        {
+          "texto": "Debajo de cada pelo de tu brazo hay un músculo que no sirve para nada.",
+          "clave": "músculo"
+        }
+      ],
+      "imagen": "el corte de la piel: un pelo tumbado y su músculo; se encoge y el pelo se pone de pie"
+    },
+    {
+      "id": "h3",
+      "escena": "hook",
+      "frases": [
+        {
+          "texto": "Un gato asustado y tú escuchando tu canción favorita hacéis exactamente lo mismo.",
+          "clave": "mismo"
+        }
+      ],
+      "imagen": "el gato erizado y el brazo con auriculares, los pelos se levantan a la vez"
+    },
+    {
+      "id": "h4",
+      "escena": "hook",
+      "frases": [
+        {
+          "texto": "Cuando se te pone la piel de gallina, tu cuerpo intenta inflar un pelo que perdiste hace millones de años.",
+          "clave": "perdiste"
+        }
+      ],
+      "imagen": "el brazo se llena de bultitos y una sombra de pelaje aparece y se va"
+    }
+  ],
+  "cuerpo": [
+    {
+      "texto": "Debajo de cada pelo tienes un músculo diminuto.",
+      "escena": "musculo",
+      "clave": "diminuto"
+    },
+    {
+      "texto": "Con frío, se encoge y pone el pelo de pie,",
+      "escena": "musculo",
+      "clave": "pie"
+    },
+    {
+      "texto": "y la piel de alrededor sube en un bultito: eso es la piel de gallina.",
+      "escena": "musculo",
+      "clave": "bultito"
+    },
+    {
+      "texto": "En un animal con pelo, eso sirve: los pelos de pie atrapan aire, y el aire guarda el calor.",
+      "escena": "abrigo",
+      "clave": "aire"
+    },
+    {
+      "texto": "Es como inflar un plumas.",
+      "escena": "abrigo",
+      "clave": "plumas"
+    },
+    {
+      "texto": "Tus antepasados tenían ese abrigo; tú perdiste casi todo el pelo, pero no los músculos.",
+      "escena": "antepasado",
+      "clave": "músculos"
+    },
+    {
+      "texto": "Por eso también te pasa con miedo:",
+      "escena": "miedo",
+      "clave": "miedo"
+    },
+    {
+      "texto": "un gato asustado se eriza entero para parecer más grande.",
+      "escena": "miedo",
+      "clave": "grande"
+    },
+    {
+      "texto": "Y el mismo nervio de alarma te eriza a ti con un susto, o con una canción que te emociona.",
+      "escena": "miedo",
+      "clave": "canción"
+    },
+    {
+      "texto": "Pero no es del todo inútil: en ratones, ese nervio también despierta las células que fabrican el pelo.",
+      "escena": "raiz",
+      "clave": "despierta"
+    },
+    {
+      "texto": "Si el frío dura semanas, sale pelo nuevo.",
+      "escena": "raiz",
+      "clave": "nuevo"
+    },
+    {
+      "texto": "Así que la próxima vez, acuérdate:",
+      "escena": "cierre",
+      "clave": "acuérdate"
+    }
+  ],
+  "escenas": {
+    "hook": {
+      "entrada": "corte"
+    },
+    "musculo": {
+      "entrada": "corte"
+    },
+    "abrigo": {
+      "entrada": "corte"
+    },
+    "antepasado": {
+      "entrada": "corte"
+    },
+    "miedo": {
+      "entrada": "corte"
+    },
+    "raiz": {
+      "entrada": "corte"
+    },
+    "cierre": {
+      "entrada": "corte"
+    }
+  },
+  "sonido": true,
+  "cola": 0.15
+}

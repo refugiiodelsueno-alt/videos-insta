@@ -175,7 +175,7 @@ function curva(P, cerrada = false) {
 
 const DEFS = `
 <defs>
-  <radialGradient id="c-luz" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="rgba(255,190,140,0.2)"/><stop offset="0.5" stop-color="rgba(120,140,200,0.08)"/><stop offset="1" stop-color="rgba(120,140,200,0)"/></radialGradient>
+  <radialGradient id="c-luz" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="rgba(255,190,140,0.42)"/><stop offset="0.5" stop-color="rgba(130,150,210,0.2)"/><stop offset="1" stop-color="rgba(120,140,200,0)"/></radialGradient>
   <radialGradient id="c-bola" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="rgba(255,214,170,0.22)"/><stop offset="1" stop-color="rgba(255,214,170,0)"/></radialGradient>
   <radialGradient id="c-sombra" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="rgba(0,0,0,0.55)"/><stop offset="1" stop-color="rgba(0,0,0,0)"/></radialGradient>
   <pattern id="c-rejilla" width="60" height="60" patternUnits="userSpaceOnUse"><path d="M0 0.75H60M0.75 0V60" stroke="rgba(95,212,255,0.13)" stroke-width="1.5"/></pattern>
@@ -564,7 +564,7 @@ function maquina(padre) {
 // ── el fondo: una luz cálida detrás del personaje, motas que flotan y, en rayos X, una rejilla ─────────────────────
 function fondo(padre) {
   el(padre, "rect", { x: -3000, y: -2000, width: 7000, height: 7000, fill: "#0b0f15" });
-  el(padre, "ellipse", { cx: 560, cy: 900, rx: 1300, ry: 1500, fill: u("luz") });
+  el(padre, "ellipse", { cx: 560, cy: 900, rx: 1700, ry: 1900, fill: u("luz") });
   const rej = el(padre, "rect", { x: -3000, y: -2000, width: 7000, height: 7000, fill: u("rejilla"), opacity: 0 });
   const r = K.azar(17), motas = [];
   for (let i = 0; i < 18; i++) motas.push({ e: el(padre, "circle", { r: 30 + r() * 70, fill: u("bola") }), x: -200 + r() * 1500, y: r() * 2200, f: r(), w: r() * 6.28, a: 0.4 + r() * 0.6 });

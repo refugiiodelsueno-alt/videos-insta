@@ -7,7 +7,7 @@ const K = window.K;
 const NS = "http://www.w3.org/2000/svg";
 
 export const CIAN = "#5fd4ff", ORO = "#ffc24a", ROJO = "#f0445a", VERDE = "#22d38a";
-export const F0 = { x: 640, y: 1430, z: 1.9 };                  // el encuadre del fotograma 0 (y del último)
+export const F0 = { x: 674, y: 1462, z: 2.2 };                  // el encuadre del fotograma 0 (y del último)
 // Lo que dura el vídeo entero. Lo que se mueve sin parar da un número entero de vueltas en TOTAL segundos: así el
 // último fotograma es el primero.
 export const TOTAL = 49.86;
@@ -139,7 +139,7 @@ export function camara(s, claves) {
 const ANCHO = { x: 330, y: 1120, z: 0.62 };                      // la pierna entera
 const CERCA = { x: 410, y: 700, z: 1.6 };                        // el trozo aplastado
 const CAMINO = [
-  [0, F0], [2.7, { x: 652, y: 1418, z: 2.02 }],                                                // hormigas en el pie
+  [0, F0], [2.7, { x: 680, y: 1456, z: 2.28 }],                                                // hormigas en el pie
   [4.7, { x: 455, y: 760, z: 1.5 }], [7.7, { x: 420, y: 728, z: 1.62 }],                       // sube a C
   [8.9, ANCHO], [9.9, { x: 340, y: 1100, z: 0.64 }],                                            // la pierna y su nervio
   [11.0, { x: 400, y: 880, z: 0.96 }], [12.3, { x: 410, y: 900, z: 0.92 }],                    // miles de fibras
@@ -185,7 +185,7 @@ const DEFS = `
   <radialGradient id="c-bola" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="rgba(255,214,170,0.2)"/><stop offset="1" stop-color="rgba(255,214,170,0)"/></radialGradient>
   <radialGradient id="c-sombra" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="rgba(0,0,0,0.6)"/><stop offset="1" stop-color="rgba(0,0,0,0)"/></radialGradient>
   <pattern id="c-rejilla" width="60" height="60" patternUnits="userSpaceOnUse"><path d="M0 0.75H60M0.75 0V60" stroke="rgba(95,212,255,0.13)" stroke-width="1.5"/></pattern>
-  <linearGradient id="c-suelo" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2a211b"/><stop offset="1" stop-color="#0d0b0a"/></linearGradient>
+  <linearGradient id="c-suelo" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6b4a32"/><stop offset="1" stop-color="#1a120d"/></linearGradient>
   <linearGradient id="c-madera" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9a6a45"/><stop offset="0.25" stop-color="#7a5134"/><stop offset="1" stop-color="#3f2a1c"/></linearGradient>
   <linearGradient id="c-pata" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4a3122"/><stop offset="0.45" stop-color="#7a5235"/><stop offset="1" stop-color="#3a271a"/></linearGradient>
   <linearGradient id="c-muslo" gradientUnits="userSpaceOnUse" x1="0" y1="470" x2="0" y2="712"><stop offset="0" stop-color="#f6caa9"/><stop offset="0.35" stop-color="#e9b08f"/><stop offset="0.8" stop-color="#c98463"/><stop offset="1" stop-color="#a5634a"/></linearGradient>

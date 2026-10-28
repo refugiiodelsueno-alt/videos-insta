@@ -1,0 +1,1232 @@
+{
+  "proveedor": "elevenlabs",
+  "toma": "seguida",
+  "firma": "3c771831361a",
+  "duracion": 51.21,
+  "frases": [
+    {
+      "n": 1,
+      "parte": "hook",
+      "texto": "La piel de gallina es tu cuerpo intentando ponerte un abrigo que ya no tienes.",
+      "escena": "hook",
+      "clave": "abrigo",
+      "inicio": 0,
+      "fin": 4.64,
+      "ritmo": 1
+    },
+    {
+      "n": 2,
+      "parte": "cuerpo",
+      "texto": "Debajo de cada pelo tienes un músculo diminuto.",
+      "escena": "musculo",
+      "clave": "diminuto",
+      "inicio": 4.72,
+      "fin": 7.68,
+      "ritmo": 1
+    },
+    {
+      "n": 3,
+      "parte": "cuerpo",
+      "texto": "Con frío, se encoge y pone el pelo de pie,",
+      "escena": "musculo",
+      "clave": "pie",
+      "inicio": 7.76,
+      "fin": 10.48,
+      "ritmo": 1
+    },
+    {
+      "n": 4,
+      "parte": "cuerpo",
+      "texto": "y la piel de alrededor sube en un bultito: eso es la piel de gallina.",
+      "escena": "musculo",
+      "clave": "bultito",
+      "inicio": 10.52,
+      "fin": 15.14,
+      "ritmo": 1
+    },
+    {
+      "n": 5,
+      "parte": "cuerpo",
+      "texto": "En un animal con pelo, eso sirve: los pelos de pie atrapan aire, y el aire guarda el calor.",
+      "escena": "abrigo",
+      "clave": "aire",
+      "inicio": 15.22,
+      "fin": 20.74,
+      "ritmo": 1
+    },
+    {
+      "n": 6,
+      "parte": "cuerpo",
+      "texto": "Es como inflar un plumas.",
+      "escena": "abrigo",
+      "clave": "plumas",
+      "inicio": 20.78,
+      "fin": 22.5,
+      "ritmo": 1
+    },
+    {
+      "n": 7,
+      "parte": "cuerpo",
+      "texto": "Tus antepasados tenían ese abrigo; tú perdiste casi todo el pelo, pero no los músculos.",
+      "escena": "antepasado",
+      "clave": "músculos",
+      "inicio": 22.553,
+      "fin": 28.42,
+      "ritmo": 1
+    },
+    {
+      "n": 8,
+      "parte": "cuerpo",
+      "texto": "Por eso también te pasa con miedo:",
+      "escena": "miedo",
+      "clave": "miedo",
+      "inicio": 28.46,
+      "fin": 30.5,
+      "ritmo": 1
+    },
+    {
+      "n": 9,
+      "parte": "cuerpo",
+      "texto": "un gato asustado se eriza entero para parecer más grande.",
+      "escena": "miedo",
+      "clave": "grande",
+      "inicio": 30.54,
+      "fin": 34.02,
+      "ritmo": 1
+    },
+    {
+      "n": 10,
+      "parte": "cuerpo",
+      "texto": "Y el mismo nervio de alarma te eriza a ti con un susto, o con una canción que te emociona.",
+      "escena": "miedo",
+      "clave": "canción",
+      "inicio": 34.047,
+      "fin": 39.54,
+      "ritmo": 1
+    },
+    {
+      "n": 11,
+      "parte": "cuerpo",
+      "texto": "Pero no es del todo inútil: en ratones, ese nervio también despierta las células que fabrican el pelo.",
+      "escena": "raiz",
+      "clave": "despierta",
+      "inicio": 39.593,
+      "fin": 45.86,
+      "ritmo": 1
+    },
+    {
+      "n": 12,
+      "parte": "cuerpo",
+      "texto": "Si el frío dura semanas, sale pelo nuevo.",
+      "escena": "raiz",
+      "clave": "nuevo",
+      "inicio": 45.9,
+      "fin": 48.74,
+      "ritmo": 1
+    },
+    {
+      "n": 13,
+      "parte": "cuerpo",
+      "texto": "Así que la próxima vez, acuérdate:",
+      "escena": "cierre",
+      "clave": "acuérdate",
+      "inicio": 48.82,
+      "fin": 51.06,
+      "ritmo": 1
+    }
+  ],
+  "palabras": [
+    {
+      "texto": "La",
+      "inicio": 0,
+      "fin": 0.08,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "piel",
+      "inicio": 0.16,
+      "fin": 0.32,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "de",
+      "inicio": 0.36,
+      "fin": 0.4,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "gallina",
+      "inicio": 0.48,
+      "fin": 0.88,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "es",
+      "inicio": 1.04,
+      "fin": 1.2,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "tu",
+      "inicio": 1.28,
+      "fin": 1.36,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "cuerpo",
+      "inicio": 1.413,
+      "fin": 1.6,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "intentando",
+      "inicio": 1.68,
+      "fin": 2.24,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "ponerte",
+      "inicio": 2.32,
+      "fin": 2.64,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "un",
+      "inicio": 2.68,
+      "fin": 2.72,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "abrigo",
+      "inicio": 2.8,
+      "fin": 3.12,
+      "frase": 1,
+      "clave": true
+    },
+    {
+      "texto": "que",
+      "inicio": 3.2,
+      "fin": 3.36,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "ya",
+      "inicio": 3.44,
+      "fin": 3.52,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "no",
+      "inicio": 3.6,
+      "fin": 3.68,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "tienes.",
+      "inicio": 3.76,
+      "fin": 4.64,
+      "frase": 1,
+      "clave": false
+    },
+    {
+      "texto": "Debajo",
+      "inicio": 4.72,
+      "fin": 4.96,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "de",
+      "inicio": 5.04,
+      "fin": 5.12,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "cada",
+      "inicio": 5.173,
+      "fin": 5.28,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "pelo",
+      "inicio": 5.36,
+      "fin": 5.68,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "tienes",
+      "inicio": 5.76,
+      "fin": 6,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "un",
+      "inicio": 6.08,
+      "fin": 6.16,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "músculo",
+      "inicio": 6.24,
+      "fin": 6.64,
+      "frase": 2,
+      "clave": false
+    },
+    {
+      "texto": "diminuto.",
+      "inicio": 6.72,
+      "fin": 7.68,
+      "frase": 2,
+      "clave": true
+    },
+    {
+      "texto": "Con",
+      "inicio": 7.76,
+      "fin": 7.84,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "frío,",
+      "inicio": 7.92,
+      "fin": 8.28,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "se",
+      "inicio": 8.32,
+      "fin": 8.4,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "encoge",
+      "inicio": 8.48,
+      "fin": 8.96,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "y",
+      "inicio": 9.04,
+      "fin": 9.12,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "pone",
+      "inicio": 9.2,
+      "fin": 9.36,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "el",
+      "inicio": 9.44,
+      "fin": 9.48,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "pelo",
+      "inicio": 9.52,
+      "fin": 9.76,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "de",
+      "inicio": 9.8,
+      "fin": 9.84,
+      "frase": 3,
+      "clave": false
+    },
+    {
+      "texto": "pie,",
+      "inicio": 9.92,
+      "fin": 10.48,
+      "frase": 3,
+      "clave": true
+    },
+    {
+      "texto": "y",
+      "inicio": 10.52,
+      "fin": 10.56,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "la",
+      "inicio": 10.6,
+      "fin": 10.64,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "piel",
+      "inicio": 10.72,
+      "fin": 10.88,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "de",
+      "inicio": 10.96,
+      "fin": 11,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "alrededor",
+      "inicio": 11.04,
+      "fin": 11.52,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "sube",
+      "inicio": 11.68,
+      "fin": 11.92,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "en",
+      "inicio": 12,
+      "fin": 12.08,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "un",
+      "inicio": 12.12,
+      "fin": 12.16,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "bultito:",
+      "inicio": 12.24,
+      "fin": 13.12,
+      "frase": 4,
+      "clave": true
+    },
+    {
+      "texto": "eso",
+      "inicio": 13.28,
+      "fin": 13.44,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "es",
+      "inicio": 13.62,
+      "fin": 13.7,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "la",
+      "inicio": 13.78,
+      "fin": 13.86,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "piel",
+      "inicio": 13.94,
+      "fin": 14.1,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "de",
+      "inicio": 14.14,
+      "fin": 14.18,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "gallina.",
+      "inicio": 14.22,
+      "fin": 15.14,
+      "frase": 4,
+      "clave": false
+    },
+    {
+      "texto": "En",
+      "inicio": 15.22,
+      "fin": 15.3,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "un",
+      "inicio": 15.34,
+      "fin": 15.38,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "animal",
+      "inicio": 15.54,
+      "fin": 15.7,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "con",
+      "inicio": 15.78,
+      "fin": 15.86,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "pelo,",
+      "inicio": 15.94,
+      "fin": 16.34,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "eso",
+      "inicio": 16.46,
+      "fin": 16.58,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "sirve:",
+      "inicio": 16.62,
+      "fin": 17.22,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "los",
+      "inicio": 17.3,
+      "fin": 17.38,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "pelos",
+      "inicio": 17.46,
+      "fin": 17.7,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "de",
+      "inicio": 17.74,
+      "fin": 17.78,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "pie",
+      "inicio": 17.86,
+      "fin": 18.02,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "atrapan",
+      "inicio": 18.1,
+      "fin": 18.5,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "aire,",
+      "inicio": 18.58,
+      "fin": 18.98,
+      "frase": 5,
+      "clave": true
+    },
+    {
+      "texto": "y",
+      "inicio": 19.02,
+      "fin": 19.06,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "el",
+      "inicio": 19.1,
+      "fin": 19.14,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "aire",
+      "inicio": 19.22,
+      "fin": 19.46,
+      "frase": 5,
+      "clave": true
+    },
+    {
+      "texto": "guarda",
+      "inicio": 19.54,
+      "fin": 19.86,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "el",
+      "inicio": 19.9,
+      "fin": 19.94,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "calor.",
+      "inicio": 20.02,
+      "fin": 20.74,
+      "frase": 5,
+      "clave": false
+    },
+    {
+      "texto": "Es",
+      "inicio": 20.78,
+      "fin": 20.82,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "como",
+      "inicio": 20.9,
+      "fin": 21.06,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "inflar",
+      "inicio": 21.14,
+      "fin": 21.38,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "un",
+      "inicio": 21.46,
+      "fin": 21.54,
+      "frase": 6,
+      "clave": false
+    },
+    {
+      "texto": "plumas.",
+      "inicio": 21.58,
+      "fin": 22.5,
+      "frase": 6,
+      "clave": true
+    },
+    {
+      "texto": "Tus",
+      "inicio": 22.553,
+      "fin": 22.66,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "antepasados",
+      "inicio": 22.74,
+      "fin": 23.3,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "tenían",
+      "inicio": 23.38,
+      "fin": 23.78,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "ese",
+      "inicio": 23.86,
+      "fin": 23.94,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "abrigo;",
+      "inicio": 24.02,
+      "fin": 24.74,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "tú",
+      "inicio": 24.78,
+      "fin": 24.9,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "perdiste",
+      "inicio": 25.06,
+      "fin": 25.46,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "casi",
+      "inicio": 25.54,
+      "fin": 25.78,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "todo",
+      "inicio": 25.86,
+      "fin": 26.1,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "el",
+      "inicio": 26.14,
+      "fin": 26.18,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "pelo,",
+      "inicio": 26.26,
+      "fin": 26.74,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "pero",
+      "inicio": 26.82,
+      "fin": 26.98,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "no",
+      "inicio": 27.06,
+      "fin": 27.14,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "los",
+      "inicio": 27.22,
+      "fin": 27.3,
+      "frase": 7,
+      "clave": false
+    },
+    {
+      "texto": "músculos.",
+      "inicio": 27.38,
+      "fin": 28.42,
+      "frase": 7,
+      "clave": true
+    },
+    {
+      "texto": "Por",
+      "inicio": 28.46,
+      "fin": 28.5,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "eso",
+      "inicio": 28.58,
+      "fin": 28.74,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "también",
+      "inicio": 28.9,
+      "fin": 29.22,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "te",
+      "inicio": 29.3,
+      "fin": 29.38,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "pasa",
+      "inicio": 29.46,
+      "fin": 29.62,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "con",
+      "inicio": 29.7,
+      "fin": 29.78,
+      "frase": 8,
+      "clave": false
+    },
+    {
+      "texto": "miedo:",
+      "inicio": 29.82,
+      "fin": 30.5,
+      "frase": 8,
+      "clave": true
+    },
+    {
+      "texto": "un",
+      "inicio": 30.54,
+      "fin": 30.58,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "gato",
+      "inicio": 30.66,
+      "fin": 30.82,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "asustado",
+      "inicio": 30.9,
+      "fin": 31.38,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "se",
+      "inicio": 31.46,
+      "fin": 31.54,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "eriza",
+      "inicio": 31.62,
+      "fin": 31.94,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "entero",
+      "inicio": 32.1,
+      "fin": 32.34,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "para",
+      "inicio": 32.42,
+      "fin": 32.58,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "parecer",
+      "inicio": 32.7,
+      "fin": 32.98,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "más",
+      "inicio": 33.02,
+      "fin": 33.14,
+      "frase": 9,
+      "clave": false
+    },
+    {
+      "texto": "grande.",
+      "inicio": 33.18,
+      "fin": 34.02,
+      "frase": 9,
+      "clave": true
+    },
+    {
+      "texto": "Y",
+      "inicio": 34.047,
+      "fin": 34.073,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "el",
+      "inicio": 34.1,
+      "fin": 34.18,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "mismo",
+      "inicio": 34.26,
+      "fin": 34.5,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "nervio",
+      "inicio": 34.54,
+      "fin": 34.82,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "de",
+      "inicio": 34.86,
+      "fin": 34.9,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "alarma",
+      "inicio": 34.98,
+      "fin": 35.3,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "te",
+      "inicio": 35.38,
+      "fin": 35.54,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "eriza",
+      "inicio": 35.62,
+      "fin": 35.94,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "a",
+      "inicio": 35.98,
+      "fin": 36.02,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "ti",
+      "inicio": 36.1,
+      "fin": 36.18,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "con",
+      "inicio": 36.26,
+      "fin": 36.42,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "un",
+      "inicio": 36.46,
+      "fin": 36.5,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "susto,",
+      "inicio": 36.58,
+      "fin": 37.22,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "o",
+      "inicio": 37.3,
+      "fin": 37.38,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "con",
+      "inicio": 37.46,
+      "fin": 37.54,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "una",
+      "inicio": 37.62,
+      "fin": 37.7,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "canción",
+      "inicio": 37.78,
+      "fin": 38.18,
+      "frase": 10,
+      "clave": true
+    },
+    {
+      "texto": "que",
+      "inicio": 38.22,
+      "fin": 38.26,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "te",
+      "inicio": 38.34,
+      "fin": 38.38,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "emociona.",
+      "inicio": 38.42,
+      "fin": 39.54,
+      "frase": 10,
+      "clave": false
+    },
+    {
+      "texto": "Pero",
+      "inicio": 39.593,
+      "fin": 39.7,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "no",
+      "inicio": 39.86,
+      "fin": 39.94,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "es",
+      "inicio": 40.02,
+      "fin": 40.1,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "del",
+      "inicio": 40.18,
+      "fin": 40.26,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "todo",
+      "inicio": 40.34,
+      "fin": 40.5,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "inútil:",
+      "inicio": 40.58,
+      "fin": 41.3,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "en",
+      "inicio": 41.38,
+      "fin": 41.46,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "ratones,",
+      "inicio": 41.58,
+      "fin": 42.18,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "ese",
+      "inicio": 42.3,
+      "fin": 42.42,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "nervio",
+      "inicio": 42.46,
+      "fin": 42.82,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "también",
+      "inicio": 42.9,
+      "fin": 43.22,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "despierta",
+      "inicio": 43.34,
+      "fin": 43.7,
+      "frase": 11,
+      "clave": true
+    },
+    {
+      "texto": "las",
+      "inicio": 43.78,
+      "fin": 43.94,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "células",
+      "inicio": 43.98,
+      "fin": 44.34,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "que",
+      "inicio": 44.42,
+      "fin": 44.5,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "fabrican",
+      "inicio": 44.66,
+      "fin": 44.9,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "el",
+      "inicio": 44.98,
+      "fin": 45.06,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "pelo.",
+      "inicio": 45.14,
+      "fin": 45.86,
+      "frase": 11,
+      "clave": false
+    },
+    {
+      "texto": "Si",
+      "inicio": 45.9,
+      "fin": 45.94,
+      "frase": 12,
+      "clave": false
+    },
+    {
+      "texto": "el",
+      "inicio": 46.02,
+      "fin": 46.06,
+      "frase": 12,
+      "clave": false
+    },
+    {
+      "texto": "frío",
+      "inicio": 46.1,
+      "fin": 46.34,
+      "frase": 12,
+      "clave": false
+    },
+    {
+      "texto": "dura",
+      "inicio": 46.42,
+      "fin": 46.58,
+      "frase": 12,
+      "clave": false
+    },
+    {
+      "texto": "semanas,",
+      "inicio": 46.66,
+      "fin": 47.3,
+      "frase": 12,
+      "clave": false
+    },
+    {
+      "texto": "sale",
+      "inicio": 47.38,
+      "fin": 47.62,
+      "frase": 12,
+      "clave": false
+    },
+    {
+      "texto": "pelo",
+      "inicio": 47.7,
+      "fin": 47.86,
+      "frase": 12,
+      "clave": false
+    },
+    {
+      "texto": "nuevo.",
+      "inicio": 47.94,
+      "fin": 48.74,
+      "frase": 12,
+      "clave": true
+    },
+    {
+      "texto": "Así",
+      "inicio": 48.82,
+      "fin": 48.94,
+      "frase": 13,
+      "clave": false
+    },
+    {
+      "texto": "que",
+      "inicio": 48.98,
+      "fin": 49.14,
+      "frase": 13,
+      "clave": false
+    },
+    {
+      "texto": "la",
+      "inicio": 49.22,
+      "fin": 49.3,
+      "frase": 13,
+      "clave": false
+    },
+    {
+      "texto": "próxima",
+      "inicio": 49.38,
+      "fin": 49.78,
+      "frase": 13,
+      "clave": false
+    },
+    {
+      "texto": "vez,",
+      "inicio": 49.9,
+      "fin": 50.18,
+      "frase": 13,
+      "clave": false
+    },
+    {
+      "texto": "acuérdate:",
+      "inicio": 50.3,
+      "fin": 51.06,
+      "frase": 13,
+      "clave": true
+    }
+  ]
+}

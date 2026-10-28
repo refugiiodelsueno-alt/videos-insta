@@ -1,0 +1,112 @@
+[
+  {
+    "archivo": "sonidos/brillo-h1.wav",
+    "en": 0.1,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/trazo-h1.wav",
+    "en": 0.3,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/error-h1.wav",
+    "en": 1.95,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/acierto-h1.wav",
+    "en": 2.85,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/volteo-h1.wav",
+    "en": 5.04,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/brazo-h1.wav",
+    "en": 7.36,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/acierto2-h1.wav",
+    "en": 10.34,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/error2-h1.wav",
+    "en": 10.96,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/pop-h1.wav",
+    "en": 12.18,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/corte-h1.wav",
+    "en": 15.4,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/pulso-h1.wav",
+    "en": 17.07,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/punteo-h1.wav",
+    "en": 19.4,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/duda-h1.wav",
+    "en": 23.6,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/fantasma-h1.wav",
+    "en": 26.26,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/giro-h1.wav",
+    "en": 27.38,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/error3-h1.wav",
+    "en": 33.045,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/pino-h1.wav",
+    "en": 35,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/error4-h1.wav",
+    "en": 38.575,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/sirena-h1.wav",
+    "en": 40.16,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/retro-h1.wav",
+    "en": 43.84,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/acierto3-h1.wav",
+    "en": 46,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/vuelta-h1.wav",
+    "en": 46.9,
+    "volumen": 1
+  }
+]
