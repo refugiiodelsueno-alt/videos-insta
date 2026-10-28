@@ -59,9 +59,9 @@ const CAMINOS = [
   [G0.leon, [[G0.leon, Z(540, 1.0, LE + 60)], [6.4, Z(545, 1.04, LE + 10)], [7.7, Z(560, 1.28, LE - 210)], [G0.tabano, Z(560, 1.36, LE - 230)]]],
   [G0.tabano, [[G0.tabano, Z(470, 0.62, TA + 40)], [11.4, Z(482, 0.68, TA + 30)], [13.1, Z(600, 7.6, TA)], [16.93, Z(600, 9.0, TA)]]],
   [16.93, [[16.93, Z(540, 1.08, PIEL - 60)], [19.5, Z(540, 1.22, PIEL - 20)], [G0.granja, Z(540, 1.38, PIEL)]]],
-  [G0.granja, [[G0.granja, Z(540, 0.92, GR + 150)], [24.5, Z(540, 1.0, GR + 160)], [29.0, Z(540, 1.0, GR + 160)], [G0.aterrizaje, Z(540, 1.05, GR + 160)]]],
+  [G0.granja, [[G0.granja, Z(540, 0.92, GR + 70)], [24.5, Z(540, 1.0, GR + 75)], [29.0, Z(540, 1.0, GR + 75)], [G0.aterrizaje, Z(540, 1.05, GR + 75)]]],
   [G0.aterrizaje, [[G0.aterrizaje, Z(540, 1.0, AT - 20)], [34.2, Z(540, 1.04, AT)], [34.45, Z(530, 1.1, AT + 20)], [G0.pruebas, Z(540, 1.06, AT + 10)]]],
-  [G0.pruebas, [[G0.pruebas, Z(540, 0.94, PR + 40)], [41.2, Z(540, 1.0, PR + 40)], [41.8, Z(540, 1.0, PR + 1640)], [G0.ojo, Z(540, 1.05, PR + 1650)]]],
+  [G0.pruebas, [[G0.pruebas, Z(540, 0.96, PR - 150)], [41.2, Z(540, 1.02, PR - 150)], [41.8, Z(540, 1.0, PR + 1560)], [G0.ojo, Z(540, 1.05, PR + 1570)]]],
   [G0.ojo, [[G0.ojo, Z(540, 0.9, OJ + 30)], [49.2, Z(540, 1.15, OJ)]]],
   [49.24, [[49.24, Z(540, 1.0, OJ + 2400)], [51.8, Z(540, 1.75, OJ + 2400)], [G0.cierre, Z(540, 1.85, OJ + 2400)]]],
   [G0.cierre, [[G0.cierre, Z(260, 0.6, 1000)], [54.1, Z(190, 0.76, 950)], [55.7, F0], [TOTAL, F0]]],
@@ -168,14 +168,14 @@ const VACA_CUERNOS = "M-452 -118 C-462 -150 -450 -178 -425 -190 C-438 -168 -440 
 
 const DEFS = `
 <defs>
-  <radialGradient id="c-luz" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="rgba(255,170,90,0.2)"/><stop offset="0.55" stop-color="rgba(200,110,60,0.08)"/><stop offset="1" stop-color="rgba(200,110,60,0)"/></radialGradient>
+  <radialGradient id="c-luz" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="rgba(255,180,100,0.44)"/><stop offset="0.55" stop-color="rgba(210,120,60,0.2)"/><stop offset="1" stop-color="rgba(200,110,60,0)"/></radialGradient>
   <radialGradient id="c-mota" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="rgba(255,220,160,0.7)"/><stop offset="1" stop-color="rgba(255,220,160,0)"/></radialGradient>
   <radialGradient id="c-sombra" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="rgba(0,0,0,0.6)"/><stop offset="1" stop-color="rgba(0,0,0,0)"/></radialGradient>
   <linearGradient id="c-panza" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="rgba(255,250,235,0.12)"/><stop offset="0.45" stop-color="rgba(0,0,0,0)"/><stop offset="1" stop-color="rgba(20,10,0,0.4)"/></linearGradient>
   <linearGradient id="c-cielo" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1a1530"/><stop offset="0.45" stop-color="#5a2c3a"/><stop offset="0.8" stop-color="#c8643a"/><stop offset="1" stop-color="#f2a04a"/></linearGradient>
   <linearGradient id="c-suelo" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5a3a1c"/><stop offset="0.3" stop-color="#3a2614"/><stop offset="1" stop-color="#140d07"/></linearGradient>
   <radialGradient id="c-sol" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#fff2c8"/><stop offset="0.35" stop-color="#ffc46a"/><stop offset="0.6" stop-color="rgba(255,150,70,0.45)"/><stop offset="1" stop-color="rgba(255,120,60,0)"/></radialGradient>
-  <linearGradient id="c-prado" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2b3a1c"/><stop offset="1" stop-color="#111a0b"/></linearGradient>
+  <linearGradient id="c-prado" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#46602a"/><stop offset="1" stop-color="#121c0b"/></linearGradient>
   <linearGradient id="c-abdomen" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6d5a40"/><stop offset="0.5" stop-color="#4a3b29"/><stop offset="1" stop-color="#2c2216"/></linearGradient>
   <linearGradient id="c-ojo-mosca" x1="0" y1="0" x2="1" y2="1">
     <stop offset="0" stop-color="#42d17a"/><stop offset="0.18" stop-color="#42d17a"/><stop offset="0.2" stop-color="#8a3fc4"/><stop offset="0.36" stop-color="#8a3fc4"/>
@@ -186,7 +186,7 @@ const DEFS = `
   <radialGradient id="c-sangre" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="rgba(255,70,70,0.95)"/><stop offset="1" stop-color="rgba(255,40,40,0)"/></radialGradient>
   <radialGradient id="c-germen" cx="0.4" cy="0.35" r="0.65"><stop offset="0" stop-color="#e7b6ff"/><stop offset="0.6" stop-color="#9b3fd6"/><stop offset="1" stop-color="#4f1a7a"/></radialGradient>
   <linearGradient id="c-manta" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6f86a8"/><stop offset="1" stop-color="#3c4d68"/></linearGradient>
-  <pattern id="c-rejilla" width="60" height="60" patternUnits="userSpaceOnUse"><path d="M0 0.75H60M0.75 0V60" stroke="rgba(255,200,140,0.08)" stroke-width="1.5"/></pattern>
+  <pattern id="c-rejilla" width="60" height="60" patternUnits="userSpaceOnUse"><path d="M0 0.75H60M0.75 0V60" stroke="rgba(255,200,140,0.13)" stroke-width="2"/></pattern>
   <pattern id="c-panal" width="52" height="90" patternUnits="userSpaceOnUse"><path d="M26 0 L52 15 L52 45 L26 60 L0 45 L0 15 Z M26 60 L26 90 M0 45 L-26 60 M52 45 L78 60" fill="none" stroke="rgba(10,8,6,0.55)" stroke-width="4"/></pattern>
   <pattern id="c-panal-ojo" width="13" height="22.5" patternUnits="userSpaceOnUse"><path d="M6.5 0 L13 3.75 L13 11.25 L6.5 15 L0 11.25 L0 3.75 Z M6.5 15 L6.5 22.5" fill="none" stroke="rgba(0,0,0,0.35)" stroke-width="1.2"/></pattern>
   <clipPath id="c-z-cuerpo"><path d="${CUERPO}"/></clipPath>
@@ -498,17 +498,27 @@ function tabano(p) {
 // ── la granja: una cebra y un caballo; los tábanos se acercan igual, pero en la cebra casi no se posan ──────────
 function vuelo(n, semilla) {
   const r = K.azar(semilla);
-  return Array.from({ length: n }, () => ({ f: 0.18 + r() * 0.2, ph: r() * 6.28, rx: 240 + r() * 90, ry: 120 + r() * 60, w: r() * 6.28, lx: (r() - 0.5) * 420, ly: -60 + (r() - 0.3) * 120 }));
+  return Array.from({ length: n }, () => ({ f: 0.18 + r() * 0.2, ph: r() * 6.28, rx: 310 + r() * 110, ry: 150 + r() * 80, w: r() * 6.28, lx: (r() - 0.5) * 540, ly: -80 + (r() - 0.3) * 160 }));
+}
+// hierba: matas y manchas de luz sobre el prado
+function hierba(p, y0, y1, semilla) {
+  const r = K.azar(semilla);
+  for (let i = 0; i < 9; i++) el(p, "ellipse", { cx: f1(-100 + r() * 1300), cy: f1(y0 + r() * (y1 - y0)), rx: f1(160 + r() * 200), ry: f1(70 + r() * 80), fill: r() < 0.5 ? "rgba(140,190,80,0.16)" : "rgba(5,12,2,0.28)" });
+  for (let y = y0; y < y1; y += 70) for (let x = -120; x < 1240; x += 80) {
+    const cx = x + r() * 70, cy = y + r() * 60, h = 22 + r() * 22, c = r() < 0.5 ? "#6f9a3c" : "#24361a";
+    el(p, "path", { d: `M${f1(cx - 10)} ${f1(cy)} Q${f1(cx - 12)} ${f1(cy - h * 0.6)} ${f1(cx - 18)} ${f1(cy - h)} M${f1(cx)} ${f1(cy)} Q${f1(cx + 2)} ${f1(cy - h * 0.7)} ${f1(cx + 4)} ${f1(cy - h * 1.2)} M${f1(cx + 9)} ${f1(cy)} Q${f1(cx + 12)} ${f1(cy - h * 0.5)} ${f1(cx + 20)} ${f1(cy - h * 0.9)}`, stroke: c, "stroke-width": 4, fill: "none", "stroke-linecap": "round" });
+  }
 }
 function granja(p) {
   el(p, "rect", { x: -700, y: GR - 1000, width: 2500, height: 2700, fill: u("prado") });
   el(p, "rect", { x: -700, y: GR - 1000, width: 2500, height: 2700, fill: u("rejilla") });
-  [GR + 290, GR + 900].forEach((y) => {
+  hierba(p, GR - 560, GR + 1050, 71);
+  [GR + 330, GR + 930].forEach((y) => {
     for (let x = -100; x < 1300; x += 160) el(p, "rect", { x, y: y - 70, width: 16, height: 90, rx: 4, fill: "#5a3f26" });
     el(p, "path", { d: `M-200 ${y - 52} H1400 M-200 ${y - 16} H1400`, stroke: "#6a4a2c", "stroke-width": 10 });
   });
-  const A = [{ x: 600, y: GR + 10, tipo: "cebra" }, { x: 600, y: GR + 600, tipo: "caballo" }];
-  A.forEach((a) => equido(p, a.x, a.y, 0.42, { tipo: a.tipo }));
+  const A = [{ x: 520, y: GR + 40, tipo: "cebra" }, { x: 520, y: GR + 640, tipo: "caballo" }];
+  A.forEach((a) => equido(p, a.x, a.y, 0.56, { tipo: a.tipo }));
   // los tábanos: 12 por animal; se posan 3 en la cebra y 12 en el caballo
   const V = A.map((a, j) => vuelo(12, 30 + j).map((v, i) => ({ ...v, m: mosca(p), a, posa: j === 1 ? 28.95 + i * 0.13 : [29.3, 29.95, 30.55][i] ?? null })));
   const cuenta = A.map((a) => {
@@ -530,7 +540,7 @@ function granja(p) {
         if (k >= 1) { x2 = x + 1; y2 = y - 0.3; }
       }
       const on = K.tramo(g, G0.granja + 0.3 + i * 0.12, G0.granja + 0.7 + i * 0.12);
-      v.m(x, y, Math.atan2(y2 - y, x2 - x) * 180 / PI, 0.36, on, al, g + i);
+      v.m(x, y, Math.atan2(y2 - y, x2 - x) * 180 / PI, 0.44, on, al, g + i);
     }));
     cuenta.forEach((c, j) => {
       const posan = g >= 28.9;
@@ -592,20 +602,21 @@ function aterrizaje(p) {
 function pruebas(p) {
   el(p, "rect", { x: -700, y: PR - 700, width: 2500, height: 3600, fill: u("prado") });
   el(p, "rect", { x: -700, y: PR - 700, width: 2500, height: 3600, fill: u("rejilla") });
-  const H = [{ x: 600, y: PR - 140, manta: "lisa", posa: 10 }, { x: 600, y: PR + 440, manta: "rayas", posa: 2 }];
-  H.forEach((h) => { h.G = equido(p, h.x, h.y, 0.42, { tipo: "caballo", manta: h.manta }); });
+  hierba(p, PR - 640, PR + 2600, 72);
+  const H = [{ x: 520, y: PR - 180, manta: "lisa", posa: 10 }, { x: 520, y: PR + 420, manta: "rayas", posa: 2 }];
+  H.forEach((h) => { h.G = equido(p, h.x, h.y, 0.56, { tipo: "caballo", manta: h.manta }); });
   const tag = (x, y, t, col) => { const e = texto(p, x, y, t, { "font-size": 34, fill: col }); return e; };
-  H[0].tag = tag(920, PR - 160, "manta lisa", "#c9d6ea"); H[1].tag = tag(920, PR + 420, "manta de rayas", ORO);
-  const vacas = [{ x: 590, y: PR + 1480, pintada: false, posa: 10 }, { x: 590, y: PR + 2060, pintada: true, posa: 5 }];
-  vacas.forEach((v) => { const r = vaca(p, v.x, v.y, 0.45, v.pintada); v.pinta = r.pinta; });
-  vacas[0].tag = tag(930, PR + 1470, "sin pintar", "#c9d6ea"); vacas[1].tag = tag(930, PR + 2050, "con rayas", ORO);
+  H[0].tag = tag(925, PR - 200, "manta lisa", "#c9d6ea"); H[1].tag = tag(925, PR + 400, "manta de rayas", ORO);
+  const vacas = [{ x: 530, y: PR + 1460, pintada: false, posa: 10 }, { x: 530, y: PR + 2080, pintada: true, posa: 5 }];
+  vacas.forEach((v) => { const r = vaca(p, v.x, v.y, 0.58, v.pintada); v.pinta = r.pinta; });
+  vacas[0].tag = tag(940, PR + 1450, "sin pintar", "#c9d6ea"); vacas[1].tag = tag(940, PR + 2070, "con rayas", ORO);
   let rect = null;
   const brocha = el(p, "g", { opacity: 0 });
   el(brocha, "rect", { x: -16, y: -110, width: 32, height: 150, rx: 8, fill: "#e8e4dc", stroke: "#222", "stroke-width": 3 });
   el(brocha, "rect", { x: -9, y: -200, width: 18, height: 95, rx: 6, fill: "#b8743a" });
   // tábanos que se posan, como puntos con alas
-  const grupos = [...H.map((h, j) => ({ ...h, t0: 39.45, lx: 420, ly: 260, s: 0.42, cx: h.x - 30, cy: h.y - 20, sem: 50 + j })),
-    ...vacas.map((v, j) => ({ ...v, t0: 44.25, lx: 520, ly: 210, s: 0.45, cx: v.x - 40, cy: v.y - 20, sem: 60 + j }))];
+  const grupos = [...H.map((h, j) => ({ ...h, t0: 39.45, lx: 560, ly: 340, s: 0.42, cx: h.x - 30, cy: h.y - 20, sem: 50 + j })),
+    ...vacas.map((v, j) => ({ ...v, t0: 44.25, lx: 680, ly: 280, s: 0.45, cx: v.x - 40, cy: v.y - 20, sem: 60 + j }))];
   grupos.forEach((q) => {
     const r = K.azar(q.sem);
     q.ms = Array.from({ length: q.posa }, (_, i) => ({ m: mosca(p), px: q.cx + (r() - 0.5) * q.lx, py: q.cy + (r() - 0.5) * q.ly, t: q.t0 + i * (1.1 / q.posa) + r() * 0.05, a: r() * 360, desde: [q.cx + (r() - 0.5) * 900, q.cy - 500 - r() * 200] }));
@@ -624,13 +635,13 @@ function pruebas(p) {
     const pk = K.tramo(g, 42.1, 43.5), px = -600 + 1000 * K.suave(pk);
     if (rect) pon1(rect, "width", f1(px + 600));
     pon1(brocha, "opacity", f1(pk > 0 && pk < 1 ? 1 : 0));
-    brocha.setAttribute("transform", `translate(${f1(590 + px * 0.45)} ${f1(PR + 2060 + 30 * Math.sin(vuelta(g, 3)))}) rotate(${f1(-18 + 10 * Math.sin(vuelta(g, 3)))})`);
+    brocha.setAttribute("transform", `translate(${f1(530 + px * 0.58)} ${f1(PR + 2080 + 30 * Math.sin(vuelta(g, 3)))}) rotate(${f1(-18 + 10 * Math.sin(vuelta(g, 3)))})`);
     vacas.forEach((v) => pon1(v.tag, "opacity", f1(v.pintada ? K.tramo(g, 43.3, 43.6) : 1)));
     grupos.forEach((q) => {
       q.ms.forEach((f, i) => {
         const k = K.suave(K.tramo(g, f.t - 0.5, f.t));
         const x = K.mez(f.desde[0], f.px, k), y = K.mez(f.desde[1], f.py, k);
-        f.m(x, y, k < 1 ? Math.atan2(f.py - f.desde[1], f.px - f.desde[0]) * 180 / PI : f.a, 0.34, g > f.t - 0.5 ? 1 : 0, 1 - k, g + i);
+        f.m(x, y, k < 1 ? Math.atan2(f.py - f.desde[1], f.px - f.desde[0]) * 180 / PI : f.a, 0.42, g > f.t - 0.5 ? 1 : 0, 1 - k, g + i);
       });
       const n = q.ms.filter((f) => g >= f.t).length;
       if (q.n._v !== n) { q.n.textContent = String(n); q.n._v = n; }
