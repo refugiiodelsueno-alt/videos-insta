@@ -23,6 +23,19 @@ import { RAIZ, aperturas, arg, fallo, firmaVoz, hyperframes, leerJson, posiciona
 import { ENCADENADO, montar } from "./montar.mjs";
 import { hoja, rejilla } from "./comparar.mjs";
 
+// Sin GPU, un vídeo con escenas 3D pesadas no cabe en los 120 s que `hyperframes check` se da a sí mismo: entonces se
+// pasa por tramos (--range), que mira lo mismo y da a cada tramo su propio plazo.
+function comprobar(out, dur) {
+  const r = hyperframes(["check"], { cwd: out });
+  if (r.ok || !/within its deadline/.test(r.salida + r.errores)) return r;
+  console.log("  el check no cabe en su plazo de una vez (sin GPU): lo paso por tramos de 5 s");
+  for (let a = 0; a < dur; a += 5) {
+    const t = hyperframes(["check", "--range", `${r3(a)},${r3(Math.min(dur, a + 5))}`], { cwd: out });
+    if (!t.ok) return t;
+  }
+  return { ok: true, salida: "", errores: "" };
+}
+
 const { dir, guion } = proyecto(posicional());
 const hojas = [];
 let mal = 0;
@@ -33,7 +46,7 @@ for (const ap of aperturas(guion)) {
     if (v.status !== 0) { mal++; console.log(`${ap.id}: la voz no salió`); continue; }
   }
   const { out, tramos, voz } = montar(dir, guion, ap);
-  const chk = hyperframes(["check"], { cwd: out });
+  const chk = comprobar(out, voz.duracion);
   if (!chk.ok) { mal++; console.log(`${ap.id}: el check falla. Arréglalo en escenas/ y vuelve a revisar:\n${resumen(chk)}`); continue; }
   const borrador = join(out, "borrador.mp4");
   const r = hyperframes(["render", "--quality", "draft", "--output", borrador, "--quiet"], { cwd: out });

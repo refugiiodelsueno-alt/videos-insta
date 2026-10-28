@@ -1,0 +1,16 @@
+[
+  { "nombre": "rasca", "que": "A fingertip lightly scratching the palm of a hand: soft dry skin rubbing, close foley, quiet", "oye": "a soft fingertip scratch on skin", "dura": 1.0, "en": 0.15, "golpe": false, "db": -15, "suave": true },
+  { "nombre": "nada", "que": "A short flat comedic dud: a soft low muted boop, like a meter that refuses to move, clean UI", "oye": "a flat low dud boop", "dura": 0.5, "en": 2.3, "golpe": true, "db": -12, "suave": false },
+  { "nombre": "dispara", "que": "A meter shooting up fast: a quick rising bright zip with little sparkles, clean UI, playful", "oye": "a fast rising zip", "dura": 0.8, "en": 6.62, "golpe": false, "db": -11, "suave": true },
+  { "nombre": "risa", "que": "A short burst of genuine giggling laughter from one young adult, ticklish, close and dry, no reverb", "oye": "a short ticklish giggle", "dura": 1.4, "en": 7.55, "golpe": false, "db": -12, "suave": true },
+  { "nombre": "gira", "que": "A quick card flip whoosh with a soft electric x-ray hum fading in, clean, cinematic", "oye": "a flip whoosh into an x-ray hum", "dura": 1.0, "en": 9.05, "golpe": false, "db": -12, "suave": true },
+  { "nombre": "chispa", "que": "A tiny electric neural zap: a short crisp high spark with a soft tail, clean sci-fi UI", "oye": "a tiny electric zap", "dura": 0.5, "en": 13.5, "golpe": true, "db": -13, "suave": false },
+  { "nombre": "calcula", "que": "Soft computer thinking blips: a few quick gentle digital bleeps, calm, clean UI", "oye": "soft thinking bleeps", "dura": 1.0, "en": 16.85, "golpe": false, "db": -15, "suave": false },
+  { "nombre": "resta", "que": "A satisfying cancel pop: one soft hollow pop that collapses into silence, clean UI", "oye": "a soft cancel pop", "dura": 0.5, "en": 22.56, "golpe": true, "db": -11, "suave": false },
+  { "nombre": "alarma", "que": "A short sci-fi alert: two quick bright warning beeps with a pulsing ring, clean, not harsh", "oye": "two quick warning beeps", "dura": 0.8, "en": 29.1, "golpe": true, "db": -12, "suave": false },
+  { "nombre": "servo", "que": "A small robot arm servo motor whirring as it moves: a smooth mechanical whine, close, clean", "oye": "a robot servo whir", "dura": 1.2, "en": 32.3, "golpe": false, "db": -13, "suave": true },
+  { "nombre": "espuma", "que": "A soft foam sponge brushing across skin: a gentle squishy swish, close foley, dry", "oye": "a soft foam swish", "dura": 0.8, "en": 34.15, "golpe": false, "db": -14, "suave": true },
+  { "nombre": "tictac", "que": "A single tight clock tick followed by a short digital glitch stutter, clean UI", "oye": "a clock tick and glitch", "dura": 0.6, "en": 38.5, "golpe": true, "db": -12, "suave": false },
+  { "nombre": "carcajada", "que": "A short burst of helpless ticklish laughter from one young adult, bright, close and dry, no reverb", "oye": "ticklish laughter burst", "dura": 1.5, "en": 41.75, "golpe": false, "db": -12, "suave": true },
+  { "nombre": "vuelve", "que": "A quick card flip whoosh, soft and airy, clean, cinematic", "oye": "a soft flip whoosh", "dura": 0.7, "en": 43.55, "golpe": false, "db": -13, "suave": true }
+]

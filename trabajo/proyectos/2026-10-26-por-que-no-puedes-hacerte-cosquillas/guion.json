@@ -1,0 +1,30 @@
+{
+  "titulo": "Por qué no puedes hacerte cosquillas",
+  "slug": "por-que-no-puedes-hacerte-cosquillas",
+  "idioma": "es",
+  "voz": { "proveedor": "elevenlabs", "id": "851ejYcv2BoNPjrkw93G", "modelo": "eleven_v4", "velocidad": 1, "estabilidad": 0.35, "similitud": 0.7, "kokoro": "ef_dora" },
+  "subtitulos": "arriba",
+  "aperturas": [
+    { "id": "h1", "escena": "hook", "frases": [ { "texto": "Intenta hacerte cosquillas ahora mismo: no vas a poder.", "clave": "no vas a poder" } ] }
+  ],
+  "reserva": [
+    { "id": "h2", "escena": "hook", "frases": [ { "texto": "Tus dedos son iguales que los de cualquiera, pero solo los de otro te hacen cosquillas.", "clave": "los de otro" } ], "imagen": "dos manos iguales hacen lo mismo en una palma; con una el medidor de cosquillas no se mueve, con la otra se dispara" },
+    { "id": "h3", "escena": "hook", "frases": [ { "texto": "Un robot consigue lo que tú nunca vas a lograr: hacerte cosquillas con tu propia mano.", "clave": "robot" } ], "imagen": "una mano mueve una palanca y un brazo robótico pasa una espuma por la otra palma" },
+    { "id": "h4", "escena": "hook", "frases": [ { "texto": "Tu cerebro sabe lo que vas a sentir antes de que lo sientas, y lo apaga.", "clave": "lo apaga" } ], "imagen": "una señal sube del dedo al cerebro y una copia fantasma llega antes y la borra" }
+  ],
+  "cuerpo": [
+    { "texto": "Y no es que tu piel sea menos sensible: si otra persona te toca igual, te mueres de risa.", "escena": "hook", "clave": "otra persona" },
+    { "texto": "La diferencia está en tu cabeza.", "escena": "cerebro", "clave": "tu cabeza" },
+    { "texto": "Cada vez que mueves la mano, tu cerebro manda una copia de la orden al cerebelo, aquí atrás.", "escena": "cerebro", "clave": "una copia" },
+    { "texto": "Con esa copia calcula lo que vas a sentir, antes de sentirlo.", "escena": "cerebro", "clave": "antes de sentirlo" },
+    { "texto": "Así que cuando llega el toque, ya lo esperaba: lo resta, y casi no lo notas.", "escena": "cerebro", "clave": "lo resta" },
+    { "texto": "Con la mano de otro no hay copia: tu cerebro no sabe ni dónde ni cuándo, y salta la alarma.", "escena": "cerebro", "clave": "salta la alarma" },
+    { "texto": "En Londres lo probaron con un robot: movías una palanca con una mano y te pasaba una espuma por la otra.", "escena": "robot", "clave": "un robot" },
+    { "texto": "Sin retraso, apenas se notaba.", "escena": "robot", "clave": "apenas" },
+    { "texto": "Pero con dos décimas de segundo de retraso, la cuenta ya no cuadraba, y volvían las cosquillas.", "escena": "robot", "clave": "dos décimas" },
+    { "texto": "Tu cerebro nunca se puede sorprender a sí mismo, y sin sorpresa no hay cosquillas.", "escena": "cierre", "clave": "sin sorpresa" }
+  ],
+  "cola": 0.15,
+  "escenas": { "hook": { "entrada": "corte" }, "cerebro": { "entrada": "corte" }, "robot": { "entrada": "corte" }, "cierre": { "entrada": "corte" } },
+  "sonido": true
+}

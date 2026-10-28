@@ -1,0 +1,16 @@
+[
+  { "nombre": "maullido", "que": "A short surprised cat meow, one quick startled mrrp, close and clear, dry, no reverb", "oye": "a short startled cat meow", "dura": 0.6, "en": 0.05, "golpe": false, "db": -11, "suave": true },
+  { "nombre": "caida", "que": "Air rushing past while falling in slow motion: a soft deep airy whoosh that swells and slowly fades, smooth, cinematic", "oye": "a slow airy falling whoosh", "dura": 2.0, "en": 0.6, "golpe": false, "db": -13, "suave": true },
+  { "nombre": "aterriza", "que": "A cat landing softly on its paws on a wooden floor: a light muffled padded thump, close foley, dry", "oye": "a soft paw landing thump", "dura": 0.5, "en": 3.25, "golpe": true, "db": -7, "suave": false },
+  { "nombre": "empuja", "que": "A firm hand pushing against a wall: one short dull solid push thud, close foley, dry", "oye": "a dull push thud", "dura": 0.5, "en": 6.72, "golpe": true, "db": -12, "suave": false },
+  { "nombre": "obturador", "que": "An old 1890s camera shutter firing several times in a row: quick dry mechanical clacks with a little film rattle, close", "oye": "old camera shutter clicks", "dura": 1.4, "en": 10.88, "golpe": false, "db": -11, "suave": false },
+  { "nombre": "tacha", "que": "A quick marker stroke crossing out a word: a short dry felt-tip swipe on paper, close foley", "oye": "a marker swipe", "dura": 0.5, "en": 17.6, "golpe": true, "db": -12, "suave": false },
+  { "nombre": "giro", "que": "A fast tight spinning whoosh, like something small twisting quickly through the air, short swish, clean, close", "oye": "a quick spinning swish", "dura": 0.7, "en": 24.6, "golpe": false, "db": -11, "suave": true },
+  { "nombre": "cambia", "que": "A bold punchy pop with a short bright click, like a switch flipping on screen, clean UI, close", "oye": "a bold switch pop", "dura": 0.5, "en": 29.2, "golpe": true, "db": -9, "suave": false },
+  { "nombre": "acierto", "que": "A satisfying correct-answer chime: one bright soft ding with a short shimmer, clean, uplifting, close", "oye": "a bright correct ding", "dura": 0.7, "en": 32.4, "golpe": true, "db": -10, "suave": true },
+  { "nombre": "patina", "que": "An ice skater spinning on the spot: a smooth blade hiss scraping on ice that speeds up into a fast whirl, close", "oye": "an ice skate spin scrape", "dura": 1.5, "en": 34.9, "golpe": false, "db": -12, "suave": true },
+  { "nombre": "tictac", "que": "A fast stopwatch ticking: quick crisp mechanical clicks, close, clean", "oye": "fast stopwatch ticks", "dura": 0.9, "en": 37.3, "golpe": false, "db": -13, "suave": false },
+  { "nombre": "espacio", "que": "Deep space ambience: a soft low airy drone with a faint distant shimmer, calm and vast, smooth", "oye": "a soft space drone", "dura": 2.0, "en": 39.25, "golpe": false, "db": -16, "suave": true },
+  { "nombre": "vuelta", "que": "A slow airy turning whoosh, soft and floating, like a body rotating in zero gravity, smooth", "oye": "a soft floating whoosh", "dura": 1.0, "en": 42.9, "golpe": false, "db": -13, "suave": true },
+  { "nombre": "rebobina", "que": "A VHS tape rewinding fast: a quick high whirring mechanical squeal that rises, with tape hiss, retro", "oye": "a fast tape rewind whir", "dura": 0.7, "en": 47.86, "golpe": false, "db": -10, "suave": true }
+]

@@ -1,0 +1,133 @@
+{
+  "titulo": "Por qué el hielo de casa sale blanco",
+  "slug": "hielo-blanco",
+  "idioma": "es",
+  "voz": {
+    "proveedor": "elevenlabs",
+    "id": "851ejYcv2BoNPjrkw93G",
+    "modelo": "eleven_v4",
+    "velocidad": 1,
+    "estabilidad": 0.35,
+    "similitud": 0.7,
+    "kokoro": "ef_dora"
+  },
+  "subtitulos": "arriba",
+  "aperturas": [
+    {
+      "id": "h1",
+      "escena": "hook",
+      "frases": [
+        {
+          "texto": "Lo blanco del centro de tus cubitos no es hielo: es aire que no pudo escapar.",
+          "clave": "aire"
+        }
+      ]
+    }
+  ],
+  "reserva": [
+    {
+      "id": "h2",
+      "escena": "hook",
+      "frases": [
+        {
+          "texto": "El hielo de los bares sale transparente porque lo congelan al revés que tú.",
+          "clave": "al revés"
+        }
+      ],
+      "imagen": "dos cubitos lado a lado, uno blanco y otro de cristal"
+    },
+    {
+      "id": "h3",
+      "escena": "hook",
+      "frases": [
+        {
+          "texto": "Tu cubito está blanco por dentro, y el agua del grifo no tiene la culpa.",
+          "clave": "no tiene la culpa"
+        }
+      ],
+      "imagen": "un cubito partido por la mitad con el centro lleno de burbujas"
+    }
+  ],
+  "cuerpo": [
+    {
+      "texto": "El agua lleva aire disuelto, pero el hielo casi no le deja sitio.",
+      "escena": "agua",
+      "clave": "aire disuelto"
+    },
+    {
+      "texto": "Así que, al congelarse, va empujando ese aire hacia el agua que queda.",
+      "escena": "agua",
+      "clave": "empujando"
+    },
+    {
+      "texto": "En tu cubitera el frío entra por todos los lados a la vez, y el hielo crece de fuera hacia dentro.",
+      "escena": "cubitera",
+      "clave": "todos los lados"
+    },
+    {
+      "texto": "El aire acaba acorralado en el centro, sin salida, y se queda atrapado en miles de burbujas.",
+      "escena": "cubitera",
+      "clave": "acorralado"
+    },
+    {
+      "texto": "Cada burbuja desvía la luz hacia cualquier lado, y por eso se ve blanco, como la nieve o la espuma.",
+      "escena": "luz",
+      "clave": "desvía la luz"
+    },
+    {
+      "texto": "Hervir el agua o usar agua destilada casi no sirve: el problema es por dónde entra el frío.",
+      "escena": "luz",
+      "clave": "por dónde entra el frío"
+    },
+    {
+      "texto": "En los bares lo congelan desde un solo lado: desde abajo, con el agua de arriba siempre en movimiento.",
+      "escena": "bar",
+      "clave": "un solo lado"
+    },
+    {
+      "texto": "El hielo crece hacia arriba, y el aire siempre tiene por dónde escapar.",
+      "escena": "bar",
+      "clave": "escapar"
+    },
+    {
+      "texto": "En casa puedes copiarlo: una nevera de playa, sin tapa, dentro del congelador.",
+      "escena": "truco",
+      "clave": "sin tapa"
+    },
+    {
+      "texto": "Se congela de arriba abajo, y solo cortas la parte blanca del fondo.",
+      "escena": "truco",
+      "clave": "la parte blanca"
+    },
+    {
+      "texto": "Así que la próxima vez que mires un cubito, recuerda:",
+      "escena": "cierre",
+      "clave": "recuerda"
+    }
+  ],
+  "cola": 0.15,
+  "escenas": {
+    "hook": {
+      "entrada": "corte"
+    },
+    "agua": {
+      "entrada": "corte"
+    },
+    "cubitera": {
+      "entrada": "corte"
+    },
+    "luz": {
+      "entrada": "corte"
+    },
+    "bar": {
+      "entrada": "corte"
+    },
+    "truco": {
+      "entrada": "corte"
+    },
+    "cierre": {
+      "entrada": "corte"
+    }
+  },
+  "sonido": true
+}

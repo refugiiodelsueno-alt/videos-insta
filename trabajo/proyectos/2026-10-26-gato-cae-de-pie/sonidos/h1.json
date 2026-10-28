@@ -1,0 +1,72 @@
+[
+  {
+    "archivo": "sonidos/maullido-h1.wav",
+    "en": 0.05,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/caida-h1.wav",
+    "en": 0.6,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/aterriza-h1.wav",
+    "en": 3.18,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/empuja-h1.wav",
+    "en": 6.71,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/obturador-h1.wav",
+    "en": 10.88,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/tacha-h1.wav",
+    "en": 17.285,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/giro-h1.wav",
+    "en": 24.6,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/cambia-h1.wav",
+    "en": 29.19,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/acierto-h1.wav",
+    "en": 32.4,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/patina-h1.wav",
+    "en": 34.9,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/tictac-h1.wav",
+    "en": 37.3,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/espacio-h1.wav",
+    "en": 39.25,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/vuelta-h1.wav",
+    "en": 42.9,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/rebobina-h1.wav",
+    "en": 47.86,
+    "volumen": 1
+  }
+]

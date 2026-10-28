@@ -1,0 +1,112 @@
+{
+  "titulo": "Por qué se te duerme el pie",
+  "slug": "pie-dormido",
+  "idioma": "es",
+  "voz": {
+    "proveedor": "elevenlabs",
+    "id": "851ejYcv2BoNPjrkw93G",
+    "modelo": "eleven_v4",
+    "velocidad": 1,
+    "estabilidad": 0.35,
+    "similitud": 0.7,
+    "kokoro": "ef_dora"
+  },
+  "subtitulos": "arriba",
+  "aperturas": [
+    {
+      "id": "h1",
+      "escena": "hook",
+      "frases": [
+        {
+          "texto": "Las hormigas que notas cuando se te duerme el pie no vienen de tu pie.",
+          "clave": "no vienen de tu pie"
+        }
+      ]
+    }
+  ],
+  "reserva": [
+    {
+      "id": "h2",
+      "escena": "hook",
+      "frases": [
+        {
+          "texto": "Cuando se te duerme el pie, notas señales que no ha enviado nadie.",
+          "clave": "nadie"
+        }
+      ],
+      "imagen": "un pie lleno de chispas que suben por un nervio sin que nada lo toque"
+    },
+    {
+      "id": "h3",
+      "escena": "hook",
+      "frases": [
+        {
+          "texto": "Unos científicos metieron una aguja dentro de un nervio para escuchar cómo despierta un pie dormido.",
+          "clave": "una aguja"
+        }
+      ],
+      "imagen": "una aguja finísima entra en un cable brillante y un altavoz crepita"
+    }
+  ],
+  "cuerpo": [
+    {
+      "texto": "Nacen más arriba, en un trozo de nervio que tú mismo has aplastado.",
+      "escena": "hook",
+      "clave": "aplastado"
+    },
+    {
+      "texto": "Por la pierna baja un nervio: miles de fibras que le cuentan al cerebro lo que toca tu pie.",
+      "escena": "nervio",
+      "clave": "miles de fibras"
+    },
+    {
+      "texto": "Si te sientas encima, lo aplastas y le cortas parte de la sangre.",
+      "escena": "nervio",
+      "clave": "la sangre"
+    },
+    {
+      "texto": "Sin oxígeno, las fibras se callan, y el pie deja de dar noticias: se ha dormido.",
+      "escena": "nervio",
+      "clave": "se callan"
+    },
+    {
+      "texto": "Lo raro llega cuando vuelve la sangre: el trozo aplastado aún no se ha recuperado, y sus fibras disparan solas, sin que nada las toque.",
+      "escena": "despierta",
+      "clave": "disparan solas"
+    },
+    {
+      "texto": "Tu cerebro recibe un aluvión de avisos falsos y los coloca en el pie.",
+      "escena": "despierta",
+      "clave": "avisos falsos"
+    },
+    {
+      "texto": "En 1980 lo escucharon con una aguja metida en un nervio: hasta trescientos disparos por segundo, nacidos en el nervio, no en la piel.",
+      "escena": "aguja",
+      "clave": "trescientos"
+    },
+    {
+      "texto": "Es tu nervio despertándose. Así que ya lo sabes:",
+      "escena": "cierre",
+      "clave": "despertándose"
+    }
+  ],
+  "cola": 0.15,
+  "escenas": {
+    "hook": {
+      "entrada": "corte"
+    },
+    "nervio": {
+      "entrada": "corte"
+    },
+    "despierta": {
+      "entrada": "corte"
+    },
+    "aguja": {
+      "entrada": "corte"
+    },
+    "cierre": {
+      "entrada": "corte"
+    }
+  },
+  "sonido": true
+}

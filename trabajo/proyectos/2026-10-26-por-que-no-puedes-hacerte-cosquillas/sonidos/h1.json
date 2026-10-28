@@ -1,0 +1,72 @@
+[
+  {
+    "archivo": "sonidos/rasca-h1.wav",
+    "en": 0.15,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/nada-h1.wav",
+    "en": 2.3,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/dispara-h1.wav",
+    "en": 6.62,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/risa-h1.wav",
+    "en": 7.55,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/gira-h1.wav",
+    "en": 9.05,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/chispa-h1.wav",
+    "en": 13.5,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/calcula-h1.wav",
+    "en": 16.85,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/resta-h1.wav",
+    "en": 22.545,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/alarma-h1.wav",
+    "en": 29.05,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/servo-h1.wav",
+    "en": 32.3,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/espuma-h1.wav",
+    "en": 34.15,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/tictac-h1.wav",
+    "en": 38.475,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/carcajada-h1.wav",
+    "en": 41.75,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/vuelve-h1.wav",
+    "en": 43.55,
+    "volumen": 1
+  }
+]
