@@ -2,3 +2,7 @@
 node_modules/
 trabajo/proyectos/*/build/
 trabajo/proyectos/*/voz/cache/
+
+# temporales del render
+trabajo/salida/**/work-*/
+trabajo/salida/**/.*hf-transaction*
