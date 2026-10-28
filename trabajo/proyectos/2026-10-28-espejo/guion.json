@@ -1,0 +1,154 @@
+{
+  "titulo": "por qué el espejo no te cambia la izquierda por la derecha",
+  "slug": "espejo",
+  "idioma": "es",
+  "voz": {
+    "proveedor": "elevenlabs",
+    "id": "851ejYcv2BoNPjrkw93G",
+    "modelo": "eleven_v4",
+    "velocidad": 1,
+    "estabilidad": 0.35,
+    "similitud": 0.7,
+    "kokoro": "ef_dora"
+  },
+  "subtitulos": "arriba",
+  "aperturas": [
+    {
+      "id": "h1",
+      "escena": "hook",
+      "frases": [
+        {
+          "texto": "Tu espejo no te cambia la izquierda por la derecha.",
+          "clave": "derecha"
+        }
+      ]
+    }
+  ],
+  "reserva": [
+    {
+      "id": "h2",
+      "escena": "hook",
+      "frases": [
+        {
+          "texto": "Si el espejo te cambia la izquierda por la derecha, ¿por qué no te pone la cabeza abajo?",
+          "clave": "abajo"
+        }
+      ],
+      "imagen": "el maniquí y su reflejo; el reflejo se pone cabeza abajo un instante y vuelve"
+    },
+    {
+      "id": "h3",
+      "escena": "hook",
+      "frases": [
+        {
+          "texto": "Levanta la mano derecha delante del espejo: tu reflejo no levanta la izquierda.",
+          "clave": "izquierda"
+        }
+      ],
+      "imagen": "el maniquí de espaldas levanta la mano derecha y el reflejo la levanta en el mismo lado"
+    },
+    {
+      "id": "h4",
+      "escena": "hook",
+      "frases": [
+        {
+          "texto": "Las ambulancias llevan el nombre escrito al revés a propósito.",
+          "clave": "revés"
+        }
+      ],
+      "imagen": "el frontal de una ambulancia con AICNALUBMA y el retrovisor que lo endereza"
+    }
+  ],
+  "cuerpo": [
+    {
+      "texto": "Si lo hiciera, ¿por qué no te pone también la cabeza abajo?",
+      "escena": "hook",
+      "clave": "abajo"
+    },
+    {
+      "texto": "Haz la prueba: levanta la mano derecha.",
+      "escena": "prueba",
+      "clave": "derecha"
+    },
+    {
+      "texto": "La del espejo se levanta en el mismo lado, no en el otro.",
+      "escena": "prueba",
+      "clave": "mismo"
+    },
+    {
+      "texto": "Arriba sigue arriba, y la derecha sigue a la derecha.",
+      "escena": "prueba",
+      "clave": "arriba"
+    },
+    {
+      "texto": "Lo único que da la vuelta es delante y detrás:",
+      "escena": "planta",
+      "clave": "detrás"
+    },
+    {
+      "texto": "tú miras hacia el espejo, y tu reflejo mira hacia ti.",
+      "escena": "planta",
+      "clave": "ti"
+    },
+    {
+      "texto": "Entonces, ¿de dónde sale lo de la izquierda y la derecha?",
+      "escena": "planta",
+      "clave": "sale"
+    },
+    {
+      "texto": "De tu cabeza: para ponerte en su sitio, te imaginas dándote la vuelta de lado.",
+      "escena": "giro",
+      "clave": "lado"
+    },
+    {
+      "texto": "Y al girar así, tu mano derecha acaba en el otro lado.",
+      "escena": "giro",
+      "clave": "otro"
+    },
+    {
+      "texto": "Si te imaginaras girando como al hacer el pino, te parecería que el espejo te pone la cabeza abajo.",
+      "escena": "pino",
+      "clave": "pino"
+    },
+    {
+      "texto": "Las ambulancias lo aprovechan: llevan el nombre escrito al revés,",
+      "escena": "ambulancia",
+      "clave": "revés"
+    },
+    {
+      "texto": "y en el retrovisor del coche de delante se lee al derecho.",
+      "escena": "ambulancia",
+      "clave": "retrovisor"
+    },
+    {
+      "texto": "Así que, aunque lo parezca, acuérdate:",
+      "escena": "cierre",
+      "clave": "acuérdate"
+    }
+  ],
+  "escenas": {
+    "hook": {
+      "entrada": "corte"
+    },
+    "prueba": {
+      "entrada": "corte"
+    },
+    "planta": {
+      "entrada": "corte"
+    },
+    "giro": {
+      "entrada": "corte"
+    },
+    "pino": {
+      "entrada": "corte"
+    },
+    "ambulancia": {
+      "entrada": "corte"
+    },
+    "cierre": {
+      "entrada": "corte"
+    }
+  },
+  "sonido": true,
+  "cola": 0.15
+}
