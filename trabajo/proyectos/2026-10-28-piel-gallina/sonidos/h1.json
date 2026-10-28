@@ -1,0 +1,127 @@
+[
+  {
+    "archivo": "sonidos/viento-h1.wav",
+    "en": 0,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/erizo-h1.wav",
+    "en": 0.4,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/pelaje-h1.wav",
+    "en": 2.35,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/llevado-h1.wav",
+    "en": 3.44,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/zoom-h1.wav",
+    "en": 4.6,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/musculo-h1.wav",
+    "en": 8.045,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/levanta-h1.wav",
+    "en": 9.92,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/bultito-h1.wav",
+    "en": 12.24,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/acierto-h1.wav",
+    "en": 16.62,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/burbujas-h1.wav",
+    "en": 18.1,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/calor-h1.wav",
+    "en": 20.02,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/infla-h1.wav",
+    "en": 20.72,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/cae-h1.wav",
+    "en": 25.06,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/lupa-h1.wav",
+    "en": 26.95,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/alerta-h1.wav",
+    "en": 29.82,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/bufido-h1.wav",
+    "en": 31.395,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/electrico-h1.wav",
+    "en": 34.54,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/susto-h1.wav",
+    "en": 36.56,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/musica-h1.wav",
+    "en": 37.78,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/error-h1.wav",
+    "en": 39.615,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/acierto2-h1.wav",
+    "en": 40.465,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/entra-h1.wav",
+    "en": 41.9,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/despierta-h1.wav",
+    "en": 43.34,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/crece-h1.wav",
+    "en": 47.83,
+    "volumen": 1
+  },
+  {
+    "archivo": "sonidos/viento2-h1.wav",
+    "en": 49.1,
+    "volumen": 1
+  }
+]
