@@ -29,7 +29,7 @@ export const G0 = { hook: 0, lento: 3.45, dentro: 8.27, espuma: 25.58, salto: 32
 const GA = 1000, LE = 4000, DE = 7000, ES = 10000, SA = 13000, RU = 16000, DU = 19000;
 
 // ── la cámara: el punto (x, y) del mundo queda en (540, 1000) con zoom z ───────────────────────────────────────
-export const F0 = { x: 540, y: GA + 40, z: 1.34 };
+export const F0 = { x: 540, y: GA + 130, z: 1.46 };
 export function camara(s, claves) {
   const n = claves.length, Tt = claves.map((c) => c[0]);
   if (s <= Tt[0]) return { ...claves[0][1] };
@@ -55,7 +55,7 @@ export function camara(s, claves) {
 const Z = (x, z, y) => ({ x, y, z });
 // un camino por tramo; entre tramos, corte
 const CAMINOS = [
-  [0, [[0, F0], [1.4, Z(546, 1.38, GA + 38)], [2.15, Z(556, 1.46, GA + 30)], [2.6, Z(566, 1.56, GA + 20)], [G0.lento, Z(572, 1.62, GA + 15)]]],
+  [0, [[0, F0], [1.4, Z(546, 1.48, GA + 90)], [2.15, Z(556, 1.52, GA + 45)], [2.6, Z(566, 1.56, GA + 20)], [G0.lento, Z(572, 1.62, GA + 15)]]],
   [G0.lento, [[G0.lento, Z(540, 0.9, LE - 45)], [4.3, Z(540, 0.85, LE - 55)], [7.3, Z(540, 0.81, LE - 62)], [7.6, Z(540, 0.79, LE - 65)], [G0.dentro, Z(540, 0.78, LE - 65)]]],
   [G0.dentro, [[G0.dentro, Z(540, 0.82, DE + 70)], [9.3, Z(540, 0.9, DE + 40)], [10.2, Z(540, 1.9, DE - 50)], [11.2, Z(540, 0.92, DE + 20)], [12.4, Z(540, 1.0, DE + 10)],
     [13.7, Z(540, 1.02, DE + 20)], [14.6, Z(540, 0.8, DE + 230)], [15.6, Z(540, 0.84, DE + 200)], [16.3, Z(540, 1.0, DE + 30)], [17.25, Z(560, 1.0, DE + 40)],
